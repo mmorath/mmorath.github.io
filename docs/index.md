@@ -4,14 +4,7 @@ hide:
   - toc
 ---
 
-<div class="hero" markdown>
-# mmorath
-Apps by Matthias Morath
-</div>
-
----
-
-## Apps
+# Apps
 
 <div class="grid cards" markdown>
 
