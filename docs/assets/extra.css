@@ -47,14 +47,15 @@
 /* Screenshot gallery — phone shots in a responsive row. */
 .shots {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1.4rem;
+  flex-wrap: nowrap;
+  gap: 0.8rem;
   justify-content: center;
   margin: 1.6rem 0;
 }
 .shots figure {
   margin: 0;
-  width: 200px;
+  flex: 1 1 0;
+  max-width: 150px;
 }
 .shots img {
   width: 100%;
