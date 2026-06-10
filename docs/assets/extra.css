@@ -1,0 +1,25 @@
+/* Monochrome Hecate-ish accents on top of Material's slate scheme. */
+:root > * {
+  --md-primary-fg-color: #000000;
+  --md-primary-fg-color--light: #1a1a1a;
+  --md-primary-fg-color--dark: #000000;
+}
+
+/* Centered hero used on app landing pages (wrap with <div class="hero" markdown>). */
+.hero {
+  text-align: center;
+  padding: 1.5rem 0 0.5rem;
+}
+.hero img {
+  width: 96px;
+  height: 96px;
+}
+.hero h1 {
+  margin: 0.6rem 0 0.2rem;
+  font-weight: 700;
+}
+.hero .tagline {
+  color: var(--md-default-fg-color--light);
+  font-size: 1.05rem;
+  margin: 0;
+}
