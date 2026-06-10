@@ -1,12 +1,22 @@
-/* Monochrome Hecate-ish accents on top of Material's slate scheme. */
-:root > * {
+/* Black primary (header/links) in both schemes. */
+:root {
   --md-primary-fg-color: #000000;
   --md-primary-fg-color--light: #1a1a1a;
   --md-primary-fg-color--dark: #000000;
 }
 
-/* Pure-black header/tabs so the logo (white mark on a black tile) blends in
-   seamlessly — no white box, no visible tile edge. */
+/* Pure-black dark theme: header, page and footer all #000, matching the
+   Hecate app's OLED black so the black-tile logo blends seamlessly into the
+   header and there is no grey step between header and page. */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #000000;
+  --md-default-bg-color--light: #000000;
+  --md-default-bg-color--lighter: #0a0a0a;
+  --md-default-bg-color--lightest: #141414;
+  --md-footer-bg-color: #000000;
+  --md-footer-bg-color--dark: #000000;
+}
+
 .md-header,
 .md-tabs {
   background-color: #000;
