@@ -41,3 +41,28 @@
   font-size: 1.05rem;
   margin: 0;
 }
+
+/* Screenshot gallery — phone shots in a responsive row. */
+.shots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  justify-content: center;
+  margin: 1.6rem 0;
+}
+.shots figure {
+  margin: 0;
+  width: 200px;
+}
+.shots img {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid #222;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55);
+}
+.shots figcaption {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
