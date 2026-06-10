@@ -18,7 +18,9 @@
 }
 
 .md-header,
-.md-tabs {
+.md-tabs,
+.md-footer,
+.md-footer-meta {
   background-color: #000;
 }
 
