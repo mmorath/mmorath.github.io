@@ -5,6 +5,14 @@
   --md-primary-fg-color--dark: #000000;
 }
 
+/* Pure-black header/tabs so the logo (white mark on a black tile) blends in
+   seamlessly — no white box, no visible tile edge. */
+.md-header,
+.md-tabs {
+  background-color: #000;
+}
+
+
 /* Centered hero used on app landing pages (wrap with <div class="hero" markdown>). */
 .hero {
   text-align: center;

@@ -6,8 +6,8 @@ copyright: © 2026 Matthias Morath
 
 theme:
   name: material
-  logo: assets/hecate-logo-inverse.png
-  favicon: assets/hecate-logo-inverse.png
+  logo: assets/hecate-logo.png
+  favicon: assets/hecate-logo.png
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
