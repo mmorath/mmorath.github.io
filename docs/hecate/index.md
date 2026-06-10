@@ -3,13 +3,9 @@ hide:
   - toc
 ---
 
-<div class="hero" markdown>
-![Hecate logo](../assets/hecate-logo.png){ width="96" }
 # Hecate
-Universal, profile-driven geo-referencing of objects
-</div>
 
----
+*Universal, profile-driven geo-referencing of objects*
 
 Hecate turns a sprawl of single-purpose capture apps into **one** configurable
 tool. The input form for each use case isn't coded — it's a **profile**: a small
