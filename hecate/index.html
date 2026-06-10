@@ -18,10 +18,10 @@
         <link rel="prev" href="..">
       
       
-        <link rel="next" href="privacy/">
+        <link rel="next" href="problem/">
       
       
-      <link rel="icon" href="../assets/hecate-logo.png">
+      <link rel="icon" href="../assets/hecate-logo-inverse.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
     
     
@@ -98,7 +98,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="mmorath" class="md-header__button md-logo" aria-label="mmorath" data-md-component="logo">
       
-  <img src="../assets/hecate-logo.png" alt="logo">
+  <img src="../assets/hecate-logo-inverse.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -225,7 +225,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="mmorath" class="md-nav__button md-logo" aria-label="mmorath" data-md-component="logo">
       
-  <img src="../assets/hecate-logo.png" alt="logo">
+  <img src="../assets/hecate-logo-inverse.png" alt="logo">
 
     </a>
     mmorath
@@ -357,18 +357,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-it-does" class="md-nav__link">
+  <a href="#in-one-minute" class="md-nav__link">
     <span class="md-ellipsis">
-      What it does
+      In one minute
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#built-on-modern-ios" class="md-nav__link">
+  <a href="#read-on" class="md-nav__link">
     <span class="md-ellipsis">
-      Built on modern iOS
+      Read on
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-name-the-mark" class="md-nav__link">
+    <span class="md-ellipsis">
+      The name &amp; the mark
     </span>
   </a>
   
@@ -382,6 +391,92 @@
   
 
               
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="problem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The problem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    What Hecate does
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    App Store
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            App Store
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -435,6 +530,14 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
   </ul>
 </nav>
@@ -456,27 +559,52 @@
 
 <h1 id="hecate">Hecate<a class="headerlink" href="#hecate" title="Permanent link">&para;</a></h1>
 <p><em>Universal, profile-driven geo-referencing of objects</em></p>
-<p>Hecate turns a sprawl of single-purpose capture apps into <strong>one</strong> configurable
-tool. The input form for each use case isn't coded — it's a <strong>profile</strong>: a small
-document that declares the steps, fields and allowed input methods, delivered to
-devices over MQTT. Change the profile and the same app captures forklifts, fire
-extinguishers, network sockets or archaeological finds — with no new build.</p>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
+<p>Hecate is a field-first iOS app for <strong>geo-referencing physical objects</strong>. Each
+object is captured against a <strong>profile</strong> — a configurable workflow of scans,
+fields and photos — then placed on the map with a GPS fix and streamed over
+<strong>MQTT</strong> to a broker of your choice.</p>
+<p>Nothing about the domain is hard-coded. Change the profile and the same app
+captures forklifts, fire extinguishers, network sockets or archaeological
+finds — with no new build.</p>
+<h2 id="in-one-minute">In one minute<a class="headerlink" href="#in-one-minute" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Profile-driven</strong> — every use case is a profile, not a new app.</li>
-<li><strong>Validated at the source</strong> — each field is checked against its declared
-  format the moment it is captured, so bad data never reaches your systems.</li>
-<li><strong>The right input for each step</strong> — QR codes, 1D/2D barcodes, or manual entry.</li>
-<li><strong>Always geo-referenced</strong> — every record carries a GPS fix and lands on the map.</li>
-<li><strong>Streamed over MQTT</strong> — published to your own broker in a uniform,
-  self-describing envelope. No developer backend, no analytics, no tracking.</li>
-<li><strong>Works offline</strong> — a durable outbox holds records out of range and drains
-  automatically on reconnect.</li>
+<li><strong>One app, many use cases.</strong> Each use case is a <em>profile</em>, not a separate app.</li>
+<li><strong>Validated at the source.</strong> Every field is checked against its declared
+  format the moment it's captured.</li>
+<li><strong>Always located.</strong> Every record carries a GPS fix and lands on the map.</li>
+<li><strong>Streamed over MQTT.</strong> Published to <em>your own</em> broker in a uniform,
+  self-describing envelope — no developer backend, no analytics, no tracking.</li>
+<li><strong>Works offline.</strong> A durable outbox holds records out of range and drains on
+  reconnect.</li>
 </ul>
-<h2 id="built-on-modern-ios">Built on modern iOS<a class="headerlink" href="#built-on-modern-ios" title="Permanent link">&para;</a></h2>
-<p>SwiftUI · SwiftData · VisionKit scanning · CoreLocation · TLS MQTT.</p>
+<h2 id="read-on">Read on<a class="headerlink" href="#read-on" title="Permanent link">&para;</a></h2>
+<div class="grid cards">
+<ul>
+<li>
+<p>:material-alert-circle-outline: <strong>The problem</strong></p>
 <hr />
-<p><a class="md-button" href="privacy/">Privacy Policy</a> &nbsp; <a class="md-button" href="support/">Support</a></p>
+<p>Why a sprawl of single-purpose capture apps leaves data inconsistent,
+desk-bound and location-blind.</p>
+<p><a href="problem/">:octicons-arrow-right-24: The problem</a></p>
+</li>
+<li>
+<p>:material-checkbox-marked-circle-outline: <strong>What Hecate does</strong></p>
+<hr />
+<p>How one profile-driven app collapses that sprawl and fixes the data at the
+source.</p>
+<p><a href="solution/">:octicons-arrow-right-24: What Hecate does</a></p>
+</li>
+</ul>
+</div>
+<h2 id="the-name-the-mark">The name &amp; the mark<a class="headerlink" href="#the-name-the-mark" title="Permanent link">&para;</a></h2>
+<p><strong>Hecate</strong> is the Greek goddess of crossroads, thresholds and keys — she who
+stands at the boundary and holds what unlocks it. A field tool lives at exactly
+that edge: between the physical object in front of you and the digital systems
+that must learn about it. Hecate <strong>locates</strong> it, <strong>guides</strong> the capture,
+<strong>carries</strong> it onward to the broker, and <strong>holds the keys</strong> that unlock the path.</p>
+<p>The mark is the <strong>Strophalos</strong> ("Hecate's Wheel") — a labyrinth of winding paths
+around a single hub: the routes through the field, and the messages converging
+on the broker at the centre.</p>
 
 
 
