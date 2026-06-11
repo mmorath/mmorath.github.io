@@ -1,5 +1,5 @@
-site_name: mmorath
-site_description: Apps by Matthias Morath
+site_name: Hecate
+site_description: Hecate — universal, profile-driven geo-referencing of physical objects
 site_url: https://mmorath.github.io/
 site_author: Matthias Morath
 copyright: © 2026 Matthias Morath
@@ -38,14 +38,22 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - toc:
-      permalink: true
+      # Headings still get slug ids (so .../#in-one-minute links keep working);
+      # we just don't append the visible ¶ permalink symbol next to each title.
+      permalink: false
+  # Render Material/Octicons :icon: shortcodes used by the grid cards as SVGs
+  # rather than leaking the literal ":material-...:" text onto the page.
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+# Single-product site: Hecate is the whole site, so no "Apps" landing page and
+# no "Hecate" parent group — the overview is the top of the nav. The bare root
+# (index.md) just redirects to the overview, so it is intentionally not listed.
 nav:
-  - Home: index.md
-  - Hecate:
-      - Overview: hecate/index.md
-      - The problem: hecate/problem.md
-      - What Hecate does: hecate/solution.md
-      - App Store:
-          - Privacy Policy: hecate/privacy.md
-          - Support: hecate/support.md
+  - Overview: hecate/index.md
+  - The problem: hecate/problem.md
+  - What Hecate does: hecate/solution.md
+  - App Store:
+      - Privacy Policy: hecate/privacy.md
+      - Support: hecate/support.md
