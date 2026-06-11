@@ -17,8 +17,22 @@ so bad data is stopped where it's created rather than cleaned up downstream.
 
 ## The right input for each step
 
-Each step uses the input method that fits the job — **QR code, 1D/2D barcode, or
-manual entry**.
+A profile's steps decide **what** is captured; each step picks the input method
+that fits the job:
+
+- **Manual entry.** Type the value straight into the field.
+- **Camera scan.** Point the device camera and let the on-device scanning
+  frameworks read **QR codes, 2D Data Matrix codes, 1D barcodes, and printed
+  text** — no network round-trip and no third-party service.
+- **Paired Bluetooth scanner.** Pair a hardware scanner — such as a ring
+  scanner — for objects that are out of arm's reach or awkward to frame with the
+  camera. Its **aiming laser shows the operator exactly what is being read**, and
+  a captured code types straight into the focused field — fast, accurate and
+  hands-free.
+
+Whichever method a step uses, the value flows through the **same validation and
+capture pipeline**, so a profile behaves identically no matter how the data
+arrives.
 
 ## Always geo-referenced
 

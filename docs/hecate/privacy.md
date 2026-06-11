@@ -12,6 +12,14 @@ tracking** of any kind.
 
 ## What we collect
 
+What the app captures is **defined entirely by the profile** your organisation's
+administrator configures — a profile is a customizable form describing the fields
+and scans for one use case. **We, as the developer, neither create these profiles
+nor ever see them or the data you capture against them.** What any given
+deployment collects is therefore decided by *your* administrator, not by us.
+
+For a typical profile the app handles:
+
 - **Asset details** you enter or scan (e.g. serial number, order number, type).
 - **An optional photo** of the asset, if you choose to take one.
 - **Precise location (GPS)** at the moment of capture — *only if you grant the
@@ -21,9 +29,10 @@ tracking** of any kind.
 ## Where it goes
 
 Asset data is published **only to the MQTT broker you configure**. You choose
-and control that broker. The developer operates no server and receives none of
-your data. There is no advertising, no profiling, and no cross-app or
-cross-website tracking.
+and control that broker. The developer operates no server, receives none of your
+data, and never sees the profiles you use or the assets you capture against them.
+There is no advertising, no profiling, and no cross-app or cross-website
+tracking.
 
 ## Storage and security
 
@@ -69,6 +78,15 @@ Analyse- oder Tracking-Dienste Dritter**.
 
 ## Was wir erfassen
 
+Was die App erfasst, wird **ausschließlich durch das Profil** bestimmt, das die
+Administratorin oder der Administrator Ihrer Organisation einrichtet — ein Profil
+ist ein anpassbares Formular, das die Felder und Scans für einen Anwendungsfall
+beschreibt. **Wir als Entwickler erstellen diese Profile nicht und sehen weder
+die von Ihnen verwendeten Profile noch die damit erfassten Daten.** Was eine
+konkrete Installation erfasst, entscheidet daher *Ihr* Administrator, nicht wir.
+
+Bei einem typischen Profil verarbeitet die App:
+
 - **Asset-Daten**, die Sie eingeben oder scannen (z. B. Serien-, Auftragsnummer,
   Typ).
 - **Ein optionales Foto** des Assets, sofern Sie eines aufnehmen.
@@ -80,7 +98,8 @@ Analyse- oder Tracking-Dienste Dritter**.
 
 Asset-Daten werden **ausschließlich an den von Ihnen konfigurierten MQTT-Broker**
 gesendet. Diesen Broker wählen und kontrollieren Sie selbst. Der Entwickler
-betreibt keinen Server und erhält keine Ihrer Daten. Es gibt keine Werbung, kein
+betreibt keinen Server, erhält keine Ihrer Daten und sieht weder die von Ihnen
+verwendeten Profile noch die damit erfassten Assets. Es gibt keine Werbung, kein
 Profiling und kein App- oder Website-übergreifendes Tracking.
 
 ## Speicherung und Sicherheit
