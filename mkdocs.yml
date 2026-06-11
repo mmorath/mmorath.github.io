@@ -7,7 +7,7 @@ copyright: © 2026 Matthias Morath
 theme:
   name: material
   logo: assets/hecate-logo.png            # transparent white mark — blends on the black header
-  favicon: assets/hecate-favicon.png      # opaque black tile — stays visible on light browser tabs
+  favicon: assets/hecate-favicon.svg      # transparent adaptive SVG — white maze on dark tabs, dark on light
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
