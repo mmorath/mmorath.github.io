@@ -6,8 +6,9 @@
 }
 
 /* Pure-black dark theme: header, page and footer all #000, matching the
-   Hecate app's OLED black so the black-tile logo blends seamlessly into the
-   header and there is no grey step between header and page. */
+   Hecate app's OLED black. The header logo is a transparent white mark, so the
+   black header lets it sit cleanly with no tile edge and no grey step between
+   header and page. */
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: #000000;
   --md-default-bg-color--light: #000000;
