@@ -15,10 +15,14 @@ holds only the public website.
 
 ## Build locally
 
+A `Makefile` wraps the MkDocs commands (run `make` for the full list):
+
 ```bash
-pip install mkdocs-material
-mkdocs serve          # live preview at http://127.0.0.1:8000
-mkdocs gh-deploy      # build + publish to the gh-pages branch
+make install   # install the toolchain (mkdocs-material) via pip
+make serve     # live preview at http://127.0.0.1:8000
+make build     # build the static site into ./site
+make deploy    # build + publish to the gh-pages branch (republishes the live site)
+make clean     # remove ./site
 ```
 
-© 2026 Matthias Morath
+© 2023-2026 Matthias Morath · All rights reserved
