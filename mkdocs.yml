@@ -2,7 +2,7 @@ site_name: Hecate
 site_description: Hecate — universal, profile-driven geo-referencing of physical objects
 site_url: https://mmorath.github.io/
 site_author: Matthias Morath
-copyright: © 2026 Matthias Morath
+copyright: © 2023-2026 Matthias Morath · All rights reserved
 
 theme:
   name: material
