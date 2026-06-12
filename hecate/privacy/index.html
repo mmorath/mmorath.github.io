@@ -152,6 +152,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../de/hecate/privacy/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       
       
@@ -517,7 +543,6 @@
 
 
 <h1 id="privacy-policy-hecate">Privacy Policy — Hecate</h1>
-<p><em>Deutsche Fassung <a href="#datenschutzerklarung-hecate">unten</a>.</em></p>
 <p><strong>Effective date:</strong> 2026-06-11
 <strong>Developer:</strong> Matthias Morath</p>
 <p>Hecate is a field tool for geo-referencing physical objects. It collects only
@@ -568,61 +593,6 @@ behalf at your direction.</p>
 <h2 id="changes-to-this-policy">Changes to this policy</h2>
 <p>If the app's data handling changes, this page and the in-app
 <strong>Settings → Privacy</strong> screen will be updated together.</p>
-<hr />
-<h1 id="datenschutzerklarung-hecate">Datenschutzerklärung — Hecate</h1>
-<p><strong>Gültig ab:</strong> 11.06.2026
-<strong>Entwickler:</strong> Matthias Morath</p>
-<p>Hecate ist ein Feldwerkzeug zur Geo-Referenzierung physischer Objekte. Es erfasst
-nur, was zur Identifizierung und Lokalisierung der von Ihnen erfassten Assets
-erforderlich ist. Es gibt <strong>kein vom Entwickler betriebenes Backend</strong> und <strong>keine
-Analyse- oder Tracking-Dienste Dritter</strong>.</p>
-<h2 id="was-wir-erfassen">Was wir erfassen</h2>
-<p>Was die App erfasst, wird <strong>ausschließlich durch das Profil</strong> bestimmt, das die
-Administratorin oder der Administrator Ihrer Organisation einrichtet — ein Profil
-ist ein anpassbares Formular, das die Felder und Scans für einen Anwendungsfall
-beschreibt. <strong>Wir als Entwickler erstellen diese Profile nicht und sehen weder
-die von Ihnen verwendeten Profile noch die damit erfassten Daten.</strong> Was eine
-konkrete Installation erfasst, entscheidet daher <em>Ihr</em> Administrator, nicht wir.</p>
-<p>Bei einem typischen Profil verarbeitet die App:</p>
-<ul>
-<li><strong>Asset-Daten</strong>, die Sie eingeben oder scannen (z. B. Serien-, Auftragsnummer,
-  Typ).</li>
-<li><strong>Ein optionales Foto</strong> des Assets, sofern Sie eines aufnehmen.</li>
-<li><strong>Den genauen GPS-Standort</strong> zum Zeitpunkt der Erfassung — <em>nur, wenn Sie die
-  Standortberechtigung erteilen</em>. Sie können diese jederzeit in den
-  iOS-Einstellungen verweigern oder widerrufen; die App funktioniert auch ohne.</li>
-</ul>
-<h2 id="wohin-die-daten-gehen">Wohin die Daten gehen</h2>
-<p>Asset-Daten werden <strong>ausschließlich an den von Ihnen konfigurierten MQTT-Broker</strong>
-gesendet. Diesen Broker wählen und kontrollieren Sie selbst. Der Entwickler
-betreibt keinen Server, erhält keine Ihrer Daten und sieht weder die von Ihnen
-verwendeten Profile noch die damit erfassten Assets. Es gibt keine Werbung, kein
-Profiling und kein App- oder Website-übergreifendes Tracking.</p>
-<h2 id="speicherung-und-sicherheit">Speicherung und Sicherheit</h2>
-<ul>
-<li>Assets werden <strong>auf Ihrem Gerät gespeichert</strong>, bis Sie sie löschen.</li>
-<li>Das Broker-<strong>Passwort wird im iOS-Schlüsselbund</strong> gespeichert — niemals im
-  Klartext und niemals in Protokollen.</li>
-<li>Verbindungen zum Broker können <strong>TLS</strong> (<code>mqtts</code>) nutzen, sodass Daten während
-  der Übertragung verschlüsselt sind.</li>
-</ul>
-<h2 id="weitergabe-von-daten">Weitergabe von Daten</h2>
-<p>Wir <strong>verkaufen, vermieten oder teilen Ihre Daten nicht</strong> mit Dritten. Die
-einzige Übertragung ist die Veröffentlichung an <strong>Ihren eigenen</strong> MQTT-Broker,
-die in Ihrem Auftrag und auf Ihre Veranlassung erfolgt.</p>
-<h2 id="ihre-wahlmoglichkeiten">Ihre Wahlmöglichkeiten</h2>
-<ul>
-<li><strong>Standort:</strong> jederzeit in iOS-Einstellungen → Datenschutz erteilen,
-  verweigern oder widerrufen.</li>
-<li><strong>Fotos:</strong> vollständig optional, je Asset.</li>
-<li><strong>Löschung:</strong> Sie können jedes Asset jederzeit auf dem Gerät löschen. Bereits
-  an Ihren Broker gesendete Daten unterliegen der Aufbewahrung <em>Ihres</em> Brokers.</li>
-</ul>
-<h2 id="kinder">Kinder</h2>
-<p>Hecate ist ein professionelles Feld-Werkzeug und richtet sich nicht an Kinder.</p>
-<h2 id="anderungen-dieser-erklarung">Änderungen dieser Erklärung</h2>
-<p>Ändert sich der Datenumgang der App, werden diese Seite und der In-App-Bildschirm
-<strong>Einstellungen → Datenschutz</strong> gemeinsam aktualisiert.</p>
 
 
 
@@ -681,7 +651,7 @@ die in Ihrem Auftrag und auf Ihre Veranlassung erfolgt.</p>
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.top", "navigation.instant", "content.action.edit", "toc.integrate"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.top", "content.action.edit", "toc.integrate"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
