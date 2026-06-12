@@ -34,10 +34,10 @@ theme:
 extra_css:
   - assets/extra.css
 
-# English is the default (served at /), German builds at /de/. Pages are the
-# un-suffixed English files; each `*.de.md` is its German translation, and the
-# Material header gets a language switcher automatically. Adding a `plugins:`
-# block disables the implicit `search`, so it is re-declared here.
+# English is the default (served at /); German builds at /de/ and French at
+# /fr/. Pages are the un-suffixed English files; each `*.de.md` / `*.fr.md` is a
+# translation, and the Material header gets a language switcher automatically.
+# Adding a `plugins:` block disables the implicit `search`, so it is re-declared.
 plugins:
   - search
   - i18n:
@@ -56,6 +56,15 @@ plugins:
             What Hecate does: Was Hecate leistet
             Privacy Policy: Datenschutz
             Support: Support
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            Overview: Présentation
+            The problem: Le problème
+            What Hecate does: Ce que fait Hecate
+            Privacy Policy: Confidentialité
+            Support: Assistance
 
 markdown_extensions:
   - admonition
