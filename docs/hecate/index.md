@@ -30,10 +30,10 @@ finds — with no new build.
 ## Screenshots
 
 <div class="shots">
-  <figure><img src="../assets/screens/assets.png" alt="The assets outbox — captured objects awaiting delivery"><figcaption>Assets &amp; outbox</figcaption></figure>
-  <figure><img src="../assets/screens/detail.png" alt="An asset's detail view with its captured fields"><figcaption>Asset detail</figcaption></figure>
-  <figure><img src="../assets/screens/sent.png" alt="Delivery history of sent assets"><figcaption>Delivery history</figcaption></figure>
-  <figure><img src="../assets/screens/settings.png" alt="The settings hub"><figcaption>Settings</figcaption></figure>
+  <figure><img src="/assets/screens/assets.png" alt="The assets outbox — captured objects awaiting delivery"><figcaption>Assets &amp; outbox</figcaption></figure>
+  <figure><img src="/assets/screens/detail.png" alt="An asset's detail view with its captured fields"><figcaption>Asset detail</figcaption></figure>
+  <figure><img src="/assets/screens/sent.png" alt="Delivery history of sent assets"><figcaption>Delivery history</figcaption></figure>
+  <figure><img src="/assets/screens/settings.png" alt="The settings hub"><figcaption>Settings</figcaption></figure>
 </div>
 
 ## Read on

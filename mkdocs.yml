@@ -26,12 +26,36 @@ theme:
   features:
     - navigation.sections
     - navigation.top
-    - navigation.instant
+    # navigation.instant intentionally omitted: it breaks the i18n language
+    # switcher's contextual (same-page) link (mkdocs-static-i18n warns on it).
     - content.action.edit
     - toc.integrate
 
 extra_css:
   - assets/extra.css
+
+# English is the default (served at /), German builds at /de/. Pages are the
+# un-suffixed English files; each `*.de.md` is its German translation, and the
+# Material header gets a language switcher automatically. Adding a `plugins:`
+# block disables the implicit `search`, so it is re-declared here.
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+          nav_translations:
+            Overview: Überblick
+            The problem: Das Problem
+            What Hecate does: Was Hecate leistet
+            Privacy Policy: Datenschutz
+            Support: Support
 
 markdown_extensions:
   - admonition
