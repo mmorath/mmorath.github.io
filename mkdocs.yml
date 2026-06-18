@@ -34,6 +34,11 @@ theme:
 extra_css:
   - assets/extra.css
 
+extra_javascript:
+  # Per-section header brand: "Hecate · Admin" on the admin pages, "Hecate"
+  # elsewhere. The header is shared (one site_name), so this adjusts it client-side.
+  - assets/section-title.js
+
 # English is the default (served at /); German builds at /de/ and French at
 # /fr/. Pages are the un-suffixed English files; each `*.de.md` / `*.fr.md` is a
 # translation, and the Material header gets a language switcher automatically.
