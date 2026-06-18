@@ -33,4 +33,4 @@ conservés et que vos identifiants sont autorisés à les lire.
 
 ---
 
-Voir aussi la [Politique de confidentialité](privacy.md).
+Voir aussi la [Politique de confidentialité](../../privacy/capture/index.md).

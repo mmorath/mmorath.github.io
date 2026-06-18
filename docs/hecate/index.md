@@ -5,69 +5,81 @@ hide:
 
 # Hecate
 
-*Universal, profile-driven geo-referencing of objects*
+*One profile-driven system for geo-referencing physical objects — three apps, one broker, no backend.*
 
-Hecate is a field-first iOS app for **geo-referencing physical objects**. Each
-object is captured against a **profile** — a configurable workflow of scans,
-fields and photos — then placed on the map with a GPS fix and streamed over
-**MQTT** to a broker of your choice.
+Hecate captures physical objects against a **profile** — a configurable workflow
+of scans, fields and photos — places them on the map, and streams them over
+**MQTT** to a broker of your choice. Nothing about the domain is hard-coded:
+change the profile and the same system serves forklifts, fire extinguishers,
+network sockets or archaeological finds.
 
-Nothing about the domain is hard-coded. Change the profile and the same app
-captures forklifts, fire extinguishers, network sockets or archaeological
-finds — with no new build.
+It is **broker-only**: the only network dependency is the MQTT broker you
+control. There is no developer backend, no analytics, and no tracking.
 
-## In one minute
-
-- **One app, many use cases.** Each use case is a *profile*, not a separate app.
-- **Validated at the source.** Every field is checked against its declared
-  format the moment it's captured.
-- **Always located.** Every record carries a GPS fix and lands on the map.
-- **Streamed over MQTT.** Published to *your own* broker in a uniform,
-  self-describing envelope — no developer backend, no analytics, no tracking.
-- **Works offline.** A durable outbox holds records out of range and drains on
-  reconnect.
-
-## Screenshots
-
-<div class="shots">
-  <figure><img src="/assets/screens/assets.png" alt="The assets outbox — captured objects awaiting delivery"><figcaption>Assets &amp; outbox</figcaption></figure>
-  <figure><img src="/assets/screens/detail.png" alt="An asset's detail view with its captured fields"><figcaption>Asset detail</figcaption></figure>
-  <figure><img src="/assets/screens/sent.png" alt="Delivery history of sent assets"><figcaption>Delivery history</figcaption></figure>
-  <figure><img src="/assets/screens/settings.png" alt="The settings hub"><figcaption>Settings</figcaption></figure>
-</div>
-
-## Read on
+## The apps
 
 <div class="grid cards" markdown>
 
--   :material-alert-circle-outline: __The problem__
+-   :material-cellphone: __Capture app__ · iPhone & iPad
 
     ---
 
-    Why a sprawl of single-purpose capture apps leaves data inconsistent,
-    desk-bound and location-blind.
+    The field tool. Scans, validates and locates each object, then publishes it
+    to your broker. Works offline with a durable outbox.
 
-    [:octicons-arrow-right-24: The problem](problem.md)
+    [:octicons-arrow-right-24: Capture overview](capture/index.md)
 
--   :material-checkbox-marked-circle-outline: __What Hecate does__
+-   :material-television: __Apple TV viewer__
 
     ---
 
-    How one profile-driven app collapses that sprawl and fixes the data at the
-    source.
+    A live wall display. A pure subscriber that shows assets as they arrive —
+    it captures nothing and stores nothing.
 
-    [:octicons-arrow-right-24: What Hecate does](solution.md)
+    [:octicons-arrow-right-24: Viewer overview](viewer/index.md)
+
+-   :material-tune-variant: __Admin app__ · iPhone & iPad
+
+    ---
+
+    The authoring authority. Creates, validates, versions, publishes and retires
+    the profiles the capture app consumes, and sets up the broker.
+
+    [:octicons-arrow-right-24: Admin overview](admin/index.md)
 
 </div>
+
+## How they fit together
+
+```
+Admin app  ──authors & publishes (retained)──▶  MQTT broker  ◀──reads profiles──  Capture app
+                                                     ▲                                  │
+                                                     └──────── publishes assets ────────┘
+                                                     │
+                                          subscribes & displays
+                                                     ▼
+                                              Apple TV viewer
+```
+
+The **admin** app is the authority for *profiles*; the **capture** app is
+read-only on profiles and the authority for *assets*; the **viewer** is read-only
+on everything. All three are governed by the **Hecate Architecture & Protocol
+Specification v1.1** and built on the shared
+[`HecateKit`](https://github.com/mmorath/HecateKit) core.
 
 ## The name & the mark
 
 **Hecate** is the Greek goddess of crossroads, thresholds and keys — she who
-stands at the boundary and holds what unlocks it. A field tool lives at exactly
-that edge: between the physical object in front of you and the digital systems
-that must learn about it. Hecate **locates** it, **guides** the capture,
-**carries** it onward to the broker, and **holds the keys** that unlock the path.
+stands at the boundary and holds what unlocks it. The mark is the **Strophalos**
+("Hecate's Wheel") — a labyrinth of winding paths around a single hub: the
+routes through the field, and the messages converging on the broker at the
+centre. The mark carries no colour of its own; the only colour in each app is
+the per-profile accent.
 
-The mark is the **Strophalos** ("Hecate's Wheel") — a labyrinth of winding paths
-around a single hub: the routes through the field, and the messages converging
-on the broker at the centre.
+## For each app
+
+| | Privacy | Support |
+| --- | --- | --- |
+| **Capture** | [Privacy](privacy/capture/index.md) | [Support](support/operator/index.md) |
+| **Apple TV viewer** | [Privacy](privacy/viewer/index.md) | [Support](support/operator/index.md) |
+| **Admin** | [Privacy](privacy/admin/index.md) | [Support](support/admin/index.md) |
