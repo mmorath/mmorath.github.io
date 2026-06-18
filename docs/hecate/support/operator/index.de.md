@@ -33,4 +33,4 @@ ob Ihre Zugangsdaten sie lesen dürfen.
 
 ---
 
-Siehe auch die [Datenschutzerklärung](privacy.md).
+Siehe auch die [Datenschutzerklärung](../../privacy/capture/index.md).

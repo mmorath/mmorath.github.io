@@ -58,8 +58,11 @@ plugins:
           nav_translations:
             Overview: Überblick
             The problem: Das Problem
-            What Hecate does: Was Hecate leistet
-            Privacy Policy: Datenschutz
+            What it does: Was sie leistet
+            Capture app: Capture-App
+            Apple TV viewer: Apple-TV-Viewer
+            Admin app: Admin-App
+            Privacy: Datenschutz
             Support: Support
         - locale: fr
           name: Français
@@ -67,8 +70,11 @@ plugins:
           nav_translations:
             Overview: Présentation
             The problem: Le problème
-            What Hecate does: Ce que fait Hecate
-            Privacy Policy: Confidentialité
+            What it does: Ce qu'elle fait
+            Capture app: Application de capture
+            Apple TV viewer: Visionneuse Apple TV
+            Admin app: Application admin
+            Privacy: Confidentialité
             Support: Assistance
 
 markdown_extensions:
@@ -85,18 +91,27 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-# Multi-product site: each app is its own top-level section (rendered as a group
-# by `navigation.sections`). The bare root (index.md) redirects to the Hecate
-# overview — the flagship — so it is intentionally not listed. Hecate Admin is
-# the internal authoring companion; English-only for now (the i18n plugin falls
-# back to the English page under /de/ and /fr/).
+# One umbrella /hecate/ site bundling all three apps. The Dachseite
+# (hecate/index.md) is the landing; each app is a nav group with its own
+# Overview / Privacy / Support, plus standalone Support and Privacy hubs. The
+# bare root (index.md) and the old /hecate-admin/ page are redirect stubs and so
+# are intentionally not listed. Translations fall back to English (the i18n
+# plugin serves the English page under /de/ and /fr/ when a *.de/*.fr is absent).
 nav:
-  - Hecate:
-      - Overview: hecate/index.md
-      - The problem: hecate/problem.md
-      - What Hecate does: hecate/solution.md
-      - App Store:
-          - Privacy Policy: hecate/privacy.md
-          - Support: hecate/support.md
-  - Hecate Admin:
-      - Overview: hecate-admin/index.md
+  - Hecate: hecate/index.md
+  - Capture app:
+      - Overview: hecate/capture/index.md
+      - The problem: hecate/capture/problem.md
+      - What it does: hecate/capture/solution.md
+      - Privacy: hecate/privacy/capture/index.md
+      - Support: hecate/support/operator/index.md
+  - Apple TV viewer:
+      - Overview: hecate/viewer/index.md
+      - Privacy: hecate/privacy/viewer/index.md
+      - Support: hecate/support/operator/index.md
+  - Admin app:
+      - Overview: hecate/admin/index.md
+      - Privacy: hecate/privacy/admin/index.md
+      - Support: hecate/support/admin/index.md
+  - Support: hecate/support/index.md
+  - Privacy: hecate/privacy/index.md

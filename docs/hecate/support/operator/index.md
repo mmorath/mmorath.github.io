@@ -1,6 +1,9 @@
-# Support — Hecate
+# Support — Operators (Capture & Viewer)
 
-Need help, found a bug, or have a feature request? Here's how to get in touch.
+Help for **operators** in the field: the iPhone/iPad **capture app** and the
+Apple TV **viewer**. (Authoring profiles or setting up the broker? See
+[Admin support](../admin/index.md).) Found a bug or have a request? Here's how to
+get in touch.
 
 ## Contact
 
@@ -30,6 +33,14 @@ Capture workflows are delivered as **profiles** over MQTT. If no profile
 appears, check that your broker has the retained profile documents and that
 your credentials are allowed to read them.
 
+### Apple TV viewer
+The viewer is a **read-only** display: point it at the same broker and it shows
+the live asset stream your credentials can read. If nothing appears, check the
+broker connection (host, TLS, credentials) and that assets are being published.
+The viewer captures nothing and needs no setup of the data itself.
+
 ---
 
-See also the [Privacy Policy](privacy.md).
+See also the privacy policies for the
+[capture app](../../privacy/capture/index.md) and the
+[Apple TV viewer](../../privacy/viewer/index.md).
