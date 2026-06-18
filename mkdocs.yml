@@ -80,13 +80,18 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-# Single-product site: Hecate is the whole site, so no "Apps" landing page and
-# no "Hecate" parent group — the overview is the top of the nav. The bare root
-# (index.md) just redirects to the overview, so it is intentionally not listed.
+# Multi-product site: each app is its own top-level section (rendered as a group
+# by `navigation.sections`). The bare root (index.md) redirects to the Hecate
+# overview — the flagship — so it is intentionally not listed. Hecate Admin is
+# the internal authoring companion; English-only for now (the i18n plugin falls
+# back to the English page under /de/ and /fr/).
 nav:
-  - Overview: hecate/index.md
-  - The problem: hecate/problem.md
-  - What Hecate does: hecate/solution.md
-  - App Store:
-      - Privacy Policy: hecate/privacy.md
-      - Support: hecate/support.md
+  - Hecate:
+      - Overview: hecate/index.md
+      - The problem: hecate/problem.md
+      - What Hecate does: hecate/solution.md
+      - App Store:
+          - Privacy Policy: hecate/privacy.md
+          - Support: hecate/support.md
+  - Hecate Admin:
+      - Overview: hecate-admin/index.md

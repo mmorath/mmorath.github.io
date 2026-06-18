@@ -9,6 +9,7 @@ Each app lives in its own section under `docs/<app>/`:
 | App | Pages |
 | --- | --- |
 | **Hecate** | [Overview](https://mmorath.github.io/hecate/) · [Privacy](https://mmorath.github.io/hecate/privacy/) · [Support](https://mmorath.github.io/hecate/support/) |
+| **Hecate Admin** | [Overview](https://mmorath.github.io/hecate-admin/) |
 
 The application source code lives in separate, private repositories. This repo
 holds only the public website.
