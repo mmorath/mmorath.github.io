@@ -38,6 +38,15 @@ control. There is no developer backend, no analytics, and no tracking.
 
     [:octicons-arrow-right-24: Viewer overview](viewer/index.md)
 
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
+
+    ---
+
+    The live map in your pocket. A pure subscriber that plots assets as they
+    arrive and fades them out on a timer you choose.
+
+    [:octicons-arrow-right-24: iPhone viewer overview](viewer-ios/index.md)
+
 -   :material-tune-variant: __Admin app__ · iPhone & iPad
 
     ---
@@ -58,7 +67,7 @@ Admin app  ──authors & publishes (retained)──▶  MQTT broker  ◀──
                                                      │
                                           subscribes & displays
                                                      ▼
-                                              Apple TV viewer
+                                  Apple TV viewer · Hecate Viewer (iPhone)
 ```
 
 The **admin** app is the authority for *profiles*; the **capture** app is
@@ -82,4 +91,5 @@ the per-profile accent.
 | --- | --- | --- |
 | **Capture** | [Privacy](privacy/capture/index.md) | [Support](support/operator/index.md) |
 | **Apple TV viewer** | [Privacy](privacy/viewer/index.md) | [Support](support/operator/index.md) |
+| **Hecate Viewer (iPhone)** | [Privacy](privacy/viewer-ios/index.md) | [Support](support/operator/index.md) |
 | **Admin** | [Privacy](privacy/admin/index.md) | [Support](support/admin/index.md) |
