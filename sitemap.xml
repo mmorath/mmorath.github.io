@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://mmorath.github.io/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/"/>
@@ -10,47 +10,127 @@
     </url>
     <url>
         <loc>https://mmorath.github.io/hecate/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/hecate/admin/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/admin/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/admin/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/admin/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/hecate/capture/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/capture/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/capture/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/hecate/capture/problem/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/capture/problem/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/capture/problem/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/problem/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/hecate/capture/solution/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/capture/solution/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/capture/solution/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/solution/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/hecate/privacy/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/"/>
     </url>
     <url>
-        <loc>https://mmorath.github.io/hecate/problem/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <loc>https://mmorath.github.io/hecate/privacy/admin/</loc>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/problem/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/problem/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/problem/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/admin/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/admin/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/admin/"/>
     </url>
     <url>
-        <loc>https://mmorath.github.io/hecate/solution/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <loc>https://mmorath.github.io/hecate/privacy/capture/</loc>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/solution/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/solution/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/solution/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/capture/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/capture/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/capture/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/hecate/privacy/viewer/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/hecate/privacy/viewer-ios/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-ios/"/>
     </url>
     <url>
         <loc>https://mmorath.github.io/hecate/support/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/support/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/support/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/support/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/hecate/support/admin/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/support/admin/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/support/admin/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/support/admin/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/hecate/support/operator/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/support/operator/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/support/operator/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/support/operator/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/hecate/viewer/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/hecate/viewer-ios/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer-ios/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/hecate-admin/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate-admin/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate-admin/"/>
@@ -58,7 +138,7 @@
     </url>
     <url>
         <loc>https://mmorath.github.io/de/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/"/>
@@ -66,47 +146,127 @@
     </url>
     <url>
         <loc>https://mmorath.github.io/de/hecate/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/de/hecate/admin/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/admin/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/admin/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/admin/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/de/hecate/capture/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/capture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/capture/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/de/hecate/capture/problem/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/capture/problem/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/capture/problem/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/problem/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/de/hecate/capture/solution/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/capture/solution/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/capture/solution/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/solution/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/de/hecate/privacy/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/"/>
     </url>
     <url>
-        <loc>https://mmorath.github.io/de/hecate/problem/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <loc>https://mmorath.github.io/de/hecate/privacy/admin/</loc>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/problem/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/problem/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/problem/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/admin/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/admin/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/admin/"/>
     </url>
     <url>
-        <loc>https://mmorath.github.io/de/hecate/solution/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <loc>https://mmorath.github.io/de/hecate/privacy/capture/</loc>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/solution/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/solution/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/solution/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/capture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/capture/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/capture/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/de/hecate/privacy/viewer/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/de/hecate/privacy/viewer-ios/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-ios/"/>
     </url>
     <url>
         <loc>https://mmorath.github.io/de/hecate/support/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/support/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/support/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/support/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/de/hecate/support/admin/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/support/admin/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/support/admin/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/support/admin/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/de/hecate/support/operator/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/support/operator/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/support/operator/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/support/operator/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/de/hecate/viewer/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/de/hecate/viewer-ios/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer-ios/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/de/hecate-admin/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate-admin/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate-admin/"/>
@@ -114,7 +274,7 @@
     </url>
     <url>
         <loc>https://mmorath.github.io/fr/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/"/>
@@ -122,47 +282,127 @@
     </url>
     <url>
         <loc>https://mmorath.github.io/fr/hecate/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/fr/hecate/admin/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/admin/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/admin/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/admin/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/fr/hecate/capture/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/capture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/capture/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/fr/hecate/capture/problem/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/problem/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/capture/problem/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/capture/problem/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/fr/hecate/capture/solution/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/solution/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/capture/solution/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/capture/solution/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/fr/hecate/privacy/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/"/>
     </url>
     <url>
-        <loc>https://mmorath.github.io/fr/hecate/problem/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <loc>https://mmorath.github.io/fr/hecate/privacy/admin/</loc>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/problem/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/problem/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/problem/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/admin/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/admin/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/admin/"/>
     </url>
     <url>
-        <loc>https://mmorath.github.io/fr/hecate/solution/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <loc>https://mmorath.github.io/fr/hecate/privacy/capture/</loc>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/solution/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/solution/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/solution/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/capture/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/capture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/capture/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/fr/hecate/privacy/viewer/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/fr/hecate/privacy/viewer-ios/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer-ios/"/>
     </url>
     <url>
         <loc>https://mmorath.github.io/fr/hecate/support/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/support/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/support/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/support/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/fr/hecate/support/admin/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/support/admin/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/support/admin/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/support/admin/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/fr/hecate/support/operator/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/support/operator/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/support/operator/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/support/operator/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/fr/hecate/viewer/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/fr/hecate/viewer-ios/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer-ios/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer-ios/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/fr/hecate-admin/</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate-admin/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate-admin/"/>
