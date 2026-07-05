@@ -19,14 +19,23 @@ Daten umgeht. Wählen Sie die App, die Sie verwenden:
 
     [:octicons-arrow-right-24: Datenschutz Erfassung](capture/index.md)
 
--   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone
 
     ---
 
     Ein reiner Abonnent mit Live-Karte. Standort nur für den „Sie sind
     hier"-Punkt; **nichts wird gespeichert, nichts übertragen**.
 
-    [:octicons-arrow-right-24: Datenschutz Viewer](viewer-ios/index.md)
+    [:octicons-arrow-right-24: Datenschutz iPhone-Viewer](viewer-ios/index.md)
+
+-   :material-tablet: __Hecate Viewer__ · iPad
+
+    ---
+
+    Derselbe reine Abonnent, gestaltet für den großen Bildschirm. Identische
+    Datenverarbeitung: **nichts wird gespeichert, nichts übertragen**.
+
+    [:octicons-arrow-right-24: Datenschutz iPad-Viewer](viewer-ipad/index.md)
 
 -   :material-television: __Apple-TV-Viewer__ · *geplant*
 

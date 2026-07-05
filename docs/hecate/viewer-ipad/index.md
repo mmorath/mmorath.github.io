@@ -3,33 +3,36 @@ hide:
   - toc
 ---
 
-# Hecate Viewer for iPhone
+# Hecate Viewer for iPad
 
-*Watch your assets arrive — live, on the map, in your pocket.*
+*The live map, wall to wall — with the feed always at its side.*
 
-Hecate Viewer is the **read-only companion** to the capture app. It connects to
-the same MQTT broker, **subscribes** to the asset stream, and places every
-incoming object on a live map the moment it is published — with a
-chronological feed alongside for the play-by-play.
+Hecate Viewer for iPad is the **read-only companion** to the capture app,
+laid out for the big screen. It connects to the same MQTT broker,
+**subscribes** to the asset stream, and shows everything at once: the live
+feed as a **sidebar**, the **map** filling the rest — no tabs, both panes
+always in view, in portrait and landscape alike.
 
 It is a **pure viewer**. It captures nothing, edits nothing, and publishes
 nothing; everything on screen came from your broker and lives only in memory.
 
 ## In one minute
 
-- **A live map, first.** One pin per incoming asset, placed where it was
-  captured. Fresh arrivals pulse teal; as they age they settle to grey. A feed
-  tab shows the same stream newest-first.
+- **Sidebar and map, together.** Every incoming asset appears as a feed row
+  *and* as a pin the moment it is published. Fresh arrivals pulse teal; as
+  they age they settle to grey.
+- **Tap a row, fly to its pin.** The sidebar is the map's index: tapping a
+  row zooms the map to that asset and rings it — tap again (or tap empty
+  map) to release. The row's info button, or the pin itself, opens the full
+  detail.
 - **Assets fade out on a timer.** Choose how long a received asset stays
   visible (minutes, or forever). Pins visibly shrink and fade as their time
-  runs out, then leave map and feed together — so the map only ever shows
-  what is current.
-- **Filter by profile.** One tap on a profile chip narrows map and feed to
+  runs out, then leave sidebar and map together — so the screen only ever
+  shows what is current.
+- **Filter by profile.** One tap on a profile chip narrows both panes to
   that workflow, in its accent colour; one more tap brings everything back.
 - **Read-only by design.** The viewer only *subscribes* — it never publishes
   to the broker and never writes a profile or an asset.
-- **Same broker, same data.** Point it at your broker (or scan a provisioning
-  QR) and it shows exactly what your credentials are allowed to read.
 - **One product.** The same wire format and the same black-and-white visual
   language as the other Hecate apps; colour comes only from each object's
   profile accent.
@@ -37,8 +40,7 @@ nothing; everything on screen came from your broker and lives only in memory.
 ## Screenshots
 
 <div class="shots">
-  <figure><img src="/assets/screens/viewer-ios-karte.png" alt="The live map — incoming assets as pins, broker and profile chips on top"><figcaption>The live map</figcaption></figure>
-  <figure><img src="/assets/screens/viewer-ios-feed.png" alt="The live feed — newest first, with freshness tags and profile colours"><figcaption>The live feed</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer for iPad — the split layout: live feed sidebar beside the full-bleed map with incoming assets as pins"><figcaption>The split layout — sidebar feed and live map</figcaption></figure>
 </div>
 
 ## What it shows
@@ -59,8 +61,13 @@ assets should stay on screen, and watch. There is nothing to configure about
 the data itself, because the data is defined by your profiles and published by
 the capture app.
 
+On iPhone, the same live view ships as
+[Hecate Viewer for iPhone](../viewer-ios/index.md) with a Karte/Feed tab
+layout — the iPad app falls back to those tabs when it shares the screen in
+Split View.
+
 ---
 
-[:octicons-arrow-right-24: Privacy](../privacy/viewer-ios/index.md) ·
+[:octicons-arrow-right-24: Privacy](../privacy/viewer-ipad/index.md) ·
 [:octicons-arrow-right-24: Support](../support/operator/index.md) ·
-[:octicons-arrow-right-24: The capture app](../capture/index.md)
+[:octicons-arrow-right-24: The iPhone viewer](../viewer-ios/index.md)

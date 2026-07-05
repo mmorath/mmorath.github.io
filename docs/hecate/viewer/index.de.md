@@ -11,7 +11,8 @@ hide:
 
     Der Apple-TV-Viewer ist **geplant** und noch nicht verfügbar. Diese Seite
     beschreibt das Konzept. Heute gibt es die Live-Ansicht als
-    [Hecate Viewer für iPhone & iPad](../viewer-ios/index.md).
+    [Hecate Viewer für iPhone](../viewer-ios/index.md) und
+    [für iPad](../viewer-ipad/index.md).
 
 Die Hecate-App für Apple TV macht aus jedem Bildschirm eine **Live-Ansicht der
 Objekte, die Ihr Team gerade erfasst**. Sie verbindet sich mit demselben

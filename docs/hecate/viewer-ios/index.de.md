@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Hecate Viewer für iPhone & iPad
+# Hecate Viewer für iPhone
 
 *Sehen Sie Ihre Assets eintreffen — live, auf der Karte, in Ihrer Tasche.*
 

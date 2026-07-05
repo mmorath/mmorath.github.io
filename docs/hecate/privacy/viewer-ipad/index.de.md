@@ -1,4 +1,4 @@
-# Datenschutzerklärung — Hecate Viewer (iPhone)
+# Datenschutzerklärung — Hecate Viewer für iPad
 
 **Gültig ab:** 05.07.2026
 **Entwickler:** Matthias Morath

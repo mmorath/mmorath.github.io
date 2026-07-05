@@ -11,7 +11,8 @@ hide:
 
     The Apple TV viewer is **planned** and not yet available. This page
     describes the concept. Today, the live view ships as
-    [Hecate Viewer for iPhone & iPad](../viewer-ios/index.md).
+    [Hecate Viewer for iPhone](../viewer-ios/index.md) and
+    [for iPad](../viewer-ipad/index.md).
 
 The Hecate Apple TV app turns any screen into a **live view of the objects your
 team is capturing**. It connects to the same MQTT broker as the capture app,

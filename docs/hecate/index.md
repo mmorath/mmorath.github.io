@@ -58,7 +58,7 @@ already control.
 
     [:octicons-arrow-right-24: Capture overview](capture/index.md)
 
--   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone
 
     ---
 
@@ -66,7 +66,17 @@ already control.
     moment they are published and fades them out on a timer you choose —
     it captures nothing and publishes nothing.
 
-    [:octicons-arrow-right-24: Viewer overview](viewer-ios/index.md)
+    [:octicons-arrow-right-24: iPhone viewer overview](viewer-ios/index.md)
+
+-   :material-tablet: __Hecate Viewer__ · iPad
+
+    ---
+
+    The live map wall to wall. The feed sits in a sidebar beside a
+    full-bleed map — tap a row and the map flies to that asset's pin.
+    Same subscriber, laid out for the big screen.
+
+    [:octicons-arrow-right-24: iPad viewer overview](viewer-ipad/index.md)
 
 -   :material-tune-variant: __Hecate Admin__ · iPhone & iPad · *under development*
 
@@ -87,6 +97,7 @@ already control.
   <figure><img src="/assets/screens/detail.png" alt="Hecate capture app — an asset's detail view with its captured fields"><figcaption>Hecate — asset detail</figcaption></figure>
   <figure><img src="/assets/screens/viewer-ios-karte.png" alt="Hecate Viewer — the live map with incoming assets as pins"><figcaption>Viewer — the live map</figcaption></figure>
   <figure><img src="/assets/screens/viewer-ios-feed.png" alt="Hecate Viewer — the live feed, newest first with freshness tags"><figcaption>Viewer — the live feed</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer for iPad — the split layout: feed sidebar beside the full-bleed live map"><figcaption>Viewer for iPad — the split layout</figcaption></figure>
 </div>
 
 ## On the roadmap
@@ -94,9 +105,6 @@ already control.
 - :material-television: **Apple TV viewer** — the same live view as a
   hands-off wall display for shop floors, offices and site entrances.
   [A preview of the concept](viewer/index.md) is already described.
-- :material-tablet: **iPad-first layouts** — the capture app and the viewer
-  already run on iPad; dedicated large-screen layouts (split views, wall-mode
-  map) are planned.
 
 ## How they fit together
 
@@ -107,7 +115,7 @@ Admin app  ──authors & publishes (retained)──▶  MQTT broker  ◀──
                                                      │
                                           subscribes & displays
                                                      ▼
-                                   Hecate Viewer (iPhone) · Apple TV (planned)
+                              Hecate Viewer (iPhone · iPad) · Apple TV (planned)
 ```
 
 The **admin** app is the authority for *profiles*; the **capture** app is
@@ -130,5 +138,6 @@ centre.
 | --- | --- | --- |
 | **Hecate (capture)** | [Privacy](privacy/capture/index.md) | [Support](support/operator/index.md) |
 | **Hecate Viewer (iPhone)** | [Privacy](privacy/viewer-ios/index.md) | [Support](support/operator/index.md) |
+| **Hecate Viewer (iPad)** | [Privacy](privacy/viewer-ipad/index.md) | [Support](support/operator/index.md) |
 | **Hecate Admin** | [Privacy](privacy/admin/index.md) | [Support](support/admin/index.md) |
 | **Apple TV viewer** *(planned)* | [Privacy](privacy/viewer/index.md) | [Support](support/operator/index.md) |

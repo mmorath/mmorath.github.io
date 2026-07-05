@@ -1,4 +1,4 @@
-# Politique de confidentialité — Hecate Viewer (iPhone)
+# Politique de confidentialité — Hecate Viewer pour iPad
 
 **Date d'effet :** 05/07/2026
 **Développeur :** Matthias Morath

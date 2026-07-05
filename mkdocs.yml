@@ -62,6 +62,7 @@ plugins:
             Capture app: Capture-App
             Apple TV viewer: Apple-TV-Viewer
             iPhone viewer: iPhone-Viewer
+            iPad viewer: iPad-Viewer
             Admin app: Admin-App
             Privacy: Datenschutz
             Support: Support
@@ -75,6 +76,7 @@ plugins:
             Capture app: Application de capture
             Apple TV viewer: Visionneuse Apple TV
             iPhone viewer: Visionneuse iPhone
+            iPad viewer: Visionneuse iPad
             Admin app: Application admin
             Privacy: Confidentialité
             Support: Assistance
@@ -110,6 +112,10 @@ nav:
   - iPhone viewer:
       - Overview: hecate/viewer-ios/index.md
       - Privacy: hecate/privacy/viewer-ios/index.md
+      - Support: hecate/support/operator/index.md
+  - iPad viewer:
+      - Overview: hecate/viewer-ipad/index.md
+      - Privacy: hecate/privacy/viewer-ipad/index.md
       - Support: hecate/support/operator/index.md
   - Admin app:
       - Overview: hecate/admin/index.md

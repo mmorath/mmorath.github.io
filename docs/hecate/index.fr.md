@@ -61,7 +61,7 @@ seul broker que vous contrôlez déjà.
 
     [:octicons-arrow-right-24: Présentation de la saisie](capture/index.md)
 
--   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone
 
     ---
 
@@ -69,7 +69,17 @@ seul broker que vous contrôlez déjà.
     la carte à l'instant de leur publication et les estompe après la durée de
     votre choix — il ne saisit rien et ne publie rien.
 
-    [:octicons-arrow-right-24: Présentation du viewer](viewer-ios/index.md)
+    [:octicons-arrow-right-24: Présentation du viewer iPhone](viewer-ios/index.md)
+
+-   :material-tablet: __Hecate Viewer__ · iPad
+
+    ---
+
+    La carte en direct, bord à bord. Le fil occupe une barre latérale à côté
+    de la carte pleine page — touchez une ligne et la carte vole vers
+    l'épingle de cet actif. Le même abonné, conçu pour le grand écran.
+
+    [:octicons-arrow-right-24: Présentation du viewer iPad](viewer-ipad/index.md)
 
 -   :material-tune-variant: __Hecate Admin__ · iPhone & iPad · *en développement*
 
@@ -90,6 +100,7 @@ seul broker que vous contrôlez déjà.
   <figure><img src="/assets/screens/detail.png" alt="Application de saisie Hecate — la vue détaillée d'un actif avec ses champs saisis"><figcaption>Hecate — détail d'un actif</figcaption></figure>
   <figure><img src="/assets/screens/viewer-ios-karte.png" alt="Hecate Viewer — la carte en direct avec les actifs entrants en épingles"><figcaption>Viewer — la carte en direct</figcaption></figure>
   <figure><img src="/assets/screens/viewer-ios-feed.png" alt="Hecate Viewer — le flux en direct, du plus récent au plus ancien"><figcaption>Viewer — le flux en direct</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer pour iPad — la disposition scindée : barre latérale du fil à côté de la carte en direct pleine page"><figcaption>Viewer pour iPad — la disposition scindée</figcaption></figure>
 </div>
 
 ## Sur la feuille de route
@@ -97,9 +108,6 @@ seul broker que vous contrôlez déjà.
 - :material-television: **Viewer Apple TV** — la même vue en direct comme
   affichage mural autonome pour les ateliers, bureaux et entrées de site.
   [Un aperçu du concept](viewer/index.md) est déjà décrit.
-- :material-tablet: **Interfaces pensées pour l'iPad** — l'application de
-  saisie et le viewer fonctionnent déjà sur iPad ; des interfaces grand
-  écran dédiées (vues scindées, carte en mode mural) sont prévues.
 
 ## Comment tout s'articule
 
@@ -110,7 +118,7 @@ App admin  ──édite & publie (retained)──▶  Broker MQTT  ◀──lit 
                                                 │
                                       s'abonne & affiche
                                                 ▼
-                              Hecate Viewer (iPhone) · Apple TV (prévu)
+                         Hecate Viewer (iPhone · iPad) · Apple TV (prévu)
 ```
 
 L'application **admin** fait autorité sur les *profils* ; l'application de
@@ -134,5 +142,6 @@ convergent vers le broker au centre.
 | --- | --- | --- |
 | **Hecate (saisie)** | [Confidentialité](privacy/capture/index.md) | [Assistance](support/operator/index.md) |
 | **Hecate Viewer (iPhone)** | [Confidentialité](privacy/viewer-ios/index.md) | [Assistance](support/operator/index.md) |
+| **Hecate Viewer (iPad)** | [Confidentialité](privacy/viewer-ipad/index.md) | [Assistance](support/operator/index.md) |
 | **Hecate Admin** | [Confidentialité](privacy/admin/index.md) | [Assistance](support/admin/index.md) |
 | **Viewer Apple TV** *(prévu)* | [Confidentialité](privacy/viewer/index.md) | [Assistance](support/operator/index.md) |

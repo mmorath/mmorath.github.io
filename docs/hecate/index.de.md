@@ -61,7 +61,7 @@ den Sie bereits kontrollieren.
 
     [:octicons-arrow-right-24: Überblick Erfassung](capture/index.md)
 
--   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone
 
     ---
 
@@ -70,7 +70,17 @@ den Sie bereits kontrollieren.
     Ihnen gewählten Zeit ausblendet — er erfasst nichts und veröffentlicht
     nichts.
 
-    [:octicons-arrow-right-24: Überblick Viewer](viewer-ios/index.md)
+    [:octicons-arrow-right-24: Überblick iPhone-Viewer](viewer-ios/index.md)
+
+-   :material-tablet: __Hecate Viewer__ · iPad
+
+    ---
+
+    Die Live-Karte in voller Breite. Der Feed sitzt als Seitenleiste neben
+    der vollflächigen Karte — ein Tipp auf eine Zeile fliegt zur Position
+    des Assets. Derselbe Abonnent, gestaltet für den großen Bildschirm.
+
+    [:octicons-arrow-right-24: Überblick iPad-Viewer](viewer-ipad/index.md)
 
 -   :material-tune-variant: __Hecate Admin__ · iPhone & iPad · *in Entwicklung*
 
@@ -91,6 +101,7 @@ den Sie bereits kontrollieren.
   <figure><img src="/assets/screens/detail.png" alt="Hecate Erfassungs-App — die Detailansicht eines Assets mit seinen erfassten Feldern"><figcaption>Hecate — Asset-Detail</figcaption></figure>
   <figure><img src="/assets/screens/viewer-ios-karte.png" alt="Hecate Viewer — die Live-Karte mit eintreffenden Assets als Pins"><figcaption>Viewer — die Live-Karte</figcaption></figure>
   <figure><img src="/assets/screens/viewer-ios-feed.png" alt="Hecate Viewer — der Live-Feed, neueste zuerst, mit Frische-Markierungen"><figcaption>Viewer — der Live-Feed</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer für iPad — das geteilte Layout: Feed-Seitenleiste neben der vollflächigen Live-Karte"><figcaption>Viewer für iPad — das geteilte Layout</figcaption></figure>
 </div>
 
 ## Auf der Roadmap
@@ -98,9 +109,6 @@ den Sie bereits kontrollieren.
 - :material-television: **Apple-TV-Viewer** — dieselbe Live-Ansicht als
   wartungsfreie Wandanzeige für Hallen, Büros und Werkstore.
   [Eine Vorschau des Konzepts](viewer/index.md) ist bereits beschrieben.
-- :material-tablet: **iPad-optimierte Layouts** — Erfassungs-App und Viewer
-  laufen bereits auf dem iPad; dedizierte Großbildschirm-Layouts (Split
-  Views, Wandmodus-Karte) sind geplant.
 
 ## Wie alles zusammenspielt
 
@@ -111,7 +119,7 @@ Admin-App  ──autorisiert & publiziert (retained)──▶  MQTT-Broker  ◀�
                                                           │
                                               abonniert & zeigt an
                                                           ▼
-                                       Hecate Viewer (iPhone) · Apple TV (geplant)
+                                  Hecate Viewer (iPhone · iPad) · Apple TV (geplant)
 ```
 
 Die **Admin-App** ist die Autorität für *Profile*; die **Erfassungs-App**
@@ -134,5 +142,6 @@ in der Mitte zusammenlaufen.
 | --- | --- | --- |
 | **Hecate (Erfassung)** | [Datenschutz](privacy/capture/index.md) | [Support](support/operator/index.md) |
 | **Hecate Viewer (iPhone)** | [Datenschutz](privacy/viewer-ios/index.md) | [Support](support/operator/index.md) |
+| **Hecate Viewer (iPad)** | [Datenschutz](privacy/viewer-ipad/index.md) | [Support](support/operator/index.md) |
 | **Hecate Admin** | [Datenschutz](privacy/admin/index.md) | [Support](support/admin/index.md) |
 | **Apple-TV-Viewer** *(geplant)* | [Datenschutz](privacy/viewer/index.md) | [Support](support/operator/index.md) |
