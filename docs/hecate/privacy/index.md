@@ -19,7 +19,16 @@ differently. Pick the app you're using:
 
     [:octicons-arrow-right-24: Capture privacy](capture/index.md)
 
--   :material-television: __Apple TV viewer__
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
+
+    ---
+
+    A pure subscriber with a live map. Location only for the "you are here"
+    dot; **nothing stored, nothing transmitted**.
+
+    [:octicons-arrow-right-24: Viewer privacy](viewer-ios/index.md)
+
+-   :material-television: __Apple TV viewer__ · *planned*
 
     ---
 
@@ -37,6 +46,6 @@ differently. Pick the app you're using:
 
 </div>
 
-Across all three apps there is **no developer backend**, **no third-party
+Across all Hecate apps there is **no developer backend**, **no third-party
 analytics**, and **no tracking**. The only network destination is the MQTT
 broker *you* configure and control.

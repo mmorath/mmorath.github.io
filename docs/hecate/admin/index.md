@@ -7,6 +7,11 @@ hide:
 
 *The authoring authority for Hecate profiles — iPhone & iPad.*
 
+!!! info "Under development"
+
+    Hecate Admin is in **active development** and not yet generally
+    available. This page describes what it does and where it is headed.
+
 Hecate Admin is the companion to the [capture app](../capture/index.md). Where
 the capture app *follows* a profile, the admin app is the **authority** that
 **creates, validates, versions, publishes and retires** those profiles — and

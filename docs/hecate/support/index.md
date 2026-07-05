@@ -13,8 +13,8 @@ Help is split into two tracks, depending on which side of Hecate you're on:
 
     ---
 
-    Using the iPhone/iPad capture app or the Apple TV viewer in the field —
-    scanning, locating, connecting to a broker, watching the live wall.
+    Using the capture app or Hecate Viewer in the field — scanning, locating,
+    connecting to a broker, watching assets arrive on the live map.
 
     [:octicons-arrow-right-24: Operator support](operator/index.md)
 

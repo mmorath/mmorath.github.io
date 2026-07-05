@@ -107,10 +107,6 @@ nav:
       - What it does: hecate/capture/solution.md
       - Privacy: hecate/privacy/capture/index.md
       - Support: hecate/support/operator/index.md
-  - Apple TV viewer:
-      - Overview: hecate/viewer/index.md
-      - Privacy: hecate/privacy/viewer/index.md
-      - Support: hecate/support/operator/index.md
   - iPhone viewer:
       - Overview: hecate/viewer-ios/index.md
       - Privacy: hecate/privacy/viewer-ios/index.md
@@ -119,5 +115,9 @@ nav:
       - Overview: hecate/admin/index.md
       - Privacy: hecate/privacy/admin/index.md
       - Support: hecate/support/admin/index.md
+  - Apple TV viewer:
+      - Overview: hecate/viewer/index.md
+      - Privacy: hecate/privacy/viewer/index.md
+      - Support: hecate/support/operator/index.md
   - Support: hecate/support/index.md
   - Privacy: hecate/privacy/index.md

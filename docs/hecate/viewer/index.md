@@ -7,6 +7,12 @@ hide:
 
 *A live wall display for your Hecate assets — read-only, on the big screen.*
 
+!!! info "On the roadmap"
+
+    The Apple TV viewer is **planned** and not yet available. This page
+    describes the concept. Today, the live view ships as
+    [Hecate Viewer for iPhone & iPad](../viewer-ios/index.md).
+
 The Hecate Apple TV app turns any screen into a **live view of the objects your
 team is capturing**. It connects to the same MQTT broker as the capture app,
 **subscribes** to the asset stream, and shows records as they arrive — on a
@@ -25,9 +31,9 @@ of its own.
   your credentials are allowed to read. No separate setup of the data itself.
 - **Nothing collected.** No camera, no location, no accounts, no analytics — it
   is a display, not a sensor.
-- **One product.** Built on the shared [`HecateKit`](https://github.com/mmorath/HecateKit)
-  core and the same black-and-white visual language as the other Hecate apps;
-  colour comes only from each object's profile accent.
+- **One product.** The same wire format and the same black-and-white visual
+  language as the other Hecate apps; colour comes only from each object's
+  profile accent.
 
 ## What it shows
 

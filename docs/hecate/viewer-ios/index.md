@@ -30,9 +30,9 @@ nothing; everything on screen came from your broker and lives only in memory.
   to the broker and never writes a profile or an asset.
 - **Same broker, same data.** Point it at your broker (or scan a provisioning
   QR) and it shows exactly what your credentials are allowed to read.
-- **One product.** Built on the shared [`HecateKit`](https://github.com/mmorath/HecateKit)
-  core and the same black-and-white visual language as the other Hecate apps;
-  colour comes only from each object's profile accent.
+- **One product.** The same wire format and the same black-and-white visual
+  language as the other Hecate apps; colour comes only from each object's
+  profile accent.
 
 ## Screenshots
 
