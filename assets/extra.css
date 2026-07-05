@@ -58,6 +58,11 @@
   flex: 1 1 0;
   max-width: 150px;
 }
+/* Landscape tablet shots get room; on narrow screens the row may wrap. */
+.shots figure.wide {
+  flex: 2 1 0;
+  max-width: 420px;
+}
 .shots img {
   width: 100%;
   border-radius: 16px;
