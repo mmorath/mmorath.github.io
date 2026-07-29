@@ -17,7 +17,7 @@ Là où l'application de saisie *suit* un profil, l'application admin est
 l'**autorité** qui **crée, valide, versionne, publie et retire** ces profils —
 et configure la connexion au broker qui les transporte.
 
-Un *profil* est le flux configurable de scans, de champs et de photos qui dit
+Un *profil* est le flux configurable de scans et de champs qui dit
 à l'application de saisie ce qu'est un objet et comment l'enregistrer. C'est
 dans Hecate Admin que ce profil est écrit, vérifié et gouverné.
 

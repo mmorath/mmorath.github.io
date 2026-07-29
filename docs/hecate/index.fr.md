@@ -8,7 +8,7 @@ hide:
 *Un système piloté par profils pour géo-référencer des objets physiques — une famille d'applications, un broker, pas de backend.*
 
 Hecate saisit des objets physiques selon un **profil** — un flux configurable
-de scans, de champs et de photos —, les place sur la carte et les diffuse en
+de scans et de champs —, les place sur la carte et les diffuse en
 **MQTT** vers le broker de votre choix. Rien du domaine métier n'est codé en
 dur : changez le profil et le même système sert pour des chariots élévateurs,
 des extincteurs, des prises réseau ou des découvertes archéologiques — **sans

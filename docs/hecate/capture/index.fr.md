@@ -9,7 +9,7 @@ hide:
 
 Hecate est une application iOS pensée pour le terrain, dédiée au
 **géoréférencement d'objets physiques**. Chaque objet est saisi à partir d'un
-**profil** — un déroulé configurable de scans, de champs et de photos — puis
+**profil** — un déroulé configurable de scans et de champs — puis
 placé sur la carte avec un point GPS et transmis en **MQTT** vers le broker de
 votre choix.
 

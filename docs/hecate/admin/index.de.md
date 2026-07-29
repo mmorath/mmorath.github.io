@@ -18,7 +18,7 @@ die Erfassungs-App einem Profil *folgt*, ist die Admin-App die **Autorität**,
 die diese Profile **erstellt, validiert, versioniert, veröffentlicht und
 zurückzieht** — und die Broker-Verbindung einrichtet, über die sie laufen.
 
-Ein *Profil* ist der konfigurierbare Ablauf aus Scans, Feldern und Fotos, der
+Ein *Profil* ist der konfigurierbare Ablauf aus Scans und Feldern, der
 der Erfassungs-App sagt, was ein Objekt ist und wie es zu erfassen ist. In
 Hecate Admin wird dieses Profil geschrieben, geprüft und verwaltet.
 

@@ -8,7 +8,7 @@ hide:
 *Ein profilgesteuertes System zur Geo-Referenzierung physischer Objekte — eine App-Familie, ein Broker, kein Backend.*
 
 Hecate erfasst physische Objekte anhand eines **Profils** — eines
-konfigurierbaren Ablaufs aus Scans, Feldern und Fotos —, verortet sie auf der
+konfigurierbaren Ablaufs aus Scans und Feldern —, verortet sie auf der
 Karte und streamt sie über **MQTT** an einen Broker Ihrer Wahl. Nichts an der
 Fachdomäne ist fest einprogrammiert: Ändern Sie das Profil, und dasselbe
 System erfasst Gabelstapler, Feuerlöscher, Netzwerkdosen oder archäologische

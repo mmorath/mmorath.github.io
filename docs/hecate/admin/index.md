@@ -17,7 +17,7 @@ the capture app *follows* a profile, the admin app is the **authority** that
 **creates, validates, versions, publishes and retires** those profiles — and
 sets up the broker connection that carries them.
 
-A *profile* is the configurable workflow of scans, fields and photos that tells
+A *profile* is the configurable workflow of scans and fields that tells
 the capture app what an object is and how to record it. Hecate Admin is where
 that profile is written, checked, and governed.
 

@@ -8,7 +8,7 @@ hide:
 *One profile-driven system for geo-referencing physical objects — a family of apps, one broker, no backend.*
 
 Hecate captures physical objects against a **profile** — a configurable
-workflow of scans, fields and photos — places them on the map, and streams
+workflow of scans and fields — places them on the map, and streams
 them over **MQTT** to a broker of your choice. Nothing about the domain is
 hard-coded: change the profile and the same system serves forklifts, fire
 extinguishers, network sockets or archaeological finds — **no new build, no

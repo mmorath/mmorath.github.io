@@ -21,7 +21,6 @@ Bei einem typischen Profil verarbeitet die App:
 
 - **Asset-Daten**, die Sie eingeben oder scannen (z. B. Serien-, Auftragsnummer,
   Typ).
-- **Ein optionales Foto** des Assets, sofern Sie eines aufnehmen.
 - **Den genauen GPS-Standort** zum Zeitpunkt der Erfassung — *nur, wenn Sie die
   Standortberechtigung erteilen*. Sie können diese jederzeit in den
   iOS-Einstellungen verweigern oder widerrufen; die App funktioniert auch ohne.
@@ -52,7 +51,10 @@ die in Ihrem Auftrag und auf Ihre Veranlassung erfolgt.
 
 - **Standort:** jederzeit in iOS-Einstellungen → Datenschutz erteilen,
   verweigern oder widerrufen.
-- **Fotos:** vollständig optional, je Asset.
+- **Fotos:** keine. Hecate Capture **kann** kein Foto aufnehmen — die Fähigkeit wurde
+  entfernt, nicht abgeschaltet: ein Foto kann nicht zu einem MQTT-Broker reisen, und
+  Hecate betreibt kein Bild-Backend. Einen QR-Code *aus* einem gewählten Foto zu lesen
+  ist etwas anderes: das Bild wird auf dem Gerät dekodiert, nie gespeichert oder gesendet.
 - **Löschung:** Sie können jedes Asset jederzeit auf dem Gerät löschen. Bereits
   an Ihren Broker gesendete Daten unterliegen der Aufbewahrung *Ihres* Brokers.
 
