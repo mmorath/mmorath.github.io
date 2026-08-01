@@ -31,6 +31,20 @@ trouvez :
 
 </div>
 
+## Soutenir le projet
+
+Hecate est développé par une seule personne, en toute transparence — sans
+backend, sans comptes, sans suivi. Si l'application vous évite de chercher un
+outil, vous pouvez la faire vivre : chaque café se transforme en rouleaux
+d'étiquettes, en matériel de test et en heures tranquilles qui gardent Hecate
+libre et honnête.
+
+[:material-coffee: Buy me a coffee](https://buymeacoffee.com/hecateHQ){ .md-button .md-button--primary }
+
+<a href="https://buymeacoffee.com/hecateHQ">
+  <img src="../../assets/hecate-bmac-qr.png" alt="QR code Buy Me a Coffee pour Hecate HQ" width="180">
+</a>
+
 ## Contact
 
 !!! note "Adresse de contact"

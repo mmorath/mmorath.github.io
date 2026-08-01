@@ -18,6 +18,17 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-01
+
+### Added — a way to back the project
+
+- **"Back the project" on the Support page** (EN / DE / FR): a short, honest
+  pitch — one developer, no backend, no accounts, no tracking — plus a
+  *Buy me a coffee* button and a scannable QR, both linking to
+  `buymeacoffee.com/hecateHQ`. The QR lives at
+  `docs/assets/hecate-bmac-qr.png`; the button uses the Material `md-button`
+  style already in the theme, so it matches the rest of the site.
+
 ## 2026-07-29
 
 ### Fixed — the site claimed a photo capture that no longer exists
