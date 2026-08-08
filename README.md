@@ -27,3 +27,8 @@ make clean     # remove ./site
 ```
 
 © 2023-2026 Matthias Morath · All rights reserved
+
+## Hecate — Links
+
+- 📬 **Feedback, Feature-Wünsche & Drucker-Test-Tickets:** <https://github.com/mmorath/hecate-feedback>
+- 📖 Interne Repo-Landkarte (privat): `hecate-meta/README.md`
