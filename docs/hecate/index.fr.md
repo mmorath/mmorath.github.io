@@ -81,13 +81,23 @@ seul broker que vous contrôlez déjà.
 
     [:octicons-arrow-right-24: Présentation du viewer iPad](viewer-ipad/index.md)
 
--   :material-tune-variant: __Hecate Admin__ · iPhone & iPad · *en développement*
+-   :material-television: __Hecate Viewer__ · Apple TV
+
+    ---
+
+    La carte en direct comme affichage mural autonome — pour les ateliers,
+    bureaux et entrées de site. S'appaire avec la famille et montre ce qui
+    se passe, en continu.
+
+    [:octicons-arrow-right-24: Présentation du viewer TV](viewer/index.md)
+
+-   :material-tune-variant: __Hecate Admin__ · iPhone & iPad
 
     ---
 
     L'autorité d'édition. Crée, valide, versionne, publie et retire les
-    profils que l'application de saisie consomme — actuellement en
-    développement actif.
+    profils que l'application de saisie consomme — et configure la
+    connexion au broker qui les transporte.
 
     [:octicons-arrow-right-24: Présentation de l'admin](admin/index.md)
 
@@ -103,23 +113,7 @@ seul broker que vous contrôlez déjà.
   <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer pour iPad — la disposition scindée : barre latérale du fil à côté de la carte en direct pleine page"><figcaption>Viewer pour iPad — la disposition scindée</figcaption></figure>
 </div>
 
-## Sur la feuille de route
-
-- :material-television: **Viewer Apple TV** — la même vue en direct comme
-  affichage mural autonome pour les ateliers, bureaux et entrées de site.
-  [Un aperçu du concept](viewer/index.md) est déjà décrit.
-
 ## Comment tout s'articule
-
-```
-App admin  ──édite & publie (retained)──▶  Broker MQTT  ◀──lit les profils──  App de saisie
-                                                ▲                                  │
-                                                └──────── publie les actifs ───────┘
-                                                │
-                                      s'abonne & affiche
-                                                ▼
-                         Hecate Viewer (iPhone · iPad) · Apple TV (prévu)
-```
 
 L'application **admin** fait autorité sur les *profils* ; l'application de
 **saisie** est en lecture seule sur les profils et fait autorité sur les
@@ -140,8 +134,8 @@ convergent vers le broker au centre.
 
 | | Confidentialité | Assistance |
 | --- | --- | --- |
-| **Hecate (saisie)** | [Confidentialité](privacy/capture/index.md) | [Assistance](support/operator/index.md) |
+| **Hecate Capture** | [Confidentialité](privacy/capture/index.md) | [Assistance](support/operator/index.md) |
 | **Hecate Viewer (iPhone)** | [Confidentialité](privacy/viewer-ios/index.md) | [Assistance](support/operator/index.md) |
 | **Hecate Viewer (iPad)** | [Confidentialité](privacy/viewer-ipad/index.md) | [Assistance](support/operator/index.md) |
 | **Hecate Admin** | [Confidentialité](privacy/admin/index.md) | [Assistance](support/admin/index.md) |
-| **Viewer Apple TV** *(prévu)* | [Confidentialité](privacy/viewer/index.md) | [Assistance](support/operator/index.md) |
+| **Hecate Viewer (Apple TV)** | [Confidentialité](privacy/viewer/index.md) | [Assistance](support/operator/index.md) |

@@ -82,13 +82,23 @@ den Sie bereits kontrollieren.
 
     [:octicons-arrow-right-24: Überblick iPad-Viewer](viewer-ipad/index.md)
 
--   :material-tune-variant: __Hecate Admin__ · iPhone & iPad · *in Entwicklung*
+-   :material-television: __Hecate Viewer__ · Apple TV
+
+    ---
+
+    Die Live-Karte als wartungsfreie Wandanzeige — für Hallen, Büros und
+    Werkstore. Koppelt sich mit der Familie und zeigt rund um die Uhr,
+    was passiert.
+
+    [:octicons-arrow-right-24: Überblick TV-Viewer](viewer/index.md)
+
+-   :material-tune-variant: __Hecate Admin__ · iPhone & iPad
 
     ---
 
     Die Autoritäts-App fürs Authoring. Erstellt, validiert, versioniert,
     veröffentlicht und zieht die Profile zurück, die die Erfassungs-App
-    konsumiert — derzeit in aktiver Entwicklung.
+    konsumiert — und richtet die Broker-Verbindung ein, die sie trägt.
 
     [:octicons-arrow-right-24: Überblick Admin](admin/index.md)
 
@@ -104,23 +114,7 @@ den Sie bereits kontrollieren.
   <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer für iPad — das geteilte Layout: Feed-Seitenleiste neben der vollflächigen Live-Karte"><figcaption>Viewer für iPad — das geteilte Layout</figcaption></figure>
 </div>
 
-## Auf der Roadmap
-
-- :material-television: **Apple-TV-Viewer** — dieselbe Live-Ansicht als
-  wartungsfreie Wandanzeige für Hallen, Büros und Werkstore.
-  [Eine Vorschau des Konzepts](viewer/index.md) ist bereits beschrieben.
-
 ## Wie alles zusammenspielt
-
-```
-Admin-App  ──autorisiert & publiziert (retained)──▶  MQTT-Broker  ◀──liest Profile──  Erfassungs-App
-                                                          ▲                                  │
-                                                          └────── veröffentlicht Assets ─────┘
-                                                          │
-                                              abonniert & zeigt an
-                                                          ▼
-                                  Hecate Viewer (iPhone · iPad) · Apple TV (geplant)
-```
 
 Die **Admin-App** ist die Autorität für *Profile*; die **Erfassungs-App**
 liest Profile nur und ist die Autorität für *Assets*; die **Viewer** lesen
@@ -140,8 +134,8 @@ in der Mitte zusammenlaufen.
 
 | | Datenschutz | Support |
 | --- | --- | --- |
-| **Hecate (Erfassung)** | [Datenschutz](privacy/capture/index.md) | [Support](support/operator/index.md) |
+| **Hecate Capture** | [Datenschutz](privacy/capture/index.md) | [Support](support/operator/index.md) |
 | **Hecate Viewer (iPhone)** | [Datenschutz](privacy/viewer-ios/index.md) | [Support](support/operator/index.md) |
 | **Hecate Viewer (iPad)** | [Datenschutz](privacy/viewer-ipad/index.md) | [Support](support/operator/index.md) |
 | **Hecate Admin** | [Datenschutz](privacy/admin/index.md) | [Support](support/admin/index.md) |
-| **Apple-TV-Viewer** *(geplant)* | [Datenschutz](privacy/viewer/index.md) | [Support](support/operator/index.md) |
+| **Hecate Viewer (Apple TV)** | [Datenschutz](privacy/viewer/index.md) | [Support](support/operator/index.md) |

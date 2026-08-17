@@ -78,13 +78,23 @@ already control.
 
     [:octicons-arrow-right-24: iPad viewer overview](viewer-ipad/index.md)
 
--   :material-tune-variant: __Hecate Admin__ · iPhone & iPad · *under development*
+-   :material-television: __Hecate Viewer__ · Apple TV
+
+    ---
+
+    The live map as a hands-off wall display — for shop floors, offices
+    and site entrances. Pairs with the family and shows what happens,
+    around the clock.
+
+    [:octicons-arrow-right-24: TV viewer overview](viewer/index.md)
+
+-   :material-tune-variant: __Hecate Admin__ · iPhone & iPad
 
     ---
 
     The authoring authority. Creates, validates, versions, publishes and
-    retires the profiles the capture app consumes, and sets up the broker —
-    currently in active development.
+    retires the profiles the capture app consumes, and sets up the broker
+    connection that carries them.
 
     [:octicons-arrow-right-24: Admin overview](admin/index.md)
 
@@ -100,23 +110,7 @@ already control.
   <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer for iPad — the split layout: feed sidebar beside the full-bleed live map"><figcaption>Viewer for iPad — the split layout</figcaption></figure>
 </div>
 
-## On the roadmap
-
-- :material-television: **Apple TV viewer** — the same live view as a
-  hands-off wall display for shop floors, offices and site entrances.
-  [A preview of the concept](viewer/index.md) is already described.
-
 ## How they fit together
-
-```
-Admin app  ──authors & publishes (retained)──▶  MQTT broker  ◀──reads profiles──  Capture app
-                                                     ▲                                  │
-                                                     └──────── publishes assets ────────┘
-                                                     │
-                                          subscribes & displays
-                                                     ▼
-                              Hecate Viewer (iPhone · iPad) · Apple TV (planned)
-```
 
 The **admin** app is the authority for *profiles*; the **capture** app is
 read-only on profiles and the authority for *assets*; the **viewers** are
@@ -136,8 +130,8 @@ centre.
 
 | | Privacy | Support |
 | --- | --- | --- |
-| **Hecate (capture)** | [Privacy](privacy/capture/index.md) | [Support](support/operator/index.md) |
+| **Hecate Capture** | [Privacy](privacy/capture/index.md) | [Support](support/operator/index.md) |
 | **Hecate Viewer (iPhone)** | [Privacy](privacy/viewer-ios/index.md) | [Support](support/operator/index.md) |
 | **Hecate Viewer (iPad)** | [Privacy](privacy/viewer-ipad/index.md) | [Support](support/operator/index.md) |
 | **Hecate Admin** | [Privacy](privacy/admin/index.md) | [Support](support/admin/index.md) |
-| **Apple TV viewer** *(planned)* | [Privacy](privacy/viewer/index.md) | [Support](support/operator/index.md) |
+| **Hecate Viewer (Apple TV)** | [Privacy](privacy/viewer/index.md) | [Support](support/operator/index.md) |

@@ -7,13 +7,6 @@ hide:
 
 *Un affichage mural en direct pour vos actifs Hecate — en lecture seule, sur grand écran.*
 
-!!! info "Sur la feuille de route"
-
-    Le viewer Apple TV est **prévu** et pas encore disponible. Cette page
-    décrit le concept. Aujourd'hui, la vue en direct existe sous la forme de
-    [Hecate Viewer pour iPhone](../viewer-ios/index.md) et
-    [pour iPad](../viewer-ipad/index.md).
-
 L'application Hecate pour Apple TV transforme n'importe quel écran en **vue en
 direct des objets que votre équipe saisit**. Elle se connecte au même broker
 MQTT que l'application de saisie, **s'abonne** au flux d'actifs et affiche les
