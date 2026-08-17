@@ -6,7 +6,7 @@ So nehmen Sie Kontakt auf.
 ## Kontakt
 
 !!! note "Kontaktadresse"
-    **E-Mail:** _wird vor der Einreichung bestätigt._
+    **E-Mail:** [info@hecateapps.com](mailto:info@hecateapps.com)
 
 Wenn Sie ein Problem melden, hilft es, Folgendes anzugeben:
 

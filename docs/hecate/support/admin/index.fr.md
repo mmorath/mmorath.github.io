@@ -7,7 +7,7 @@ Aide pour les **administrateurs** qui rédigent et publient des profils Hecate.
 ## Contact
 
 !!! note "Adresse de contact"
-    **E-mail :** _à confirmer avant la soumission._
+    **E-mail :** [info@hecateapps.com](mailto:info@hecateapps.com)
 
 Lorsque vous signalez un problème, il est utile d'indiquer :
 

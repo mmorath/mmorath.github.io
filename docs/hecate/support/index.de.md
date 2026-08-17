@@ -47,7 +47,7 @@ und den ruhigen Stunden, die Hecate frei und ehrlich halten.
 ## Kontakt
 
 !!! note "Kontaktadresse"
-    **E-Mail:** _wird vor der Einreichung bestätigt._
+    **E-Mail:** [info@hecateapps.com](mailto:info@hecateapps.com)
 
 Bitte geben Sie bei einer Problemmeldung Ihr **Gerät** und Ihre
 **iOS-Version**, die **App-Version** sowie an, was Sie getan und was Sie

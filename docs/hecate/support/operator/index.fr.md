@@ -6,7 +6,7 @@ comment nous contacter.
 ## Contact
 
 !!! note "Adresse de contact"
-    **E-mail :** _à confirmer avant la soumission._
+    **E-mail :** [info@hecateapps.com](mailto:info@hecateapps.com)
 
 Pour signaler un problème, il est utile d'indiquer :
 
