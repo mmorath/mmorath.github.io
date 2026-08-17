@@ -45,7 +45,7 @@ free and honest.
 ## Contact
 
 !!! note "Contact address"
-    **Email:** _to be confirmed before submission._
+    **Email:** [info@hecateapps.com](mailto:info@hecateapps.com)
 
 When reporting a problem, please include your **device** and **OS version**, the
 **app version**, and what you did versus what you expected.

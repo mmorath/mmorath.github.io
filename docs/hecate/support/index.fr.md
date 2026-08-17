@@ -48,7 +48,7 @@ libre et honnête.
 ## Contact
 
 !!! note "Adresse de contact"
-    **E-mail :** _à confirmer avant la soumission._
+    **E-mail :** [info@hecateapps.com](mailto:info@hecateapps.com)
 
 Lorsque vous signalez un problème, merci d'indiquer votre **appareil** et
 votre **version d'iOS**, la **version de l'application**, ainsi que ce que

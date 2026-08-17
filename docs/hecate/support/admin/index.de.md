@@ -7,7 +7,7 @@ Siehe [Bediener-Support](../operator/index.md).)
 ## Kontakt
 
 !!! note "Kontaktadresse"
-    **E-Mail:** _wird vor der Einreichung bestätigt._
+    **E-Mail:** [info@hecateapps.com](mailto:info@hecateapps.com)
 
 Bei einer Problemmeldung hilft es, Folgendes anzugeben:
 

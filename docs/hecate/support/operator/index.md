@@ -8,7 +8,7 @@ get in touch.
 ## Contact
 
 !!! note "Contact address"
-    **Email:** _to be confirmed before submission._
+    **Email:** [info@hecateapps.com](mailto:info@hecateapps.com)
 
 When reporting a problem, it helps to include:
 
