@@ -1111,7 +1111,6 @@ konkrete Installation erfasst, entscheidet daher <em>Ihr</em> Administrator, nic
 <ul>
 <li><strong>Asset-Daten</strong>, die Sie eingeben oder scannen (z. B. Serien-, Auftragsnummer,
   Typ).</li>
-<li><strong>Ein optionales Foto</strong> des Assets, sofern Sie eines aufnehmen.</li>
 <li><strong>Den genauen GPS-Standort</strong> zum Zeitpunkt der Erfassung — <em>nur, wenn Sie die
   Standortberechtigung erteilen</em>. Sie können diese jederzeit in den
   iOS-Einstellungen verweigern oder widerrufen; die App funktioniert auch ohne.</li>
@@ -1138,7 +1137,10 @@ die in Ihrem Auftrag und auf Ihre Veranlassung erfolgt.</p>
 <ul>
 <li><strong>Standort:</strong> jederzeit in iOS-Einstellungen → Datenschutz erteilen,
   verweigern oder widerrufen.</li>
-<li><strong>Fotos:</strong> vollständig optional, je Asset.</li>
+<li><strong>Fotos:</strong> keine. Hecate Capture <strong>kann</strong> kein Foto aufnehmen — die Fähigkeit wurde
+  entfernt, nicht abgeschaltet: ein Foto kann nicht zu einem MQTT-Broker reisen, und
+  Hecate betreibt kein Bild-Backend. Einen QR-Code <em>aus</em> einem gewählten Foto zu lesen
+  ist etwas anderes: das Bild wird auf dem Gerät dekodiert, nie gespeichert oder gesendet.</li>
 <li><strong>Löschung:</strong> Sie können jedes Asset jederzeit auf dem Gerät löschen. Bereits
   an Ihren Broker gesendete Daten unterliegen der Aufbewahrung <em>Ihres</em> Brokers.</li>
 </ul>

@@ -1112,7 +1112,6 @@ nous.</p>
 <ul>
 <li><strong>Les données de l'asset</strong> que vous saisissez ou scannez (p. ex. numéro de
   série, numéro de commande, type).</li>
-<li><strong>Une photo facultative</strong> de l'asset, si vous choisissez d'en prendre une.</li>
 <li><strong>La localisation précise (GPS)</strong> au moment de la saisie — <em>uniquement si vous
   accordez l'autorisation de localisation</em>. Vous pouvez la refuser ou la révoquer
   à tout moment dans les Réglages iOS ; l'application fonctionne aussi sans.</li>
@@ -1140,7 +1139,10 @@ pour votre compte et à votre demande.</p>
 <ul>
 <li><strong>Localisation :</strong> accordez, refusez ou révoquez à tout moment dans
   Réglages iOS → Confidentialité.</li>
-<li><strong>Photos :</strong> entièrement facultatives, par asset.</li>
+<li><strong>Photos :</strong> aucune. Hecate Capture <strong>ne peut pas</strong> prendre de photo — la capacité a
+  été supprimée, pas désactivée : une photo ne peut pas voyager vers un broker MQTT et
+  Hecate n'exploite aucun backend d'images. Lire un QR code <em>depuis</em> une photo que vous
+  choisissez est autre chose : l'image est décodée sur l'appareil, jamais stockée ni envoyée.</li>
 <li><strong>Suppression :</strong> supprimez n'importe quel asset sur l'appareil à tout moment.
   Les données déjà publiées vers votre broker relèvent de la politique de
   conservation de <em>votre</em> broker.</li>

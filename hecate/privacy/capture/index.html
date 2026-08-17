@@ -1109,7 +1109,6 @@ deployment collects is therefore decided by <em>your</em> administrator, not by 
 <p>For a typical profile the app handles:</p>
 <ul>
 <li><strong>Asset details</strong> you enter or scan (e.g. serial number, order number, type).</li>
-<li><strong>An optional photo</strong> of the asset, if you choose to take one.</li>
 <li><strong>Precise location (GPS)</strong> at the moment of capture — <em>only if you grant the
   location permission</em>. You can decline or revoke it in iOS Settings at any
   time; the app still works without it.</li>
@@ -1135,7 +1134,10 @@ behalf at your direction.</p>
 <h2 id="your-choices">Your choices</h2>
 <ul>
 <li><strong>Location:</strong> grant, decline, or revoke at any time in iOS Settings → Privacy.</li>
-<li><strong>Photos:</strong> entirely optional, per asset.</li>
+<li><strong>Photos:</strong> none. Hecate Capture <strong>cannot</strong> take a photo — the capability was
+  removed, not switched off, because a photo cannot travel to an MQTT broker and
+  Hecate runs no image backend. Reading a QR code <em>from</em> a photo you pick is a
+  different thing: the image is decoded on-device and never stored or sent.</li>
 <li><strong>Deletion:</strong> delete any asset on-device at any time. Data already published
   to your broker is governed by <em>your</em> broker's retention.</li>
 </ul>

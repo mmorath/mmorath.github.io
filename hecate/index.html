@@ -347,15 +347,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#on-the-roadmap" class="md-nav__link">
-    <span class="md-ellipsis">
-      On the roadmap
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#how-they-fit-together" class="md-nav__link">
     <span class="md-ellipsis">
       How they fit together
@@ -1096,7 +1087,7 @@
 <h1 id="hecate">Hecate</h1>
 <p><em>One profile-driven system for geo-referencing physical objects — a family of apps, one broker, no backend.</em></p>
 <p>Hecate captures physical objects against a <strong>profile</strong> — a configurable
-workflow of scans, fields and photos — places them on the map, and streams
+workflow of scans and fields — places them on the map, and streams
 them over <strong>MQTT</strong> to a broker of your choice. Nothing about the domain is
 hard-coded: change the profile and the same system serves forklifts, fire
 extinguishers, network sockets or archaeological finds — <strong>no new build, no
@@ -1154,11 +1145,19 @@ Same subscriber, laid out for the big screen.</p>
 <p><a href="viewer-ipad/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> iPad viewer overview</a></p>
 </li>
 <li>
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 13c-1.86 0-3.41 1.28-3.86 3H2v2h2.14c.45 1.72 2 3 3.86 3s3.41-1.28 3.86-3H22v-2H11.86c-.45-1.72-2-3-3.86-3m0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2M19.86 6c-.45-1.72-2-3-3.86-3s-3.41 1.28-3.86 3H2v2h10.14c.45 1.72 2 3 3.86 3s3.41-1.28 3.86-3H22V6zM16 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2"/></svg></span> <strong>Hecate Admin</strong> · iPhone &amp; iPad · <em>under development</em></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17H3V5h18m0-2H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h5v2h8v-2h5a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2"/></svg></span> <strong>Hecate Viewer</strong> · Apple TV</p>
+<hr />
+<p>The live map as a hands-off wall display — for shop floors, offices
+and site entrances. Pairs with the family and shows what happens,
+around the clock.</p>
+<p><a href="viewer/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> TV viewer overview</a></p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 13c-1.86 0-3.41 1.28-3.86 3H2v2h2.14c.45 1.72 2 3 3.86 3s3.41-1.28 3.86-3H22v-2H11.86c-.45-1.72-2-3-3.86-3m0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2M19.86 6c-.45-1.72-2-3-3.86-3s-3.41 1.28-3.86 3H2v2h10.14c.45 1.72 2 3 3.86 3s3.41-1.28 3.86-3H22V6zM16 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2"/></svg></span> <strong>Hecate Admin</strong> · iPhone &amp; iPad</p>
 <hr />
 <p>The authoring authority. Creates, validates, versions, publishes and
-retires the profiles the capture app consumes, and sets up the broker —
-currently in active development.</p>
+retires the profiles the capture app consumes, and sets up the broker
+connection that carries them.</p>
 <p><a href="admin/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Admin overview</a></p>
 </li>
 </ul>
@@ -1172,21 +1171,7 @@ currently in active development.</p>
   <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer for iPad — the split layout: feed sidebar beside the full-bleed live map"><figcaption>Viewer for iPad — the split layout</figcaption></figure>
 </div>
 
-<h2 id="on-the-roadmap">On the roadmap</h2>
-<ul>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17H3V5h18m0-2H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h5v2h8v-2h5a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2"/></svg></span> <strong>Apple TV viewer</strong> — the same live view as a
-  hands-off wall display for shop floors, offices and site entrances.
-  <a href="viewer/">A preview of the concept</a> is already described.</li>
-</ul>
 <h2 id="how-they-fit-together">How they fit together</h2>
-<pre><code>Admin app  ──authors &amp; publishes (retained)──▶  MQTT broker  ◀──reads profiles──  Capture app
-                                                     ▲                                  │
-                                                     └──────── publishes assets ────────┘
-                                                     │
-                                          subscribes &amp; displays
-                                                     ▼
-                              Hecate Viewer (iPhone · iPad) · Apple TV (planned)
-</code></pre>
 <p>The <strong>admin</strong> app is the authority for <em>profiles</em>; the <strong>capture</strong> app is
 read-only on profiles and the authority for <em>assets</em>; the <strong>viewers</strong> are
 read-only on everything. All apps share one core, one wire format and one
@@ -1209,7 +1194,7 @@ centre.</p>
 </thead>
 <tbody>
 <tr>
-<td><strong>Hecate (capture)</strong></td>
+<td><strong>Hecate Capture</strong></td>
 <td><a href="privacy/capture/">Privacy</a></td>
 <td><a href="support/operator/">Support</a></td>
 </tr>
@@ -1229,7 +1214,7 @@ centre.</p>
 <td><a href="support/admin/">Support</a></td>
 </tr>
 <tr>
-<td><strong>Apple TV viewer</strong> <em>(planned)</em></td>
+<td><strong>Hecate Viewer (Apple TV)</strong></td>
 <td><a href="privacy/viewer/">Privacy</a></td>
 <td><a href="support/operator/">Support</a></td>
 </tr>
