@@ -41,9 +41,9 @@ help: ## Show this help
 ##@ Setup
 # =============================================================================
 
-install: ## Install the docs toolchain (mkdocs-material + i18n) via pip
-	@printf "$(CYAN)Installing mkdocs-material + mkdocs-static-i18n$(RESET)\n"
-	@pip install --upgrade mkdocs-material mkdocs-static-i18n
+install: ## Install the docs toolchain (mkdocs-material + i18n + glightbox) via pip
+	@printf "$(CYAN)Installing mkdocs-material + mkdocs-static-i18n + mkdocs-glightbox$(RESET)\n"
+	@pip install --upgrade mkdocs-material mkdocs-static-i18n mkdocs-glightbox
 
 # =============================================================================
 ##@ Site
