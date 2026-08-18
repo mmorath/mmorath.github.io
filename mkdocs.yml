@@ -45,6 +45,7 @@ extra_javascript:
 # Adding a `plugins:` block disables the implicit `search`, so it is re-declared.
 plugins:
   - search
+  - glightbox
   - i18n:
       docs_structure: suffix
       languages:

@@ -114,11 +114,16 @@ intégré.
 ## Captures d'écran
 
 <div class="shots">
-  <figure><img src="/assets/screens/assets.png" alt="Application de saisie Hecate — la file d'attente des objets saisis en attente d'envoi"><figcaption>Hecate — saisie &amp; file d'attente</figcaption></figure>
-  <figure><img src="/assets/screens/detail.png" alt="Application de saisie Hecate — la vue détaillée d'un actif avec ses champs saisis"><figcaption>Hecate — détail d'un actif</figcaption></figure>
-  <figure><img src="/assets/screens/viewer-ios-karte.png" alt="Hecate Viewer — la carte en direct avec les actifs entrants en épingles"><figcaption>Viewer — la carte en direct</figcaption></figure>
-  <figure><img src="/assets/screens/viewer-ios-feed.png" alt="Hecate Viewer — le flux en direct, du plus récent au plus ancien"><figcaption>Viewer — le flux en direct</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer pour iPad — la disposition scindée : barre latérale du fil à côté de la carte en direct pleine page"><figcaption>Viewer pour iPad — la disposition scindée</figcaption></figure>
+  <figure><img src="/assets/screens/fr/capture-assets.png" alt="Hecate Capture — la boîte d'envoi avec les objets saisis en attente de livraison"><figcaption>Capture — boîte d'envoi</figcaption></figure>
+  <figure><img src="/assets/screens/fr/capture-detail.png" alt="Hecate Capture — la vue détaillée d'un actif avec ses champs saisis"><figcaption>Capture — détail d'un actif</figcaption></figure>
+  <figure><img src="/assets/screens/fr/capture-sent.png" alt="Hecate Capture — les actifs livrés, confirmés par le broker"><figcaption>Capture — livrés</figcaption></figure>
+  <figure><img src="/assets/screens/fr/admin-profiles.png" alt="Hecate Admin — l'accueil des profils créés"><figcaption>Admin — profils</figcaption></figure>
+  <figure><img src="/assets/screens/fr/admin-detail.png" alt="Hecate Admin — la vue détaillée d'un profil avec étapes et versions"><figcaption>Admin — détail d'un profil</figcaption></figure>
+  <figure><img src="/assets/screens/fr/viewer-ios-karte.png" alt="Hecate Viewer — la carte en direct avec les actifs entrants en épingles"><figcaption>Viewer — la carte en direct</figcaption></figure>
+  <figure><img src="/assets/screens/fr/viewer-ios-feed.png" alt="Hecate Viewer — le fil en direct, du plus récent au plus ancien"><figcaption>Viewer — le fil en direct</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/fr/viewer-ipad-karte.png" alt="Hecate Viewer pour iPad — le fil en barre latérale à côté de la carte plein écran"><figcaption>Viewer pour iPad — l'écran partagé</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/fr/viewer-ipad-tapzoom.png" alt="Hecate Viewer pour iPad — touchez une ligne du fil, la carte vole vers l'épingle"><figcaption>Viewer pour iPad — toucher pour zoomer</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/fr/tv-wall.png" alt="Hecate Viewer pour Apple TV — l'affichage mural en direct"><figcaption>Viewer pour Apple TV — le mur</figcaption></figure>
 </div>
 
 ## Comment tout s'articule
