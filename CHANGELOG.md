@@ -18,6 +18,92 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-18
+
+A long day on the site: three languages became four, the pages stopped
+claiming things that were no longer true, and every app got its own name back.
+
+### Added — Spanish, the fourth language
+
+The apps have shipped in four languages all along (en/de/fr/es); the site
+stopped at three. All nineteen pages now exist as `.es.md` siblings —
+landing, capture overview with problem/solution, admin, the three viewers,
+six privacy pages, three support pages and both redirect stubs (targets moved
+to `/es/`). Formal *usted* register throughout; product names, MQTT vocabulary
+and the contact address untouched; the privacy assurances translated
+word-faithfully, nothing softened. `mkdocs.yml` registers the locale.
+
+### Added — the gallery shows all five apps, in the reader's language, and opens on click
+
+The screenshots section grew from five shots to ten (capture
+outbox/detail/delivered, admin profiles/detail, viewer map/feed, iPad
+split/feed, TV wall), and each language page shows its **own** localized set
+generated from the fastlane store screenshots. Clicking a screenshot now opens
+it enlarged (mkdocs-glightbox, also added to `make install`). Eight of ten
+Spanish shots are real es-ES captures; the iPhone feed motif and the TV wall
+still borrow the English images, which the paths show honestly.
+
+### Changed — three apps, three names
+
+The capture app was called plain "Hecate" wherever the site named it — card,
+H1, privacy heading, and the sentence defining what it is — while "Hecate" is
+also the family and the site. The store metadata had said "Hecate Capture" all
+along, so the site was the odd one out. Now aligned in four languages, and the
+navigation carries the product names (Hecate Capture, Hecate Viewer for
+iPhone/iPad/Apple TV, Hecate Admin), which retired fifteen nav_translations —
+a product name needs no translation.
+
+### Changed — the pages tell the truth about what shipped
+
+Hecate Admin was still described as "under development" and the Apple TV
+viewer as "planned", though both were released in the 2026-08-16 family cut.
+The admin card lost its status suffix, the TV viewer moved from the roadmap
+into the app grid as a real card, and both concept admonitions went. The
+per-app table stopped calling the capture app three different things.
+
+### Changed — the building blocks are back, corrected
+
+The capture solution page carries the block table again — eight blocks
+including the quantity block the old cached version never had, and without the
+two the product no longer has: photo capture (removed in HecateKit 0.17.0, ADR
+004) and serial-number scanning (iPhone-only camera text recognition, so
+profiles built on it would not run on the Android fleet). The camera bullet
+stopped promising printed-text reading for the same reason. No test-code
+examples: the table suffices.
+
+### Added — Android and the CT47 are on the record
+
+The landing pages now say what was only true in private: Hecate Capture is
+finished for Android, arrives in the Google Play Store at the end of 2026, and
+drives the built-in scan engine of industrial scanners such as the Honeywell
+CT47 (manufacturer link, verified).
+
+### Changed — the letterbox is real
+
+All nine support pages carried a placeholder ("to be confirmed before
+submission") where the contact address belongs. The family has had an official
+address since 2026-08-17, receipt verified by test mail, so the pages now say
+`info@hecateapps.com` as a mailto link.
+
+### Fixed — two translations were behind their English base
+
+The **German** and, later the same day, the **French** operator support pages
+were missing the operator/admin split in the intro and the entire Apple TV
+viewer section — a silent drift of exactly the kind this file exists to catch.
+Both rewritten in full; all four languages now carry the same structure.
+
+### Removed — a header script that could no longer match anything
+
+`assets/section-title.js` rewrote the header to "Hecate · Admin" for paths
+under `/hecate-admin/`, which has been a redirect stub since the admin pages
+moved to `/hecate/admin/`. It went, along with its `extra_javascript` entry.
+
+### Added — defensive `.env` hygiene
+
+Rescued from a stale sibling clone before its deletion (it was the only work
+that existed nowhere else): if a `.env` ever appears in this repo it must not
+be committable. Templates (`*.example`) stay tracked.
+
 ## 2026-08-01
 
 ### Added — a way to back the project
