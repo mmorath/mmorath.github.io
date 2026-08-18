@@ -50,7 +50,7 @@ den Sie bereits kontrollieren.
 
 <div class="grid cards" markdown>
 
--   :material-cellphone: __Hecate__ · die Erfassungs-App · iPhone & iPad
+-   :material-cellphone: __Hecate Capture__ · iPhone & iPad
 
     ---
 

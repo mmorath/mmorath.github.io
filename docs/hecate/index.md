@@ -48,7 +48,7 @@ already control.
 
 <div class="grid cards" markdown>
 
--   :material-cellphone: __Hecate__ · the capture app · iPhone & iPad
+-   :material-cellphone: __Hecate Capture__ · iPhone & iPad
 
     ---
 

@@ -1,4 +1,4 @@
-# Privacy Policy — Hecate
+# Privacy Policy — Hecate Capture
 
 **Effective date:** 2026-06-11
 **Developer:** Matthias Morath

@@ -51,7 +51,7 @@ seul broker que vous contrôlez déjà.
 
 <div class="grid cards" markdown>
 
--   :material-cellphone: __Hecate__ · l'application de saisie · iPhone & iPad
+-   :material-cellphone: __Hecate Capture__ · iPhone & iPad
 
     ---
 

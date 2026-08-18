@@ -1,4 +1,4 @@
-# Politique de confidentialité — Hecate
+# Politique de confidentialité — Hecate Capture
 
 **Date d'entrée en vigueur :** 11/06/2026
 **Développeur :** Matthias Morath

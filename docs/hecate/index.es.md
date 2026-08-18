@@ -50,7 +50,7 @@ broker que usted ya controla.
 
 <div class="grid cards" markdown>
 
--   :material-cellphone: __Hecate__ · la aplicación de captura · iPhone & iPad
+-   :material-cellphone: __Hecate Capture__ · iPhone & iPad
 
     ---
 

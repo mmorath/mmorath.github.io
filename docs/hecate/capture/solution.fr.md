@@ -1,4 +1,4 @@
-# Ce que fait Hecate
+# Ce que fait Hecate Capture
 
 Hecate résorbe cette dispersion en **une seule** application configurable — et
 corrige les données là où elles naissent, au lieu de le faire après coup.
