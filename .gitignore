@@ -2,3 +2,10 @@ site/
 .DS_Store
 __pycache__/
 .venv/
+
+# --- Hecate secrets hygiene -------------------------------------------------
+# Defensive: this repo has no tools/ dir today, but if a .env ever appears it must
+# not be committable. Templates (*.example) stay tracked.
+.env
+.env.*
+!.env*.example
