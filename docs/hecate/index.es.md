@@ -113,16 +113,16 @@ directamente.
 ## Capturas de pantalla
 
 <div class="shots">
-  <figure><img src="/assets/screens/en/capture-assets.png" alt="Hecate Capture — la bandeja de salida con los objetos capturados a la espera de entrega"><figcaption>Capture — bandeja de salida</figcaption></figure>
-  <figure><img src="/assets/screens/en/capture-detail.png" alt="Hecate Capture — la vista de detalle de un activo con sus campos capturados"><figcaption>Capture — detalle del activo</figcaption></figure>
-  <figure><img src="/assets/screens/en/capture-sent.png" alt="Hecate Capture — activos entregados, confirmados por el broker"><figcaption>Capture — entregados</figcaption></figure>
-  <figure><img src="/assets/screens/en/admin-profiles.png" alt="Hecate Admin — la pantalla de inicio con los perfiles creados"><figcaption>Admin — perfiles</figcaption></figure>
-  <figure><img src="/assets/screens/en/admin-detail.png" alt="Hecate Admin — la vista de detalle de un perfil con pasos y versiones"><figcaption>Admin — detalle del perfil</figcaption></figure>
-  <figure><img src="/assets/screens/en/viewer-ios-karte.png" alt="Hecate Viewer — el mapa en vivo con los activos entrantes como pines"><figcaption>Viewer — el mapa en vivo</figcaption></figure>
-  <figure><img src="/assets/screens/en/viewer-ios-feed.png" alt="Hecate Viewer — el feed en vivo, lo más reciente primero, con etiquetas de frescura"><figcaption>Viewer — el feed en vivo</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/en/viewer-ipad-karte.png" alt="Hecate Viewer para iPad — el feed en barra lateral junto al mapa en vivo a pantalla completa"><figcaption>Viewer para iPad — el diseño dividido</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/en/viewer-ipad-tapzoom.png" alt="Hecate Viewer para iPad — toque una fila del feed y el mapa vuela al pin"><figcaption>Viewer para iPad — tocar para acercar</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/en/tv-wall.png" alt="Hecate Viewer para Apple TV — la pantalla mural en vivo"><figcaption>Viewer para Apple TV — el muro</figcaption></figure>
+  <figure><img src="/assets/screens/es/capture-assets.png" alt="Hecate Capture — la bandeja de salida con objetos capturados en espera de entrega"><figcaption>Capture — bandeja de salida</figcaption></figure>
+  <figure><img src="/assets/screens/es/capture-detail.png" alt="Hecate Capture — la vista de detalle de un activo con sus campos capturados"><figcaption>Capture — detalle del activo</figcaption></figure>
+  <figure><img src="/assets/screens/es/capture-sent.png" alt="Hecate Capture — activos entregados, confirmados por el broker"><figcaption>Capture — entregados</figcaption></figure>
+  <figure><img src="/assets/screens/es/admin-profiles.png" alt="Hecate Admin — la pantalla de perfiles con perfiles creados"><figcaption>Admin — perfiles</figcaption></figure>
+  <figure><img src="/assets/screens/es/admin-detail.png" alt="Hecate Admin — la vista de detalle de un perfil con pasos y versiones"><figcaption>Admin — detalle del perfil</figcaption></figure>
+  <figure><img src="/assets/screens/es/viewer-ios-karte.png" alt="Hecate Viewer — el mapa en directo con activos entrantes como marcadores"><figcaption>Viewer — el mapa en directo</figcaption></figure>
+  <figure><img src="/assets/screens/en/viewer-ios-feed.png" alt="Hecate Viewer — el feed en directo, lo más reciente primero"><figcaption>Viewer — el feed en directo</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/es/viewer-ipad-karte.png" alt="Hecate Viewer para iPad — la barra lateral con el feed junto al mapa a pantalla completa"><figcaption>Viewer para iPad — la pantalla dividida</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/es/viewer-ipad-feed.png" alt="Hecate Viewer para iPad — la barra lateral es el feed en directo"><figcaption>Viewer para iPad — el feed lateral</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/en/tv-wall.png" alt="Hecate Viewer para Apple TV — la pantalla mural en directo"><figcaption>Viewer para Apple TV — el muro</figcaption></figure>
 </div>
 
 ## Cómo encajan entre sí
