@@ -100,6 +100,14 @@ already control.
 
 </div>
 
+## Also on Android
+
+The capture app is **finished for Android** as well — coming to the
+**Google Play Store at the end of 2026**. It runs on ordinary Android
+devices and on industrial scanners like the
+[Honeywell CT47](https://automation.honeywell.com/us/en/products/productivity-solutions/mobile-computers/handheld-computers/ct47), whose built-in scan engine Hecate drives
+directly.
+
 ## Screenshots
 
 <div class="shots">

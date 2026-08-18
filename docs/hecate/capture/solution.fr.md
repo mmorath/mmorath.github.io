@@ -24,13 +24,25 @@ mode de saisie adapté à la tâche :
 
 - **Saisie manuelle.** Tapez la valeur directement dans le champ.
 - **Scan par caméra.** Pointez la caméra de l'appareil et laissez les
-  frameworks de scan embarqués lire **les QR codes, les codes Data Matrix 2D,
-  les codes-barres 1D et le texte imprimé** — sans aller-retour réseau ni
-  service tiers.
+  frameworks de scan embarqués lire **les QR codes, les codes Data Matrix 2D
+  et les codes-barres 1D** — sans aller-retour réseau ni service tiers.
 
 Quel que soit le mode utilisé par une étape, la valeur passe par la **même
 chaîne de validation et de saisie**, de sorte qu'un profil se comporte de façon
 identique quelle que soit la provenance des données.
+
+### Les briques
+
+| Brique | Saisie | Champ produit |
+|---|---|---|
+| Scanner un code QR | Code QR par caméra | Texte, motif vérifiable en option |
+| Scanner un code-barres | Code-barres 1D (EAN, Code 128, …) | Texte, motif vérifiable en option |
+| Scanner un code 2D matriciel | Data Matrix par caméra | Texte, motif vérifiable en option |
+| Saisir une quantité | Saisie numérique | Nombre |
+| Cocher une liste d'état | Cases à cocher — plusieurs possibles | Sélection multiple |
+| Choisir un motif | Boutons radio — exactement un | Choix (exactement un) |
+| Saisir du texte | Texte libre, une ligne | Texte |
+| Laisser un commentaire | Texte libre, multiligne | Texte, multiligne |
 
 ## Toujours géoréférencé
 
