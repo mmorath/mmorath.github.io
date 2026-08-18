@@ -81,6 +81,20 @@ plugins:
             Admin app: Application admin
             Privacy: Confidentialité
             Support: Assistance
+        - locale: es
+          name: Español
+          build: true
+          nav_translations:
+            Overview: Resumen
+            The problem: El problema
+            What it does: Qué hace
+            Capture app: App de captura
+            Apple TV viewer: Visor Apple TV
+            iPhone viewer: Visor iPhone
+            iPad viewer: Visor iPad
+            Admin app: App de administración
+            Privacy: Privacidad
+            Support: Soporte
 
 markdown_extensions:
   - admonition
