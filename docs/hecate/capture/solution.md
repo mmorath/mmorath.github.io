@@ -22,12 +22,25 @@ that fits the job:
 
 - **Manual entry.** Type the value straight into the field.
 - **Camera scan.** Point the device camera and let the on-device scanning
-  frameworks read **QR codes, 2D Data Matrix codes, 1D barcodes, and printed
-  text** — no network round-trip and no third-party service.
+  frameworks read **QR codes, 2D Data Matrix codes and 1D barcodes** — no
+  network round-trip and no third-party service.
 
 Whichever method a step uses, the value flows through the **same validation and
 capture pipeline**, so a profile behaves identically no matter how the data
 arrives.
+
+### The building blocks
+
+| Block | Input | Resulting field |
+|---|---|---|
+| Scan a QR code | QR code via camera | Text, optionally pattern-checked |
+| Scan a barcode | 1D barcode (EAN, Code 128, …) | Text, optionally pattern-checked |
+| Scan a 2D matrix code | Data Matrix via camera | Text, optionally pattern-checked |
+| Capture a quantity | Number entry | Number |
+| Tick a status checklist | Checkboxes — several may apply | Multi-select |
+| Pick a reason | Radio buttons — exactly one applies | Choice (exactly one) |
+| Enter text | Free text, one line | Text |
+| Leave a comment | Free text, multi-line | Text, multi-line |
 
 ## Always geo-referenced
 

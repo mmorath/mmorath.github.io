@@ -24,12 +24,25 @@ wählt die Eingabemethode, die zur Aufgabe passt:
 
 - **Manuelle Eingabe.** Tippen Sie den Wert direkt in das Feld.
 - **Kamera-Scan.** Richten Sie die Gerätekamera aus und lassen Sie die
-  On-Device-Scan-Frameworks **QR-Codes, 2D-Data-Matrix-Codes, 1D-Barcodes und
-  gedruckten Text** lesen — ohne Netzwerk-Roundtrip und ohne Drittanbieterdienst.
+  On-Device-Scan-Frameworks **QR-Codes, 2D-Data-Matrix-Codes und 1D-Barcodes**
+  lesen — ohne Netzwerk-Roundtrip und ohne Drittanbieterdienst.
 
 Welche Methode ein Schritt auch nutzt: Der Wert durchläuft **dieselbe
 Validierungs- und Erfassungs-Pipeline**, sodass sich ein Profil unabhängig von
 der Eingabeart identisch verhält.
+
+### Die Bausteine
+
+| Baustein | Eingabe | Erzeugtes Feld |
+|---|---|---|
+| QR-Code scannen | QR-Code per Kamera | Text, optional mit Muster geprüft |
+| Barcode scannen | 1D-Barcode (EAN, Code 128, …) | Text, optional mit Muster geprüft |
+| 2D-Matrix-Code scannen | DataMatrix per Kamera | Text, optional mit Muster geprüft |
+| Menge erfassen | Zahleneingabe | Zahl |
+| Status-Checkliste abhaken | Checkboxen — mehrere dürfen zutreffen | Mehrfachauswahl |
+| Einen Grund wählen | Radio-Buttons — genau einer trifft zu | Auswahl (genau eine) |
+| Text eingeben | Freitext, eine Zeile | Text |
+| Kommentar hinterlassen | Freitext, mehrzeilig | Text, mehrzeilig |
 
 ## Immer geo-referenziert
 

@@ -103,6 +103,14 @@ seul broker que vous contrôlez déjà.
 
 </div>
 
+## Aussi sur Android
+
+L'application de saisie est **également terminée pour Android** —
+disponible sur le **Google Play Store fin 2026**. Elle fonctionne sur les
+appareils Android ordinaires comme sur les scanners industriels tels que le
+[Honeywell CT47](https://automation.honeywell.com/us/en/products/productivity-solutions/mobile-computers/handheld-computers/ct47), dont Hecate pilote directement le moteur de scan
+intégré.
+
 ## Captures d'écran
 
 <div class="shots">

@@ -104,6 +104,13 @@ den Sie bereits kontrollieren.
 
 </div>
 
+## Auch auf Android
+
+Die Erfassungs-App ist auch **für Android fertig** — im **Google Play Store
+ab Ende 2026**. Sie läuft auf normalen Android-Geräten ebenso wie auf
+Industrie-Scannern wie dem [Honeywell CT47](https://automation.honeywell.com/us/en/products/productivity-solutions/mobile-computers/handheld-computers/ct47), dessen eingebaute
+Scan-Engine Hecate direkt anspricht.
+
 ## Screenshots
 
 <div class="shots">
