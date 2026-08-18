@@ -1,4 +1,4 @@
-# Datenschutzerklärung — Hecate
+# Datenschutzerklärung — Hecate Capture
 
 **Gültig ab:** 11.06.2026
 **Entwickler:** Matthias Morath

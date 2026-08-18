@@ -3,11 +3,11 @@ hide:
   - toc
 ---
 
-# Hecate
+# Hecate Capture
 
 *Georreferenciación universal de objetos, guiada por perfiles*
 
-Hecate es una app iOS pensada para el campo, dedicada a la
+Hecate Capture es una app iOS pensada para el campo, dedicada a la
 **georreferenciación de objetos físicos**. Cada objeto se captura según un
 **perfil** — un flujo configurable de escaneos y campos —, se sitúa
 en el mapa con una posición GPS y se transmite por **MQTT** al broker de su

@@ -1,4 +1,4 @@
-# Qué hace Hecate
+# Qué hace Hecate Capture
 
 Hecate condensa esa proliferación en **una sola** app configurable — y corrige
 los datos donde se crean, no después.

@@ -3,11 +3,11 @@ hide:
   - toc
 ---
 
-# Hecate
+# Hecate Capture
 
 *Universal, profile-driven geo-referencing of objects*
 
-Hecate is a field-first iOS app for **geo-referencing physical objects**. Each
+Hecate Capture is a field-first iOS app for **geo-referencing physical objects**. Each
 object is captured against a **profile** — a configurable workflow of scans,
 fields — then placed on the map with a GPS fix and streamed over
 **MQTT** to a broker of your choice.

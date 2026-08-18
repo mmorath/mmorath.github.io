@@ -1,4 +1,4 @@
-# What Hecate does
+# What Hecate Capture does
 
 Hecate collapses that sprawl into **one** configurable app — and fixes the data
 where it's created, not after the fact.

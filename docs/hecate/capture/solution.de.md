@@ -1,4 +1,4 @@
-# Was Hecate leistet
+# Was Hecate Capture leistet
 
 Hecate fasst diesen Wildwuchs zu **einer** konfigurierbaren App zusammen — und
 korrigiert die Daten dort, wo sie entstehen, statt im Nachhinein.
