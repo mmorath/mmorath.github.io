@@ -457,6 +457,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="The right input for each step">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-building-blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      The building blocks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1101,12 +1116,64 @@ that fits the job:</p>
 <ul>
 <li><strong>Manual entry.</strong> Type the value straight into the field.</li>
 <li><strong>Camera scan.</strong> Point the device camera and let the on-device scanning
-  frameworks read <strong>QR codes, 2D Data Matrix codes, 1D barcodes, and printed
-  text</strong> — no network round-trip and no third-party service.</li>
+  frameworks read <strong>QR codes, 2D Data Matrix codes and 1D barcodes</strong> — no
+  network round-trip and no third-party service.</li>
 </ul>
 <p>Whichever method a step uses, the value flows through the <strong>same validation and
 capture pipeline</strong>, so a profile behaves identically no matter how the data
 arrives.</p>
+<h3 id="the-building-blocks">The building blocks</h3>
+<table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Input</th>
+<th>Resulting field</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scan a QR code</td>
+<td>QR code via camera</td>
+<td>Text, optionally pattern-checked</td>
+</tr>
+<tr>
+<td>Scan a barcode</td>
+<td>1D barcode (EAN, Code 128, …)</td>
+<td>Text, optionally pattern-checked</td>
+</tr>
+<tr>
+<td>Scan a 2D matrix code</td>
+<td>Data Matrix via camera</td>
+<td>Text, optionally pattern-checked</td>
+</tr>
+<tr>
+<td>Capture a quantity</td>
+<td>Number entry</td>
+<td>Number</td>
+</tr>
+<tr>
+<td>Tick a status checklist</td>
+<td>Checkboxes — several may apply</td>
+<td>Multi-select</td>
+</tr>
+<tr>
+<td>Pick a reason</td>
+<td>Radio buttons — exactly one applies</td>
+<td>Choice (exactly one)</td>
+</tr>
+<tr>
+<td>Enter text</td>
+<td>Free text, one line</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Leave a comment</td>
+<td>Free text, multi-line</td>
+<td>Text, multi-line</td>
+</tr>
+</tbody>
+</table>
 <h2 id="always-geo-referenced">Always geo-referenced</h2>
 <p>Every record carries a <strong>GPS fix</strong> and is streamed in a uniform,
 self-describing envelope to the broker.</p>

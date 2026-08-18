@@ -457,6 +457,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="La bonne saisie pour chaque étape">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-briques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les briques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1103,13 +1118,64 @@ mode de saisie adapté à la tâche :</p>
 <ul>
 <li><strong>Saisie manuelle.</strong> Tapez la valeur directement dans le champ.</li>
 <li><strong>Scan par caméra.</strong> Pointez la caméra de l'appareil et laissez les
-  frameworks de scan embarqués lire <strong>les QR codes, les codes Data Matrix 2D,
-  les codes-barres 1D et le texte imprimé</strong> — sans aller-retour réseau ni
-  service tiers.</li>
+  frameworks de scan embarqués lire <strong>les QR codes, les codes Data Matrix 2D
+  et les codes-barres 1D</strong> — sans aller-retour réseau ni service tiers.</li>
 </ul>
 <p>Quel que soit le mode utilisé par une étape, la valeur passe par la <strong>même
 chaîne de validation et de saisie</strong>, de sorte qu'un profil se comporte de façon
 identique quelle que soit la provenance des données.</p>
+<h3 id="les-briques">Les briques</h3>
+<table>
+<thead>
+<tr>
+<th>Brique</th>
+<th>Saisie</th>
+<th>Champ produit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scanner un code QR</td>
+<td>Code QR par caméra</td>
+<td>Texte, motif vérifiable en option</td>
+</tr>
+<tr>
+<td>Scanner un code-barres</td>
+<td>Code-barres 1D (EAN, Code 128, …)</td>
+<td>Texte, motif vérifiable en option</td>
+</tr>
+<tr>
+<td>Scanner un code 2D matriciel</td>
+<td>Data Matrix par caméra</td>
+<td>Texte, motif vérifiable en option</td>
+</tr>
+<tr>
+<td>Saisir une quantité</td>
+<td>Saisie numérique</td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td>Cocher une liste d'état</td>
+<td>Cases à cocher — plusieurs possibles</td>
+<td>Sélection multiple</td>
+</tr>
+<tr>
+<td>Choisir un motif</td>
+<td>Boutons radio — exactement un</td>
+<td>Choix (exactement un)</td>
+</tr>
+<tr>
+<td>Saisir du texte</td>
+<td>Texte libre, une ligne</td>
+<td>Texte</td>
+</tr>
+<tr>
+<td>Laisser un commentaire</td>
+<td>Texte libre, multiligne</td>
+<td>Texte, multiligne</td>
+</tr>
+</tbody>
+</table>
 <h2 id="toujours-georeference">Toujours géoréférencé</h2>
 <p>Chaque enregistrement porte un <strong>point GPS</strong> et est transmis au broker dans une
 enveloppe uniforme et auto-descriptive.</p>

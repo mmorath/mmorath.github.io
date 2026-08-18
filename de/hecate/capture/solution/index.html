@@ -457,6 +457,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Die richtige Eingabe für jeden Schritt">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#die-bausteine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Die Bausteine
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1103,12 +1118,64 @@ wählt die Eingabemethode, die zur Aufgabe passt:</p>
 <ul>
 <li><strong>Manuelle Eingabe.</strong> Tippen Sie den Wert direkt in das Feld.</li>
 <li><strong>Kamera-Scan.</strong> Richten Sie die Gerätekamera aus und lassen Sie die
-  On-Device-Scan-Frameworks <strong>QR-Codes, 2D-Data-Matrix-Codes, 1D-Barcodes und
-  gedruckten Text</strong> lesen — ohne Netzwerk-Roundtrip und ohne Drittanbieterdienst.</li>
+  On-Device-Scan-Frameworks <strong>QR-Codes, 2D-Data-Matrix-Codes und 1D-Barcodes</strong>
+  lesen — ohne Netzwerk-Roundtrip und ohne Drittanbieterdienst.</li>
 </ul>
 <p>Welche Methode ein Schritt auch nutzt: Der Wert durchläuft <strong>dieselbe
 Validierungs- und Erfassungs-Pipeline</strong>, sodass sich ein Profil unabhängig von
 der Eingabeart identisch verhält.</p>
+<h3 id="die-bausteine">Die Bausteine</h3>
+<table>
+<thead>
+<tr>
+<th>Baustein</th>
+<th>Eingabe</th>
+<th>Erzeugtes Feld</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QR-Code scannen</td>
+<td>QR-Code per Kamera</td>
+<td>Text, optional mit Muster geprüft</td>
+</tr>
+<tr>
+<td>Barcode scannen</td>
+<td>1D-Barcode (EAN, Code 128, …)</td>
+<td>Text, optional mit Muster geprüft</td>
+</tr>
+<tr>
+<td>2D-Matrix-Code scannen</td>
+<td>DataMatrix per Kamera</td>
+<td>Text, optional mit Muster geprüft</td>
+</tr>
+<tr>
+<td>Menge erfassen</td>
+<td>Zahleneingabe</td>
+<td>Zahl</td>
+</tr>
+<tr>
+<td>Status-Checkliste abhaken</td>
+<td>Checkboxen — mehrere dürfen zutreffen</td>
+<td>Mehrfachauswahl</td>
+</tr>
+<tr>
+<td>Einen Grund wählen</td>
+<td>Radio-Buttons — genau einer trifft zu</td>
+<td>Auswahl (genau eine)</td>
+</tr>
+<tr>
+<td>Text eingeben</td>
+<td>Freitext, eine Zeile</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Kommentar hinterlassen</td>
+<td>Freitext, mehrzeilig</td>
+<td>Text, mehrzeilig</td>
+</tr>
+</tbody>
+</table>
 <h2 id="immer-geo-referenziert">Immer geo-referenziert</h2>
 <p>Jeder Datensatz trägt einen <strong>GPS-Fix</strong> und wird in einem einheitlichen,
 selbstbeschreibenden Umschlag an den Broker gestreamt.</p>
