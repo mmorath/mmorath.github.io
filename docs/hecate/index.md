@@ -111,11 +111,16 @@ directly.
 ## Screenshots
 
 <div class="shots">
-  <figure><img src="/assets/screens/assets.png" alt="Hecate capture app — the assets outbox with captured objects awaiting delivery"><figcaption>Hecate — capture &amp; outbox</figcaption></figure>
-  <figure><img src="/assets/screens/detail.png" alt="Hecate capture app — an asset's detail view with its captured fields"><figcaption>Hecate — asset detail</figcaption></figure>
-  <figure><img src="/assets/screens/viewer-ios-karte.png" alt="Hecate Viewer — the live map with incoming assets as pins"><figcaption>Viewer — the live map</figcaption></figure>
-  <figure><img src="/assets/screens/viewer-ios-feed.png" alt="Hecate Viewer — the live feed, newest first with freshness tags"><figcaption>Viewer — the live feed</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer for iPad — the split layout: feed sidebar beside the full-bleed live map"><figcaption>Viewer for iPad — the split layout</figcaption></figure>
+  <figure><img src="/assets/screens/en/capture-assets.png" alt="Hecate Capture — the assets outbox with captured objects awaiting delivery"><figcaption>Capture — outbox</figcaption></figure>
+  <figure><img src="/assets/screens/en/capture-detail.png" alt="Hecate Capture — an asset's detail view with its captured fields"><figcaption>Capture — asset detail</figcaption></figure>
+  <figure><img src="/assets/screens/en/capture-sent.png" alt="Hecate Capture — delivered assets, confirmed by the broker"><figcaption>Capture — delivered</figcaption></figure>
+  <figure><img src="/assets/screens/en/admin-profiles.png" alt="Hecate Admin — the profiles home with authored profiles"><figcaption>Admin — profiles</figcaption></figure>
+  <figure><img src="/assets/screens/en/admin-detail.png" alt="Hecate Admin — a profile's detail view with steps and versions"><figcaption>Admin — profile detail</figcaption></figure>
+  <figure><img src="/assets/screens/en/viewer-ios-karte.png" alt="Hecate Viewer — the live map with incoming assets as pins"><figcaption>Viewer — the live map</figcaption></figure>
+  <figure><img src="/assets/screens/en/viewer-ios-feed.png" alt="Hecate Viewer — the live feed, newest first with freshness tags"><figcaption>Viewer — the live feed</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/en/viewer-ipad-karte.png" alt="Hecate Viewer for iPad — feed sidebar beside the full-bleed live map"><figcaption>Viewer for iPad — the split layout</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/en/viewer-ipad-tapzoom.png" alt="Hecate Viewer for iPad — tap a feed row and the map flies to the pin"><figcaption>Viewer for iPad — tap to zoom</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/en/tv-wall.png" alt="Hecate Viewer for Apple TV — the live wall display"><figcaption>Viewer for Apple TV — the wall</figcaption></figure>
 </div>
 
 ## How they fit together

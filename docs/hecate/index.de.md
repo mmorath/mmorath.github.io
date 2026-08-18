@@ -114,11 +114,16 @@ Scan-Engine Hecate direkt anspricht.
 ## Screenshots
 
 <div class="shots">
-  <figure><img src="/assets/screens/assets.png" alt="Hecate Erfassungs-App — die Outbox mit erfassten Objekten, die auf Zustellung warten"><figcaption>Hecate — Erfassung &amp; Outbox</figcaption></figure>
-  <figure><img src="/assets/screens/detail.png" alt="Hecate Erfassungs-App — die Detailansicht eines Assets mit seinen erfassten Feldern"><figcaption>Hecate — Asset-Detail</figcaption></figure>
-  <figure><img src="/assets/screens/viewer-ios-karte.png" alt="Hecate Viewer — die Live-Karte mit eintreffenden Assets als Pins"><figcaption>Viewer — die Live-Karte</figcaption></figure>
-  <figure><img src="/assets/screens/viewer-ios-feed.png" alt="Hecate Viewer — der Live-Feed, neueste zuerst, mit Frische-Markierungen"><figcaption>Viewer — der Live-Feed</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer für iPad — das geteilte Layout: Feed-Seitenleiste neben der vollflächigen Live-Karte"><figcaption>Viewer für iPad — das geteilte Layout</figcaption></figure>
+  <figure><img src="/assets/screens/de/capture-assets.png" alt="Hecate Capture — die Outbox mit erfassten Objekten, die auf Zustellung warten"><figcaption>Capture — Outbox</figcaption></figure>
+  <figure><img src="/assets/screens/de/capture-detail.png" alt="Hecate Capture — die Detailansicht eines Assets mit seinen erfassten Feldern"><figcaption>Capture — Asset-Detail</figcaption></figure>
+  <figure><img src="/assets/screens/de/capture-sent.png" alt="Hecate Capture — zugestellte Assets, vom Broker bestätigt"><figcaption>Capture — zugestellt</figcaption></figure>
+  <figure><img src="/assets/screens/de/admin-profiles.png" alt="Hecate Admin — die Profil-Übersicht mit erstellten Profilen"><figcaption>Admin — Profile</figcaption></figure>
+  <figure><img src="/assets/screens/de/admin-detail.png" alt="Hecate Admin — die Detailansicht eines Profils mit Schritten und Versionen"><figcaption>Admin — Profil-Detail</figcaption></figure>
+  <figure><img src="/assets/screens/de/viewer-ios-karte.png" alt="Hecate Viewer — die Live-Karte mit eintreffenden Assets als Pins"><figcaption>Viewer — die Live-Karte</figcaption></figure>
+  <figure><img src="/assets/screens/de/viewer-ios-feed.png" alt="Hecate Viewer — der Live-Feed, neueste zuerst, mit Frische-Markierungen"><figcaption>Viewer — der Live-Feed</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/de/viewer-ipad-karte.png" alt="Hecate Viewer für iPad — Feed-Seitenleiste neben der vollflächigen Live-Karte"><figcaption>Viewer für iPad — das geteilte Layout</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/de/viewer-ipad-tapzoom.png" alt="Hecate Viewer für iPad — Tipp auf eine Feed-Zeile, die Karte fliegt zum Pin"><figcaption>Viewer für iPad — Tippen zum Zoomen</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/de/tv-wall.png" alt="Hecate Viewer für Apple TV — die Live-Wandanzeige"><figcaption>Viewer für Apple TV — die Wand</figcaption></figure>
 </div>
 
 ## Wie alles zusammenspielt
