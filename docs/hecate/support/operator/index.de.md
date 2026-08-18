@@ -1,7 +1,9 @@
-# Support — Hecate
+# Support — Bediener (Capture & Viewer)
 
-Brauchen Sie Hilfe, haben Sie einen Fehler gefunden oder einen Funktionswunsch?
-So nehmen Sie Kontakt auf.
+Hilfe für **Bediener** im Feld: die **Erfassungs-App** auf iPhone/iPad und der
+**Viewer** auf Apple TV. (Profile erstellen oder den Broker einrichten? Siehe
+[Admin-Support](../admin/index.md).) Fehler gefunden oder einen Wunsch? So
+nehmen Sie Kontakt auf.
 
 ## Kontakt
 
@@ -31,6 +33,15 @@ Erfassungs-Abläufe werden als **Profile** über MQTT geliefert. Erscheint kein
 Profil, prüfen Sie, ob Ihr Broker die beibehaltenen Profildokumente vorhält und
 ob Ihre Zugangsdaten sie lesen dürfen.
 
+### Apple-TV-Viewer
+Der Viewer ist eine **rein lesende** Anzeige: Richten Sie ihn auf denselben
+Broker, zeigt er den Live-Asset-Strom, den Ihre Zugangsdaten lesen dürfen.
+Erscheint nichts, prüfen Sie die Broker-Verbindung (Host, TLS, Zugangsdaten)
+und ob überhaupt Assets veröffentlicht werden. Der Viewer erfasst nichts und
+braucht keine Einrichtung der Daten selbst.
+
 ---
 
-Siehe auch die [Datenschutzerklärung](../../privacy/capture/index.md).
+Siehe auch die Datenschutzerklärungen der
+[Erfassungs-App](../../privacy/capture/index.md) und des
+[Apple-TV-Viewers](../../privacy/viewer/index.md).
