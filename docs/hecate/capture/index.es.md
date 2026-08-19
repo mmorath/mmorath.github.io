@@ -34,10 +34,10 @@ arqueológicos — sin nuevo build.
 ## Capturas de pantalla
 
 <div class="shots">
-  <figure><img src="/assets/screens/assets.png" alt="La bandeja de salida de activos — objetos capturados a la espera de entrega"><figcaption>Activos &amp; bandeja de salida</figcaption></figure>
-  <figure><img src="/assets/screens/detail.png" alt="La vista de detalle de un activo con sus campos capturados"><figcaption>Detalle del activo</figcaption></figure>
-  <figure><img src="/assets/screens/sent.png" alt="Historial de entrega de los activos enviados"><figcaption>Historial de entrega</figcaption></figure>
-  <figure><img src="/assets/screens/settings.png" alt="El centro de ajustes"><figcaption>Ajustes</figcaption></figure>
+  <figure><img src="/assets/screens/es/capture-assets.png" alt="La bandeja de salida de activos — objetos capturados a la espera de entrega"><figcaption>Activos &amp; bandeja de salida</figcaption></figure>
+  <figure><img src="/assets/screens/es/capture-detail.png" alt="La vista de detalle de un activo con sus campos capturados"><figcaption>Detalle del activo</figcaption></figure>
+  <figure><img src="/assets/screens/es/capture-sent.png" alt="Historial de entrega de los activos enviados"><figcaption>Historial de entrega</figcaption></figure>
+  <figure><img src="/assets/screens/es/capture-settings.png" alt="El centro de ajustes"><figcaption>Ajustes</figcaption></figure>
 </div>
 
 ## Siga leyendo

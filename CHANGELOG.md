@@ -18,6 +18,75 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-20
+
+### Fixed — the Viewer screenshots ignored the language switcher too
+
+`docs/hecate/viewer-ios/` and `docs/hecate/viewer-ipad/` embedded the flat,
+language-neutral `/assets/screens/viewer-*.png` on every language page — the
+same three English images for German, French and Spanish readers. They now read
+from `/assets/screens/<lang>/`, like the landing and capture pages. The flat
+copies are deleted; nothing referenced them any more.
+
+Two Spanish gaps remain deliberate English fallbacks, because no Spanish
+capture exists at the source: `viewer-ios-feed` (the iOS Viewer's es-ES run has
+no `02_Feed`) and iPad `tapzoom`. The Spanish hub page's Apple-TV figure now
+uses the Spanish `tv-wall.png`, which existed all along but was referenced as
+`en/`.
+
+## 2026-08-19
+
+### Added — `make screens`, so the app screenshots stop arriving by hand
+
+`tools/sync_screenshots.py` pulls the images the site embeds straight out of the
+app repos' per-language screenshot sets and downscales them to the 720 px height
+the pages actually render:
+
+```sh
+make screens                    # all four languages
+make screens SCREEN_LANG=de     # one
+make screens-check              # which site images are older than the app repos'
+```
+
+Sources default to sibling clones (`../iOS-Hecate-Capture`,
+`../iOS-Hecate-Admin`); `HECATE_CAPTURE_REPO` / `HECATE_ADMIN_REPO` override.
+Only the names in the script's `SCREENS` table are touched — the Viewer and tvOS
+images in the same directories come from other repos and other runs.
+
+### Fixed — the capture pages showed one un-localized set in all four languages
+
+`docs/hecate/capture/index{,.de,.fr,.es}.md` all pointed at
+`/assets/screens/assets.png`, `detail.png`, `sent.png` and `settings.png`: four
+English screenshots from 2026-07-05, served to German, French and Spanish
+readers alike. They now read from their own language directory
+(`/assets/screens/<lang>/capture-*.png`), like the landing page already did.
+
+### Removed — the four un-localized Capture images
+
+`docs/assets/screens/{assets,detail,sent,settings}.png` (2026-07-05, 1.0 MB
+together). The capture pages were their only readers and now read per-language
+files instead. The Viewer images at the same level stay: four pages still embed
+them.
+
+### Changed — every Capture and Admin screenshot is current again
+
+Both apps changed visibly since the last set was taken (the Capture home lost its
+map segment, screen titles replaced the app name in the nav bar, actions moved
+into floating buttons within thumb reach). All four languages were recaptured
+from the apps' UI-test suites and re-synced.
+
+### Design decisions
+
+- **Downscale on the way in, not in CSS.** A 6.9" device PNG is 1320x2868 and
+  ~900 KB; the page renders it 331 px wide. Serving the full-size file would cost
+  the visitor almost a megabyte per thumbnail for pixels the browser throws away.
+  `sips` resamples to 720 px high, which is what the existing images already were
+  — this only writes down how they got that way.
+- **A table of names, not a directory sweep.** The sync copies the six images the
+  pages embed, listed explicitly. A sweep would quietly add whatever the app
+  repos captured next, and a page that embeds an image the table does not list
+  fails loudly under `make screens-check` instead of silently keeping an old one.
+
 ## 2026-08-18
 
 A long day on the site: three languages became four, the pages stopped

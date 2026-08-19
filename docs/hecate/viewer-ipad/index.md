@@ -40,7 +40,7 @@ nothing; everything on screen came from your broker and lives only in memory.
 ## Screenshots
 
 <div class="shots">
-  <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer for iPad — the split layout: live feed sidebar beside the full-bleed map with incoming assets as pins"><figcaption>The split layout — sidebar feed and live map</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/en/viewer-ipad-karte.png" alt="Hecate Viewer for iPad — the split layout: live feed sidebar beside the full-bleed map with incoming assets as pins"><figcaption>The split layout — sidebar feed and live map</figcaption></figure>
 </div>
 
 ## What it shows

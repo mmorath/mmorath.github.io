@@ -34,10 +34,10 @@ archäologische Funde — ohne neuen Build.
 ## Screenshots
 
 <div class="shots">
-  <figure><img src="/assets/screens/assets.png" alt="Die Asset-Outbox — erfasste Objekte, die auf die Übermittlung warten"><figcaption>Assets &amp; Outbox</figcaption></figure>
-  <figure><img src="/assets/screens/detail.png" alt="Die Detailansicht eines Assets mit seinen erfassten Feldern"><figcaption>Asset-Detail</figcaption></figure>
-  <figure><img src="/assets/screens/sent.png" alt="Übermittlungsverlauf gesendeter Assets"><figcaption>Übermittlungsverlauf</figcaption></figure>
-  <figure><img src="/assets/screens/settings.png" alt="Der Einstellungs-Hub"><figcaption>Einstellungen</figcaption></figure>
+  <figure><img src="/assets/screens/de/capture-assets.png" alt="Die Asset-Outbox — erfasste Objekte, die auf die Übermittlung warten"><figcaption>Assets &amp; Outbox</figcaption></figure>
+  <figure><img src="/assets/screens/de/capture-detail.png" alt="Die Detailansicht eines Assets mit seinen erfassten Feldern"><figcaption>Asset-Detail</figcaption></figure>
+  <figure><img src="/assets/screens/de/capture-sent.png" alt="Übermittlungsverlauf gesendeter Assets"><figcaption>Übermittlungsverlauf</figcaption></figure>
+  <figure><img src="/assets/screens/de/capture-settings.png" alt="Der Einstellungs-Hub"><figcaption>Einstellungen</figcaption></figure>
 </div>
 
 ## Weiterlesen

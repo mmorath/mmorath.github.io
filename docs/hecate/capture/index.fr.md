@@ -34,10 +34,10 @@ ou des découvertes archéologiques — sans nouvelle compilation.
 ## Captures d'écran
 
 <div class="shots">
-  <figure><img src="/assets/screens/assets.png" alt="La file d'attente des assets — objets saisis en attente d'envoi"><figcaption>Assets &amp; file d'attente</figcaption></figure>
-  <figure><img src="/assets/screens/detail.png" alt="La vue détaillée d'un asset avec ses champs saisis"><figcaption>Détail d'un asset</figcaption></figure>
-  <figure><img src="/assets/screens/sent.png" alt="Historique d'envoi des assets transmis"><figcaption>Historique d'envoi</figcaption></figure>
-  <figure><img src="/assets/screens/settings.png" alt="Le hub des réglages"><figcaption>Réglages</figcaption></figure>
+  <figure><img src="/assets/screens/fr/capture-assets.png" alt="La file d'attente des assets — objets saisis en attente d'envoi"><figcaption>Assets &amp; file d'attente</figcaption></figure>
+  <figure><img src="/assets/screens/fr/capture-detail.png" alt="La vue détaillée d'un asset avec ses champs saisis"><figcaption>Détail d'un asset</figcaption></figure>
+  <figure><img src="/assets/screens/fr/capture-sent.png" alt="Historique d'envoi des assets transmis"><figcaption>Historique d'envoi</figcaption></figure>
+  <figure><img src="/assets/screens/fr/capture-settings.png" alt="Le hub des réglages"><figcaption>Réglages</figcaption></figure>
 </div>
 
 ## Pour aller plus loin

@@ -122,7 +122,7 @@ directamente.
   <figure><img src="/assets/screens/en/viewer-ios-feed.png" alt="Hecate Viewer — el feed en directo, lo más reciente primero"><figcaption>Viewer — el feed en directo</figcaption></figure>
   <figure class="wide"><img src="/assets/screens/es/viewer-ipad-karte.png" alt="Hecate Viewer para iPad — la barra lateral con el feed junto al mapa a pantalla completa"><figcaption>Viewer para iPad — la pantalla dividida</figcaption></figure>
   <figure class="wide"><img src="/assets/screens/es/viewer-ipad-feed.png" alt="Hecate Viewer para iPad — la barra lateral es el feed en directo"><figcaption>Viewer para iPad — el feed lateral</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/en/tv-wall.png" alt="Hecate Viewer para Apple TV — la pantalla mural en directo"><figcaption>Viewer para Apple TV — el muro</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/es/tv-wall.png" alt="Hecate Viewer para Apple TV — la pantalla mural en directo"><figcaption>Viewer para Apple TV — el muro</figcaption></figure>
 </div>
 
 ## Cómo encajan entre sí

@@ -46,6 +46,21 @@ install: ## Install the docs toolchain (mkdocs-material + i18n + glightbox) via 
 	@pip install --upgrade mkdocs-material mkdocs-static-i18n mkdocs-glightbox
 
 # =============================================================================
+##@ Screenshots
+# =============================================================================
+
+# The app repos own their screenshots — each captures the whole set once per
+# language with its own `make screenshots`. This pulls the handful the site
+# embeds out of those repos and downscales them to the height the pages render,
+# per language. Sources default to sibling clones; override with
+# HECATE_CAPTURE_REPO / HECATE_ADMIN_REPO.
+screens: ## Sync the app screenshots into docs/assets/screens/<lang> (all languages)
+	@python3 tools/sync_screenshots.py $(if $(SCREEN_LANG),--lang $(SCREEN_LANG),)
+
+screens-check: ## Report which site screenshots are older than the app repos' (writes nothing)
+	@python3 tools/sync_screenshots.py --check $(if $(SCREEN_LANG),--lang $(SCREEN_LANG),)
+
+# =============================================================================
 ##@ Site
 # =============================================================================
 
@@ -65,4 +80,4 @@ clean: ## Remove the local build output (./site)
 	@rm -rf $(SITE_DIR)
 	@printf "$(DIM)removed $(SITE_DIR)/$(RESET)\n"
 
-.PHONY: help install serve build deploy clean
+.PHONY: help install screens screens-check serve build deploy clean

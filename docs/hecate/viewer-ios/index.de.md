@@ -40,8 +40,8 @@ nur im Arbeitsspeicher.
 ## Screenshots
 
 <div class="shots">
-  <figure><img src="/assets/screens/viewer-ios-karte.png" alt="Die Live-Karte — eintreffende Assets als Pins, Broker- und Profil-Chips darüber"><figcaption>Die Live-Karte</figcaption></figure>
-  <figure><img src="/assets/screens/viewer-ios-feed.png" alt="Der Live-Feed — neueste zuerst, mit Frische-Markierungen und Profilfarben"><figcaption>Der Live-Feed</figcaption></figure>
+  <figure><img src="/assets/screens/de/viewer-ios-karte.png" alt="Die Live-Karte — eintreffende Assets als Pins, Broker- und Profil-Chips darüber"><figcaption>Die Live-Karte</figcaption></figure>
+  <figure><img src="/assets/screens/de/viewer-ios-feed.png" alt="Der Live-Feed — neueste zuerst, mit Frische-Markierungen und Profilfarben"><figcaption>Der Live-Feed</figcaption></figure>
 </div>
 
 ## Was er zeigt

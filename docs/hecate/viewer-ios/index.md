@@ -37,8 +37,8 @@ nothing; everything on screen came from your broker and lives only in memory.
 ## Screenshots
 
 <div class="shots">
-  <figure><img src="/assets/screens/viewer-ios-karte.png" alt="The live map — incoming assets as pins, broker and profile chips on top"><figcaption>The live map</figcaption></figure>
-  <figure><img src="/assets/screens/viewer-ios-feed.png" alt="The live feed — newest first, with freshness tags and profile colours"><figcaption>The live feed</figcaption></figure>
+  <figure><img src="/assets/screens/en/viewer-ios-karte.png" alt="The live map — incoming assets as pins, broker and profile chips on top"><figcaption>The live map</figcaption></figure>
+  <figure><img src="/assets/screens/en/viewer-ios-feed.png" alt="The live feed — newest first, with freshness tags and profile colours"><figcaption>The live feed</figcaption></figure>
 </div>
 
 ## What it shows

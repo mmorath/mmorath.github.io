@@ -42,8 +42,8 @@ mémoire.
 ## Captures d'écran
 
 <div class="shots">
-  <figure><img src="/assets/screens/viewer-ios-karte.png" alt="La carte en direct — les actifs entrants en épingles, pastilles broker et profil au-dessus"><figcaption>La carte en direct</figcaption></figure>
-  <figure><img src="/assets/screens/viewer-ios-feed.png" alt="Le flux en direct — du plus récent au plus ancien, avec indicateurs de fraîcheur"><figcaption>Le flux en direct</figcaption></figure>
+  <figure><img src="/assets/screens/fr/viewer-ios-karte.png" alt="La carte en direct — les actifs entrants en épingles, pastilles broker et profil au-dessus"><figcaption>La carte en direct</figcaption></figure>
+  <figure><img src="/assets/screens/fr/viewer-ios-feed.png" alt="Le flux en direct — du plus récent au plus ancien, avec indicateurs de fraîcheur"><figcaption>Le flux en direct</figcaption></figure>
 </div>
 
 ## Ce qu'il montre

@@ -42,7 +42,7 @@ lo que hay en pantalla proviene de su broker y vive únicamente en memoria.
 ## Capturas de pantalla
 
 <div class="shots">
-  <figure class="wide"><img src="/assets/screens/viewer-ipad-karte.png" alt="Hecate Viewer para iPad — la disposición dividida: el feed en vivo como barra lateral junto al mapa a pantalla completa, con los activos entrantes como marcadores"><figcaption>La disposición dividida — feed lateral y mapa en vivo</figcaption></figure>
+  <figure class="wide"><img src="/assets/screens/es/viewer-ipad-karte.png" alt="Hecate Viewer para iPad — la disposición dividida: el feed en vivo como barra lateral junto al mapa a pantalla completa, con los activos entrantes como marcadores"><figcaption>La disposición dividida — feed lateral y mapa en vivo</figcaption></figure>
 </div>
 
 ## Qué muestra
