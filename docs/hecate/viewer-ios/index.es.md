@@ -42,7 +42,7 @@ lo que hay en pantalla proviene de su broker y vive únicamente en memoria.
 
 <div class="shots">
   <figure><img src="/assets/screens/es/viewer-ios-karte.png" alt="El mapa en vivo — los activos entrantes como marcadores, con los chips de broker y de perfil encima"><figcaption>El mapa en vivo</figcaption></figure>
-  <figure><img src="/assets/screens/en/viewer-ios-feed.png" alt="El feed en vivo — de lo más reciente a lo más antiguo, con etiquetas de frescura y colores de perfil"><figcaption>El feed en vivo</figcaption></figure>
+  <figure><img src="/assets/screens/es/viewer-ios-feed.png" alt="El feed en vivo — de lo más reciente a lo más antiguo, con etiquetas de frescura y colores de perfil"><figcaption>El feed en vivo</figcaption></figure>
 </div>
 
 ## Qué muestra

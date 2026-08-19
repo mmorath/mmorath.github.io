@@ -28,11 +28,19 @@ same three English images for German, French and Spanish readers. They now read
 from `/assets/screens/<lang>/`, like the landing and capture pages. The flat
 copies are deleted; nothing referenced them any more.
 
-Two Spanish gaps remain deliberate English fallbacks, because no Spanish
-capture exists at the source: `viewer-ios-feed` (the iOS Viewer's es-ES run has
-no `02_Feed`) and iPad `tapzoom`. The Spanish hub page's Apple-TV figure now
-uses the Spanish `tv-wall.png`, which existed all along but was referenced as
-`en/`.
+The Spanish hub page's Apple-TV figure now uses the Spanish `tv-wall.png`,
+which existed all along but was referenced as `en/`.
+
+### Fixed — the last Spanish fallback: `viewer-ios-feed` captured for real
+
+The iOS Viewer's screenshot suite still looked for a *tab bar* to reach the
+Feed, but the app switched to a segmented control long ago — the capture was
+silently skipped in every language run, and the Spanish set never had one. The
+test now drives the segmented control (fixed in iOS-Hecate-Viewer), the es-ES
+run was recaptured, and `es/viewer-ios-feed.png` replaces the English fallback
+on both Spanish pages. iPad `tapzoom` stays English-only by design: no page
+references a Spanish one (the Spanish hub shows the iPad feed figure instead),
+and no UI test produces it.
 
 ## 2026-08-19
 
