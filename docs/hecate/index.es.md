@@ -88,7 +88,7 @@ broker que usted ya controla.
     accesos de planta. Se empareja con la familia y muestra lo que ocurre,
     a todas horas.
 
-    [:octicons-arrow-right-24: Visión general del visor para TV](viewer/index.md)
+    [:octicons-arrow-right-24: Visión general del visor para TV](viewer-tvos/index.md)
 
 -   :material-tune-variant: __Hecate Admin__ · iPhone & iPad
 
@@ -150,4 +150,4 @@ convergen en el broker, en el centro.
 | **Hecate Viewer (iPhone)** | [Privacidad](privacy/viewer-ios/index.md) | [Soporte](support/operator/index.md) |
 | **Hecate Viewer (iPad)** | [Privacidad](privacy/viewer-ipad/index.md) | [Soporte](support/operator/index.md) |
 | **Hecate Admin** | [Privacidad](privacy/admin/index.md) | [Soporte](support/admin/index.md) |
-| **Hecate Viewer (Apple TV)** | [Privacidad](privacy/viewer/index.md) | [Soporte](support/operator/index.md) |
+| **Hecate Viewer (Apple TV)** | [Privacidad](privacy/viewer-tvos/index.md) | [Soporte](support/operator/index.md) |

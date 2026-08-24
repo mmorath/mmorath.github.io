@@ -116,9 +116,18 @@ nav:
       - Overview: hecate/admin/index.md
       - Privacy: hecate/privacy/admin/index.md
       - Support: hecate/support/admin/index.md
+  # The TV pages moved from the bare `viewer` slug to `viewer-tvos`, so all
+  # three viewers now read alike (viewer-ios / viewer-ipad / viewer-tvos) and the
+  # app's store metadata has a URL that matches its siblings' shape. The old
+  # `hecate/viewer/` and `hecate/privacy/viewer/` files are deliberately LEFT IN
+  # PLACE and unlisted rather than deleted or redirected: the shipped iPhone
+  # Viewer links to /hecate/privacy/viewer/ from inside the app
+  # (iOS-Hecate-Viewer StartButtonView.swift), so that URL must keep answering.
+  # Once that app points at privacy/viewer-ios/ instead, the old pair can become
+  # redirect stubs to these.
   - Hecate Viewer (Apple TV):
-      - Overview: hecate/viewer/index.md
-      - Privacy: hecate/privacy/viewer/index.md
+      - Overview: hecate/viewer-tvos/index.md
+      - Privacy: hecate/privacy/viewer-tvos/index.md
       - Support: hecate/support/operator/index.md
   - Support: hecate/support/index.md
   - Privacy: hecate/privacy/index.md

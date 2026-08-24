@@ -90,7 +90,7 @@ den Sie bereits kontrollieren.
     Werkstore. Koppelt sich mit der Familie und zeigt rund um die Uhr,
     was passiert.
 
-    [:octicons-arrow-right-24: Überblick TV-Viewer](viewer/index.md)
+    [:octicons-arrow-right-24: Überblick TV-Viewer](viewer-tvos/index.md)
 
 -   :material-tune-variant: __Hecate Admin__ · iPhone & iPad
 
@@ -150,4 +150,4 @@ in der Mitte zusammenlaufen.
 | **Hecate Viewer (iPhone)** | [Datenschutz](privacy/viewer-ios/index.md) | [Support](support/operator/index.md) |
 | **Hecate Viewer (iPad)** | [Datenschutz](privacy/viewer-ipad/index.md) | [Support](support/operator/index.md) |
 | **Hecate Admin** | [Datenschutz](privacy/admin/index.md) | [Support](support/admin/index.md) |
-| **Hecate Viewer (Apple TV)** | [Datenschutz](privacy/viewer/index.md) | [Support](support/operator/index.md) |
+| **Hecate Viewer (Apple TV)** | [Datenschutz](privacy/viewer-tvos/index.md) | [Support](support/operator/index.md) |

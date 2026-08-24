@@ -18,7 +18,66 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
-## 2026-08-20
+## 2026-08-24
+
+### Added — the Apple TV app finally has pages of its own, in all four languages
+
+`docs/hecate/viewer-tvos/` and `docs/hecate/privacy/viewer-tvos/`, each in
+English, German, Spanish and French (8 files). The tvOS app's App Store metadata
+has been pointing at `hecate/privacy/viewer-tvos/`, `hecate/viewer-tvos/` and
+`hecate/support/operator/` for a while; the first two existed in **no** language,
+so a pre-release audit measured all three tvOS store URLs as **404** while the
+five iOS/iPadOS equivalents returned 200. A 404 privacy URL is an automatic App
+Store rejection, so this blocked the submission outright.
+
+The pages are modelled on `viewer-ipad` and corrected for the television, which
+is a genuinely different privacy story rather than a reworded one:
+
+- **no camera, no photo library, no location.** An Apple TV does not move, so the
+  wall plots the positions the *capture* app recorded and asks the television for
+  nothing. The iPad page's camera-and-location paragraphs have no counterpart
+  here and are gone rather than softened.
+- **the local-network pairing handoff is named as network activity**, because it
+  is the app's only setup path: the TV shows a QR code and waits for the phone's
+  Viewer to hand it the broker configuration, since typing a hostname and
+  password on a remote is miserable. tvOS raises a local-network permission
+  prompt for this, so the policy has to explain it.
+- **the only two things it talks to** are that handoff and the MQTT subscription
+  to the reader's own broker. Stated as a closed list, not as examples.
+
+Checked against the shipped manifest rather than written from memory:
+`tvOS-Hecate-Viewer/Hecate/PrivacyInfo.xcprivacy` declares "Data Not Collected"
+(empty `NSPrivacyCollectedDataTypes`, `NSPrivacyTracking` false, and
+`UserDefaults`/`CA92.1` as its one accessed-API reason), and these pages claim
+exactly that and nothing more.
+
+### Changed — the TV nav entry and the hub links point at the new slug
+
+`mkdocs.yml`'s "Hecate Viewer (Apple TV)" group and the Apple-TV links in
+`docs/hecate/index*.md` (all four languages, both the card link and the
+privacy/support table) now use `viewer-tvos`. All three viewers therefore read
+alike — `viewer-ios`, `viewer-ipad`, `viewer-tvos` — and the tvOS store metadata
+gets a URL shaped like its siblings'.
+
+### Not done, deliberately — the old `hecate/viewer/` pair stays exactly where it is
+
+Those two pages (`hecate/viewer/`, `hecate/privacy/viewer/`) are the *previous*
+Apple TV pages, dated 2026-06-18, and the obvious tidy-up would be to delete them
+or redirect them here. Both would break a shipped app: the **iPhone** Viewer links
+to `/hecate/privacy/viewer/` from inside its About screen
+(`iOS-Hecate-Viewer` → `StartButtonView.swift`), so that URL has to keep
+answering, and redirecting it *here* would hand iPhone users the television's
+policy. So the files stay, unlisted — mkdocs now reports them under "exist in the
+docs directory, but are not included in the nav", which is expected and is the
+same state the root `index.md` and `hecate-admin/` redirect stubs are in.
+
+The real fix belongs in the app: once `iOS-Hecate-Viewer` points at
+`hecate/privacy/viewer-ios/` (which has existed for a while), this pair can become
+redirect stubs to `viewer-tvos` and the duplicate-policy problem goes away.
+
+**Note that none of this is live until someone runs `make deploy`.** The three
+tvOS URLs keep returning 404 to App Store Connect until then; a local `site/`
+build proves the pages compile, not that they are published.
 
 ### Fixed — the Viewer screenshots ignored the language switcher too
 
