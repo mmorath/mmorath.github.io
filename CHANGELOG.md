@@ -18,6 +18,51 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-26
+
+### Added — a "Getting started" entry, in all four languages
+
+`docs/hecate/getting-started/` in English, German, French and Spanish (4 files),
+plus a top-level **Getting started** nav entry with `nav_translations` for the
+other three locales (Erste Schritte / Premiers pas / Primeros pasos).
+
+**Why it sits second, ahead of the per-app groups.** The site explained every
+app well and never explained the one step that precedes all of them: Hecate has
+no backend, so nothing works until the visitor has an MQTT broker and the apps
+point at it. A prospect who has decided to try Hecate needs that before any
+single app's overview is useful to them, and until now the only place it existed
+was a support page they would reach after already being stuck.
+
+The page walks one evaluation end to end — choose a broker, connect Admin,
+provision the field devices by QR, capture, then **verify the message with an
+MQTT client that is not ours** — and closes with the topic tree, a permission
+matrix with broker rules, a troubleshooting table and what changes for
+production (mTLS, roles, Unified Namespace, downstream consumers).
+
+Three things it deliberately does *not* do:
+
+- **No invented facts.** Topics, ports and defaults are taken from HecateKit
+  (`AssetTopic.swift`, `FeaturesModel.swift`) and the provisioning spec, not
+  from prose. Where the MDM channel is specified but unbuilt on iOS, the page
+  says so rather than implying it works.
+- **No HiveMQ partnership claim.** HiveMQ Cloud is named alongside EMQX
+  Serverless and Mosquitto as an evaluation option, with no free-tier limits
+  quoted — those change, and a number here would go stale silently.
+- **No password in the QR story.** The provisioning code carries coordinates
+  only; the page explains why, because that is the question every evaluator
+  asks second.
+
+### Changed — the screenshot sync learned four broker screens
+
+`tools/sync_screenshots.py` gained `gs-broker-connection`, `gs-broker-auth`,
+`gs-broker-share-qr` and `gs-provisioning` (16 images: 4 screens x 4 languages).
+
+They come from **Capture** rather than Admin on purpose. The broker screens are
+HecateKit's and look the same in both apps, but Admin's doc set has them in
+English only — a German page showing an English screenshot is worse than one
+showing Capture's. If Admin's German, French and Spanish sets ever include them,
+those four mappings are the ones to switch.
+
 ## 2026-08-24
 
 ### Added — the Apple TV app finally has pages of its own, in all four languages

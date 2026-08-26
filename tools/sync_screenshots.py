@@ -67,6 +67,15 @@ SCREENS = {
     "capture-settings": ("capture", "settings-hub"),
     "admin-profiles":   ("admin",   "01-profiles-home"),
     "admin-detail":     ("admin",   "04-profile-detail"),
+    # The getting-started page (docs/hecate/getting-started/) walks a reader
+    # through broker setup and provisioning. These come from Capture and not
+    # from Admin on purpose: the broker screens are HecateKit's, identical in
+    # both apps, and Admin's doc set has them in English only — a German page
+    # showing an English screenshot is worse than one showing Capture's.
+    "gs-broker-connection": ("capture", "settings-broker-connection"),
+    "gs-broker-auth":       ("capture", "settings-broker-auth"),
+    "gs-broker-share-qr":   ("capture", "settings-broker-share-qr"),
+    "gs-provisioning":      ("capture", "dialog-provisioning-confirm"),
 }
 
 
