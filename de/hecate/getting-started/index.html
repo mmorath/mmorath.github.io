@@ -1,0 +1,1503 @@
+<!DOCTYPE html><html lang="de" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Hecate — universal, profile-driven geo-referencing of physical objects">
+      
+      
+        <meta name="author" content="Matthias Morath">
+      
+      
+        <link rel="canonical" href="https://mmorath.github.io/de/hecate/getting-started/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../capture/">
+      
+      
+      <link rel="icon" href="../../../assets/hecate-favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Erste Schritte - Hecate</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="grey">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#erste-schritte" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../../.." title="Hecate" class="md-header__button md-logo" aria-label="Hecate" data-md-component="logo">
+      
+  <img src="../../../assets/hecate-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Hecate
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Erste Schritte
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="grey" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="grey" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sprache wechseln">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../hecate/getting-started/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../fr/hecate/getting-started/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../es/hecate/getting-started/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Hecate" class="md-nav__button md-logo" aria-label="Hecate" data-md-component="logo">
+      
+  <img src="../../../assets/hecate-logo.png" alt="logo">
+
+    </a>
+    Hecate
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hecate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Erste Schritte
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Erste Schritte
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#1-broker-wahlen" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 · Broker wählen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-admin-app-verbinden" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 · Admin-App verbinden
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-feldgerate-provisionieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 · Feldgeräte provisionieren
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-erfassen-und-selbst-nachprufen" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 · Erfassen — und selbst nachprüfen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#was-wo-auf-dem-broker-liegt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Was wo auf dem Broker liegt
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rechte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rechte
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wenn-es-nicht-geht" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wenn es nicht geht
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nach-der-evaluierung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nach der Evaluierung
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Hecate Capture
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Hecate Capture
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../capture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Überblick
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../capture/problem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Das Problem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../capture/solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Was sie leistet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privacy/capture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Datenschutz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/operator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Hecate Viewer (iPhone)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Hecate Viewer (iPhone)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viewer-ios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Überblick
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privacy/viewer-ios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Datenschutz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/operator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Hecate Viewer (iPad)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Hecate Viewer (iPad)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viewer-ipad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Überblick
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privacy/viewer-ipad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Datenschutz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/operator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Hecate Admin
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Hecate Admin
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Überblick
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privacy/admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Datenschutz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Hecate Viewer (Apple TV)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Hecate Viewer (Apple TV)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viewer-tvos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Überblick
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privacy/viewer-tvos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Datenschutz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/operator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privacy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Datenschutz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="erste-schritte">Erste Schritte</h1>
+<p><em>Vom leeren Broker zum ersten erfassten Asset — in etwa zwanzig Minuten.</em></p>
+<p>Hecate betreibt <strong>kein Backend</strong>. Es gibt kein Konto anzulegen und keinen Server
+von uns zwischen Ihren Geräten und Ihren Daten — was zugleich bedeutet: Es gibt
+keinen vorgegebenen Ort, an den Ihre Erfassungen gehen. Der <strong>MQTT-Broker ist
+die fehlende Mitte, und er gehört Ihnen</strong>. Diese Seite richtet ihn ein und führt
+einen Ablauf einmal von Anfang bis Ende durch.</p>
+<div class="admonition tip">
+<p class="admonition-title">Was Sie brauchen</p>
+<ol>
+<li><strong>Einen erreichbaren MQTT-Broker</strong> — Ihren eigenen oder eine kostenlose Testinstanz.</li>
+<li><strong><a href="../admin/">Hecate Admin</a></strong> auf iPhone oder iPad, um den Ablauf zu erstellen und zu publizieren.</li>
+<li><strong><a href="../capture/">Hecate Capture</a></strong> auf dem Gerät, das scannen soll.</li>
+</ol>
+<p>Der <a href="../viewer-ios/">Viewer</a> ist für einen ersten Test optional — und in jedem Fall kostenlos.</p>
+</div>
+<h2 id="1-broker-wahlen">1 · Broker wählen</h2>
+<p>Hecate spricht Standard-MQTT und ist an keinen bestimmten Broker gebunden.</p>
+<p><strong>Wenn Sie bereits MQTT betreiben</strong>, nutzen Sie ihn. Was Hecate voraussetzt:</p>
+<table>
+<thead>
+<tr>
+<th>Voraussetzung</th>
+<th>Wozu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MQTT 3.1.1 oder 5</td>
+<td>das Protokoll, das die Apps sprechen</td>
+</tr>
+<tr>
+<td><strong>Retained Messages</strong></td>
+<td>so erreicht ein publizierter Ablauf ein Gerät, das beim Publizieren offline war</td>
+</tr>
+<tr>
+<td>TLS</td>
+<td>die Apps nutzen standardmäßig <code>mqtts</code> auf Port <code>8883</code> mit Zertifikatsprüfung</td>
+</tr>
+<tr>
+<td>Zugangsdaten je Client</td>
+<td>damit jedes Gerät eine eigene Identität hat und einzeln entzogen werden kann</td>
+</tr>
+<tr>
+<td>Rechte je Topic</td>
+<td>damit der Viewer tatsächlich nur liest und nicht bloß der Absicht nach</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Wenn nicht</strong>, ist eine gehostete Testinstanz in Minuten eingerichtet und im
+Testumfang kostenlos. HiveMQ Cloud und EMQX Serverless haben beide einen
+kostenlosen Tarif; ein Mosquitto-Container auf dem Notebook genügt für einen
+ersten Test in einem Netz.</p>
+<div class="admonition warning">
+<p class="admonition-title">Ein Broker ohne Retained Messages sieht aus, als funktioniere er</p>
+<p>Geräte empfangen dann schlicht keinen Ablauf, auf den sie nicht genau im
+Moment des Publizierens schon gelauscht haben. Prüfen Sie diese eine
+Fähigkeit, bevor Sie irgendetwas anderes suchen.</p>
+</div>
+<h2 id="2-admin-app-verbinden">2 · Admin-App verbinden</h2>
+<div class="shots">
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/de/gs-broker-connection.png" data-desc-position="bottom"><img src="/assets/screens/de/gs-broker-connection.png" alt="Broker-Verbindungseinstellungen — Host, Port, Protokoll und TLS"></a><figcaption>Verbindung: Host, Port, TLS</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/de/gs-broker-auth.png" data-desc-position="bottom"><img src="/assets/screens/de/gs-broker-auth.png" alt="Broker-Authentifizierung — Benutzername und Passwort"></a><figcaption>Authentifizierung</figcaption></figure>
+</div>
+
+<p>Die Voreinstellungen sind die sicheren, und es soll Mühe kosten, sie
+abzuschwächen:</p>
+<table>
+<thead>
+<tr>
+<th>Einstellung</th>
+<th>Voreinstellung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Protokoll</td>
+<td><code>mqtts</code> — einfaches <code>mqtt</code> ist möglich und wird gewarnt</td>
+</tr>
+<tr>
+<td>Port</td>
+<td><code>8883</code></td>
+</tr>
+<tr>
+<td>TLS</td>
+<td>ein</td>
+</tr>
+<tr>
+<td>Zertifikat prüfen</td>
+<td>ein — nur für einen Entwicklungs-Broker mit selbstsigniertem Zertifikat abschalten</td>
+</tr>
+</tbody>
+</table>
+<p>Zugangsdaten gehen direkt in den <strong>Schlüsselbund</strong> des Geräts, verschlüsselt
+gespeichert. Sie werden nie in einen Ablauf geschrieben, nie an den Broker
+publiziert und nie im Provisionierungs-QR mitgeführt.</p>
+<p>Wenn der Verbindungstest gelingt, <strong>publizieren Sie einen Ablauf</strong>. Halten Sie
+ihn für den ersten Durchgang trivial — ein einzelner Scan-Schritt und ein
+Textfeld beweisen die ganze Kette. Ein schlecht modellierter echter Prozess
+beweist gar nichts.</p>
+<h2 id="3-feldgerate-provisionieren">3 · Feldgeräte provisionieren</h2>
+<p>Ein zwanzigstelliges Passwort, zwanzigmal in ein Pistolengriff-Handgerät
+getippt — so stirbt ein Pilot, bevor er beginnt. Hecate provisioniert
+stattdessen per QR-Code.</p>
+<div class="shots">
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/de/gs-broker-share-qr.png" data-desc-position="bottom"><img src="/assets/screens/de/gs-broker-share-qr.png" alt="Die Broker-Konfiguration als QR-Code teilen"></a><figcaption>Konfiguration teilen</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/de/gs-provisioning.png" data-desc-position="bottom"><img src="/assets/screens/de/gs-provisioning.png" alt="Das Gerät bestätigt die empfangenen Broker-Koordinaten"></a><figcaption>Das Gerät bestätigt</figcaption></figure>
+</div>
+
+<p>Der Code trägt die <strong>Koordinaten</strong>: Host, Port, TLS-Einstellungen, Topic-Präfixe
+und die optionalen Unified-Namespace-Ebenen. Er trägt <strong>nicht</strong> das Passwort —
+ein QR-Code an einer Lagerwand ist ein Zugangsdatum, das jeder Vorbeigehende
+bekommt. Jedes Gerät erhält einmalig eigenen Benutzernamen und eigenes Passwort,
+und beide gehen in den Schlüsselbund.</p>
+<p>Wo ein MDM die Geräte verwaltet, lassen sich dieselben Koordinaten als Managed
+App Configuration ausrollen — und dort <em>dürfen</em> die Zugangsdaten mitreisen: Ein
+MDM-Payload ist ein Verwaltungskanal, kein Aushang. Dieser Kanal ist unter
+Android umgesetzt und im Feld verifiziert; unter iOS ist er spezifiziert und
+noch nicht gebaut.</p>
+<h2 id="4-erfassen-und-selbst-nachprufen">4 · Erfassen — und selbst nachprüfen</h2>
+<p>Der Ablauf erscheint von allein auf dem Feldgerät. Kein Download-Schritt, kein
+App-Update — das ist die Retained Message bei der Arbeit.</p>
+<div class="shots">
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/de/capture-sent.png" data-desc-position="bottom"><img src="/assets/screens/de/capture-sent.png" alt="Übermittelte Assets, vom Broker bestätigt"></a><figcaption>Gesendet — die Erfassung hat den Broker erreicht</figcaption></figure>
+</div>
+
+<p>Scannen, ausfüllen, speichern. Die Validierung passiert <strong>auf dem Gerät</strong>, gegen
+die Regeln des Autors — schlechte Daten verlassen es nie. Kein Netz? Trotzdem
+erfassen: Fertige Erfassungen warten in einer Outbox und laufen ab, sobald die
+Verbindung zurück ist. Ein sinkender Outbox-Zähler ist das ehrliche Zeichen,
+dass der Broker Ihre Nachrichten annimmt.</p>
+<p><strong>Sehen Sie sich den Broker jetzt mit etwas an, das nicht von uns ist.</strong>
+Verbinden Sie <a href="http://mqtt-explorer.com/">MQTT Explorer</a> mit beliebigen
+Zugangsdaten, die abonnieren dürfen: Der retained Ablauf liegt unter dem
+Config-Präfix, und Ihre Erfassung erscheint binnen einer Sekunde nach dem
+Speichern unter dem Asset-Präfix.</p>
+<p>Dieser letzte Schritt wiegt schwerer, als er aussieht. Er beweist, dass die
+Daten in <em>Ihrer</em> Infrastruktur liegen, in einem Format, das Sie lesen können,
+erreichbar für Systeme, die von Hecate nie gehört haben. Keine Hecate-App hängt
+vom MQTT Explorer ab — er ist ein Diagnosewerkzeug und muss eines bleiben.</p>
+<h2 id="was-wo-auf-dem-broker-liegt">Was wo auf dem Broker liegt</h2>
+<p>Zwei Bäume, die Segment für Segment zueinander passen:</p>
+<pre><code class="language-text">hecate/config/profiles/&lt;profileId&gt;        der Ablauf     — RETAINED
+hecate/assets/&lt;profileId&gt;/&lt;assetUuid&gt;     eine Erfassung — nicht retained
+</code></pre>
+<ul>
+<li><strong>Abläufe sind retained.</strong> Ein Gerät, das eine Woche aus war, erhält den
+  aktuellen Stand beim Verbinden. Einen Ablauf zurückziehen heißt: einen leeren
+  retained Payload publizieren — er verschwindet dann von jedem Gerät.</li>
+<li><strong>Erfassungen sind Ereignisse</strong> und nicht retained. So bleibt beim Umbenennen
+  eines Ablaufs nichts Veraltetes an einer alten Adresse liegen.</li>
+<li><strong>Die Ablauf-ID ist eine eigene Topic-Ebene.</strong> Genau das macht
+  <code>hecate/assets/&lt;profileId&gt;/#</code> zu einem brauchbaren Filter statt zu einem
+  flachen Haufen von UUIDs.</li>
+</ul>
+<p>Beide Präfixe sind konfigurierbar und reisen im Provisionierungs-QR mit.
+Betreiben Sie einen Unified Namespace, schalten Sie die Hierarchie ein, und der
+Asset-Baum fügt sich ein:</p>
+<pre><code class="language-text">&lt;enterprise&gt;/&lt;site&gt;/&lt;area&gt;/&lt;line&gt;/assets/&lt;profileId&gt;/&lt;assetUuid&gt;
+acme/plant1/line3/assets/goods-in/1E935809-BF49-4716-B1D6-40F572FECE5B
+</code></pre>
+<p>Erfassungen kommen als selbstbeschreibender <code>{ header, data }</code>-Umschlag an. Jedes
+nachgelagerte System — Historian, Dashboard, ERP-Brücke — kann ihn abonnieren
+und lesen, ohne uns zu fragen.</p>
+<h2 id="rechte">Rechte</h2>
+<p>Geben Sie jeder Capture-Installation <strong>einen eigenen Broker-Benutzer</strong> —
+<code>capture-001</code>, <code>capture-002</code>. Das kostet bei der Einrichtung Minuten und bringt
+Nachvollziehbarkeit, Entzug je Gerät, isolierte Passwortwechsel und eine
+Auditantwort, die aus einem Topic-Log besteht statt aus einem Schulterzucken.</p>
+<table>
+<thead>
+<tr>
+<th>App</th>
+<th style="text-align: center;">Abläufe: abonnieren</th>
+<th style="text-align: center;">Abläufe: publizieren</th>
+<th style="text-align: center;">Erfassungen: abonnieren</th>
+<th style="text-align: center;">Erfassungen: publizieren</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Admin</strong></td>
+<td style="text-align: center;">ja</td>
+<td style="text-align: center;"><strong>ja</strong></td>
+<td style="text-align: center;">ja</td>
+<td style="text-align: center;">nein</td>
+</tr>
+<tr>
+<td><strong>Capture</strong></td>
+<td style="text-align: center;">ja</td>
+<td style="text-align: center;">nein</td>
+<td style="text-align: center;">nein</td>
+<td style="text-align: center;"><strong>ja</strong></td>
+</tr>
+<tr>
+<td><strong>Viewer</strong></td>
+<td style="text-align: center;">ja</td>
+<td style="text-align: center;">nein</td>
+<td style="text-align: center;">ja</td>
+<td style="text-align: center;">nein</td>
+</tr>
+</tbody>
+</table>
+<p>Als Broker-Regeln:</p>
+<pre><code class="language-text">capture-001   SUBSCRIBE  hecate/config/profiles/#
+              PUBLISH    hecate/assets/#
+
+viewer-lobby  SUBSCRIBE  hecate/config/profiles/#
+              SUBSCRIBE  hecate/assets/#
+
+admin-anna    SUBSCRIBE  hecate/config/profiles/#
+              PUBLISH    hecate/config/profiles/#
+              SUBSCRIBE  hecate/assets/#
+</code></pre>
+<div class="admonition note">
+<p class="admonition-title">Den Nur-Lese-Viewer erzwingen, nicht ihm vertrauen</p>
+<p>Der Viewer publiziert nichts; so ist er gebaut. Geben Sie ihm trotzdem ein
+Konto, das nur abonnieren darf. Ein Recht, das der Broker durchsetzt,
+übersteht eine Fehlkonfiguration, eine künftige Version und ein Gerät, das
+jemand anderes installiert.</p>
+</div>
+<h2 id="wenn-es-nicht-geht">Wenn es nicht geht</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Übliche Ursache</th>
+<th>Prüfen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Broker nicht erreichbar</td>
+<td>DNS, Firewall, falscher Port</td>
+<td>Host aus demselben Netz auf demselben Port erreichen</td>
+</tr>
+<tr>
+<td>Verbindung abgelehnt</td>
+<td>falscher Endpunkt, Broker aus</td>
+<td>Endpunkt zeichenweise mit der Broker-Konsole vergleichen</td>
+</tr>
+<tr>
+<td>Authentifizierung fehlgeschlagen</td>
+<td>Benutzername oder Passwort</td>
+<td>am Gerät neu eingeben; der Schlüsselbund hält bis dahin das alte</td>
+</tr>
+<tr>
+<td>Autorisierung fehlgeschlagen</td>
+<td>Topic-Rechte</td>
+<td>die Zugangsdaten verbinden sich, dürfen das Topic aber nicht</td>
+</tr>
+<tr>
+<td>TLS-Handshake fehlgeschlagen</td>
+<td>Zertifikat oder Vertrauen</td>
+<td>eine private CA braucht ihr Wurzelzertifikat auf dem Gerät</td>
+</tr>
+<tr>
+<td>Kein Ablauf erscheint</td>
+<td>Retained Message, Präfix oder Abo-Recht</td>
+<td>im Explorer unter dem Config-Präfix nachsehen</td>
+</tr>
+<tr>
+<td>Erfassung kommt nicht an</td>
+<td>Publish-Recht oder offline</td>
+<td>eine Outbox, die nie leer wird, heißt: Publish verweigert</td>
+</tr>
+<tr>
+<td>Viewer bleibt leer</td>
+<td>Abo-Recht auf dem Asset-Baum</td>
+<td>er braucht das Asset-Präfix, nicht nur den Ablauf-Baum</td>
+</tr>
+</tbody>
+</table>
+<p>Die Unterscheidung, die man verinnerlicht haben sollte: <strong>Authentifizierung</strong>
+ist, wer Sie sind; <strong>Autorisierung</strong> ist, was diese Identität anfassen darf. Ein
+Gerät, das sich anstandslos verbindet und nichts publiziert, hat das Erste
+bestanden und am Zweiten verloren — und die Lösung liegt in den Broker-Regeln,
+nicht in der App.</p>
+<h2 id="nach-der-evaluierung">Nach der Evaluierung</h2>
+<p>Pilot- und Produktivaufbau unterscheiden sich in der Identitätsverwaltung, nicht
+in der Architektur. Nichts aus dem Test ist verloren.</p>
+<ul>
+<li><strong>Zertifikate statt Passwörter.</strong> Mutual TLS (mTLS) gibt jedem Gerät ein
+  Client-Zertifikat und damit einen echten Lebenszyklus: ausstellen, erneuern,
+  entziehen. Teilen Sie <strong>nicht</strong> ein Zertifikat über alle Geräte — das stellt
+  das Problem des geteilten Passworts mit mehr Aufwand wieder her.</li>
+<li><strong>Rollen statt Regeln je Gerät.</strong> Das fünfzigste Handgerät hinzuzufügen sollte
+  eine Rollenzuweisung sein, nicht fünf ACL-Zeilen.</li>
+<li><strong>Jetzt in Ihren Namensraum einfügen</strong>, nicht später migrieren. Das Topic
+  ändert sich, der Payload nicht.</li>
+<li><strong>Das Nachgelagerte anhängen.</strong> Der Viewer ist ein Live-Fenster, kein
+  Datenlager — er hält Erfassungen im Speicher und filtert clientseitig. Für
+  Historie und Auswertung abonnieren Sie ein System, das Sie ohnehin haben.
+  Diese Grenze ist Absicht.</li>
+</ul>
+<hr>
+<p>Irgendwo hängen geblieben? <a href="../support/admin/">Admin-Support</a> ·
+<a href="../support/operator/">Bediener-Support</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Zurück zum Seitenanfang
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2023-2026 Matthias Morath · All rights reserved
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.sections", "navigation.top", "content.action.edit", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

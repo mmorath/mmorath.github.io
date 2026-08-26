@@ -55,6 +55,15 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/solution/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/hecate/getting-started/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/getting-started/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/hecate/privacy/</loc>
         <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
@@ -109,6 +118,15 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-ipad/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/hecate/privacy/viewer-tvos/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-tvos/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/hecate/support/</loc>
         <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
@@ -161,6 +179,15 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer-ipad/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/viewer-ipad/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer-ipad/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/hecate/viewer-tvos/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer-tvos/"/>
     </url>
     <url>
         <loc>https://mmorath.github.io/hecate-admin/</loc>
@@ -226,6 +253,15 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/solution/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/de/hecate/getting-started/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/getting-started/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/de/hecate/privacy/</loc>
         <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
@@ -280,6 +316,15 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-ipad/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/de/hecate/privacy/viewer-tvos/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-tvos/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/de/hecate/support/</loc>
         <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
@@ -332,6 +377,15 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer-ipad/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/viewer-ipad/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer-ipad/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/de/hecate/viewer-tvos/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer-tvos/"/>
     </url>
     <url>
         <loc>https://mmorath.github.io/de/hecate-admin/</loc>
@@ -397,6 +451,15 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/capture/solution/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/fr/hecate/getting-started/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/getting-started/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/fr/hecate/privacy/</loc>
         <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
@@ -451,6 +514,15 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/privacy/viewer-ipad/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/fr/hecate/privacy/viewer-tvos/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/privacy/viewer-tvos/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/fr/hecate/support/</loc>
         <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
@@ -503,6 +575,15 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer-ipad/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer-ipad/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/viewer-ipad/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/fr/hecate/viewer-tvos/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/viewer-tvos/"/>
     </url>
     <url>
         <loc>https://mmorath.github.io/fr/hecate-admin/</loc>
@@ -568,6 +649,15 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/capture/solution/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/es/hecate/getting-started/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/getting-started/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/es/hecate/privacy/</loc>
         <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
@@ -622,6 +712,15 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-ipad/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/es/hecate/privacy/viewer-tvos/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-tvos/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/es/hecate/support/</loc>
         <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
@@ -674,6 +773,15 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer-ipad/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer-ipad/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer-ipad/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/es/hecate/viewer-tvos/</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/viewer-tvos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/viewer-tvos/"/>
     </url>
     <url>
         <loc>https://mmorath.github.io/es/hecate-admin/</loc>
