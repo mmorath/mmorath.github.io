@@ -86,7 +86,7 @@ already control.
     and site entrances. Pairs with the family and shows what happens,
     around the clock.
 
-    [:octicons-arrow-right-24: TV viewer overview](viewer/index.md)
+    [:octicons-arrow-right-24: TV viewer overview](viewer-tvos/index.md)
 
 -   :material-tune-variant: __Hecate Admin__ · iPhone & iPad
 
@@ -147,4 +147,4 @@ centre.
 | **Hecate Viewer (iPhone)** | [Privacy](privacy/viewer-ios/index.md) | [Support](support/operator/index.md) |
 | **Hecate Viewer (iPad)** | [Privacy](privacy/viewer-ipad/index.md) | [Support](support/operator/index.md) |
 | **Hecate Admin** | [Privacy](privacy/admin/index.md) | [Support](support/admin/index.md) |
-| **Hecate Viewer (Apple TV)** | [Privacy](privacy/viewer/index.md) | [Support](support/operator/index.md) |
+| **Hecate Viewer (Apple TV)** | [Privacy](privacy/viewer-tvos/index.md) | [Support](support/operator/index.md) |

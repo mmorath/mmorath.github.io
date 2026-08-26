@@ -89,7 +89,7 @@ seul broker que vous contrôlez déjà.
     bureaux et entrées de site. S'appaire avec la famille et montre ce qui
     se passe, en continu.
 
-    [:octicons-arrow-right-24: Présentation du viewer TV](viewer/index.md)
+    [:octicons-arrow-right-24: Présentation du viewer TV](viewer-tvos/index.md)
 
 -   :material-tune-variant: __Hecate Admin__ · iPhone & iPad
 
@@ -151,4 +151,4 @@ convergent vers le broker au centre.
 | **Hecate Viewer (iPhone)** | [Confidentialité](privacy/viewer-ios/index.md) | [Assistance](support/operator/index.md) |
 | **Hecate Viewer (iPad)** | [Confidentialité](privacy/viewer-ipad/index.md) | [Assistance](support/operator/index.md) |
 | **Hecate Admin** | [Confidentialité](privacy/admin/index.md) | [Assistance](support/admin/index.md) |
-| **Hecate Viewer (Apple TV)** | [Confidentialité](privacy/viewer/index.md) | [Assistance](support/operator/index.md) |
+| **Hecate Viewer (Apple TV)** | [Confidentialité](privacy/viewer-tvos/index.md) | [Assistance](support/operator/index.md) |
