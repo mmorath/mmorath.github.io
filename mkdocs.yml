@@ -52,6 +52,7 @@ plugins:
           name: Deutsch
           build: true
           nav_translations:
+            Getting started: Erste Schritte
             Overview: Überblick
             The problem: Das Problem
             What it does: Was sie leistet
@@ -61,6 +62,7 @@ plugins:
           name: Français
           build: true
           nav_translations:
+            Getting started: Premiers pas
             Overview: Présentation
             The problem: Le problème
             What it does: Ce qu'elle fait
@@ -70,6 +72,7 @@ plugins:
           name: Español
           build: true
           nav_translations:
+            Getting started: Primeros pasos
             Overview: Resumen
             The problem: El problema
             What it does: Qué hace
@@ -98,6 +101,10 @@ markdown_extensions:
 # plugin serves the English page under /de/ and /fr/ when a *.de/*.fr is absent).
 nav:
   - Hecate: hecate/index.md
+  # Second stop after the landing page, deliberately ahead of the per-app
+  # groups: a visitor who has decided to try Hecate needs the broker set up
+  # before any single app's overview is useful to them.
+  - Getting started: hecate/getting-started/index.md
   - Hecate Capture:
       - Overview: hecate/capture/index.md
       - The problem: hecate/capture/problem.md
