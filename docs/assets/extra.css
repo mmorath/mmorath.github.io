@@ -75,3 +75,35 @@
   text-align: center;
   margin-top: 0.5rem;
 }
+
+/* Tables span the text column, like every other block.
+ *
+ * Material sizes a table to its content: `.md-typeset__table` is an
+ * `inline-block`, so a table with short cells ends up narrower than the
+ * paragraph above it — and narrower than the next table on the same page.
+ * On the Free & Pro page that read as three different measures stacked on
+ * top of each other, which is the worst possible look for tables the eye is
+ * meant to compare.
+ *
+ * Scrolling is NOT affected: Material puts `overflow-x: auto` on the
+ * separate `.md-typeset__scrollwrap` around this element, so a genuinely
+ * wide table still scrolls inside itself on a phone. Only the resting width
+ * changes here, and the horizontal padding Material sets is left alone so
+ * the table keeps aligning with the text column.
+ *
+ * The bare-`table` rule below covers the moment before Material's script
+ * has wrapped the table (the wrappers are added at runtime, not by the
+ * Markdown build), so the page does not reflow visibly on load.
+ */
+.md-typeset__table {
+  display: block;
+  width: 100%;
+}
+
+.md-typeset__table > table {
+  width: 100%;
+}
+
+.md-typeset > table:not([class]) {
+  width: 100%;
+}

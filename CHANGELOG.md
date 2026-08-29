@@ -20,6 +20,17 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## 2026-08-29
 
+### Fixed — tables now span the text column instead of shrinking to fit
+
+Material sizes a table to its content (`.md-typeset__table` is an
+`inline-block`), so on the new Free & Pro page the Capture table came out
+narrower than the Admin table, and both narrower than the paragraph and the
+info box above them — three different measures stacked on one page, on
+tables the reader is meant to compare side by side. They now take the full
+text column. Horizontal scrolling is untouched: that lives on the separate
+`.md-typeset__scrollwrap`, so a wide table still scrolls inside itself on a
+phone rather than pushing the page sideways.
+
 ### Added — a Free & Pro comparison page, in four languages
 
 The site said what Hecate does and what we stand for, but never what the
