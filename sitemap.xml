@@ -64,6 +64,15 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/getting-started/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/hecate/plans/</loc>
+        <lastmod>2026-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/plans/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/hecate/privacy/</loc>
         <lastmod>2026-08-29</lastmod>
         <changefreq>daily</changefreq>
@@ -269,6 +278,15 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/getting-started/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/getting-started/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/de/hecate/plans/</loc>
+        <lastmod>2026-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/plans/"/>
     </url>
     <url>
         <loc>https://mmorath.github.io/de/hecate/privacy/</loc>
@@ -478,6 +496,15 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/getting-started/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/fr/hecate/plans/</loc>
+        <lastmod>2026-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/plans/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/fr/hecate/privacy/</loc>
         <lastmod>2026-08-29</lastmod>
         <changefreq>daily</changefreq>
@@ -683,6 +710,15 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/getting-started/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/getting-started/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/es/hecate/plans/</loc>
+        <lastmod>2026-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/plans/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/plans/"/>
     </url>
     <url>
         <loc>https://mmorath.github.io/es/hecate/privacy/</loc>
