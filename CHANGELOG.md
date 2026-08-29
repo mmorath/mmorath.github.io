@@ -20,6 +20,24 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## 2026-08-29 (later)
 
+### Changed — every Admin screenshot rebuilt from a run that finally works in four languages
+
+The Admin walk navigated the broker wizard by the **English label**
+`"Continue"`. In German, French and Spanish that button has no such label, so
+the walk died there and everything after it was lost — five screens, three
+languages. One of the lost screens sits in the store manifest, which is why
+the whole German, French and Spanish store sets were discarded and only
+English survived. That, not a copy mistake, is the origin of the "English
+everywhere" the site showed.
+
+Fixed at the root in the app repos (identifiers instead of labels), and the
+site's images are re-synced from the new run: 38 screens per language,
+identical name sets, genuinely different files. `14-wizard-full-review` —
+one of the six images this site embeds — exists correctly in German, French
+and Spanish for the first time.
+
+## 2026-08-29 (later)
+
 ### Fixed — the Viewer screenshots were English on the German and French pages
 
 `viewer-ios-karte`, `viewer-ios-feed` and `viewer-ipad-karte` were
