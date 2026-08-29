@@ -44,8 +44,8 @@ profils définissent *quoi* saisir, la validation a lieu au moment de la
 saisie, chaque enregistrement porte sa position GPS, et tout transite par le
 seul broker que vous contrôlez déjà.
 
-[:octicons-arrow-right-24: Le problème en détail](capture/problem.md) ·
-[:octicons-arrow-right-24: Comment Hecate supprime chaque irritant](capture/solution.md)
+[:octicons-arrow-right-24: Le problème en détail](capture/index.fr.md#le-probleme) ·
+[:octicons-arrow-right-24: Comment Hecate supprime chaque irritant](capture/index.fr.md#ce-que-fait-hecate-capture)
 
 ## Les applications
 

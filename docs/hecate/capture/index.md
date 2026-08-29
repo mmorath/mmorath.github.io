@@ -38,29 +38,114 @@ finds — with no new build.
 
 *Screens come from development builds. Some may show features that require a subscription or arrive in a later release — what the free tier includes today is listed under [Free & Pro](../plans/index.md).*
 
-## Read on
 
-<div class="grid cards" markdown>
+## The problem
 
--   :material-alert-circle-outline: __The problem__
+Enterprises run a **sprawl of single-purpose apps** to record data along their
+process steps — one tool per use case, each built in isolation. Three failures
+follow.
 
-    ---
+### Inconsistent quality
 
-    Why a sprawl of single-purpose capture apps leaves data inconsistent,
-    desk-bound and location-blind.
+Every app validates (or fails to validate) its inputs differently, so the data
+that reaches downstream systems is uneven and hard to trust.
 
-    [:octicons-arrow-right-24: The problem](problem.md)
+### Not enabled for mobile
 
--   :material-checkbox-marked-circle-outline: __What Hecate does__
+Much of this capture still happens at a desk — not where the work actually is.
 
-    ---
+### No location context
 
-    How one profile-driven app collapses that sprawl and fixes the data at the
-    source.
+Almost none of it is geo-referenced, so a record rarely says **where** the thing
+it describes actually is.
 
-    [:octicons-arrow-right-24: What Hecate does](solution.md)
+---
 
-</div>
+### In short
+
+| Enterprise pain | |
+| --- | --- |
+| Many single-purpose capture apps | one new build per use case |
+| Inconsistent data quality | every app validates differently |
+| Not enabled for mobile | capture happens at a desk |
+| No location context | records don't say *where* |
+| Heavy infrastructure / IT lift | a backend and device management per tool |
+| Ungoverned access | no consistent rule for who may capture what |
+
+[:octicons-arrow-right-24: How Hecate removes each of these](#what-hecate-capture-does)
+
+## What Hecate Capture does
+
+Hecate collapses that sprawl into **one** configurable app — and fixes the data
+where it's created, not after the fact.
+
+### One app, defined by profiles
+
+The input dialog for each use case is **not coded** — it is a **profile**: a
+small document that declares the steps, the fields, and the allowed input
+methods, distributed to devices over an MQTT topic. Change the profile and the
+same app serves a new use case, with no new build.
+
+### Validated at the source
+
+Every field is checked against its declared format **at the moment of capture**,
+so bad data is stopped where it's created rather than cleaned up downstream.
+
+### The right input for each step
+
+A profile's steps decide **what** is captured; each step picks the input method
+that fits the job:
+
+- **Manual entry.** Type the value straight into the field.
+- **Camera scan.** Point the device camera and let the on-device scanning
+  frameworks read **QR codes, 2D Data Matrix codes and 1D barcodes** — no
+  network round-trip and no third-party service.
+
+Whichever method a step uses, the value flows through the **same validation and
+capture pipeline**, so a profile behaves identically no matter how the data
+arrives.
+
+### The building blocks
+
+| Block | Input | Resulting field |
+|---|---|---|
+| Scan a QR code | QR code via camera | Text, optionally pattern-checked |
+| Scan a barcode | 1D barcode (EAN, Code 128, …) | Text, optionally pattern-checked |
+| Scan a 2D matrix code | Data Matrix via camera | Text, optionally pattern-checked |
+| Capture a quantity | Number entry | Number |
+| Tick a status checklist | Checkboxes — several may apply | Multi-select |
+| Pick a reason | Radio buttons — exactly one applies | Choice (exactly one) |
+| Enter text | Free text, one line | Text |
+| Leave a comment | Free text, multi-line | Text, multi-line |
+
+### Always geo-referenced
+
+Every record carries a **GPS fix** and is streamed in a uniform,
+self-describing envelope to the broker.
+
+### Governance with almost no infrastructure
+
+The only things required are an **MQTT broker and the app** — no backend to
+operate, no device-management enrolment. Authority lives in the broker's
+permissions: an admin publishes retained profiles; a user sees only the profiles
+their credential is allowed to read, and captures against them.
+
+Because everyone working a use case fills in the **same validated profile**, the
+data arrives consistent, comparable, and ready to use — by construction, not by
+after-the-fact cleanup.
+
+---
+
+### How it removes each pain point
+
+| Enterprise pain | How Hecate removes it |
+| --- | --- |
+| Many single-purpose capture apps | One app; each use case is a profile, not a new build |
+| Inconsistent data quality | Per-field format validation, blocked at capture |
+| Not enabled for mobile | A field-first iOS app, used where the work happens |
+| No location context | Every record carries a GPS fix |
+| Heavy infrastructure / IT lift | Broker + app only; profiles delivered as retained MQTT messages |
+| Ungoverned access | Broker permissions decide who may read which profiles |
 
 ## The name & the mark
 

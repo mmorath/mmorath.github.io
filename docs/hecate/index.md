@@ -41,8 +41,8 @@ Hecate replaces the sprawl with **one configurable system**: profiles define
 carries its GPS position, and everything flows through the one broker you
 already control.
 
-[:octicons-arrow-right-24: The problem in detail](capture/problem.md) ·
-[:octicons-arrow-right-24: How Hecate removes each pain](capture/solution.md)
+[:octicons-arrow-right-24: The problem in detail](capture/index.md#the-problem) ·
+[:octicons-arrow-right-24: How Hecate removes each pain](capture/index.md#what-hecate-capture-does)
 
 ## The apps
 
