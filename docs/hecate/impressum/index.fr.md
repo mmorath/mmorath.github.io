@@ -1,12 +1,14 @@
 # Mentions légales
 
+*Hecate est un produit de MMM Software & Consulting. Ce site et les applications Hecate y sont développés et distribués.*
+
 !!! note "Version allemande"
     Cette page est une traduction de courtoisie. Seule la version allemande,
     l'[Impressum](/de/hecate/impressum/){ hreflang="de" }, fait foi.
 
 ## Informations conformément au § 5 DDG (loi allemande sur les services numériques)
 
-**HecateApps**<br>
+**MMM Software & Consulting**<br>
 Propriétaire : Matthias Morath
 
 Zum Burggraben 11<br>

@@ -18,6 +18,25 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-30 (Impressum, Korrektur)
+
+### Fixed — der Anbieter heißt nicht wie das Produkt
+
+Das gestern veröffentlichte Impressum nannte als Anbieter „HecateApps". Das
+war der Produktname, nicht die Firma. Anbieter im Sinne des § 5 DDG ist
+**MMM Software & Consulting**, Inhaber Matthias Morath; Hecate ist das
+Produkt, das dort entwickelt und vertrieben wird.
+
+Das ist keine Kosmetik: Die Anbieterangabe muss die Person oder Firma
+benennen, die für das Angebot einsteht — ein Produktname an dieser Stelle
+erfüllt die Pflicht nicht. Korrigiert in allen vier Sprachfassungen.
+
+Dazu neu, direkt unter der Überschrift, ein Satz zum Verhältnis der beiden
+Namen. Wer über hecateapps.com kommt und im Impressum plötzlich eine andere
+Firma liest, soll nicht rätseln müssen.
+
+---
+
 ## 2026-08-30 (Pro-Kennzeichnung)
 
 ### Changed — die Fußnote versprach zu viel Unsichtbarkeit

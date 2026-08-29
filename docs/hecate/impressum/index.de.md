@@ -1,8 +1,10 @@
 # Impressum
 
+*Hecate ist ein Produkt von MMM Software & Consulting. Diese Website und die Hecate-Apps werden von dort entwickelt und vertrieben.*
+
 ## Angaben gemäß § 5 DDG
 
-**HecateApps**<br>
+**MMM Software & Consulting**<br>
 Inhaber: Matthias Morath
 
 Zum Burggraben 11<br>
