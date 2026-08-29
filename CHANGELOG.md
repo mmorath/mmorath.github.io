@@ -18,6 +18,17 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-29
+
+### Added — Vision & Mission, in four languages
+
+New page `hecate/vision/` (EN base plus `.de/.fr/.es` twins), linked right
+after Getting started: the vision (traceability replaces conflict — and it
+traces the process, never the person), the mission, and the five values,
+each backed by what the product actually does. The wording is the reference
+text from `hecate-business/positioning/vision-mission.md` — site and
+business repo deliberately share one source, so the story cannot fork.
+
 ## 2026-08-26
 
 ### Added — a "Getting started" entry, in all four languages
