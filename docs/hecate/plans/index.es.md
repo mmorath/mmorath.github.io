@@ -38,9 +38,10 @@ idiomas, tu propio broker — es gratis y lo seguirá siendo.
 
 | | Free | Pro |
 | --- | :---: | :---: |
+| Perfiles guardados en el dispositivo | **1** | ilimitados |
 | Perfiles publicados activos a la vez | **1** | ilimitados |
 | Configuraciones de broker | **1** | ilimitadas |
-| Crear, editar y probar perfiles | :material-check: | :material-check: |
+| Crear, editar y probar ese perfil | :material-check: | :material-check: |
 | Publicar y retirar perfiles | :material-check: | :material-check: |
 | Retirar un perfil | en línea, con acuse del broker | también en cola sin conexión |
 | Configurar dispositivos por código QR | :material-check: | :material-check: |

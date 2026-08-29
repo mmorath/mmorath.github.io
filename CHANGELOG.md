@@ -18,6 +18,22 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-29 (Korrektur)
+
+### Fixed — die Free-Tabelle versprach unbegrenztes Anlegen von Profilen
+
+Gerätebefund des Nutzers: „ich kann nur eines anlegen." Er hat recht, und die
+Seite hatte unrecht. Sie führte nur die *publizierten* Profile als begrenzt
+(„1") und daneben „Profile anlegen, bearbeiten und testen ✓" — als sei das
+Anlegen frei. Die App begrenzt aber **beides**: Sie hält ein gespeichertes
+Profil je Gerät und sagt das auch so („Bearbeite das vorhandene Profil — oder
+lösche es, um ein neues anzulegen").
+
+Die Tabelle trägt jetzt beide Zeilen: **gespeicherte Profile: 1** und
+**gleichzeitig aktive publizierte: 1**. Ein Versprechen, das die App nicht
+hält, ist schlimmer als eine strengere Grenze — besonders auf einer Seite,
+deren ganzer Zweck der ehrliche Vergleich ist.
+
 ## 2026-08-29 (later)
 
 ### Changed — every Admin screenshot rebuilt from a run that finally works in four languages

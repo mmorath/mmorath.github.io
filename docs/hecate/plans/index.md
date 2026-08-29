@@ -37,9 +37,10 @@ stays free.
 
 | | Free | Pro |
 | --- | :---: | :---: |
+| Profiles stored on the device | **1** | unlimited |
 | Published profiles, active at once | **1** | unlimited |
 | Broker configurations | **1** | unlimited |
-| Authoring, editing and testing profiles | :material-check: | :material-check: |
+| Authoring, editing and testing that one profile | :material-check: | :material-check: |
 | Publishing and retiring profiles | :material-check: | :material-check: |
 | Retiring a profile | online, with broker receipt | also queued while offline |
 | Provisioning devices by QR code | :material-check: | :material-check: |

@@ -38,9 +38,10 @@ eigener Broker — ist kostenlos und bleibt es.
 
 | | Free | Pro |
 | --- | :---: | :---: |
+| Gespeicherte Profile je Gerät | **1** | unbegrenzt |
 | Gleichzeitig aktive publizierte Profile | **1** | unbegrenzt |
 | Broker-Konfigurationen | **1** | unbegrenzt |
-| Profile anlegen, bearbeiten und testen | :material-check: | :material-check: |
+| Das gespeicherte Profil anlegen, bearbeiten und testen | :material-check: | :material-check: |
 | Profile publizieren und zurückziehen | :material-check: | :material-check: |
 | Zurückziehen | online, mit Broker-Quittung | auch eingereiht im Offline-Fall |
 | Geräte per QR-Code einrichten | :material-check: | :material-check: |

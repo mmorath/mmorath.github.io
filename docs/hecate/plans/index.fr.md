@@ -39,9 +39,10 @@ reste.
 
 | | Free | Pro |
 | --- | :---: | :---: |
+| Profils enregistrés sur l'appareil | **1** | illimités |
 | Profils publiés actifs en même temps | **1** | illimités |
 | Configurations de broker | **1** | illimitées |
-| Créer, modifier et tester des profils | :material-check: | :material-check: |
+| Créer, modifier et tester ce profil | :material-check: | :material-check: |
 | Publier et retirer des profils | :material-check: | :material-check: |
 | Retrait d'un profil | en ligne, avec accusé du broker | aussi mis en file hors ligne |
 | Configurer les appareils par QR code | :material-check: | :material-check: |
