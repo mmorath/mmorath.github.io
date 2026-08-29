@@ -135,6 +135,9 @@ nav:
   # Right after Getting started: the page that says WHY the product is built
   # this way — the subscription model and the privacy stance both point here.
   - Vision & Mission: hecate/vision/index.md
+  # Direkt hinter Vision & Mission: dort steht das Fairness-Versprechen
+  # ("ein vergleichbares Angebot"), hier steht das Vergleichbare selbst.
+  - Free & Pro: hecate/plans/index.md
   # One collapsed group instead of five always-open ones. The three viewers
   # are one product on three screens, so they read as one entry with three
   # children rather than three separate top-level groups.

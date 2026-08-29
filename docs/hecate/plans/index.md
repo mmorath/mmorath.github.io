@@ -1,0 +1,77 @@
+# Free & Pro
+
+*What the free tier includes, and what a subscription will unlock.*
+
+Hecate's free tier is **a real product, not a trial**: it never expires, and
+nothing you capture is held back from you. What it limits is *quantity* —
+how much you capture per day, how many profiles you keep active, how many
+brokers you talk to. Everything that makes the tool what it is — scanning,
+GPS, the offline outbox, all four languages, your own broker — is free and
+stays free.
+
+!!! info "Pro is not on sale yet"
+
+    The apps shipping today are the **free tier only**. There is no purchase
+    inside them, and no price to pay. The Pro column below is what a
+    subscription will unlock in a later version — and when it arrives, its
+    price will be stated **right here**, openly and in full, so you can
+    compare it with anything else. That is part of
+    [what we promise](../vision/index.md).
+
+## Hecate Capture
+
+| | Free | Pro |
+| --- | :---: | :---: |
+| Captures per day | **10** | unlimited |
+| Steps per profile | **up to 5** | unlimited |
+| Broker configurations | **1** | unlimited |
+| Every scanner type (QR, DataMatrix, EAN, Code 128 …) | :material-check: | :material-check: |
+| GPS position on every record | :material-check: | :material-check: |
+| Offline outbox, delivers on reconnect | :material-check: | :material-check: |
+| Printing via AirPrint | :material-check: | :material-check: |
+| All four languages | :material-check: | :material-check: |
+| Label printing on Zebra hardware (ZPL) | — | *planned* |
+| Route to an asset (Maps / Google Maps / Waze) | — | *planned* |
+
+## Hecate Admin
+
+| | Free | Pro |
+| --- | :---: | :---: |
+| Published profiles, active at once | **1** | unlimited |
+| Broker configurations | **1** | unlimited |
+| Authoring, editing and testing profiles | :material-check: | :material-check: |
+| Publishing and retiring profiles | :material-check: | :material-check: |
+| Retiring a profile | online, with broker receipt | also queued while offline |
+| Provisioning devices by QR code | :material-check: | :material-check: |
+| Validator, size guard, publish guard | :material-check: | :material-check: |
+| Profile version control against a repository | — | *planned* |
+
+## Hecate Viewer — iPhone, iPad, Apple TV
+
+| | Free | Pro |
+| --- | :---: | :---: |
+| Live map, live feed, filters, fade timer, pairing | :material-check: | *(nothing to buy)* |
+
+The viewer is **free in every case, on every screen, for good**. It captures
+nothing and publishes nothing — it is the window onto what your devices
+send, and a window should not cost extra.
+
+## The limits in plain words
+
+- **10 captures per day** counts one calendar day on the device, in your own
+  time zone — not a rolling 24 hours. When the limit is reached, the app
+  says so *before* you start the next capture, and tells you when the day
+  turns over. Nothing you already captured is affected.
+- **Up to 5 steps per profile** is measured on the profile a device runs,
+  not on what you may author: Hecate Admin never stops you from building a
+  larger workflow, because the person authoring it usually is not the person
+  holding the field device.
+- **One broker configuration** means one saved connection, not one
+  connection attempt. Re-provisioning a device by QR code **replaces** that
+  one configuration — moving a device to another broker is never blocked.
+  Several saved configurations are what a Pro subscription is for: test,
+  pre-production and production side by side.
+
+*Planned* marks work that exists but is not switched on in the shipping
+apps. It returns as part of a subscription, not as something taken away
+from anyone: no feature you can see today will ever grow a lock.

@@ -20,6 +20,24 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## 2026-08-29
 
+### Added — a Free & Pro comparison page, in four languages
+
+The site said what Hecate does and what we stand for, but never what the
+free tier actually gives you. That gap sat badly next to the fairness value
+we had just sharpened: you cannot invite comparison and then publish
+nothing to compare. `hecate/plans/` now carries three tables — Capture,
+Admin, Viewer — with the free limits stated in numbers (10 captures a day,
+5 steps per profile, 1 broker configuration, 1 active profile) and a plain
+explanation of what each limit really counts.
+
+Two decisions worth recording. **The page says outright that Pro is not on
+sale**: the shipping apps carry the free tier only, so a price column would
+promise a purchase that does not exist — instead the page commits to
+stating the price here, in full, the moment it does. And **features that
+are built but switched off are marked *planned*, never as something
+withheld**: no feature visible today will ever grow a lock, and the page
+says so.
+
 ### Changed — fairness now promises a *comparable* offer, in all four languages
 
 The fairness value already said "no buy-in" and "cancel any time". What it
