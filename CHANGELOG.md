@@ -18,6 +18,43 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-29 (Impressum)
+
+### Added — ein Impressum, in vier Sprachen
+
+Die Site hatte keines. `grep -rli "impressum\|imprint\|legal notice" docs/`
+lieferte nichts — und das ist keine Formalie, sondern die einzige konkrete
+Rechtslücke, die vor der Einreichung offen war: § 5 DDG verlangt die Angabe
+für jedes geschäftsmäßige Online-Angebot, und eine Website, die Apps mit
+Preisen bewirbt, ist geschäftsmäßig.
+
+Neu: `docs/hecate/impressum/index{,.de,.fr,.es}.md`, dazu ein eigener
+Menüpunkt (*Legal notice · Impressum · Mentions légales · Aviso legal*).
+Ein Menüpunkt statt einer Fußzeile, weil Material keine Fußzeile mit Links
+führt und die Angabe von **jeder** Seite aus erreichbar sein muss.
+
+Drei Entscheidungen, die man später nicht mehr sieht:
+
+- **Die deutsche Fassung ist maßgeblich.** Die drei Übersetzungen sagen das
+  im ersten Absatz und verlinken sie. Ein übersetztes Impressum, das so tut,
+  als sei es das Original, hilft niemandem.
+- **Kein Link auf die EU-Plattform zur Online-Streitbeilegung.** Sie wurde am
+  20.07.2025 eingestellt. Der Absatz, den fast jedes Muster im Netz noch
+  trägt, zeigt heute ins Leere; hier steht stattdessen die Erklärung nach
+  § 36 VSBG.
+- **Der Kaufvertrag kommt mit Apple zustande, und die Seite sagt das.**
+  Sonst sucht jemand Widerruf, Rechnung oder Kündigung bei uns. Für die
+  Nutzung gilt Apples Standard-EULA — verlinkt, damit sie auffindbar ist.
+
+Die Angaben stammen aus `hecate-business/.env`; leere Felder sind
+weggelassen, nicht erfunden. Registernummer und Steuernummer stehen deshalb
+nicht drin — ein Einzelunternehmen hat keine Registernummer, und die
+Steuernummer gehört nicht ins Impressum, die USt-IdNr. schon.
+
+Regel festgehalten in `hecate-meta/docs/specs/website.md` WS8 (+ Prüfung WT6).
+
+---
+
 ## 2026-08-29 (Korrektur)
 
 ### Fixed — die Free-Tabelle versprach unbegrenztes Anlegen von Profilen

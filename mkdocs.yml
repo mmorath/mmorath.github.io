@@ -76,6 +76,7 @@ plugins:
             What it does: Was sie leistet
             Privacy: Datenschutz
             Support: Support
+            Legal notice: Impressum
         - locale: fr
           name: Français
           build: true
@@ -91,6 +92,7 @@ plugins:
             What it does: Ce qu'elle fait
             Privacy: Confidentialité
             Support: Assistance
+            Legal notice: Mentions légales
         - locale: es
           name: Español
           build: true
@@ -106,6 +108,7 @@ plugins:
             What it does: Qué hace
             Privacy: Privacidad
             Support: Soporte
+            Legal notice: Aviso legal
 
 markdown_extensions:
   - admonition
@@ -175,3 +178,8 @@ nav:
       - Hecate Viewer (iPhone): hecate/privacy/viewer-ios/index.md
       - Hecate Viewer (iPad): hecate/privacy/viewer-ipad/index.md
       - Hecate Viewer (Apple TV): hecate/privacy/viewer-tvos/index.md
+  # Pflichtangabe nach § 5 DDG. Sie muss "leicht erkennbar, unmittelbar
+  # erreichbar und staendig verfuegbar" sein — ein eigener Menuepunkt erfuellt
+  # das auf jeder Seite. Material fuehrt keine Fusszeile mit Links, deshalb
+  # steht das Impressum hier und nicht unten.
+  - Legal notice: hecate/impressum/index.md
