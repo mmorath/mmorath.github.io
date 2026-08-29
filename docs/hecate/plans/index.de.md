@@ -65,10 +65,13 @@ deine Geräte senden, und ein Fenster darf nichts extra kosten.
   Grenze erreicht, sagt die App es *bevor* du die nächste Erfassung
   beginnst, und nennt, wann der Tag umschlägt. Bereits Erfasstes bleibt
   unberührt.
-- **Bis 5 Bausteine je Profil** misst das Profil, das ein Gerät ausführt,
-  nicht das, was du erstellen darfst: Hecate Admin hält dich nie davon ab,
-  einen größeren Ablauf zu bauen — wer ihn entwirft, ist meist nicht die
-  Person, die das Feldgerät in der Hand hält.
+- **Bis 5 Bausteine je Profil** gilt beim Bauen und beim Ausführen. Ist die
+  fünfte Karte gesetzt, sind die übrigen im Assistenten ausgegraut — aber
+  antippbar: Der Tipp erklärt die Grenze, statt einfach nichts zu tun.
+  Entfernst du oben einen Schritt, sind sie sofort wieder wählbar. Wir haben
+  das ursprünglich anders gebaut und die Grenze erst beim Ausführen gezogen;
+  wer dann sieben Bausteine gebaut hatte, erfuhr es nach getaner Arbeit. Eine
+  Grenze, die man beim Bauen sieht, ist die freundlichere.
 - **Eine Broker-Konfiguration** meint eine gespeicherte Verbindung, nicht
   einen Verbindungsversuch. Ein neues Provisioning per QR-Code **ersetzt**
   diese eine Konfiguration — ein Gerät auf einen anderen Broker umzuziehen

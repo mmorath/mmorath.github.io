@@ -63,10 +63,13 @@ send, and a window should not cost extra.
   time zone — not a rolling 24 hours. When the limit is reached, the app
   says so *before* you start the next capture, and tells you when the day
   turns over. Nothing you already captured is affected.
-- **Up to 5 steps per profile** is measured on the profile a device runs,
-  not on what you may author: Hecate Admin never stops you from building a
-  larger workflow, because the person authoring it usually is not the person
-  holding the field device.
+- **Up to 5 building blocks per profile** applies both while authoring and
+  while running. Once the fifth block is placed, the remaining cards in the
+  wizard are greyed out --- but still tappable: the tap explains the limit
+  instead of simply doing nothing. Remove a step above and they are selectable
+  again at once. We originally drew this line only at run time; anyone who had
+  built seven blocks learned about it after the work was done. A limit you see
+  while building is the kinder one.
 - **One broker configuration** means one saved connection, not one
   connection attempt. Re-provisioning a device by QR code **replaces** that
   one configuration — moving a device to another broker is never blocked.

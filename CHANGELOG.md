@@ -18,6 +18,27 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-30 (Baustein-Grenze)
+
+### Changed — die Fünf-Bausteine-Grenze gilt jetzt auch beim Bauen
+
+Die Seite versprach: „Hecate Admin hält dich nie davon ab, einen größeren
+Ablauf zu bauen." Das stimmt seit heute nicht mehr, und der Grund ist ein
+Gerätetest: Der Nutzer baute im Assistenten **sieben** Bausteine, ohne dass
+ihn etwas warnte — und hätte die Grenze erst beim Ausführen erlebt, nach
+getaner Arbeit.
+
+Die alte Regel hatte ein gutes Argument (wer entwirft, hält selten das
+Feldgerät), aber sie kaufte es mit einer Enttäuschung am falschen Ende. Jetzt
+graut der Assistent bei fünf gesetzten Bausteinen die übrigen Karten aus —
+antippbar, mit Erklärung —, und das Entfernen eines Schritts gibt sie sofort
+wieder frei.
+
+Nachgezogen in allen vier Sprachen, samt der Begründung: Wir sagen, dass wir
+es vorher anders gebaut hatten und warum wir es geändert haben.
+
+---
+
 ## 2026-08-30 (Schloss statt Fähnchen)
 
 ### Changed — aus dem PRO-Badge wurde ein Schloss

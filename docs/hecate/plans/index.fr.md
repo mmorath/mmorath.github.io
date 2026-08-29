@@ -66,10 +66,14 @@ vos appareils envoient, et une fenêtre ne doit rien coûter de plus.
   Une fois la limite atteinte, l'application le dit *avant* que vous ne
   commenciez la saisie suivante, et indique quand le jour bascule. Ce qui
   est déjà saisi n'est pas touché.
-- **Jusqu'à 5 blocs par profil** se mesure sur le profil qu'un appareil
-  exécute, pas sur ce que vous avez le droit de créer : Hecate Admin ne
-  vous empêche jamais de construire un flux plus long — celui qui le conçoit
-  n'est généralement pas celui qui tient l'appareil sur le terrain.
+- **Jusqu'à 5 blocs par profil** vaut aussi bien à la création qu'à
+  l'exécution. Une fois le cinquième bloc posé, les autres cartes de
+  l'assistant sont grisées — mais restent cliquables : l'appui explique la
+  limite au lieu de ne rien faire. Retirez une étape plus haut et elles
+  redeviennent aussitôt sélectionnables. Nous avions d'abord placé cette
+  limite à l'exécution seulement ; qui avait construit sept blocs l'apprenait
+  une fois le travail fait. Une limite qu'on voit en construisant est la plus
+  aimable.
 - **Une configuration de broker** signifie une connexion enregistrée, pas
   une tentative de connexion. Un nouveau provisionnement par QR code
   **remplace** cette unique configuration — déplacer un appareil vers un

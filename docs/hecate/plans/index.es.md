@@ -64,10 +64,13 @@ tus dispositivos, y una ventana no debe costar aparte.
   propia zona horaria — no una ventana móvil de 24 horas. Cuando se alcanza
   el límite, la aplicación lo dice *antes* de que empieces la siguiente
   captura, e indica cuándo cambia el día. Lo ya capturado no se ve afectado.
-- **Hasta 5 bloques por perfil** se mide sobre el perfil que ejecuta un
-  dispositivo, no sobre lo que puedes crear: Hecate Admin nunca te impide
-  construir un flujo más largo — quien lo diseña no suele ser quien sostiene
-  el dispositivo en campo.
+- **Hasta 5 bloques por perfil** rige tanto al crear como al ejecutar. Una
+  vez colocado el quinto bloque, las demás tarjetas del asistente aparecen en
+  gris — pero siguen siendo pulsables: al tocarlas se explica el límite en
+  lugar de no hacer nada. Quita un paso arriba y vuelven a estar disponibles
+  al instante. Al principio pusimos este límite solo en la ejecución; quien
+  había construido siete bloques se enteraba con el trabajo ya hecho. Un
+  límite que se ve mientras construyes es el más amable.
 - **Una configuración de broker** significa una conexión guardada, no un
   intento de conexión. Un nuevo aprovisionamiento por código QR
   **sustituye** esa única configuración — mover un dispositivo a otro broker
