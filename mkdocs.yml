@@ -60,6 +60,7 @@ plugins:
           name: Deutsch
           build: true
           nav_translations:
+            Home: Start
             Getting started: Erste Schritte
             The apps: Die Apps
             For operators: Für Anwender
@@ -73,6 +74,7 @@ plugins:
           name: Français
           build: true
           nav_translations:
+            Home: Accueil
             Getting started: Premiers pas
             Vision & Mission: Vision & mission
             The apps: Les applications
@@ -87,6 +89,7 @@ plugins:
           name: Español
           build: true
           nav_translations:
+            Home: Inicio
             Getting started: Primeros pasos
             Vision & Mission: Visión y misión
             The apps: Las aplicaciones
@@ -119,7 +122,12 @@ markdown_extensions:
 # are intentionally not listed. Translations fall back to English (the i18n
 # plugin serves the English page under /de/ and /fr/ when a *.de/*.fr is absent).
 nav:
-  - Hecate: hecate/index.md
+  # NICHT "Hecate": Material stellt dem Menue den site_name als Kopfzeile
+  # voran (mit dem Logo), sodass "Hecate" sonst zweimal untereinander stuende
+  # — einmal als Marke, einmal als Seite. "Home" benennt, was der Eintrag
+  # wirklich ist: der Kopf der Website. "Overview" waere doppeldeutig, das
+  # Wort traegt schon jede App-Gruppe.
+  - Home: hecate/index.md
   # Second stop after the landing page, deliberately ahead of the app group:
   # a visitor who has decided to try Hecate needs the broker set up before any
   # single app's overview is useful to them.

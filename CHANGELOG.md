@@ -20,6 +20,16 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## 2026-08-29
 
+### Changed — the landing entry is "Home", so "Hecate" is said once
+
+The sidebar opened with **Hecate** twice in a row: Material puts the
+`site_name` above the menu as its header (with the logo), and the first nav
+entry carried the same word. One is the brand, the other is a page — and
+nothing on screen said which. The entry is now **Home** (Start / Accueil /
+Inicio), which names what it actually is: the head of the site.
+"Overview" was the obvious alternative and was rejected — every app group
+already uses that word one level down.
+
 ### Changed — the sidebar stopped shouting: six entries instead of thirty
 
 A first-time visitor met roughly thirty sidebar entries at once, and the
