@@ -65,8 +65,17 @@ SCREENS = {
     "capture-detail":   ("capture", "asset-detail"),
     "capture-sent":     ("capture", "home-sent"),
     "capture-settings": ("capture", "settings-hub"),
+    # The Admin set. `admin-detail` used to map to `04-profile-detail`, a
+    # screen the walk no longer produces — the mapping went stale silently,
+    # which is exactly the failure this file's header warns about. It now
+    # points at the editor, and the Admin page finally has a gallery of its
+    # own instead of two images borrowed by the landing page.
     "admin-profiles":   ("admin",   "01-profiles-home"),
-    "admin-detail":     ("admin",   "04-profile-detail"),
+    "admin-detail":     ("admin",   "02-editor"),
+    "admin-wizard":     ("admin",   "wizard-blocks-picker"),
+    "admin-steps":      ("admin",   "12-wizard-blocks-added-list"),
+    "admin-review":     ("admin",   "14-wizard-full-review"),
+    "admin-broker":     ("admin",   "21-broker-list"),
     # The getting-started page (docs/hecate/getting-started/) walks a reader
     # through broker setup and provisioning. These come from Capture and not
     # from Admin on purpose: the broker screens are HecateKit's, identical in

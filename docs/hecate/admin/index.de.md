@@ -37,6 +37,25 @@ Hecate Admin wird dieses Profil geschrieben, geprüft und verwaltet.
 - **Keine Telemetrie.** Die Admin-App erhebt keinen Standort, keine
   Nutzungsanalysen und kein Tracking irgendeiner Art.
 
+## Screenshots
+
+Zwei Bildschirme tragen diese App: die **Profil-Übersicht**, die zeigt, was
+publiziert ist und woran gerade gearbeitet wird, und der **Assistent**, in
+dem ein Ablauf aus Bausteinen entsteht. Die Schritte stehen in der
+Reihenfolge, in der die Anwender sie durchlaufen, und nichts wird
+publiziert, bevor es geprüft wurde.
+
+<div class="shots">
+  <figure><img src="/assets/screens/de/admin-profiles.png" alt="Die Profil-Übersicht mit den erstellten Profilen"><figcaption>Profil-Übersicht</figcaption></figure>
+  <figure><img src="/assets/screens/de/admin-wizard.png" alt="Die Bausteinauswahl des Assistenten — was ein Schritt erfassen soll"><figcaption>Der Assistent: Baustein wählen</figcaption></figure>
+  <figure><img src="/assets/screens/de/admin-steps.png" alt="Die Schritte des Ablaufs in der Reihenfolge, in der sie durchlaufen werden"><figcaption>Die Schritte, der Reihe nach</figcaption></figure>
+  <figure><img src="/assets/screens/de/admin-review.png" alt="Die vollständige Prüfung eines Profils, bevor es angelegt wird"><figcaption>Prüfen vor dem Publizieren</figcaption></figure>
+  <figure><img src="/assets/screens/de/admin-detail.png" alt="Der Profil-Editor"><figcaption>Profil-Editor</figcaption></figure>
+  <figure><img src="/assets/screens/de/admin-broker.png" alt="Die Broker-Konfigurationen, in die publiziert wird"><figcaption>Broker-Konfigurationen</figcaption></figure>
+</div>
+
+*Die Aufnahmen stammen aus Entwicklungsversionen. Einzelne Bildschirme können Funktionen zeigen, die ein Abo voraussetzen oder erst in einer späteren Version kommen — was die kostenlose Stufe heute enthält, steht unter [Free & Pro](../plans/index.de.md).*
+
 ## Wie Profile auf die Geräte kommen
 
 Die Admin-App veröffentlicht jedes Profil als **Retained**-Nachricht unter

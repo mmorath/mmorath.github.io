@@ -34,6 +34,24 @@ that profile is written, checked, and governed.
 - **No telemetry.** The admin app collects no location, no usage analytics, and
   no tracking of any kind.
 
+## Screenshots
+
+Two screens carry this app: the **profiles home**, which lists what is
+published and what is being worked on, and the **wizard**, where a workflow
+is assembled from building blocks. The steps line up in the order operators
+will walk them, and nothing is published before it has been reviewed.
+
+<div class="shots">
+  <figure><img src="/assets/screens/en/admin-profiles.png" alt="The profiles home with the authored profiles"><figcaption>Profiles home</figcaption></figure>
+  <figure><img src="/assets/screens/en/admin-wizard.png" alt="The wizard's block picker — choosing what a step captures"><figcaption>The wizard: pick a block</figcaption></figure>
+  <figure><img src="/assets/screens/en/admin-steps.png" alt="The steps of the workflow, in the order operators walk them"><figcaption>The steps, in order</figcaption></figure>
+  <figure><img src="/assets/screens/en/admin-review.png" alt="The full review of a profile before it is created"><figcaption>Review before publishing</figcaption></figure>
+  <figure><img src="/assets/screens/en/admin-detail.png" alt="The profile editor"><figcaption>Profile editor</figcaption></figure>
+  <figure><img src="/assets/screens/en/admin-broker.png" alt="The broker configurations the app publishes to"><figcaption>Broker configurations</figcaption></figure>
+</div>
+
+*Screens come from development builds. Some may show features that require a subscription or arrive in a later release — what the free tier includes today is listed under [Free & Pro](../plans/index.md).*
+
 ## How profiles reach devices
 
 The admin app publishes each profile as a **retained** message at

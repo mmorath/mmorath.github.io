@@ -38,6 +38,25 @@ Admin es donde ese perfil se escribe, se comprueba y se gobierna.
 - **Sin telemetría.** La aplicación de administración no recopila ubicación,
   ni analíticas de uso, ni rastreo de ningún tipo.
 
+## Capturas de pantalla
+
+Dos pantallas sostienen esta aplicación: el **inicio de perfiles**, que
+muestra qué está publicado y en qué se está trabajando, y el **asistente**,
+donde un flujo se compone de bloques. Los pasos quedan en el orden en que
+los recorrerán los operarios, y nada se publica antes de haber sido
+revisado.
+
+<div class="shots">
+  <figure><img src="/assets/screens/es/admin-profiles.png" alt="La pantalla de perfiles con los perfiles creados"><figcaption>Inicio de perfiles</figcaption></figure>
+  <figure><img src="/assets/screens/es/admin-wizard.png" alt="El selector de bloques del asistente — qué debe capturar un paso"><figcaption>El asistente: elegir un bloque</figcaption></figure>
+  <figure><img src="/assets/screens/es/admin-steps.png" alt="Los pasos del flujo, en el orden en que se recorren"><figcaption>Los pasos, en orden</figcaption></figure>
+  <figure><img src="/assets/screens/es/admin-review.png" alt="La revisión completa de un perfil antes de crearlo"><figcaption>Revisar antes de publicar</figcaption></figure>
+  <figure><img src="/assets/screens/es/admin-detail.png" alt="El editor de perfiles"><figcaption>Editor de perfiles</figcaption></figure>
+  <figure><img src="/assets/screens/es/admin-broker.png" alt="Las configuraciones de broker a las que publica la app"><figcaption>Configuraciones de broker</figcaption></figure>
+</div>
+
+*Las capturas proceden de versiones de desarrollo. Algunas pueden mostrar funciones que requieren una suscripción o que llegarán en una versión posterior — lo que incluye hoy el nivel gratuito se indica en [Free & Pro](../plans/index.es.md).*
+
 ## Cómo llegan los perfiles a los dispositivos
 
 La aplicación de administración publica cada perfil como mensaje **retained**
