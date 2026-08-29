@@ -40,6 +40,8 @@ archäologische Funde — ohne neuen Build.
   <figure><img src="/assets/screens/de/capture-settings.png" alt="Der Einstellungs-Hub"><figcaption>Einstellungen</figcaption></figure>
 </div>
 
+*Die Aufnahmen stammen aus Entwicklungsversionen. Einzelne Bildschirme können Funktionen zeigen, die ein Abo voraussetzen oder erst in einer späteren Version kommen — was die kostenlose Stufe heute enthält, steht unter [Free & Pro](../plans/index.de.md).*
+
 ## Weiterlesen
 
 <div class="grid cards" markdown>

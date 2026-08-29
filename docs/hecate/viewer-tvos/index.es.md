@@ -50,6 +50,8 @@ que aparece en pantalla vino de su broker y vive solo en memoria.
   <figure class="wide"><img src="/assets/screens/es/tv-wall.png" alt="Hecate Viewer TV — el muro en vivo: feed lateral junto al mapa a pantalla completa con los activos entrantes como pines"><figcaption>El muro — feed lateral y mapa en vivo</figcaption></figure>
 </div>
 
+*Las capturas proceden de versiones de desarrollo. Algunas pueden mostrar funciones que requieren una suscripción o que llegarán en una versión posterior — lo que incluye hoy el nivel gratuito se indica en [Free & Pro](../plans/index.es.md).*
+
 ## Qué muestra
 
 El muro representa el flujo de activos en vivo del broker: los campos capturados

@@ -45,6 +45,8 @@ lo que hay en pantalla proviene de su broker y vive únicamente en memoria.
   <figure><img src="/assets/screens/es/viewer-ios-feed.png" alt="El feed en vivo — de lo más reciente a lo más antiguo, con etiquetas de frescura y colores de perfil"><figcaption>El feed en vivo</figcaption></figure>
 </div>
 
+*Las capturas proceden de versiones de desarrollo. Algunas pueden mostrar funciones que requieren una suscripción o que llegarán en una versión posterior — lo que incluye hoy el nivel gratuito se indica en [Free & Pro](../plans/index.es.md).*
+
 ## Qué muestra
 
 El visor representa el flujo de activos en vivo del broker — los campos

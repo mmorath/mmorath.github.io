@@ -126,6 +126,8 @@ Scan-Engine Hecate direkt anspricht.
   <figure class="wide"><img src="/assets/screens/de/tv-wall.png" alt="Hecate Viewer für Apple TV — die Live-Wandanzeige"><figcaption>Viewer für Apple TV — die Wand</figcaption></figure>
 </div>
 
+*Die Aufnahmen stammen aus Entwicklungsversionen. Einzelne Bildschirme können Funktionen zeigen, die ein Abo voraussetzen oder erst in einer späteren Version kommen — was die kostenlose Stufe heute enthält, steht unter [Free & Pro](plans/index.de.md).*
+
 ## Wie alles zusammenspielt
 
 Die **Admin-App** ist die Autorität für *Profile*; die **Erfassungs-App**

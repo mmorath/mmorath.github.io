@@ -31,8 +31,8 @@ idiomas, tu propio broker — es gratis y lo seguirá siendo.
 | Bandeja de salida sin conexión, entrega al reconectar | :material-check: | :material-check: |
 | Impresión mediante AirPrint | :material-check: | :material-check: |
 | Los cuatro idiomas | :material-check: | :material-check: |
-| Impresión de etiquetas en equipos Zebra (ZPL) | — | *previsto* |
-| Ruta hasta el objeto (Mapas / Google Maps / Waze) | — | *previsto* |
+| Impresión de etiquetas en equipos Zebra (ZPL) | — | :material-check: \* |
+| Ruta hasta el objeto (Mapas / Google Maps / Waze) | — | :material-check: \* |
 
 ## Hecate Admin
 
@@ -45,7 +45,7 @@ idiomas, tu propio broker — es gratis y lo seguirá siendo.
 | Retirar un perfil | en línea, con acuse del broker | también en cola sin conexión |
 | Configurar dispositivos por código QR | :material-check: | :material-check: |
 | Validador, límite de tamaño, protección de publicación | :material-check: | :material-check: |
-| Control de versiones de perfiles en un repositorio | — | *previsto* |
+| Control de versiones de perfiles en un repositorio | — | :material-check: \* |
 
 ## Hecate Viewer — iPhone, iPad, Apple TV
 
@@ -74,7 +74,9 @@ tus dispositivos, y una ventana no debe costar aparte.
   objeto de una suscripción Pro: prueba, preproducción y producción en
   paralelo.
 
-*Previsto* señala trabajo que existe pero no está activado en las
-aplicaciones publicadas. Vuelve como parte de una suscripción, no como algo
-que se le haya quitado a nadie: ninguna función visible hoy tendrá jamás un
-candado.
+**\* Desarrollado y probado, hoy desactivado.** No son planes. El código
+está escrito, tiene sus propias pruebas y ya ha funcionado en versiones
+publicadas. En las aplicaciones que instalas hoy simplemente está apagado;
+una suscripción lo enciende — no queda nada por desarrollar. Vuelve como
+parte de la suscripción, no como algo que se le haya quitado a nadie:
+ninguna función visible hoy tendrá jamás un candado.

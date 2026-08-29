@@ -31,8 +31,8 @@ eigener Broker — ist kostenlos und bleibt es.
 | Offline-Ausgang, liefert bei Verbindung nach | :material-check: | :material-check: |
 | Drucken über AirPrint | :material-check: | :material-check: |
 | Alle vier Sprachen | :material-check: | :material-check: |
-| Etikettendruck auf Zebra-Geräten (ZPL) | — | *geplant* |
-| Route zum Objekt (Karten / Google Maps / Waze) | — | *geplant* |
+| Etikettendruck auf Zebra-Geräten (ZPL) | — | :material-check: \* |
+| Route zum Objekt (Karten / Google Maps / Waze) | — | :material-check: \* |
 
 ## Hecate Admin
 
@@ -45,7 +45,7 @@ eigener Broker — ist kostenlos und bleibt es.
 | Zurückziehen | online, mit Broker-Quittung | auch eingereiht im Offline-Fall |
 | Geräte per QR-Code einrichten | :material-check: | :material-check: |
 | Validator, Größen-Gate, Publish-Schutz | :material-check: | :material-check: |
-| Profil-Versionierung gegen ein Repository | — | *geplant* |
+| Profil-Versionierung gegen ein Repository | — | :material-check: \* |
 
 ## Hecate Viewer — iPhone, iPad, Apple TV
 
@@ -74,7 +74,10 @@ deine Geräte senden, und ein Fenster darf nichts extra kosten.
   wird nie blockiert. Mehrere gespeicherte Konfigurationen sind der Zweck
   eines Pro-Abos: Test, Vorproduktion und Produktion nebeneinander.
 
-*Geplant* bezeichnet Arbeit, die es gibt, die in den ausgelieferten Apps
-aber nicht eingeschaltet ist. Sie kehrt als Teil eines Abos zurück, nicht
-als etwas, das jemandem weggenommen wurde: Kein Feature, das du heute
-siehst, bekommt je ein Schloss.
+**\* Gebaut und getestet, heute abgeschaltet.** Das sind keine Vorhaben.
+Der Code ist geschrieben, er trägt seine eigenen Tests, und er lief bereits
+in ausgelieferten Fassungen. In den Apps, die du heute installierst, ist er
+schlicht ausgeschaltet; ein Abo schaltet ihn ein — entwickelt werden muss
+dafür nichts mehr. Er kehrt als Teil des Abos zurück, nicht als etwas, das
+jemandem weggenommen wurde: Kein Feature, das du heute siehst, bekommt je
+ein Schloss.

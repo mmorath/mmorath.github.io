@@ -30,8 +30,8 @@ stays free.
 | Offline outbox, delivers on reconnect | :material-check: | :material-check: |
 | Printing via AirPrint | :material-check: | :material-check: |
 | All four languages | :material-check: | :material-check: |
-| Label printing on Zebra hardware (ZPL) | — | *planned* |
-| Route to an asset (Maps / Google Maps / Waze) | — | *planned* |
+| Label printing on Zebra hardware (ZPL) | — | :material-check: \* |
+| Route to an asset (Maps / Google Maps / Waze) | — | :material-check: \* |
 
 ## Hecate Admin
 
@@ -44,7 +44,7 @@ stays free.
 | Retiring a profile | online, with broker receipt | also queued while offline |
 | Provisioning devices by QR code | :material-check: | :material-check: |
 | Validator, size guard, publish guard | :material-check: | :material-check: |
-| Profile version control against a repository | — | *planned* |
+| Profile version control against a repository | — | :material-check: \* |
 
 ## Hecate Viewer — iPhone, iPad, Apple TV
 
@@ -72,6 +72,9 @@ send, and a window should not cost extra.
   Several saved configurations are what a Pro subscription is for: test,
   pre-production and production side by side.
 
-*Planned* marks work that exists but is not switched on in the shipping
-apps. It returns as part of a subscription, not as something taken away
-from anyone: no feature you can see today will ever grow a lock.
+**\* Built and tested, switched off today.** These are not plans. The code
+is written, it carries its own tests, and it has run in shipped builds. In
+the apps you install today it is simply switched off; a subscription
+switches it on — nothing has to be developed first. It comes back as part
+of the subscription, not as something taken away from anyone: no feature
+you can see today will ever grow a lock.

@@ -40,6 +40,8 @@ arqueológicos — sin nuevo build.
   <figure><img src="/assets/screens/es/capture-settings.png" alt="El centro de ajustes"><figcaption>Ajustes</figcaption></figure>
 </div>
 
+*Las capturas proceden de versiones de desarrollo. Algunas pueden mostrar funciones que requieren una suscripción o que llegarán en una versión posterior — lo que incluye hoy el nivel gratuito se indica en [Free & Pro](../plans/index.es.md).*
+
 ## Siga leyendo
 
 <div class="grid cards" markdown>

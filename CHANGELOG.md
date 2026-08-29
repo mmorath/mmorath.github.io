@@ -20,6 +20,27 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## 2026-08-29
 
+### Fixed — "planned" was wrong: those Pro features are built and tested
+
+The comparison page marked Zebra label printing, route-to-asset and profile
+version control as *planned*. Checked against the code, that is simply
+untrue: version control alone is seven implementation files with six test
+files beside it (`VersionControlTests.swift` among them), the Zebra path has
+`PrinterManager`, `ZebraBlePrinterService` and its own settings store, and
+the route is a shipped `navigate(to:)`. All three ran in shipped builds and
+are merely *switched off* in v1 behind a dark-feature flag. They now carry a
+checkmark in the Pro column with a footnote that says exactly that —
+"built and tested, switched off today. These are not plans." Calling
+finished, tested work "planned" undersold it and misled the reader in the
+one direction a comparison page must never mislead.
+
+### Added — a note under every screenshot gallery
+
+Screens come from development builds and can show features that need a
+subscription or arrive later. All 24 galleries (six pages × four languages)
+now carry one line saying so, pointing at Free & Pro for what the free tier
+includes today.
+
 ### Fixed — tables now span the text column instead of shrinking to fit
 
 Material sizes a table to its content (`.md-typeset__table` is an

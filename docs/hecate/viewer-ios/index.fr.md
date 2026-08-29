@@ -46,6 +46,8 @@ mémoire.
   <figure><img src="/assets/screens/fr/viewer-ios-feed.png" alt="Le flux en direct — du plus récent au plus ancien, avec indicateurs de fraîcheur"><figcaption>Le flux en direct</figcaption></figure>
 </div>
 
+*Les captures proviennent de versions de développement. Certaines peuvent montrer des fonctions nécessitant un abonnement ou prévues pour une version ultérieure — ce que l'offre gratuite contient aujourd'hui est indiqué sous [Free & Pro](../plans/index.fr.md).*
+
 ## Ce qu'il montre
 
 Le viewer affiche le flux d'actifs en direct du broker — les champs saisis de

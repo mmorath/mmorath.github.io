@@ -46,6 +46,8 @@ Mosquitto container on a laptop is fine for a first test on one network.
   <figure><img src="/assets/screens/en/gs-broker-auth.png" alt="Broker authentication settings — user name and password"><figcaption>Authentication</figcaption></figure>
 </div>
 
+*Screens come from development builds. Some may show features that require a subscription or arrive in a later release — what the free tier includes today is listed under [Free & Pro](../plans/index.md).*
+
 The defaults are the secure ones, and you should have to work to weaken them:
 
 | Setting | Default |

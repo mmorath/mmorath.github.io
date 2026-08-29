@@ -36,6 +36,8 @@ finds — with no new build.
   <figure><img src="/assets/screens/en/capture-settings.png" alt="The settings hub"><figcaption>Settings</figcaption></figure>
 </div>
 
+*Screens come from development builds. Some may show features that require a subscription or arrive in a later release — what the free tier includes today is listed under [Free & Pro](../plans/index.md).*
+
 ## Read on
 
 <div class="grid cards" markdown>

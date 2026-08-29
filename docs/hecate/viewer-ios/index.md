@@ -41,6 +41,8 @@ nothing; everything on screen came from your broker and lives only in memory.
   <figure><img src="/assets/screens/en/viewer-ios-feed.png" alt="The live feed — newest first, with freshness tags and profile colours"><figcaption>The live feed</figcaption></figure>
 </div>
 
+*Screens come from development builds. Some may show features that require a subscription or arrive in a later release — what the free tier includes today is listed under [Free & Pro](../plans/index.md).*
+
 ## What it shows
 
 The viewer renders the live asset stream from the broker — each object's

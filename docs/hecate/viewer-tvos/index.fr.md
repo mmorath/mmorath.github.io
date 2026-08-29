@@ -52,6 +52,8 @@ rien ; tout ce qui est à l'écran vient de votre broker et ne vit qu'en mémoir
   <figure class="wide"><img src="/assets/screens/fr/tv-wall.png" alt="Hecate Viewer TV — le mur en direct : fil latéral à côté de la carte plein écran avec les actifs entrants en points"><figcaption>Le mur — fil latéral et carte en direct</figcaption></figure>
 </div>
 
+*Les captures proviennent de versions de développement. Certaines peuvent montrer des fonctions nécessitant un abonnement ou prévues pour une version ultérieure — ce que l'offre gratuite contient aujourd'hui est indiqué sous [Free & Pro](../plans/index.fr.md).*
+
 ## Ce qu'il affiche
 
 Le mur restitue le flux d'actifs en direct du broker — les champs capturés de

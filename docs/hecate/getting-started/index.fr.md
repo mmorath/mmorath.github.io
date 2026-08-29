@@ -48,6 +48,8 @@ pour un premier test sur un seul réseau.
   <figure><img src="/assets/screens/fr/gs-broker-auth.png" alt="Authentification du broker — nom d'utilisateur et mot de passe"><figcaption>Authentification</figcaption></figure>
 </div>
 
+*Les captures proviennent de versions de développement. Certaines peuvent montrer des fonctions nécessitant un abonnement ou prévues pour une version ultérieure — ce que l'offre gratuite contient aujourd'hui est indiqué sous [Free & Pro](../plans/index.fr.md).*
+
 Les valeurs par défaut sont les valeurs sûres, et il doit falloir un effort pour
 les affaiblir :
 

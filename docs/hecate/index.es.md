@@ -125,6 +125,8 @@ directamente.
   <figure class="wide"><img src="/assets/screens/es/tv-wall.png" alt="Hecate Viewer para Apple TV — la pantalla mural en directo"><figcaption>Viewer para Apple TV — el muro</figcaption></figure>
 </div>
 
+*Las capturas proceden de versiones de desarrollo. Algunas pueden mostrar funciones que requieren una suscripción o que llegarán en una versión posterior — lo que incluye hoy el nivel gratuito se indica en [Free & Pro](plans/index.es.md).*
+
 ## Cómo encajan entre sí
 
 La app de **administración** es la autoridad sobre los *perfiles*; la app de

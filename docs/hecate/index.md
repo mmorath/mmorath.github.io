@@ -123,6 +123,8 @@ directly.
   <figure class="wide"><img src="/assets/screens/en/tv-wall.png" alt="Hecate Viewer for Apple TV — the live wall display"><figcaption>Viewer for Apple TV — the wall</figcaption></figure>
 </div>
 
+*Screens come from development builds. Some may show features that require a subscription or arrive in a later release — what the free tier includes today is listed under [Free & Pro](plans/index.md).*
+
 ## How they fit together
 
 The **admin** app is the authority for *profiles*; the **capture** app is

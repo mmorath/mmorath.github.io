@@ -126,6 +126,8 @@ intégré.
   <figure class="wide"><img src="/assets/screens/fr/tv-wall.png" alt="Hecate Viewer pour Apple TV — l'affichage mural en direct"><figcaption>Viewer pour Apple TV — le mur</figcaption></figure>
 </div>
 
+*Les captures proviennent de versions de développement. Certaines peuvent montrer des fonctions nécessitant un abonnement ou prévues pour une version ultérieure — ce que l'offre gratuite contient aujourd'hui est indiqué sous [Free & Pro](plans/index.fr.md).*
+
 ## Comment tout s'articule
 
 L'application **admin** fait autorité sur les *profils* ; l'application de

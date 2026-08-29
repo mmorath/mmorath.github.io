@@ -47,6 +47,8 @@ contenedor Mosquitto en un portátil basta para una primera prueba en una red.
   <figure><img src="/assets/screens/es/gs-broker-auth.png" alt="Autenticación del broker — usuario y contraseña"><figcaption>Autenticación</figcaption></figure>
 </div>
 
+*Las capturas proceden de versiones de desarrollo. Algunas pueden mostrar funciones que requieren una suscripción o que llegarán en una versión posterior — lo que incluye hoy el nivel gratuito se indica en [Free & Pro](../plans/index.es.md).*
+
 Los valores por defecto son los seguros, y debería costar trabajo debilitarlos:
 
 | Ajuste | Por defecto |

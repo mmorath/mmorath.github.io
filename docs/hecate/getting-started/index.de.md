@@ -48,6 +48,8 @@ ersten Test in einem Netz.
   <figure><img src="/assets/screens/de/gs-broker-auth.png" alt="Broker-Authentifizierung — Benutzername und Passwort"><figcaption>Authentifizierung</figcaption></figure>
 </div>
 
+*Die Aufnahmen stammen aus Entwicklungsversionen. Einzelne Bildschirme können Funktionen zeigen, die ein Abo voraussetzen oder erst in einer späteren Version kommen — was die kostenlose Stufe heute enthält, steht unter [Free & Pro](../plans/index.de.md).*
+
 Die Voreinstellungen sind die sicheren, und es soll Mühe kosten, sie
 abzuschwächen:
 

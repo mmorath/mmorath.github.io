@@ -44,6 +44,8 @@ nur im Arbeitsspeicher.
   <figure><img src="/assets/screens/de/viewer-ios-feed.png" alt="Der Live-Feed — neueste zuerst, mit Frische-Markierungen und Profilfarben"><figcaption>Der Live-Feed</figcaption></figure>
 </div>
 
+*Die Aufnahmen stammen aus Entwicklungsversionen. Einzelne Bildschirme können Funktionen zeigen, die ein Abo voraussetzen oder erst in einer späteren Version kommen — was die kostenlose Stufe heute enthält, steht unter [Free & Pro](../plans/index.de.md).*
+
 ## Was er zeigt
 
 Der Viewer rendert den Live-Asset-Strom vom Broker — die erfassten Felder

@@ -49,6 +49,8 @@ nothing; everything on screen came from your broker and lives only in memory.
   <figure class="wide"><img src="/assets/screens/en/tv-wall.png" alt="Hecate Viewer TV — the live wall: sidebar feed beside the full-screen map with incoming assets as pins"><figcaption>The wall — sidebar feed and live map</figcaption></figure>
 </div>
 
+*Screens come from development builds. Some may show features that require a subscription or arrive in a later release — what the free tier includes today is listed under [Free & Pro](../plans/index.md).*
+
 ## What it shows
 
 The wall renders the live asset stream from the broker — each object's captured

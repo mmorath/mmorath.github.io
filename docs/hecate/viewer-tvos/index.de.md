@@ -50,6 +50,8 @@ Arbeitsspeicher.
   <figure class="wide"><img src="/assets/screens/de/tv-wall.png" alt="Hecate Viewer TV — die Live-Wand: Feed-Seitenleiste neben der bildschirmfüllenden Karte mit eintreffenden Assets als Pins"><figcaption>Die Wand — Feed-Seitenleiste und Live-Karte</figcaption></figure>
 </div>
 
+*Die Aufnahmen stammen aus Entwicklungsversionen. Einzelne Bildschirme können Funktionen zeigen, die ein Abo voraussetzen oder erst in einer späteren Version kommen — was die kostenlose Stufe heute enthält, steht unter [Free & Pro](../plans/index.de.md).*
+
 ## Was sie zeigt
 
 Die Wand rendert den Live-Asset-Strom des Brokers — die erfassten Felder jedes

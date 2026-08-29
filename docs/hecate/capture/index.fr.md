@@ -40,6 +40,8 @@ ou des découvertes archéologiques — sans nouvelle compilation.
   <figure><img src="/assets/screens/fr/capture-settings.png" alt="Le hub des réglages"><figcaption>Réglages</figcaption></figure>
 </div>
 
+*Les captures proviennent de versions de développement. Certaines peuvent montrer des fonctions nécessitant un abonnement ou prévues pour une version ultérieure — ce que l'offre gratuite contient aujourd'hui est indiqué sous [Free & Pro](../plans/index.fr.md).*
+
 ## Pour aller plus loin
 
 <div class="grid cards" markdown>

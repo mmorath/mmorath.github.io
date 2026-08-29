@@ -32,8 +32,8 @@ reste.
 | File d'attente hors ligne, livrée à la reconnexion | :material-check: | :material-check: |
 | Impression via AirPrint | :material-check: | :material-check: |
 | Les quatre langues | :material-check: | :material-check: |
-| Impression d'étiquettes sur matériel Zebra (ZPL) | — | *prévu* |
-| Itinéraire vers l'objet (Plans / Google Maps / Waze) | — | *prévu* |
+| Impression d'étiquettes sur matériel Zebra (ZPL) | — | :material-check: \* |
+| Itinéraire vers l'objet (Plans / Google Maps / Waze) | — | :material-check: \* |
 
 ## Hecate Admin
 
@@ -46,7 +46,7 @@ reste.
 | Retrait d'un profil | en ligne, avec accusé du broker | aussi mis en file hors ligne |
 | Configurer les appareils par QR code | :material-check: | :material-check: |
 | Validateur, garde-fou de taille, garde de publication | :material-check: | :material-check: |
-| Gestion de versions des profils sur un dépôt | — | *prévu* |
+| Gestion de versions des profils sur un dépôt | — | :material-check: \* |
 
 ## Hecate Viewer — iPhone, iPad, Apple TV
 
@@ -76,7 +76,10 @@ vos appareils envoient, et une fenêtre ne doit rien coûter de plus.
   c'est précisément l'objet d'un abonnement Pro : test, préproduction et
   production côte à côte.
 
-*Prévu* désigne un travail qui existe mais n'est pas activé dans les
-applications livrées. Il revient dans le cadre d'un abonnement, et non
-comme quelque chose qu'on aurait retiré à quelqu'un : aucune fonction
-visible aujourd'hui ne se verra jamais poser un cadenas.
+**\* Développé et testé, désactivé aujourd'hui.** Ce ne sont pas des
+projets. Le code est écrit, il possède ses propres tests, et il a déjà
+tourné dans des versions livrées. Dans les applications que vous installez
+aujourd'hui, il est simplement désactivé ; un abonnement l'active — rien ne
+reste à développer. Il revient dans le cadre de l'abonnement, et non comme
+quelque chose qu'on aurait retiré à quelqu'un : aucune fonction visible
+aujourd'hui ne se verra jamais poser un cadenas.
