@@ -121,9 +121,8 @@ Scan-Engine Hecate direkt anspricht.
   <figure><img src="/assets/screens/de/admin-detail.png" alt="Hecate Admin — die Detailansicht eines Profils mit Schritten und Versionen"><figcaption>Admin — Profil-Detail</figcaption></figure>
   <figure><img src="/assets/screens/de/viewer-ios-karte.png" alt="Hecate Viewer — die Live-Karte mit eintreffenden Assets als Pins"><figcaption>Viewer — die Live-Karte</figcaption></figure>
   <figure><img src="/assets/screens/de/viewer-ios-feed.png" alt="Hecate Viewer — der Live-Feed, neueste zuerst, mit Frische-Markierungen"><figcaption>Viewer — der Live-Feed</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/de/viewer-ipad-karte.png" alt="Hecate Viewer für iPad — Feed-Seitenleiste neben der vollflächigen Live-Karte"><figcaption>Viewer für iPad — das geteilte Layout</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/de/viewer-ipad-tapzoom.png" alt="Hecate Viewer für iPad — Tipp auf eine Feed-Zeile, die Karte fliegt zum Pin"><figcaption>Viewer für iPad — Tippen zum Zoomen</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/de/tv-wall.png" alt="Hecate Viewer für Apple TV — die Live-Wandanzeige"><figcaption>Viewer für Apple TV — die Wand</figcaption></figure>
+  <figure><img src="/assets/screens/de/viewer-ipad-karte.png" alt="Hecate Viewer für iPad — Feed-Seitenleiste neben der vollflächigen Live-Karte"><figcaption>Viewer für iPad — das geteilte Layout</figcaption></figure>
+  <figure><img src="/assets/screens/de/tv-wall.png" alt="Hecate Viewer für Apple TV — die Live-Wandanzeige"><figcaption>Viewer für Apple TV — die Wand</figcaption></figure>
 </div>
 
 *Die Aufnahmen stammen aus Entwicklungsversionen. Einzelne Bildschirme können Funktionen zeigen, die ein Abo voraussetzen oder erst in einer späteren Version kommen — was die kostenlose Stufe heute enthält, steht unter [Free & Pro](plans/index.de.md).*

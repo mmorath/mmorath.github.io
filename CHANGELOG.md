@@ -20,6 +20,37 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## 2026-08-29 (later)
 
+### Fixed — the Viewer screenshots were English on the German and French pages
+
+`viewer-ios-karte`, `viewer-ios-feed` and `viewer-ipad-karte` were
+byte-identical copies of the English files in `de/` and `fr/` — only the
+Spanish set was real. The cause was structural: the sync tool covered
+Capture and Admin only, so the Viewer images were hand-copied, and hand
+copies drift. **All four Viewer entries are in the map now**, pulled from
+the two Viewer repos' per-locale App Store sets, so the same run that
+refreshes Capture refreshes them.
+
+The device prefix in those file names (`iPhone 16 Pro Max-01_Karte.png`) is
+matched as a **glob**, not a literal: it changes whenever the shot device
+changes, and a literal would break the sync silently by finding nothing.
+
+### Removed — the iPad "tap to zoom" figure, and the wide-figure treatment
+
+The new Viewer runs produce **portrait** iPad screenshots, and no
+tap-to-zoom shot at all. Two consequences, both taken: the iPad figures lost
+`class="wide"` (which is for landscape and still applies to the Apple TV
+wall), and the tap-to-zoom figure is gone rather than left standing as the
+last English image on a German page. It returns when the iPad walk captures
+that interaction.
+
+Known exception: **`tv-wall.png` is still identical in all four languages.**
+The tvOS repo has no per-language screenshot pipeline — no Snapfile, no
+UI-test walkthrough — so its one image cannot be localized yet. Recorded in
+`hecate-meta/docs/specs/website.md` (WS4) rather than left looking like an
+oversight.
+
+## 2026-08-29 (later)
+
 ### Changed — Hecate Capture is one page now, like Getting started
 
 Capture carried two sub-pages in the left menu ("The problem", "What it

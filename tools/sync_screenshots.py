@@ -50,9 +50,27 @@ TARGET_HEIGHT = 720
 
 # Where each app repo keeps its per-language doc set. Capture follows the shared
 # screenshot spec (docs/screenshots/<lang>/); Admin exports to generated/<lang>/.
+# App Store locales, for the repos that name their folders that way. The doc
+# sets use bare language codes; the store sets use full locales.
+LOCALES = {"en": "en-US", "de": "de-DE", "fr": "fr-FR", "es": "es-ES"}
+
+# app → (env var, sibling directory, folder layout, file-name glob)
+#
+# The file-name entry is a GLOB, not a literal. The viewer repos prefix every
+# file with the simulator device ("iPhone 16 Pro Max-01_Karte.png"), and that
+# prefix changes whenever the shot device changes — pinning it here would break
+# the sync on the next hardware generation and, worse, break it *silently* by
+# finding nothing. `*-01_Karte.png` survives the rename; a glob that matches
+# none or several is an error, which is the point.
 REPOS = {
-    "capture": ("HECATE_CAPTURE_REPO", "iOS-Hecate-Capture", "docs/screenshots/{lang}"),
-    "admin":   ("HECATE_ADMIN_REPO",   "iOS-Hecate-Admin",   "docs/screenshots/generated/{lang}"),
+    "capture":     ("HECATE_CAPTURE_REPO",     "iOS-Hecate-Capture",
+                    "docs/screenshots/{lang}", "{screen}.png"),
+    "admin":       ("HECATE_ADMIN_REPO",       "iOS-Hecate-Admin",
+                    "docs/screenshots/generated/{lang}", "{screen}.png"),
+    "viewer-ios":  ("HECATE_VIEWER_IOS_REPO",  "iOS-Hecate-Viewer",
+                    "docs/screenshots/appstore/{locale}", "*-{screen}.png"),
+    "viewer-ipad": ("HECATE_VIEWER_IPAD_REPO", "iPadOS-Hecate-Viewer",
+                    "docs/screenshots/appstore/{locale}", "*-{screen}.png"),
 }
 
 # site image name → (app, screen id in that app's doc set)
@@ -76,6 +94,12 @@ SCREENS = {
     "admin-steps":      ("admin",   "12-wizard-blocks-added-list"),
     "admin-review":     ("admin",   "14-wizard-full-review"),
     "admin-broker":     ("admin",   "21-broker-list"),
+    # The viewers were hand-copied until 2026-08-29, and it showed: the German
+    # and French pages carried the English images byte for byte. They are in
+    # the map now, so the same run that refreshes Capture refreshes them.
+    "viewer-ios-karte":  ("viewer-ios",  "01_Karte"),
+    "viewer-ios-feed":   ("viewer-ios",  "02_Feed"),
+    "viewer-ipad-karte": ("viewer-ipad", "01_Karte"),
     # The getting-started page (docs/hecate/getting-started/) walks a reader
     # through broker setup and provisioning. These come from Capture and not
     # from Admin on purpose: the broker screens are HecateKit's, identical in
@@ -103,7 +127,7 @@ def png_size(path: Path) -> tuple[int, int]:
 
 
 def resolve_repo(app: str, site: Path) -> Path:
-    env_var, sibling, _ = REPOS[app]
+    env_var, sibling, _, _ = REPOS[app]
     root = Path(os.environ.get(env_var, site.parent / sibling)).expanduser()
     if not root.is_dir():
         die(f"no {app} repo at {root} — clone it next to this one or set {env_var}")
@@ -111,8 +135,19 @@ def resolve_repo(app: str, site: Path) -> Path:
 
 
 def source_path(app: str, screen: str, lang: str, site: Path) -> Path:
-    _, _, layout = REPOS[app]
-    return resolve_repo(app, site) / layout.format(lang=lang) / f"{screen}.png"
+    _, _, layout, pattern = REPOS[app]
+    folder = resolve_repo(app, site) / layout.format(lang=lang, locale=LOCALES[lang])
+    name = pattern.format(screen=screen)
+    if "*" not in name:
+        return folder / name
+    hits = sorted(folder.glob(name))
+    if len(hits) == 1:
+        return hits[0]
+    # Zero hits reads as "not captured yet" upstream; several means the device
+    # prefix stopped being unique and a human has to look.
+    if len(hits) > 1:
+        die(f"{app}/{lang}: '{name}' matches {len(hits)} files in {folder}", 1)
+    return folder / name.replace("*-", "")
 
 
 def downscale(src: Path, dest: Path) -> None:

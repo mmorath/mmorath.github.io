@@ -44,7 +44,7 @@ nur im Arbeitsspeicher.
 ## Bildschirmfotos
 
 <div class="shots">
-  <figure class="wide"><img src="/assets/screens/de/viewer-ipad-karte.png" alt="Hecate Viewer für iPad — das geteilte Layout: Live-Feed-Seitenleiste neben der vollflächigen Karte mit eintreffenden Assets als Pins"><figcaption>Das geteilte Layout — Feed-Seitenleiste und Live-Karte</figcaption></figure>
+  <figure><img src="/assets/screens/de/viewer-ipad-karte.png" alt="Hecate Viewer für iPad — das geteilte Layout: Live-Feed-Seitenleiste neben der vollflächigen Karte mit eintreffenden Assets als Pins"><figcaption>Das geteilte Layout — Feed-Seitenleiste und Live-Karte</figcaption></figure>
 </div>
 
 *Die Aufnahmen stammen aus Entwicklungsversionen. Einzelne Bildschirme können Funktionen zeigen, die ein Abo voraussetzen oder erst in einer späteren Version kommen — was die kostenlose Stufe heute enthält, steht unter [Free & Pro](../plans/index.de.md).*
