@@ -82,10 +82,10 @@ ist er gesperrt; ein Abo schaltet ihn frei — entwickelt werden muss dafür
 nichts mehr.
 
 Die **Profil-Versionierung** ist dabei zu sehen: In Hecate Admin steht sie in
-den Einstellungen und in der Broker-Konfiguration, ausgegraut und mit dem
-Fähnchen **PRO**. Ein Tipp darauf erklärt, was sie tut und dass sie zum Abo
+den Einstellungen und in der Broker-Konfiguration, ausgegraut und mit einem
+kleinen Schloss. Ein Tipp darauf erklärt, was sie tut und dass sie zum Abo
 gehört — sie verschwindet nicht, sie zeigt ihre Grenze. Etikettendruck und
 Route in Hecate Capture sind heute dagegen gar nicht erst zu sehen.
 
 Und das Versprechen bleibt, wie es war: **Was du heute benutzen kannst,
-bekommt nie ein Schloss.** Was hinter dem Fähnchen steht, war nie frei.
+wird dir nie weggenommen.** Was hinter dem Schloss steht, war nie frei.

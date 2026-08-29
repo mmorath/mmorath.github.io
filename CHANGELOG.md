@@ -18,6 +18,24 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-30 (Schloss statt Fähnchen)
+
+### Changed — aus dem PRO-Badge wurde ein Schloss
+
+Die Fußnote beschrieb die gesperrte Zeile in Hecate Admin als „ausgegraut
+und mit dem Fähnchen **PRO**". Das Fähnchen ist raus: eine Kapsel mit
+Versalien liest sich wie Spielemechanik und ruft jemandem, der nichts
+gekauft hat, ein Produktwort entgegen. Jetzt steht dort ein kleines Schloss
+— leiser, ohne Übersetzung verständlich, und der Produktname fällt genau
+einmal, nämlich im Dialog, wo er erklärt wird.
+
+Dabei fiel ein Wortkonflikt auf, den es vorher nicht gab: Der Schlusssatz
+versprach, kein heute sichtbares Feature bekomme je „ein Schloss" — im
+übertragenen Sinn. Neben einem echten Schloss-Symbol liest sich das falsch.
+Der Satz heißt jetzt „wird dir nie weggenommen", in allen vier Sprachen.
+
+---
+
 ## 2026-08-30 (Impressum, Korrektur)
 
 ### Fixed — der Anbieter heißt nicht wie das Produkt

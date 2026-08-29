@@ -79,11 +79,11 @@ apps you install today it is locked; a subscription unlocks it — nothing has
 to be developed first.
 
 **Profile version control is visible** while it is locked: in Hecate Admin it
-sits in Settings and in the broker configuration, greyed out and marked
-**PRO**. Tapping it explains what it does and that it belongs to the
+sits in Settings and in the broker configuration, greyed out and marked with
+a small lock. Tapping it explains what it does and that it belongs to the
 subscription — it does not disappear, it shows you its boundary. Label
 printing and routing in Hecate Capture, by contrast, are not shown at all
 today.
 
-And the promise stands unchanged: **nothing you can use today will ever grow
-a lock.** What sits behind the badge was never free.
+And the promise stands unchanged: **nothing you can use today will ever be
+taken away.** What sits behind the lock was never free.
