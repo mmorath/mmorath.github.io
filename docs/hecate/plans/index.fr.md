@@ -77,10 +77,18 @@ vos appareils envoient, et une fenêtre ne doit rien coûter de plus.
   c'est précisément l'objet d'un abonnement Pro : test, préproduction et
   production côte à côte.
 
-**\* Développé et testé, désactivé aujourd'hui.** Ce ne sont pas des
-projets. Le code est écrit, il possède ses propres tests, et il a déjà
-tourné dans des versions livrées. Dans les applications que vous installez
-aujourd'hui, il est simplement désactivé ; un abonnement l'active — rien ne
-reste à développer. Il revient dans le cadre de l'abonnement, et non comme
-quelque chose qu'on aurait retiré à quelqu'un : aucune fonction visible
-aujourd'hui ne se verra jamais poser un cadenas.
+**\* Développé et testé, pas encore débloqué.** Ce ne sont pas des projets.
+Le code est écrit, il possède ses propres tests, et il a déjà tourné dans des
+versions livrées. Dans les applications que vous installez aujourd'hui, il
+est verrouillé ; un abonnement le débloque — rien ne reste à développer.
+
+**Le versionnage des profils est visible** bien que verrouillé : dans Hecate
+Admin, il figure dans les réglages et dans la configuration du broker, grisé
+et marqué **PRO**. Un appui explique ce qu'il fait et qu'il relève de
+l'abonnement — il ne disparaît pas, il montre sa limite. L'impression
+d'étiquettes et l'itinéraire dans Hecate Capture, eux, ne sont pas affichés
+du tout aujourd'hui.
+
+Et la promesse reste la même : **rien de ce que vous pouvez utiliser
+aujourd'hui ne se verra jamais poser un cadenas.** Ce qui se trouve derrière
+le badge n'a jamais été gratuit.

@@ -18,6 +18,34 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-30 (Pro-Kennzeichnung)
+
+### Changed — die Fußnote versprach zu viel Unsichtbarkeit
+
+Die Sternchen-Fußnote unter den Tabellen sagte, die künftigen Pro-Inhalte
+seien „heute abgeschaltet" und schloss mit: „Kein Feature, das du heute
+siehst, bekommt je ein Schloss." Beides stimmt seit heute nur noch halb.
+
+Die **Profil-Versionierung** ist in Hecate Admin ab sofort **zu sehen** —
+ausgegraut, mit dem Fähnchen PRO, und ein Tipp darauf erklärt, was sie tut
+und dass sie zum Abo gehört. Der Grund ist derselbe, den die Fußnote schon
+für alle Sternchen-Zeilen nennt: Der Code ist gebaut, getestet und
+abgenommen. Eine fertige Funktion zu verstecken lässt die App ärmer
+aussehen, als sie ist.
+
+Etikettendruck und Route in Hecate Capture bleiben dagegen unsichtbar — dort
+stünde eine gesperrte Zeile ohne Ziel: ein Zebra-Drucker, den niemand hat;
+eine Route ohne Objekt.
+
+Die Fußnote sagt das jetzt in allen vier Sprachen und trennt sauber: Was du
+heute **benutzen** kannst, bekommt nie ein Schloss. Was hinter dem Fähnchen
+steht, war nie frei.
+
+Die Tabellen selbst bleiben unverändert — sie führten die Versionierung schon
+korrekt als Pro-Zeile.
+
+---
+
 ## 2026-08-29 (Impressum)
 
 ### Added — ein Impressum, in vier Sprachen

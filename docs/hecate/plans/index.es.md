@@ -75,9 +75,16 @@ tus dispositivos, y una ventana no debe costar aparte.
   objeto de una suscripción Pro: prueba, preproducción y producción en
   paralelo.
 
-**\* Desarrollado y probado, hoy desactivado.** No son planes. El código
-está escrito, tiene sus propias pruebas y ya ha funcionado en versiones
-publicadas. En las aplicaciones que instalas hoy simplemente está apagado;
-una suscripción lo enciende — no queda nada por desarrollar. Vuelve como
-parte de la suscripción, no como algo que se le haya quitado a nadie:
-ninguna función visible hoy tendrá jamás un candado.
+**\* Desarrollado y probado, todavía sin desbloquear.** No son planes. El
+código está escrito, tiene sus propias pruebas y ya ha funcionado en
+versiones publicadas. En las aplicaciones que instalas hoy está bloqueado;
+una suscripción lo desbloquea — no queda nada por desarrollar.
+
+**El control de versiones de perfiles sí se ve** aunque esté bloqueado: en
+Hecate Admin aparece en los ajustes y en la configuración del broker, en gris
+y con la etiqueta **PRO**. Al tocarlo se explica qué hace y que pertenece a
+la suscripción — no desaparece, muestra su límite. La impresión de etiquetas
+y la ruta en Hecate Capture, en cambio, hoy no se muestran en absoluto.
+
+Y la promesa sigue igual: **nada de lo que puedas usar hoy tendrá jamás un
+candado.** Lo que hay detrás de la etiqueta nunca fue gratuito.

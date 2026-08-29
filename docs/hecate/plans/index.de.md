@@ -75,10 +75,17 @@ deine Geräte senden, und ein Fenster darf nichts extra kosten.
   wird nie blockiert. Mehrere gespeicherte Konfigurationen sind der Zweck
   eines Pro-Abos: Test, Vorproduktion und Produktion nebeneinander.
 
-**\* Gebaut und getestet, heute abgeschaltet.** Das sind keine Vorhaben.
-Der Code ist geschrieben, er trägt seine eigenen Tests, und er lief bereits
-in ausgelieferten Fassungen. In den Apps, die du heute installierst, ist er
-schlicht ausgeschaltet; ein Abo schaltet ihn ein — entwickelt werden muss
-dafür nichts mehr. Er kehrt als Teil des Abos zurück, nicht als etwas, das
-jemandem weggenommen wurde: Kein Feature, das du heute siehst, bekommt je
-ein Schloss.
+**\* Gebaut und getestet, heute noch nicht freigeschaltet.** Das sind keine
+Vorhaben. Der Code ist geschrieben, er trägt seine eigenen Tests, und er lief
+bereits in ausgelieferten Fassungen. In den Apps, die du heute installierst,
+ist er gesperrt; ein Abo schaltet ihn frei — entwickelt werden muss dafür
+nichts mehr.
+
+Die **Profil-Versionierung** ist dabei zu sehen: In Hecate Admin steht sie in
+den Einstellungen und in der Broker-Konfiguration, ausgegraut und mit dem
+Fähnchen **PRO**. Ein Tipp darauf erklärt, was sie tut und dass sie zum Abo
+gehört — sie verschwindet nicht, sie zeigt ihre Grenze. Etikettendruck und
+Route in Hecate Capture sind heute dagegen gar nicht erst zu sehen.
+
+Und das Versprechen bleibt, wie es war: **Was du heute benutzen kannst,
+bekommt nie ein Schloss.** Was hinter dem Fähnchen steht, war nie frei.
