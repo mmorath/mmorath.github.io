@@ -20,6 +20,18 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## 2026-08-29
 
+### Changed — fairness now promises a *comparable* offer, in all four languages
+
+The fairness value already said "no buy-in" and "cancel any time". What it
+did not say is the part that makes those two verifiable: the price is
+stated openly, there is no minimum term, and the offer is meant to be
+**compared**. That is the sharper promise — anyone who wants to do the
+maths should be able to, and we would rather be compared than make
+comparing hard. Reworded in en/de/fr/es (each written in its own idiom,
+not translated word for word) and in the reference PDF
+(`hecate-business/latex/vision-mission.tex`, v1.1), whose product check now
+names the App Store's monthly cancellation as the mechanism.
+
 ### Changed — the landing entry is "Home", so "Hecate" is said once
 
 The sidebar opened with **Hecate** twice in a row: Material puts the

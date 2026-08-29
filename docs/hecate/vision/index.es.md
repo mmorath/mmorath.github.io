@@ -37,11 +37,14 @@ personas que hacen el trabajo: **trazable es el proceso, no la persona.**
    recopila datos sobre personas: sin cuentas, sin rastreo, sin analítica,
    sin ceder datos — todo fluye únicamente hacia el broker que tú mismo
    controlas. La privacidad aquí no es una función; es un límite.
-4. **Equidad.** La mejora continua necesita medios continuos, y solo hay
-   una manera honesta de financiarla: una suscripción que puedes terminar
-   en cualquier momento sin perder tu herramienta ni tus datos. Sin efecto
-   de permanencia, sin rehenes — y el nivel gratuito sigue siendo un
-   producto de verdad.
+4. **Equidad.** Una oferta justa y *comparable*: una suscripción con el
+   precio indicado abiertamente, sin pago de entrada ni permanencia
+   mínima — cancelable en cualquier momento, sin perder tu herramienta ni
+   tus datos. «Comparable» es aquí el verdadero compromiso: quien quiera
+   echar cuentas debe poder hacerlo, y preferimos que nos comparen antes
+   que dificultar la comparación. La mejora continua necesita medios
+   continuos, y la suscripción es la única forma honesta de financiarla,
+   mientras que el nivel gratuito sigue siendo un producto de verdad.
 5. **Apertura.** MQTT como transporte, un formato de datos autodescriptivo,
    interfaces claras: lo que Hecate captura te pertenece y es legible por
    cualquier sistema posterior. Damos la bienvenida a los estándares

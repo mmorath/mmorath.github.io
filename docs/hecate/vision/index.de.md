@@ -38,11 +38,14 @@ Arbeit tun: **Nachvollziehbar ist der Prozess, nicht die Person.**
    Analytik, keine Weitergabe — alles fließt ausschließlich an den Broker,
    den du selbst kontrollierst. Privatsphäre ist bei uns kein Feature,
    sondern eine Grenze.
-4. **Fairness.** Kontinuierlicher Ausbau braucht kontinuierliche Mittel —
-   dafür gibt es genau einen ehrlichen Weg: ein Abo, das man jederzeit
-   beenden kann, ohne sein Werkzeug oder seine Daten zu verlieren. Kein
-   Buy-in-Effekt, keine Geiselhaft — und die kostenlose Stufe bleibt ein
-   echtes Produkt.
+4. **Fairness.** Ein faires und *vergleichbares* Angebot: ein Abo mit
+   offen genanntem Preis, ohne Buy-in, ohne Mindestlaufzeit — jederzeit
+   kündbar, ohne Werkzeug oder Daten zu verlieren. „Vergleichbar" ist
+   dabei die eigentliche Zusage: Wer rechnen will, soll rechnen können,
+   und wir stellen uns dem Vergleich lieber, als ihn zu erschweren.
+   Kontinuierlicher Ausbau braucht kontinuierliche Mittel, und das Abo
+   ist der einzige ehrliche Weg dorthin — die kostenlose Stufe bleibt
+   dabei ein echtes Produkt.
 5. **Offenheit.** MQTT als Transport, ein selbstbeschreibendes Datenformat,
    klare Schnittstellen: Was Hecate erfasst, gehört dir und ist für jedes
    nachgelagerte System lesbar. Offene Standards begrüßen wir — Vorschläge

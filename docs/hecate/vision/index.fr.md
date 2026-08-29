@@ -40,11 +40,14 @@ jamais se faire au détriment des personnes qui font le travail :
    de tracking, pas d'analytique, aucune transmission — tout ne circule que
    vers le broker que vous contrôlez vous-même. La vie privée n'est pas une
    fonctionnalité chez nous ; c'est une limite.
-4. **Équité.** L'amélioration continue demande des moyens continus, et il
-   n'existe qu'une seule façon honnête de la financer : un abonnement que
-   l'on peut arrêter à tout moment sans perdre son outil ni ses données.
-   Pas d'effet de verrouillage, pas de prise d'otage — et l'offre gratuite
-   reste un vrai produit.
+4. **Équité.** Une offre juste et *comparable* : un abonnement au prix
+   annoncé, sans frais d'entrée ni durée minimale — résiliable à tout
+   moment, sans perdre son outil ni ses données. « Comparable » est ici
+   l'engagement véritable : qui veut faire ses comptes doit pouvoir les
+   faire, et nous préférons être comparés plutôt que de rendre la
+   comparaison difficile. L'amélioration continue demande des moyens
+   continus, et l'abonnement est la seule façon honnête de la financer —
+   l'offre gratuite, elle, reste un vrai produit.
 5. **Ouverture.** MQTT comme transport, un format de données
    auto-descriptif, des interfaces claires : ce que Hecate saisit vous
    appartient et reste lisible par tout système en aval. Nous accueillons

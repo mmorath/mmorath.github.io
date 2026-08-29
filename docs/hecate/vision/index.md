@@ -36,10 +36,13 @@ And it must never come at the expense of the people doing the work:
    collects no data about people: no accounts, no tracking, no analytics,
    no passing data on — everything flows only to the broker you control
    yourself. Privacy is not a feature here; it is a boundary.
-4. **Fairness.** Continuous improvement needs continuous means, and there
-   is exactly one honest way to fund it: a subscription you can end at any
-   time without losing your tool or your data. No buy-in effect, no
-   hostage-taking — and the free tier stays a real product.
+4. **Fairness.** A fair offer you can *compare*: a subscription with its
+   price stated openly, no buy-in, no minimum term — cancel any time
+   without losing your tool or your data. "Comparable" is the actual
+   promise here: anyone who wants to do the maths should be able to, and
+   we would rather be compared than make comparing hard. Continuous
+   improvement needs continuous means, and a subscription is the only
+   honest way to fund it — while the free tier stays a real product.
 5. **Openness.** MQTT as transport, a self-describing data format, clear
    interfaces: what Hecate captures belongs to you and is readable by any
    downstream system. We welcome open standards — and suggestions and
