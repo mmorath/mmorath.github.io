@@ -1032,6 +1032,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#screenshots" class="md-nav__link">
+    <span class="md-ellipsis">
+      Screenshots
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-profiles-reach-devices" class="md-nav__link">
     <span class="md-ellipsis">
       How profiles reach devices
@@ -1094,6 +1103,21 @@ that profile is written, checked, and governed.</p>
 <li><strong>No telemetry.</strong> The admin app collects no location, no usage analytics, and
   no tracking of any kind.</li>
 </ul>
+<h2 id="screenshots">Screenshots</h2>
+<p>Two screens carry this app: the <strong>profiles home</strong>, which lists what is
+published and what is being worked on, and the <strong>wizard</strong>, where a workflow
+is assembled from building blocks. The steps line up in the order operators
+will walk them, and nothing is published before it has been reviewed.</p>
+<div class="shots">
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/admin-profiles.png" data-desc-position="bottom"><img src="/assets/screens/en/admin-profiles.png" alt="The profiles home with the authored profiles"></a><figcaption>Profiles home</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/admin-wizard.png" data-desc-position="bottom"><img src="/assets/screens/en/admin-wizard.png" alt="The wizard's block picker — choosing what a step captures"></a><figcaption>The wizard: pick a block</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/admin-steps.png" data-desc-position="bottom"><img src="/assets/screens/en/admin-steps.png" alt="The steps of the workflow, in the order operators walk them"></a><figcaption>The steps, in order</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/admin-review.png" data-desc-position="bottom"><img src="/assets/screens/en/admin-review.png" alt="The full review of a profile before it is created"></a><figcaption>Review before publishing</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/admin-detail.png" data-desc-position="bottom"><img src="/assets/screens/en/admin-detail.png" alt="The profile editor"></a><figcaption>Profile editor</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/admin-broker.png" data-desc-position="bottom"><img src="/assets/screens/en/admin-broker.png" alt="The broker configurations the app publishes to"></a><figcaption>Broker configurations</figcaption></figure>
+</div>
+
+<p><em>Screens come from development builds. Some may show features that require a subscription or arrive in a later release — what the free tier includes today is listed under <a href="../plans/">Free &amp; Pro</a>.</em></p>
 <h2 id="how-profiles-reach-devices">How profiles reach devices</h2>
 <p>The admin app publishes each profile as a <strong>retained</strong> message at
 <code>&lt;configPrefix&gt;/profiles/&lt;id&gt;</code> (default <code>hecate/config</code>). The retained flag lets

@@ -1032,6 +1032,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#captures-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      Captures d'écran
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#comment-les-profils-atteignent-les-appareils" class="md-nav__link">
     <span class="md-ellipsis">
       Comment les profils atteignent les appareils
@@ -1096,6 +1105,22 @@ dans Hecate Admin que ce profil est écrit, vérifié et gouverné.</p>
 <li><strong>Pas de télémétrie.</strong> L'application admin ne collecte ni localisation, ni
   analyses d'usage, ni suivi d'aucune sorte.</li>
 </ul>
+<h2 id="captures-decran">Captures d'écran</h2>
+<p>Deux écrans portent cette application : l'<strong>accueil des profils</strong>, qui
+montre ce qui est publié et ce sur quoi l'on travaille, et l'<strong>assistant</strong>,
+où un flux se compose de blocs. Les étapes s'alignent dans l'ordre où les
+opérateurs les parcourront, et rien n'est publié avant d'avoir été
+vérifié.</p>
+<div class="shots">
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/fr/admin-profiles.png" data-desc-position="bottom"><img src="/assets/screens/fr/admin-profiles.png" alt="L'accueil des profils, avec les profils créés"></a><figcaption>Accueil des profils</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/fr/admin-wizard.png" data-desc-position="bottom"><img src="/assets/screens/fr/admin-wizard.png" alt="Le sélecteur de blocs de l'assistant — ce qu'une étape doit saisir"></a><figcaption>L'assistant : choisir un bloc</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/fr/admin-steps.png" data-desc-position="bottom"><img src="/assets/screens/fr/admin-steps.png" alt="Les étapes du flux, dans l'ordre où elles seront parcourues"></a><figcaption>Les étapes, dans l'ordre</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/fr/admin-review.png" data-desc-position="bottom"><img src="/assets/screens/fr/admin-review.png" alt="La vérification complète d'un profil avant sa création"></a><figcaption>Vérifier avant de publier</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/fr/admin-detail.png" data-desc-position="bottom"><img src="/assets/screens/fr/admin-detail.png" alt="L'éditeur de profil"></a><figcaption>Éditeur de profil</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/fr/admin-broker.png" data-desc-position="bottom"><img src="/assets/screens/fr/admin-broker.png" alt="Les configurations de broker vers lesquelles l'app publie"></a><figcaption>Configurations de broker</figcaption></figure>
+</div>
+
+<p><em>Les captures proviennent de versions de développement. Certaines peuvent montrer des fonctions nécessitant un abonnement ou prévues pour une version ultérieure — ce que l'offre gratuite contient aujourd'hui est indiqué sous <a href="../plans/">Free &amp; Pro</a>.</em></p>
 <h2 id="comment-les-profils-atteignent-les-appareils">Comment les profils atteignent les appareils</h2>
 <p>L'application admin publie chaque profil en message <strong>retenu</strong> sous
 <code>&lt;configPrefix&gt;/profiles/&lt;id&gt;</code> (par défaut <code>hecate/config</code>). Le drapeau
