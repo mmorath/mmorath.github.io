@@ -43,7 +43,7 @@ differently. Pick the app you're using:
 
     A pure subscriber. **Collects nothing** — no camera, no location, no accounts.
 
-    [:octicons-arrow-right-24: Viewer privacy](viewer/index.md)
+    [:octicons-arrow-right-24: Apple TV viewer privacy](viewer-tvos/index.md)
 
 -   :material-tune-variant: __Admin app__
 

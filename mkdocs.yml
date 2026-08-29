@@ -24,12 +24,20 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
   features:
-    - navigation.sections
+    # navigation.sections is deliberately NOT set: it renders every top-level
+    # group as an always-open section, which is what made the sidebar show
+    # ~30 entries at once on a first visit. Without it, Material's default
+    # applies — groups are collapsible and open only along the active path.
+    - navigation.indexes   # a group's own index page IS the group's link
     - navigation.top
     # navigation.instant intentionally omitted: it breaks the i18n language
     # switcher's contextual (same-page) link (mkdocs-static-i18n warns on it).
     - content.action.edit
-    - toc.integrate
+    # toc.integrate is deliberately NOT set (and is incompatible with
+    # navigation.indexes): it folded every page's headings into the left
+    # sidebar, so the landing page alone contributed seven more lines to the
+    # very list we are trying to shorten. The table of contents now lives on
+    # the right, where it belongs to the page rather than to the site.
 
 extra_css:
   - assets/extra.css
@@ -53,6 +61,9 @@ plugins:
           build: true
           nav_translations:
             Getting started: Erste Schritte
+            The apps: Die Apps
+            For operators: Für Anwender
+            For admins: Für Administratoren
             Overview: Überblick
             The problem: Das Problem
             What it does: Was sie leistet
@@ -64,6 +75,9 @@ plugins:
           nav_translations:
             Getting started: Premiers pas
             Vision & Mission: Vision & mission
+            The apps: Les applications
+            For operators: Pour les opérateurs
+            For admins: Pour les administrateurs
             Overview: Présentation
             The problem: Le problème
             What it does: Ce qu'elle fait
@@ -75,6 +89,9 @@ plugins:
           nav_translations:
             Getting started: Primeros pasos
             Vision & Mission: Visión y misión
+            The apps: Las aplicaciones
+            For operators: Para operadores
+            For admins: Para administradores
             Overview: Resumen
             The problem: El problema
             What it does: Qué hace
@@ -103,43 +120,41 @@ markdown_extensions:
 # plugin serves the English page under /de/ and /fr/ when a *.de/*.fr is absent).
 nav:
   - Hecate: hecate/index.md
-  # Second stop after the landing page, deliberately ahead of the per-app
-  # groups: a visitor who has decided to try Hecate needs the broker set up
-  # before any single app's overview is useful to them.
+  # Second stop after the landing page, deliberately ahead of the app group:
+  # a visitor who has decided to try Hecate needs the broker set up before any
+  # single app's overview is useful to them.
   - Getting started: hecate/getting-started/index.md
   # Right after Getting started: the page that says WHY the product is built
   # this way — the subscription model and the privacy stance both point here.
   - Vision & Mission: hecate/vision/index.md
-  - Hecate Capture:
-      - Overview: hecate/capture/index.md
-      - The problem: hecate/capture/problem.md
-      - What it does: hecate/capture/solution.md
-      - Privacy: hecate/privacy/capture/index.md
-      - Support: hecate/support/operator/index.md
-  - Hecate Viewer (iPhone):
-      - Overview: hecate/viewer-ios/index.md
-      - Privacy: hecate/privacy/viewer-ios/index.md
-      - Support: hecate/support/operator/index.md
-  - Hecate Viewer (iPad):
-      - Overview: hecate/viewer-ipad/index.md
-      - Privacy: hecate/privacy/viewer-ipad/index.md
-      - Support: hecate/support/operator/index.md
-  - Hecate Admin:
-      - Overview: hecate/admin/index.md
-      - Privacy: hecate/privacy/admin/index.md
-      - Support: hecate/support/admin/index.md
-  # The TV pages moved from the bare `viewer` slug to `viewer-tvos`, so all
-  # three viewers now read alike (viewer-ios / viewer-ipad / viewer-tvos) and the
-  # app's store metadata has a URL that matches its siblings' shape. The old
-  # `hecate/viewer/` and `hecate/privacy/viewer/` files are deliberately LEFT IN
-  # PLACE and unlisted rather than deleted or redirected: the shipped iPhone
-  # Viewer links to /hecate/privacy/viewer/ from inside the app
-  # (iOS-Hecate-Viewer StartButtonView.swift), so that URL must keep answering.
-  # Once that app points at privacy/viewer-ios/ instead, the old pair can become
-  # redirect stubs to these.
-  - Hecate Viewer (Apple TV):
-      - Overview: hecate/viewer-tvos/index.md
-      - Privacy: hecate/privacy/viewer-tvos/index.md
-      - Support: hecate/support/operator/index.md
-  - Support: hecate/support/index.md
-  - Privacy: hecate/privacy/index.md
+  # One collapsed group instead of five always-open ones. The three viewers
+  # are one product on three screens, so they read as one entry with three
+  # children rather than three separate top-level groups.
+  - The apps:
+      - Hecate Capture:
+          - Overview: hecate/capture/index.md
+          - The problem: hecate/capture/problem.md
+          - What it does: hecate/capture/solution.md
+      - Hecate Admin:
+          - Overview: hecate/admin/index.md
+      - Hecate Viewer:
+          - iPhone: hecate/viewer-ios/index.md
+          - iPad: hecate/viewer-ipad/index.md
+          - Apple TV: hecate/viewer-tvos/index.md
+  # Support and Privacy used to appear TWICE for every app (five groups × two
+  # links) plus once as hubs — ten of the ~30 sidebar entries were the same
+  # two pages over and over. They now live once, as collapsed groups whose
+  # first child is the hub itself (navigation.indexes). The per-app pages keep
+  # their URLs: App Store Connect links straight at them, and nav placement
+  # never moves a page.
+  - Support:
+      - hecate/support/index.md
+      - For operators: hecate/support/operator/index.md
+      - For admins: hecate/support/admin/index.md
+  - Privacy:
+      - hecate/privacy/index.md
+      - Hecate Capture: hecate/privacy/capture/index.md
+      - Hecate Admin: hecate/privacy/admin/index.md
+      - Hecate Viewer (iPhone): hecate/privacy/viewer-ios/index.md
+      - Hecate Viewer (iPad): hecate/privacy/viewer-ipad/index.md
+      - Hecate Viewer (Apple TV): hecate/privacy/viewer-tvos/index.md

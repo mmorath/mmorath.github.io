@@ -20,6 +20,41 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## 2026-08-29
 
+### Changed — the sidebar stopped shouting: six entries instead of thirty
+
+A first-time visitor met roughly thirty sidebar entries at once, and the
+Vision & Mission page — added the same day, second from the top — was hard
+to find in the noise. Three causes, all removed:
+
+- **`navigation.sections`** rendered every top-level group as an
+  always-open section. Without it, Material's default applies: groups
+  collapse and open only along the active path. The landing page now shows
+  **six** entries — Hecate, Getting started, Vision & Mission, The apps,
+  Support, Privacy — with three collapsed groups.
+- **Support and Privacy appeared twice per app** (five groups × two links)
+  *plus* once as hubs: ten of the thirty entries were the same two pages
+  over and over. They now live once each, as a collapsed group whose first
+  child is the hub itself (`navigation.indexes`). **No page moved** — the
+  per-app privacy URLs that App Store Connect links to are untouched;
+  navigation placement never changes a URL.
+- **`toc.integrate`** folded each page's own headings into the left
+  sidebar, so the landing page alone contributed seven more lines to the
+  list we were trying to shorten. The table of contents is on the right
+  again, where it belongs to the page rather than to the site.
+
+The three viewers are one product on three screens and now read that way:
+one **Hecate Viewer** entry with iPhone / iPad / Apple TV beneath it,
+instead of three separate top-level groups.
+
+### Fixed — the privacy hub's Apple TV card pointed at the legacy page
+
+It still linked `privacy/viewer/`, the pre-rename path. The card now points
+at `privacy/viewer-tvos/`, which is what the navigation lists. The legacy
+page stays in place and keeps answering: the shipped iPhone Viewer links to
+that URL from inside the app.
+
+## 2026-08-29
+
 ### Added — Vision & Mission, in four languages
 
 New page `hecate/vision/` (EN base plus `.de/.fr/.es` twins), linked right
