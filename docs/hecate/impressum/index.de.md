@@ -8,7 +8,7 @@
 Inhaber: Matthias Morath
 
 Zum Burggraben 11<br>
-89584 Ehingen (Donau)<br>
+89584 Lauterach<br>
 Deutschland
 
 ## Kontakt

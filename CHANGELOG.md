@@ -39,6 +39,26 @@ es vorher anders gebaut hatten und warum wir es geändert haben.
 
 ---
 
+## 2026-08-30 (Anschrift)
+
+### Fixed — der Ort im Impressum stimmte nicht mit dem überein, was Apple veröffentlicht
+
+Das Impressum nannte als Ort **Ehingen (Donau)**, App Store Connect führt
+**Lauterach**. Beide teilen sich die Postleitzahl 89584 — Lauterach ist eine
+eigene Gemeinde im Alb-Donau-Kreis —, aber es ist nur eine davon die richtige.
+
+Das ist keine Kosmetik: Apple **veröffentlicht** die Händlerangaben nach dem
+Digital Services Act auf jeder Produktseite. Zwei verschiedene Anbieteradressen
+desselben Unternehmens, eine im Store und eine im Impressum, wären genau die
+Abweichung, die bei einer Prüfung auffällt.
+
+Maßgeblich ist ab jetzt die Fassung aus App Store Connect: **Zum Burggraben 11,
+89584 Lauterach**. Das Bundesland steht bewusst nicht dabei — es gehört nicht in
+eine deutsche Postanschrift. Nachgezogen in allen vier Sprachfassungen sowie in
+`.env`, Briefkopf, Kuvert und Visitenkarte.
+
+---
+
 ## 2026-08-30 (Schloss statt Fähnchen)
 
 ### Changed — aus dem PRO-Badge wurde ein Schloss
