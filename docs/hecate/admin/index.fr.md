@@ -36,6 +36,25 @@ dans Hecate Admin que ce profil est écrit, vérifié et gouverné.
 - **Pas de télémétrie.** L'application admin ne collecte ni localisation, ni
   analyses d'usage, ni suivi d'aucune sorte.
 
+## Captures d'écran
+
+Deux écrans portent cette application : l'**accueil des profils**, qui
+montre ce qui est publié et ce sur quoi l'on travaille, et l'**assistant**,
+où un flux se compose de blocs. Les étapes s'alignent dans l'ordre où les
+opérateurs les parcourront, et rien n'est publié avant d'avoir été
+vérifié.
+
+<div class="shots">
+  <figure><img src="/assets/screens/fr/admin-profiles.png" alt="L'accueil des profils, avec les profils créés"><figcaption>Accueil des profils</figcaption></figure>
+  <figure><img src="/assets/screens/fr/admin-wizard.png" alt="Le sélecteur de blocs de l'assistant — ce qu'une étape doit saisir"><figcaption>L'assistant : choisir un bloc</figcaption></figure>
+  <figure><img src="/assets/screens/fr/admin-steps.png" alt="Les étapes du flux, dans l'ordre où elles seront parcourues"><figcaption>Les étapes, dans l'ordre</figcaption></figure>
+  <figure><img src="/assets/screens/fr/admin-review.png" alt="La vérification complète d'un profil avant sa création"><figcaption>Vérifier avant de publier</figcaption></figure>
+  <figure><img src="/assets/screens/fr/admin-detail.png" alt="L'éditeur de profil"><figcaption>Éditeur de profil</figcaption></figure>
+  <figure><img src="/assets/screens/fr/admin-broker.png" alt="Les configurations de broker vers lesquelles l'app publie"><figcaption>Configurations de broker</figcaption></figure>
+</div>
+
+*Les captures proviennent de versions de développement. Certaines peuvent montrer des fonctions nécessitant un abonnement ou prévues pour une version ultérieure — ce que l'offre gratuite contient aujourd'hui est indiqué sous [Free & Pro](../plans/index.fr.md).*
+
 ## Comment les profils atteignent les appareils
 
 L'application admin publie chaque profil en message **retenu** sous

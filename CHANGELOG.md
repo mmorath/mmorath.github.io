@@ -18,6 +18,30 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-08-29 (later)
+
+### Added — Hecate Admin finally has its own screenshots, in four languages
+
+The Admin page carried no screenshots at all, while Capture had a full
+gallery — and the two Admin images the landing page used were **byte
+-identical in all four language folders**, i.e. English everywhere. Both are
+fixed: six Admin screens now sync per language, and the Admin page has a
+gallery in Capture's style.
+
+The gallery is ordered to tell the app's story rather than the file
+system's: the **profiles home** first (what is published, what is being
+worked on), then the **wizard** — picking a building block, the steps in the
+order operators walk them, the review before publishing — and only then the
+editor and the broker configurations. Those two screens are what this app
+is for.
+
+### Fixed — the screenshot sync had a stale mapping that failed silently
+
+`admin-detail` pointed at `04-profile-detail`, a screen the Admin walk no
+longer produces. The mapping simply kept the July image in place — exactly
+the silent staleness the tool's own header warns about. It now points at the
+editor, and five further Admin screens were added to the map.
+
 ## 2026-08-29
 
 ### Changed — the mission now names the thing the product is actually judged on
