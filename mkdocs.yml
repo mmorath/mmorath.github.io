@@ -63,6 +63,7 @@ plugins:
           build: true
           nav_translations:
             Getting started: Premiers pas
+            Vision & Mission: Vision & mission
             Overview: Présentation
             The problem: Le problème
             What it does: Ce qu'elle fait
@@ -73,6 +74,7 @@ plugins:
           build: true
           nav_translations:
             Getting started: Primeros pasos
+            Vision & Mission: Visión y misión
             Overview: Resumen
             The problem: El problema
             What it does: Qué hace
@@ -105,6 +107,9 @@ nav:
   # groups: a visitor who has decided to try Hecate needs the broker set up
   # before any single app's overview is useful to them.
   - Getting started: hecate/getting-started/index.md
+  # Right after Getting started: the page that says WHY the product is built
+  # this way — the subscription model and the privacy stance both point here.
+  - Vision & Mission: hecate/vision/index.md
   - Hecate Capture:
       - Overview: hecate/capture/index.md
       - The problem: hecate/capture/problem.md
