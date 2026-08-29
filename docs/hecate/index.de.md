@@ -43,8 +43,8 @@ definieren, *was* erfasst wird, validiert wird im Moment der Erfassung, jeder
 Datensatz trägt seine GPS-Position, und alles fließt über den einen Broker,
 den Sie bereits kontrollieren.
 
-[:octicons-arrow-right-24: Das Problem im Detail](capture/problem.md) ·
-[:octicons-arrow-right-24: Wie Hecate jeden dieser Schmerzen beseitigt](capture/solution.md)
+[:octicons-arrow-right-24: Das Problem im Detail](capture/index.de.md#das-problem) ·
+[:octicons-arrow-right-24: Wie Hecate jeden dieser Schmerzen beseitigt](capture/index.de.md#was-hecate-capture-leistet)
 
 ## Die Apps
 

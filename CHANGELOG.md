@@ -20,6 +20,29 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## 2026-08-29 (later)
 
+### Changed — Hecate Capture is one page now, like Getting started
+
+Capture carried two sub-pages in the left menu ("The problem", "What it
+does"). They are now **sections of the Capture page**, so the app reads top
+to bottom with its parts in the right-hand table of contents — the shape the
+Getting started page already had, and the one the site now follows
+throughout. The landing page links straight to those sections; the anchors
+differ per language (`#das-problem`, `#le-probleme`, `#el-problema`) and were
+read out of the built HTML rather than guessed.
+
+### Fixed — `navigation.indexes` was hiding two menu entries
+
+Turning Capture into one page exposed it. The feature makes a section's
+**first child** the section's own link — right for a hub, wrong for a product
+group: "The apps" silently pointed at Hecate Capture and "Hecate Viewer" at
+the iPhone page, and **both entries vanished from the list**. Before the
+merge the first child was itself a section, so there was nothing to swallow;
+the merge did not cause the bug, it uncovered it. The feature is off, and
+Support and Privacy list their hub as a plain "Overview" child instead. A
+menu must not hide an entry to save a line.
+
+## 2026-08-29 (later)
+
 ### Added — Hecate Admin finally has its own screenshots, in four languages
 
 The Admin page carried no screenshots at all, while Capture had a full

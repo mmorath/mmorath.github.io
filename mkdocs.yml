@@ -28,7 +28,13 @@ theme:
     # group as an always-open section, which is what made the sidebar show
     # ~30 entries at once on a first visit. Without it, Material's default
     # applies — groups are collapsible and open only along the active path.
-    - navigation.indexes   # a group's own index page IS the group's link
+    # navigation.indexes is deliberately NOT set. It turns a section's FIRST
+    # child into the section's own link — which is right for a hub ("Support"
+    # → the support overview) but wrong for a product group: with it on,
+    # "The apps" silently pointed at Hecate Capture and "Hecate Viewer" at the
+    # iPhone page, and both of those entries vanished from the list. A menu
+    # must not hide an entry to save a line, so the hubs are listed as a plain
+    # "Overview" child instead.
     - navigation.top
     # navigation.instant intentionally omitted: it breaks the i18n language
     # switcher's contextual (same-page) link (mkdocs-static-i18n warns on it).
@@ -142,12 +148,12 @@ nav:
   # are one product on three screens, so they read as one entry with three
   # children rather than three separate top-level groups.
   - The apps:
-      - Hecate Capture:
-          - Overview: hecate/capture/index.md
-          - The problem: hecate/capture/problem.md
-          - What it does: hecate/capture/solution.md
-      - Hecate Admin:
-          - Overview: hecate/admin/index.md
+      # Eine Seite je App, ihre Abschnitte im rechten Inhaltsverzeichnis —
+      # wie „Getting started". Capture trug bis zum 2026-08-29 zwei
+      # Unterseiten im linken Menue; sie sind jetzt Abschnitte derselben
+      # Seite (Spec website.md WS5-2).
+      - Hecate Capture: hecate/capture/index.md
+      - Hecate Admin: hecate/admin/index.md
       - Hecate Viewer:
           - iPhone: hecate/viewer-ios/index.md
           - iPad: hecate/viewer-ipad/index.md
@@ -159,11 +165,11 @@ nav:
   # their URLs: App Store Connect links straight at them, and nav placement
   # never moves a page.
   - Support:
-      - hecate/support/index.md
+      - Overview: hecate/support/index.md
       - For operators: hecate/support/operator/index.md
       - For admins: hecate/support/admin/index.md
   - Privacy:
-      - hecate/privacy/index.md
+      - Overview: hecate/privacy/index.md
       - Hecate Capture: hecate/privacy/capture/index.md
       - Hecate Admin: hecate/privacy/admin/index.md
       - Hecate Viewer (iPhone): hecate/privacy/viewer-ios/index.md

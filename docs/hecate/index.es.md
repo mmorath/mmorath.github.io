@@ -43,8 +43,8 @@ perfiles definen *qué* se captura, la validación ocurre en el momento de la
 captura, cada registro lleva su posición GPS, y todo fluye por el único
 broker que usted ya controla.
 
-[:octicons-arrow-right-24: El problema en detalle](capture/problem.md) ·
-[:octicons-arrow-right-24: Cómo Hecate elimina cada uno de estos dolores](capture/solution.md)
+[:octicons-arrow-right-24: El problema en detalle](capture/index.es.md#el-problema) ·
+[:octicons-arrow-right-24: Cómo Hecate elimina cada uno de estos dolores](capture/index.es.md#que-hace-hecate-capture)
 
 ## Las apps
 
