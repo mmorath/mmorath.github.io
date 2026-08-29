@@ -120,9 +120,9 @@ directamente.
   <figure><img src="/assets/screens/es/admin-detail.png" alt="Hecate Admin — la vista de detalle de un perfil con pasos y versiones"><figcaption>Admin — detalle del perfil</figcaption></figure>
   <figure><img src="/assets/screens/es/viewer-ios-karte.png" alt="Hecate Viewer — el mapa en directo con activos entrantes como marcadores"><figcaption>Viewer — el mapa en directo</figcaption></figure>
   <figure><img src="/assets/screens/es/viewer-ios-feed.png" alt="Hecate Viewer — el feed en directo, lo más reciente primero"><figcaption>Viewer — el feed en directo</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/es/viewer-ipad-karte.png" alt="Hecate Viewer para iPad — la barra lateral con el feed junto al mapa a pantalla completa"><figcaption>Viewer para iPad — la pantalla dividida</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/es/viewer-ipad-feed.png" alt="Hecate Viewer para iPad — la barra lateral es el feed en directo"><figcaption>Viewer para iPad — el feed lateral</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/es/tv-wall.png" alt="Hecate Viewer para Apple TV — la pantalla mural en directo"><figcaption>Viewer para Apple TV — el muro</figcaption></figure>
+  <figure><img src="/assets/screens/es/viewer-ipad-karte.png" alt="Hecate Viewer para iPad — la barra lateral con el feed junto al mapa a pantalla completa"><figcaption>Viewer para iPad — la pantalla dividida</figcaption></figure>
+  <figure><img src="/assets/screens/es/viewer-ipad-feed.png" alt="Hecate Viewer para iPad — la barra lateral es el feed en directo"><figcaption>Viewer para iPad — el feed lateral</figcaption></figure>
+  <figure><img src="/assets/screens/es/tv-wall.png" alt="Hecate Viewer para Apple TV — la pantalla mural en directo"><figcaption>Viewer para Apple TV — el muro</figcaption></figure>
 </div>
 
 *Las capturas proceden de versiones de desarrollo. Algunas pueden mostrar funciones que requieren una suscripción o que llegarán en una versión posterior — lo que incluye hoy el nivel gratuito se indica en [Free & Pro](plans/index.es.md).*

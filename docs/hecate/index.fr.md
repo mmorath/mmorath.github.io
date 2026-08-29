@@ -121,9 +121,8 @@ intégré.
   <figure><img src="/assets/screens/fr/admin-detail.png" alt="Hecate Admin — la vue détaillée d'un profil avec étapes et versions"><figcaption>Admin — détail d'un profil</figcaption></figure>
   <figure><img src="/assets/screens/fr/viewer-ios-karte.png" alt="Hecate Viewer — la carte en direct avec les actifs entrants en épingles"><figcaption>Viewer — la carte en direct</figcaption></figure>
   <figure><img src="/assets/screens/fr/viewer-ios-feed.png" alt="Hecate Viewer — le fil en direct, du plus récent au plus ancien"><figcaption>Viewer — le fil en direct</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/fr/viewer-ipad-karte.png" alt="Hecate Viewer pour iPad — le fil en barre latérale à côté de la carte plein écran"><figcaption>Viewer pour iPad — l'écran partagé</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/fr/viewer-ipad-tapzoom.png" alt="Hecate Viewer pour iPad — touchez une ligne du fil, la carte vole vers l'épingle"><figcaption>Viewer pour iPad — toucher pour zoomer</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/fr/tv-wall.png" alt="Hecate Viewer pour Apple TV — l'affichage mural en direct"><figcaption>Viewer pour Apple TV — le mur</figcaption></figure>
+  <figure><img src="/assets/screens/fr/viewer-ipad-karte.png" alt="Hecate Viewer pour iPad — le fil en barre latérale à côté de la carte plein écran"><figcaption>Viewer pour iPad — l'écran partagé</figcaption></figure>
+  <figure><img src="/assets/screens/fr/tv-wall.png" alt="Hecate Viewer pour Apple TV — l'affichage mural en direct"><figcaption>Viewer pour Apple TV — le mur</figcaption></figure>
 </div>
 
 *Les captures proviennent de versions de développement. Certaines peuvent montrer des fonctions nécessitant un abonnement ou prévues pour une version ultérieure — ce que l'offre gratuite contient aujourd'hui est indiqué sous [Free & Pro](plans/index.fr.md).*

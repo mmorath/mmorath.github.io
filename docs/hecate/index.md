@@ -118,9 +118,8 @@ directly.
   <figure><img src="/assets/screens/en/admin-detail.png" alt="Hecate Admin — a profile's detail view with steps and versions"><figcaption>Admin — profile detail</figcaption></figure>
   <figure><img src="/assets/screens/en/viewer-ios-karte.png" alt="Hecate Viewer — the live map with incoming assets as pins"><figcaption>Viewer — the live map</figcaption></figure>
   <figure><img src="/assets/screens/en/viewer-ios-feed.png" alt="Hecate Viewer — the live feed, newest first with freshness tags"><figcaption>Viewer — the live feed</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/en/viewer-ipad-karte.png" alt="Hecate Viewer for iPad — feed sidebar beside the full-bleed live map"><figcaption>Viewer for iPad — the split layout</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/en/viewer-ipad-tapzoom.png" alt="Hecate Viewer for iPad — tap a feed row and the map flies to the pin"><figcaption>Viewer for iPad — tap to zoom</figcaption></figure>
-  <figure class="wide"><img src="/assets/screens/en/tv-wall.png" alt="Hecate Viewer for Apple TV — the live wall display"><figcaption>Viewer for Apple TV — the wall</figcaption></figure>
+  <figure><img src="/assets/screens/en/viewer-ipad-karte.png" alt="Hecate Viewer for iPad — feed sidebar beside the full-bleed live map"><figcaption>Viewer for iPad — the split layout</figcaption></figure>
+  <figure><img src="/assets/screens/en/tv-wall.png" alt="Hecate Viewer for Apple TV — the live wall display"><figcaption>Viewer for Apple TV — the wall</figcaption></figure>
 </div>
 
 *Screens come from development builds. Some may show features that require a subscription or arrive in a later release — what the free tier includes today is listed under [Free & Pro](plans/index.md).*

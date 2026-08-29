@@ -44,7 +44,7 @@ mémoire.
 ## Captures d'écran
 
 <div class="shots">
-  <figure class="wide"><img src="/assets/screens/fr/viewer-ipad-karte.png" alt="Hecate Viewer pour iPad — la disposition scindée : barre latérale du fil en direct à côté de la carte pleine page avec les actifs entrants en épingles"><figcaption>La disposition scindée — fil latéral et carte en direct</figcaption></figure>
+  <figure><img src="/assets/screens/fr/viewer-ipad-karte.png" alt="Hecate Viewer pour iPad — la disposition scindée : barre latérale du fil en direct à côté de la carte pleine page avec les actifs entrants en épingles"><figcaption>La disposition scindée — fil latéral et carte en direct</figcaption></figure>
 </div>
 
 *Les captures proviennent de versions de développement. Certaines peuvent montrer des fonctions nécessitant un abonnement ou prévues pour une version ultérieure — ce que l'offre gratuite contient aujourd'hui est indiqué sous [Free & Pro](../plans/index.fr.md).*
