@@ -18,7 +18,9 @@ And it must never come at the expense of the people doing the work:
 
 > We simplify everyday capture work: one configurable profile replaces rigid
 > single-purpose apps, capture happens right where the work is, and every
-> result is traceable. We collect no data about people and sell no data to
+> result is traceable. The app guides you through every step — no expert
+> knowledge, no training, for young and old alike. We collect no data about
+> people and sell no data to
 > cover our costs — continuous development is funded by a fair subscription
 > with no buy-in. We build on open standards and clear interfaces, and we
 > are grateful for suggestions and criticism alike.
@@ -28,7 +30,9 @@ And it must never come at the expense of the people doing the work:
 1. **Simplicity.** Tools have to adapt to the work, not the other way
    around. One profile describes the process — the same app then serves the
    forklift fleet and the fire-extinguisher round, with no new software and
-   no release cycle.
+   no release cycle. And the app leads: every step says what to do next, so
+   nobody needs expert knowledge or a training course to capture. If you can
+   fill in a form, you can use Hecate — at twenty and at sixty.
 2. **Traceability.** Every capture carries place, time and profile. What is
    documented does not have to be argued about — that takes conflict out of
    teams and departments before it starts.

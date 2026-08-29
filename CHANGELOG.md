@@ -20,6 +20,15 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## 2026-08-29
 
+### Changed — the mission now names the thing the product is actually judged on
+
+Added on the founder's word: the app **guides** — no expert knowledge, no
+training, young and old alike. It belongs in the mission because it is the
+promise a field tool lives or dies by: a workflow nobody can follow is not
+simplification, it is a second job. The value "Simplicity" carries the same
+thought one level down, in the plainest test we could think of — if you can
+fill in a form, you can use Hecate, at twenty and at sixty.
+
 ### Fixed — "planned" was wrong: those Pro features are built and tested
 
 The comparison page marked Zebra label printing, route-to-asset and profile

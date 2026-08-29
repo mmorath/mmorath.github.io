@@ -18,7 +18,9 @@ Arbeit tun: **Nachvollziehbar ist der Prozess, nicht die Person.**
 
 > Wir vereinfachen die tägliche Erfassungsarbeit: Ein konfigurierbares
 > Profil ersetzt starre Spezial-Apps, erfasst wird am Ort des Geschehens,
-> und jedes Ergebnis ist nachvollziehbar. Wir erheben keine Daten über
+> und jedes Ergebnis ist nachvollziehbar. Die Bedienung führt durch jeden
+> Schritt — ohne Expertenwissen, ohne Schulung, für Junge wie Ältere. Wir
+> erheben keine Daten über
 > Menschen und verkaufen keine Daten zur Deckung unserer Kosten — die
 > Weiterentwicklung finanziert ein faires Abo ohne Buy-in. Wir bauen auf
 > offene Standards und klare Schnittstellen, und wir sind dankbar für
@@ -29,7 +31,10 @@ Arbeit tun: **Nachvollziehbar ist der Prozess, nicht die Person.**
 1. **Vereinfachen.** Werkzeuge haben sich der Arbeit anzupassen, nicht
    umgekehrt. Ein Profil beschreibt den Prozess — dieselbe App dient damit
    dem Staplerpark wie dem Feuerlöscher-Rundgang, ohne neue Software, ohne
-   Release-Zyklus.
+   Release-Zyklus. Und die App führt: Jeder Schritt sagt, was als Nächstes
+   zu tun ist — niemand braucht Expertenwissen oder eine Schulung, um zu
+   erfassen. Wer ein Formular ausfüllen kann, kann Hecate bedienen, mit
+   zwanzig wie mit sechzig.
 2. **Nachvollziehbarkeit.** Jede Erfassung trägt Ort, Zeit und Profil. Was
    dokumentiert ist, muss nicht diskutiert werden — das nimmt Konflikte aus
    Teams und Abteilungen, bevor sie entstehen.

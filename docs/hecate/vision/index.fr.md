@@ -19,7 +19,9 @@ jamais se faire au détriment des personnes qui font le travail :
 
 > Nous simplifions le travail de saisie au quotidien : un profil
 > configurable remplace les applications rigides à usage unique, la saisie
-> se fait là où le travail a lieu, et chaque résultat est traçable. Nous ne
+> se fait là où le travail a lieu, et chaque résultat est traçable.
+> L'application guide pas à pas — sans expertise, sans formation, pour les
+> jeunes comme pour les moins jeunes. Nous ne
 > collectons aucune donnée sur les personnes et ne vendons aucune donnée
 > pour couvrir nos coûts — le développement continu est financé par un
 > abonnement équitable, sans effet de verrouillage. Nous construisons sur
@@ -31,7 +33,9 @@ jamais se faire au détriment des personnes qui font le travail :
 1. **Simplicité.** Les outils doivent s'adapter au travail, pas l'inverse.
    Un profil décrit le processus — la même application sert alors le parc
    de chariots comme la ronde des extincteurs, sans nouveau logiciel, sans
-   cycle de release.
+   cycle de release. Et l'application guide : chaque étape dit quoi faire
+   ensuite, sans expertise ni formation préalable. Qui sait remplir un
+   formulaire sait utiliser Hecate — à vingt ans comme à soixante.
 2. **Traçabilité.** Chaque saisie porte le lieu, l'heure et le profil. Ce
    qui est documenté n'a pas besoin d'être débattu — cela retire les
    conflits des équipes et des services avant qu'ils ne naissent.
