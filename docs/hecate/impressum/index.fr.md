@@ -22,7 +22,7 @@ sur la TVA : **DE464557239**
 
 ## Responsable du contenu au sens du § 18 al. 2 MStV
 
-Matthias Morath, adresse ci-dessus.
+Matthias Morath, joignable à l'adresse e-mail indiquée ci-dessus.
 
 ## Avec qui le contrat est conclu
 
@@ -32,7 +32,7 @@ La facturation, les factures, la rétractation et la résiliation passent donc
 par votre compte Apple. L'utilisation des applications est régie par le
 [contrat de licence utilisateur final standard](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 d'Apple. Pour toute question sur le produit lui-même, écrivez-nous à
-l'adresse ci-dessus.
+l'adresse e-mail ci-dessus.
 
 ## Règlement des litiges de consommation
 

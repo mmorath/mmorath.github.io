@@ -18,7 +18,7 @@ Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:
 
 ## Redaktionell verantwortlich gemäß § 18 Abs. 2 MStV
 
-Matthias Morath, Anschrift wie oben.
+Matthias Morath, erreichbar unter der oben genannten E-Mail-Adresse.
 
 ## Wo der Vertrag zustande kommt
 

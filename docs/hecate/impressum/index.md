@@ -22,7 +22,7 @@ VAT identification number pursuant to § 27a of the German VAT Act:
 
 ## Responsible for content pursuant to § 18 (2) MStV
 
-Matthias Morath, address as above.
+Matthias Morath, reachable at the e-mail address above.
 
 ## Who you are buying from
 

@@ -22,7 +22,7 @@ alemana del IVA: **DE464557239**
 
 ## Responsable del contenido conforme al § 18, apdo. 2 MStV
 
-Matthias Morath, dirección indicada arriba.
+Matthias Morath, localizable en la dirección de correo indicada arriba.
 
 ## Con quién se celebra el contrato
 
@@ -33,7 +33,7 @@ gestionan por tanto a través de tu cuenta de Apple. El uso de las
 aplicaciones se rige por el
 [contrato de licencia de usuario final estándar](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 de Apple. Las preguntas sobre el producto en sí son bienvenidas en la
-dirección indicada arriba.
+dirección de correo indicada arriba.
 
 ## Resolución de litigios en materia de consumo
 
