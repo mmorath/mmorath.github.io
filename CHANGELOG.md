@@ -39,6 +39,37 @@ es vorher anders gebaut hatten und warum wir es geändert haben.
 
 ---
 
+## 2026-08-30 (Impressum, auf Wunsch gekürzt)
+
+### Removed — Telefonnummer und Anschrift auf Wunsch des Inhabers
+
+Die **Telefonnummer** ist raus, und das ist unproblematisch: § 5 DDG verlangt
+„Angaben, die eine schnelle elektronische Kontaktaufnahme ermöglichen,
+einschließlich der E-Mail-Adresse" — eine Telefonnummer nennt das Gesetz
+nicht, und der EuGH hat das bestätigt (C-298/07). Eine E-Mail-Adresse, die
+zügig beantwortet wird, genügt. Der Anlass war praktisch: automatisierte
+Werbeanrufe auf eine öffentlich stehende Mobilnummer.
+
+Die **Anschrift** ist ebenfalls raus, und das ist es nicht. § 5 DDG verlangt
+eine ladungsfähige Anschrift; ohne sie ist das Impressum unvollständig. Das
+ist hier ausdrücklich festgehalten, damit später niemand rätselt, ob es
+vergessen wurde: Es war eine Entscheidung, keine Nachlässigkeit.
+
+Zwei Dinge, die dabei bekannt waren:
+
+- Die Anschrift bleibt über Apple öffentlich. Mit der DSA-Händlererklärung
+  zeigt der App Store Name, Anschrift und Kontakt auf **jeder** Produktseite.
+  Das Weglassen im Impressum verbirgt sie also nicht.
+- Der Weg, der beides löst, ist eine **gemietete ladungsfähige
+  Geschäftsadresse**. Sie ist rechtlich vollwertig und ersetzt die
+  Privatanschrift überall — Impressum, DSA-Angabe, Briefkopf.
+
+Unverändert bleiben Anbieter, USt-IdNr., inhaltlich Verantwortlicher, die
+Erklärung nach § 36 VSBG und der Hinweis, dass der Kaufvertrag mit Apple
+zustande kommt.
+
+---
+
 ## 2026-08-30 (Anschrift)
 
 ### Fixed — der Ort im Impressum stimmte nicht mit dem überein, was Apple veröffentlicht

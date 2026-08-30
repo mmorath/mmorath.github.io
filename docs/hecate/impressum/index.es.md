@@ -11,13 +11,8 @@
 **MMM Software & Consulting**<br>
 Titular: Matthias Morath
 
-Zum Burggraben 11<br>
-89584 Lauterach<br>
-Alemania
-
 ## Contacto
 
-Teléfono: +49 171 2682669<br>
 Correo electrónico: [info@hecateapps.com](mailto:info@hecateapps.com)
 
 ## Número de identificación fiscal a efectos del IVA
