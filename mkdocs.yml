@@ -76,6 +76,7 @@ plugins:
             What it does: Was sie leistet
             Privacy: Datenschutz
             Support: Support
+            Terms: Nutzungsbedingungen
             Legal notice: Impressum
         - locale: fr
           name: Français
@@ -92,6 +93,7 @@ plugins:
             What it does: Ce qu'elle fait
             Privacy: Confidentialité
             Support: Assistance
+            Terms: Conditions d'utilisation
             Legal notice: Mentions légales
         - locale: es
           name: Español
@@ -108,6 +110,7 @@ plugins:
             What it does: Qué hace
             Privacy: Privacidad
             Support: Soporte
+            Terms: Condiciones de uso
             Legal notice: Aviso legal
 
 markdown_extensions:
@@ -178,6 +181,12 @@ nav:
       - Hecate Viewer (iPhone): hecate/privacy/viewer-ios/index.md
       - Hecate Viewer (iPad): hecate/privacy/viewer-ipad/index.md
       - Hecate Viewer (Apple TV): hecate/privacy/viewer-tvos/index.md
+  # Direkt vor dem Impressum: Was fuer die Nutzung gilt, gehoert neben die
+  # Anbieterangabe — beide sind Rechtstexte, beide muessen von jeder Seite aus
+  # erreichbar sein. Die Seite schreibt KEINE eigene Lizenz; sie verlinkt
+  # Apples Standard-EULA (Spec website.md WS8-6), damit das Feld in App Store
+  # Connect leer bleiben kann.
+  - Terms: hecate/terms/index.md
   # Pflichtangabe nach § 5 DDG. Sie muss "leicht erkennbar, unmittelbar
   # erreichbar und staendig verfuegbar" sein — ein eigener Menuepunkt erfuellt
   # das auf jeder Seite. Material fuehrt keine Fusszeile mit Links, deshalb
