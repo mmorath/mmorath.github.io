@@ -61,25 +61,17 @@ seul broker que vous contrôlez déjà.
 
     [:octicons-arrow-right-24: Présentation de la saisie](capture/index.md)
 
--   :material-map-marker-radius: __Hecate Viewer__ · iPhone
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
 
     ---
 
-    La carte en direct, dans la poche. Un pur abonné qui place les actifs sur
-    la carte à l'instant de leur publication et les estompe après la durée de
-    votre choix — il ne saisit rien et ne publie rien.
+    La carte en direct, dans la poche et sur grand écran. Un pur abonné qui
+    place les actifs sur la carte à l'instant de leur publication et les
+    estompe après la durée de votre choix — il ne saisit rien et ne publie
+    rien. Une seule app universelle ; sur iPad, la carte s'affiche bord à
+    bord.
 
-    [:octicons-arrow-right-24: Présentation du viewer iPhone](viewer-ios/index.md)
-
--   :material-tablet: __Hecate Viewer__ · iPad
-
-    ---
-
-    La carte en direct, bord à bord. Le fil occupe une barre latérale à côté
-    de la carte pleine page — touchez une ligne et la carte vole vers
-    l'épingle de cet actif. Le même abonné, conçu pour le grand écran.
-
-    [:octicons-arrow-right-24: Présentation du viewer iPad](viewer-ipad/index.md)
+    [:octicons-arrow-right-24: Présentation du viewer](viewer-ios/index.md)
 
 -   :material-television: __Hecate Viewer__ · Apple TV
 
@@ -121,7 +113,6 @@ intégré.
   <figure><img src="/assets/screens/fr/admin-detail.png" alt="Hecate Admin — la vue détaillée d'un profil avec étapes et versions"><figcaption>Admin — détail d'un profil</figcaption></figure>
   <figure><img src="/assets/screens/fr/viewer-ios-karte.png" alt="Hecate Viewer — la carte en direct avec les actifs entrants en épingles"><figcaption>Viewer — la carte en direct</figcaption></figure>
   <figure><img src="/assets/screens/fr/viewer-ios-feed.png" alt="Hecate Viewer — le fil en direct, du plus récent au plus ancien"><figcaption>Viewer — le fil en direct</figcaption></figure>
-  <figure><img src="/assets/screens/fr/viewer-ipad-karte.png" alt="Hecate Viewer pour iPad — le fil en barre latérale à côté de la carte plein écran"><figcaption>Viewer pour iPad — l'écran partagé</figcaption></figure>
   <figure><img src="/assets/screens/fr/tv-wall.png" alt="Hecate Viewer pour Apple TV — l'affichage mural en direct"><figcaption>Viewer pour Apple TV — le mur</figcaption></figure>
 </div>
 
@@ -149,7 +140,6 @@ convergent vers le broker au centre.
 | | Confidentialité | Assistance |
 | --- | --- | --- |
 | **Hecate Capture** | [Confidentialité](privacy/capture/index.md) | [Assistance](support/operator/index.md) |
-| **Hecate Viewer (iPhone)** | [Confidentialité](privacy/viewer-ios/index.md) | [Assistance](support/operator/index.md) |
-| **Hecate Viewer (iPad)** | [Confidentialité](privacy/viewer-ipad/index.md) | [Assistance](support/operator/index.md) |
+| **Hecate Viewer** (iPhone & iPad) | [Confidentialité](privacy/viewer-ios/index.md) | [Assistance](support/operator/index.md) |
 | **Hecate Admin** | [Confidentialité](privacy/admin/index.md) | [Assistance](support/admin/index.md) |
 | **Hecate Viewer (Apple TV)** | [Confidentialité](privacy/viewer-tvos/index.md) | [Assistance](support/operator/index.md) |

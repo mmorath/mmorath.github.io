@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Hecate Viewer for iPhone
+# Hecate Viewer — iPhone & iPad
 
 *Watch your assets arrive — live, on the map, in your pocket.*
 
@@ -14,6 +14,9 @@ chronological feed alongside for the play-by-play.
 
 It is a **pure viewer**. It captures nothing, edits nothing, and publishes
 nothing; everything on screen came from your broker and lives only in memory.
+
+One **universal app** for iPhone and iPad: on iPad the live map runs edge to
+edge, with the header and feed in a calm centred column — no split screen.
 
 ## In one minute
 

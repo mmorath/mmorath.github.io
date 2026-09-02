@@ -20,23 +20,14 @@ utilisez :
 
     [:octicons-arrow-right-24: Confidentialité saisie](capture/index.md)
 
--   :material-map-marker-radius: __Hecate Viewer__ · iPhone
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
 
     ---
 
     Un pur abonné avec carte en direct. Position uniquement pour le point
     « vous êtes ici » ; **rien n'est stocké, rien n'est transmis**.
 
-    [:octicons-arrow-right-24: Confidentialité viewer iPhone](viewer-ios/index.md)
-
--   :material-tablet: __Hecate Viewer__ · iPad
-
-    ---
-
-    Le même pur abonné, conçu pour le grand écran. Traitement des données
-    identique : **rien n'est stocké, rien n'est transmis**.
-
-    [:octicons-arrow-right-24: Confidentialité viewer iPad](viewer-ipad/index.md)
+    [:octicons-arrow-right-24: Confidentialité du viewer](viewer-ios/index.md)
 
 -   :material-television: __Viewer Apple TV__ · *prévu*
 

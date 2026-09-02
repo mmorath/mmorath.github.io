@@ -58,25 +58,16 @@ already control.
 
     [:octicons-arrow-right-24: Capture overview](capture/index.md)
 
--   :material-map-marker-radius: __Hecate Viewer__ · iPhone
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
 
     ---
 
-    The live map in your pocket. A pure subscriber that plots assets the
-    moment they are published and fades them out on a timer you choose —
-    it captures nothing and publishes nothing.
+    The live map, in your pocket and on the big screen. A pure subscriber
+    that plots assets the moment they are published and fades them out on a
+    timer you choose — it captures nothing and publishes nothing. One
+    universal app; on iPad the map runs edge to edge.
 
-    [:octicons-arrow-right-24: iPhone viewer overview](viewer-ios/index.md)
-
--   :material-tablet: __Hecate Viewer__ · iPad
-
-    ---
-
-    The live map wall to wall. The feed sits in a sidebar beside a
-    full-bleed map — tap a row and the map flies to that asset's pin.
-    Same subscriber, laid out for the big screen.
-
-    [:octicons-arrow-right-24: iPad viewer overview](viewer-ipad/index.md)
+    [:octicons-arrow-right-24: Viewer overview](viewer-ios/index.md)
 
 -   :material-television: __Hecate Viewer__ · Apple TV
 
@@ -118,7 +109,6 @@ directly.
   <figure><img src="/assets/screens/en/admin-detail.png" alt="Hecate Admin — a profile's detail view with steps and versions"><figcaption>Admin — profile detail</figcaption></figure>
   <figure><img src="/assets/screens/en/viewer-ios-karte.png" alt="Hecate Viewer — the live map with incoming assets as pins"><figcaption>Viewer — the live map</figcaption></figure>
   <figure><img src="/assets/screens/en/viewer-ios-feed.png" alt="Hecate Viewer — the live feed, newest first with freshness tags"><figcaption>Viewer — the live feed</figcaption></figure>
-  <figure><img src="/assets/screens/en/viewer-ipad-karte.png" alt="Hecate Viewer for iPad — feed sidebar beside the full-bleed live map"><figcaption>Viewer for iPad — the split layout</figcaption></figure>
   <figure><img src="/assets/screens/en/tv-wall.png" alt="Hecate Viewer for Apple TV — the live wall display"><figcaption>Viewer for Apple TV — the wall</figcaption></figure>
 </div>
 
@@ -145,7 +135,6 @@ centre.
 | | Privacy | Support |
 | --- | --- | --- |
 | **Hecate Capture** | [Privacy](privacy/capture/index.md) | [Support](support/operator/index.md) |
-| **Hecate Viewer (iPhone)** | [Privacy](privacy/viewer-ios/index.md) | [Support](support/operator/index.md) |
-| **Hecate Viewer (iPad)** | [Privacy](privacy/viewer-ipad/index.md) | [Support](support/operator/index.md) |
+| **Hecate Viewer** (iPhone & iPad) | [Privacy](privacy/viewer-ios/index.md) | [Support](support/operator/index.md) |
 | **Hecate Admin** | [Privacy](privacy/admin/index.md) | [Support](support/admin/index.md) |
 | **Hecate Viewer (Apple TV)** | [Privacy](privacy/viewer-tvos/index.md) | [Support](support/operator/index.md) |

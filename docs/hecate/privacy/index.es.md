@@ -19,23 +19,14 @@ cada una trata los datos de forma distinta. Elija la aplicación que utiliza:
 
     [:octicons-arrow-right-24: Privacidad de la captura](capture/index.md)
 
--   :material-map-marker-radius: __Hecate Viewer__ · iPhone
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
 
     ---
 
     Un suscriptor puro con mapa en vivo. La ubicación, solo para el punto
     «usted está aquí»; **nada se almacena, nada se transmite**.
 
-    [:octicons-arrow-right-24: Privacidad del visor para iPhone](viewer-ios/index.md)
-
--   :material-tablet: __Hecate Viewer__ · iPad
-
-    ---
-
-    El mismo suscriptor puro, presentado para la pantalla grande. Tratamiento
-    de datos idéntico: **nada se almacena, nada se transmite**.
-
-    [:octicons-arrow-right-24: Privacidad del visor para iPad](viewer-ipad/index.md)
+    [:octicons-arrow-right-24: Privacidad del visor](viewer-ios/index.md)
 
 -   :material-television: __Visor para Apple TV__ · *previsto*
 

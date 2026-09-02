@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Hecate Viewer pour iPhone
+# Hecate Viewer — iPhone & iPad
 
 *Regardez vos actifs arriver — en direct, sur la carte, dans votre poche.*
 

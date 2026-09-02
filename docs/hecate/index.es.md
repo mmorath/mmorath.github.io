@@ -60,25 +60,17 @@ broker que usted ya controla.
 
     [:octicons-arrow-right-24: Visión general de la captura](capture/index.md)
 
--   :material-map-marker-radius: __Hecate Viewer__ · iPhone
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
 
     ---
 
-    El mapa en vivo en su bolsillo. Un suscriptor puro que sitúa los activos
-    en el mapa en el momento de su publicación y los desvanece tras el
-    tiempo que usted elija — no captura nada y no publica nada.
+    El mapa en vivo, en su bolsillo y en la pantalla grande. Un suscriptor
+    puro que sitúa los activos en el mapa en el momento de su publicación y
+    los desvanece tras el tiempo que usted elija — no captura nada y no
+    publica nada. Una sola app universal; en el iPad, el mapa llena la
+    pantalla de borde a borde.
 
-    [:octicons-arrow-right-24: Visión general del visor para iPhone](viewer-ios/index.md)
-
--   :material-tablet: __Hecate Viewer__ · iPad
-
-    ---
-
-    El mapa en vivo de borde a borde. El feed ocupa una barra lateral junto
-    al mapa a pantalla completa — toque una fila y el mapa vuela al pin de
-    ese activo. El mismo suscriptor, diseñado para la pantalla grande.
-
-    [:octicons-arrow-right-24: Visión general del visor para iPad](viewer-ipad/index.md)
+    [:octicons-arrow-right-24: Visión general del visor](viewer-ios/index.md)
 
 -   :material-television: __Hecate Viewer__ · Apple TV
 
@@ -120,8 +112,6 @@ directamente.
   <figure><img src="/assets/screens/es/admin-detail.png" alt="Hecate Admin — la vista de detalle de un perfil con pasos y versiones"><figcaption>Admin — detalle del perfil</figcaption></figure>
   <figure><img src="/assets/screens/es/viewer-ios-karte.png" alt="Hecate Viewer — el mapa en directo con activos entrantes como marcadores"><figcaption>Viewer — el mapa en directo</figcaption></figure>
   <figure><img src="/assets/screens/es/viewer-ios-feed.png" alt="Hecate Viewer — el feed en directo, lo más reciente primero"><figcaption>Viewer — el feed en directo</figcaption></figure>
-  <figure><img src="/assets/screens/es/viewer-ipad-karte.png" alt="Hecate Viewer para iPad — la barra lateral con el feed junto al mapa a pantalla completa"><figcaption>Viewer para iPad — la pantalla dividida</figcaption></figure>
-  <figure><img src="/assets/screens/es/viewer-ipad-feed.png" alt="Hecate Viewer para iPad — la barra lateral es el feed en directo"><figcaption>Viewer para iPad — el feed lateral</figcaption></figure>
   <figure><img src="/assets/screens/es/tv-wall.png" alt="Hecate Viewer para Apple TV — la pantalla mural en directo"><figcaption>Viewer para Apple TV — el muro</figcaption></figure>
 </div>
 
@@ -149,7 +139,6 @@ convergen en el broker, en el centro.
 | | Privacidad | Soporte |
 | --- | --- | --- |
 | **Hecate Capture** | [Privacidad](privacy/capture/index.md) | [Soporte](support/operator/index.md) |
-| **Hecate Viewer (iPhone)** | [Privacidad](privacy/viewer-ios/index.md) | [Soporte](support/operator/index.md) |
-| **Hecate Viewer (iPad)** | [Privacidad](privacy/viewer-ipad/index.md) | [Soporte](support/operator/index.md) |
+| **Hecate Viewer** (iPhone & iPad) | [Privacidad](privacy/viewer-ios/index.md) | [Soporte](support/operator/index.md) |
 | **Hecate Admin** | [Privacidad](privacy/admin/index.md) | [Soporte](support/admin/index.md) |
 | **Hecate Viewer (Apple TV)** | [Privacidad](privacy/viewer-tvos/index.md) | [Soporte](support/operator/index.md) |

@@ -19,23 +19,14 @@ differently. Pick the app you're using:
 
     [:octicons-arrow-right-24: Capture privacy](capture/index.md)
 
--   :material-map-marker-radius: __Hecate Viewer__ · iPhone
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
 
     ---
 
     A pure subscriber with a live map. Location only for the "you are here"
     dot; **nothing stored, nothing transmitted**.
 
-    [:octicons-arrow-right-24: iPhone viewer privacy](viewer-ios/index.md)
-
--   :material-tablet: __Hecate Viewer__ · iPad
-
-    ---
-
-    The same pure subscriber, laid out for the big screen. Identical data
-    handling: **nothing stored, nothing transmitted**.
-
-    [:octicons-arrow-right-24: iPad viewer privacy](viewer-ipad/index.md)
+    [:octicons-arrow-right-24: Viewer privacy](viewer-ios/index.md)
 
 -   :material-television: __Apple TV viewer__ · *planned*
 

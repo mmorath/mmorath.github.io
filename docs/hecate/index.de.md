@@ -61,26 +61,17 @@ den Sie bereits kontrollieren.
 
     [:octicons-arrow-right-24: Überblick Erfassung](capture/index.md)
 
--   :material-map-marker-radius: __Hecate Viewer__ · iPhone
+-   :material-map-marker-radius: __Hecate Viewer__ · iPhone & iPad
 
     ---
 
-    Die Live-Karte für die Hosentasche. Ein reiner Abonnent, der Assets im
-    Moment der Veröffentlichung auf der Karte verortet und nach einer von
-    Ihnen gewählten Zeit ausblendet — er erfasst nichts und veröffentlicht
-    nichts.
+    Die Live-Karte — in der Hosentasche und auf dem großen Bildschirm. Ein
+    reiner Abonnent, der Assets im Moment der Veröffentlichung auf der Karte
+    verortet und nach einer von Ihnen gewählten Zeit ausblendet — er erfasst
+    nichts und veröffentlicht nichts. Eine universelle App; auf dem iPad
+    läuft die Karte randlos.
 
-    [:octicons-arrow-right-24: Überblick iPhone-Viewer](viewer-ios/index.md)
-
--   :material-tablet: __Hecate Viewer__ · iPad
-
-    ---
-
-    Die Live-Karte in voller Breite. Der Feed sitzt als Seitenleiste neben
-    der vollflächigen Karte — ein Tipp auf eine Zeile fliegt zur Position
-    des Assets. Derselbe Abonnent, gestaltet für den großen Bildschirm.
-
-    [:octicons-arrow-right-24: Überblick iPad-Viewer](viewer-ipad/index.md)
+    [:octicons-arrow-right-24: Überblick Viewer](viewer-ios/index.md)
 
 -   :material-television: __Hecate Viewer__ · Apple TV
 
@@ -121,7 +112,6 @@ Scan-Engine Hecate direkt anspricht.
   <figure><img src="/assets/screens/de/admin-detail.png" alt="Hecate Admin — die Detailansicht eines Profils mit Schritten und Versionen"><figcaption>Admin — Profil-Detail</figcaption></figure>
   <figure><img src="/assets/screens/de/viewer-ios-karte.png" alt="Hecate Viewer — die Live-Karte mit eintreffenden Assets als Pins"><figcaption>Viewer — die Live-Karte</figcaption></figure>
   <figure><img src="/assets/screens/de/viewer-ios-feed.png" alt="Hecate Viewer — der Live-Feed, neueste zuerst, mit Frische-Markierungen"><figcaption>Viewer — der Live-Feed</figcaption></figure>
-  <figure><img src="/assets/screens/de/viewer-ipad-karte.png" alt="Hecate Viewer für iPad — Feed-Seitenleiste neben der vollflächigen Live-Karte"><figcaption>Viewer für iPad — das geteilte Layout</figcaption></figure>
   <figure><img src="/assets/screens/de/tv-wall.png" alt="Hecate Viewer für Apple TV — die Live-Wandanzeige"><figcaption>Viewer für Apple TV — die Wand</figcaption></figure>
 </div>
 
@@ -148,7 +138,6 @@ in der Mitte zusammenlaufen.
 | | Datenschutz | Support |
 | --- | --- | --- |
 | **Hecate Capture** | [Datenschutz](privacy/capture/index.md) | [Support](support/operator/index.md) |
-| **Hecate Viewer (iPhone)** | [Datenschutz](privacy/viewer-ios/index.md) | [Support](support/operator/index.md) |
-| **Hecate Viewer (iPad)** | [Datenschutz](privacy/viewer-ipad/index.md) | [Support](support/operator/index.md) |
+| **Hecate Viewer** (iPhone & iPad) | [Datenschutz](privacy/viewer-ios/index.md) | [Support](support/operator/index.md) |
 | **Hecate Admin** | [Datenschutz](privacy/admin/index.md) | [Support](support/admin/index.md) |
 | **Hecate Viewer (Apple TV)** | [Datenschutz](privacy/viewer-tvos/index.md) | [Support](support/operator/index.md) |
