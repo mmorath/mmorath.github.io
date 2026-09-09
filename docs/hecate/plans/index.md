@@ -40,8 +40,8 @@ never needs a purchase.
 | Offline outbox, delivers on reconnect | :material-check: | :material-check: |
 | Printing via AirPrint | :material-check: | :material-check: |
 | All four languages | :material-check: | :material-check: |
-| Label printing on Zebra hardware (ZPL) | — | :material-check: \* |
-| Route to an asset (Maps / Google Maps / Waze) | — | :material-check: \* |
+| Label printing on Zebra hardware (ZPL) | — | planned for 2027 \*\* |
+| Route to an asset (Maps / Google Maps / Waze) | — | later update \* |
 
 ## Hecate Admin
 
@@ -55,7 +55,7 @@ never needs a purchase.
 | Retiring a profile | online, with broker receipt | also queued while offline |
 | Provisioning devices by QR code | :material-check: | :material-check: |
 | Validator, size guard, publish guard | :material-check: | :material-check: |
-| Profile version control against a repository | — | :material-check: \* |
+| Profile version control against a repository | — | later update \* |
 
 ## Hecate Viewer — iPhone, iPad, Apple TV
 
@@ -86,17 +86,20 @@ send, and a window should not cost extra.
   Several saved configurations are what a Pro subscription is for: test,
   pre-production and production side by side.
 
-**\* Built and tested, not yet unlocked.** These are not plans. The code is
-written, it carries its own tests, and it has run in shipped builds. In the
-apps you install today it is locked; a subscription unlocks it — nothing has
-to be developed first.
+**\* Built and tested, not part of the subscription yet.** These are not plans:
+the code is written, it carries its own tests, and it has run in shipped
+builds. But today's subscription lifts the quantity limits above and nothing
+else — these features arrive with a later update of Hecate Pro. Until then the
+subscription does not unlock them, and the app does not claim otherwise.
 
-**Profile version control is visible** while it is locked: in Hecate Admin it
-sits in Settings and in the broker configuration, greyed out and marked with
-a small lock. Tapping it explains what it does and that it belongs to the
-subscription — it does not disappear, it shows you its boundary. Label
-printing and routing in Hecate Capture, by contrast, are not shown at all
-today.
+**\*\* Label printing on Zebra hardware** is finished as well, but it will come
+in 2027 as a feature of its own, not as part of the subscription.
+
+**Profile version control is visible** while it waits: in Hecate Admin it sits
+in Settings and in the broker configuration, greyed out and marked with a small
+lock. Tapping it explains what it does and that it comes with a later update —
+it does not disappear, it shows you its boundary. Label printing and routing in
+Hecate Capture, by contrast, are not shown at all today.
 
 And the promise stands unchanged: **nothing you can use today will ever be
 taken away.** What sits behind the lock was never free.

@@ -43,8 +43,8 @@ jamais et ne demande aucun achat.
 | File d'attente hors ligne, livrée à la reconnexion | :material-check: | :material-check: |
 | Impression via AirPrint | :material-check: | :material-check: |
 | Les quatre langues | :material-check: | :material-check: |
-| Impression d'étiquettes sur matériel Zebra (ZPL) | — | :material-check: \* |
-| Itinéraire vers l'objet (Plans / Google Maps / Waze) | — | :material-check: \* |
+| Impression d'étiquettes sur matériel Zebra (ZPL) | — | prévu pour 2027 \*\* |
+| Itinéraire vers l'objet (Plans / Google Maps / Waze) | — | mise à jour ultérieure \* |
 
 ## Hecate Admin
 
@@ -58,7 +58,7 @@ jamais et ne demande aucun achat.
 | Retrait d'un profil | en ligne, avec accusé du broker | aussi mis en file hors ligne |
 | Configurer les appareils par QR code | :material-check: | :material-check: |
 | Validateur, garde-fou de taille, garde de publication | :material-check: | :material-check: |
-| Gestion de versions des profils sur un dépôt | — | :material-check: \* |
+| Gestion de versions des profils sur un dépôt | — | mise à jour ultérieure \* |
 
 ## Hecate Viewer — iPhone, iPad, Apple TV
 
@@ -92,17 +92,23 @@ vos appareils envoient, et une fenêtre ne doit rien coûter de plus.
   c'est précisément l'objet d'un abonnement Pro : test, préproduction et
   production côte à côte.
 
-**\* Développé et testé, pas encore débloqué.** Ce ne sont pas des projets.
-Le code est écrit, il possède ses propres tests, et il a déjà tourné dans des
-versions livrées. Dans les applications que vous installez aujourd'hui, il
-est verrouillé ; un abonnement le débloque — rien ne reste à développer.
+**\* Développé et testé, pas encore inclus dans l'abonnement.** Ce ne sont pas
+des projets : le code est écrit, il possède ses propres tests, et il a déjà
+tourné dans des versions livrées. Mais l'abonnement d'aujourd'hui lève les
+limites de quantité ci-dessus, et rien d'autre — ces fonctions arriveront avec
+une mise à jour ultérieure de Hecate Pro. D'ici là, l'abonnement ne les
+débloque pas, et l'application ne prétend pas le contraire.
 
-**Le versionnage des profils est visible** bien que verrouillé : dans Hecate
-Admin, il figure dans les réglages et dans la configuration du broker, grisé
-et marqué d'un petit cadenas. Un appui explique ce qu'il fait et qu'il relève de
-l'abonnement — il ne disparaît pas, il montre sa limite. L'impression
-d'étiquettes et l'itinéraire dans Hecate Capture, eux, ne sont pas affichés
-du tout aujourd'hui.
+**\*\* L'impression d'étiquettes sur matériel Zebra** est également terminée,
+mais elle arrivera en 2027 comme nouveauté à part entière, pas dans le cadre
+de l'abonnement.
+
+**Le versionnage des profils est visible** en attendant : dans Hecate Admin, il
+figure dans les réglages et dans la configuration du broker, grisé et marqué
+d'un petit cadenas. Un appui explique ce qu'il fait et qu'il viendra avec une
+mise à jour ultérieure — il ne disparaît pas, il montre sa limite.
+L'impression d'étiquettes et l'itinéraire dans Hecate Capture, eux, ne sont
+pas affichés du tout aujourd'hui.
 
 Et la promesse reste la même : **rien de ce que vous pouvez utiliser
 aujourd'hui ne vous sera jamais retiré.** Ce qui se trouve derrière le

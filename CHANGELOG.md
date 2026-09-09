@@ -48,6 +48,18 @@ Kündigen, Rückerstattung, Projektende, Kontakt — und alle Datenschutzseiten.
 
 ---
 
+### Changed — Free & Pro: die dunklen Funktionen sind nicht Teil des heutigen Abos
+
+Die Pro-Spalte führte Etikettendruck (Zebra), Route zum Objekt und
+Profil-Versionierung mit ✓\* („gebaut, noch nicht freigeschaltet — ein Abo
+schaltet es frei"). Das stimmte nicht mehr: Das Abo der eingereichten Builds hebt
+**nur die Mengen-Grenzen** auf; Versionierung und Route bleiben dunkel und kommen
+mit einem späteren Pro-Update, der Zebra-Druck erst **2027 als eigene Neuerung**
+(Entscheid 2026-09-03, bestätigt 09.09.). Der Admin-Plan-Screen versprach dasselbe
+und wird in Build 120 korrigiert — Website und App sagen jetzt dasselbe. Vier
+Sprachen: Zeilen der Tabellen („späteres Update \*" / „geplant für 2027 \*\*")
+und die Fußnoten darunter.
+
 ## 2026-08-30 (Baustein-Grenze)
 
 ### Changed — die Fünf-Bausteine-Grenze gilt jetzt auch beim Bauen

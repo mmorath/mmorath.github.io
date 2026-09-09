@@ -41,8 +41,8 @@ kostenlose Stufe läuft nie ab und braucht keinen Kauf.
 | Offline-Ausgang, liefert bei Verbindung nach | :material-check: | :material-check: |
 | Drucken über AirPrint | :material-check: | :material-check: |
 | Alle vier Sprachen | :material-check: | :material-check: |
-| Etikettendruck auf Zebra-Geräten (ZPL) | — | :material-check: \* |
-| Route zum Objekt (Karten / Google Maps / Waze) | — | :material-check: \* |
+| Etikettendruck auf Zebra-Geräten (ZPL) | — | geplant für 2027 \*\* |
+| Route zum Objekt (Karten / Google Maps / Waze) | — | späteres Update \* |
 
 ## Hecate Admin
 
@@ -56,7 +56,7 @@ kostenlose Stufe läuft nie ab und braucht keinen Kauf.
 | Zurückziehen | online, mit Broker-Quittung | auch eingereiht im Offline-Fall |
 | Geräte per QR-Code einrichten | :material-check: | :material-check: |
 | Validator, Größen-Gate, Publish-Schutz | :material-check: | :material-check: |
-| Profil-Versionierung gegen ein Repository | — | :material-check: \* |
+| Profil-Versionierung gegen ein Repository | — | späteres Update \* |
 
 ## Hecate Viewer — iPhone, iPad, Apple TV
 
@@ -88,17 +88,22 @@ deine Geräte senden, und ein Fenster darf nichts extra kosten.
   wird nie blockiert. Mehrere gespeicherte Konfigurationen sind der Zweck
   eines Pro-Abos: Test, Vorproduktion und Produktion nebeneinander.
 
-**\* Gebaut und getestet, heute noch nicht freigeschaltet.** Das sind keine
-Vorhaben. Der Code ist geschrieben, er trägt seine eigenen Tests, und er lief
-bereits in ausgelieferten Fassungen. In den Apps, die du heute installierst,
-ist er gesperrt; ein Abo schaltet ihn frei — entwickelt werden muss dafür
-nichts mehr.
+**\* Gebaut und getestet, heute noch nicht Teil des Abos.** Das sind keine
+Vorhaben: Der Code ist geschrieben, er trägt seine eigenen Tests, und er lief
+bereits in ausgelieferten Fassungen. Aber das heutige Abo hebt die
+Mengen-Grenzen oben auf und sonst nichts — diese Funktionen kommen mit einem
+späteren Update von Hecate Pro. Bis dahin schaltet das Abo sie nicht frei, und
+die App behauptet auch nichts anderes.
+
+**\*\* Der Etikettendruck auf Zebra-Geräten** ist ebenfalls fertig, kommt aber
+2027 als eigene Neuerung, nicht als Teil des Abos.
 
 Die **Profil-Versionierung** ist dabei zu sehen: In Hecate Admin steht sie in
 den Einstellungen und in der Broker-Konfiguration, ausgegraut und mit einem
-kleinen Schloss. Ein Tipp darauf erklärt, was sie tut und dass sie zum Abo
-gehört — sie verschwindet nicht, sie zeigt ihre Grenze. Etikettendruck und
-Route in Hecate Capture sind heute dagegen gar nicht erst zu sehen.
+kleinen Schloss. Ein Tipp darauf erklärt, was sie tut und dass sie mit einem
+späteren Update kommt — sie verschwindet nicht, sie zeigt ihre Grenze.
+Etikettendruck und Route in Hecate Capture sind heute dagegen gar nicht erst
+zu sehen.
 
 Und das Versprechen bleibt, wie es war: **Was du heute benutzen kannst,
 wird dir nie weggenommen.** Was hinter dem Schloss steht, war nie frei.

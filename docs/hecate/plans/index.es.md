@@ -40,8 +40,8 @@ no caduca nunca y no requiere ninguna compra.
 | Bandeja de salida sin conexión, entrega al reconectar | :material-check: | :material-check: |
 | Impresión mediante AirPrint | :material-check: | :material-check: |
 | Los cuatro idiomas | :material-check: | :material-check: |
-| Impresión de etiquetas en equipos Zebra (ZPL) | — | :material-check: \* |
-| Ruta hasta el objeto (Mapas / Google Maps / Waze) | — | :material-check: \* |
+| Impresión de etiquetas en equipos Zebra (ZPL) | — | previsto para 2027 \*\* |
+| Ruta hasta el objeto (Mapas / Google Maps / Waze) | — | actualización posterior \* |
 
 ## Hecate Admin
 
@@ -55,7 +55,7 @@ no caduca nunca y no requiere ninguna compra.
 | Retirar un perfil | en línea, con acuse del broker | también en cola sin conexión |
 | Configurar dispositivos por código QR | :material-check: | :material-check: |
 | Validador, límite de tamaño, protección de publicación | :material-check: | :material-check: |
-| Control de versiones de perfiles en un repositorio | — | :material-check: \* |
+| Control de versiones de perfiles en un repositorio | — | actualización posterior \* |
 
 ## Hecate Viewer — iPhone, iPad, Apple TV
 
@@ -87,16 +87,22 @@ tus dispositivos, y una ventana no debe costar aparte.
   objeto de una suscripción Pro: prueba, preproducción y producción en
   paralelo.
 
-**\* Desarrollado y probado, todavía sin desbloquear.** No son planes. El
-código está escrito, tiene sus propias pruebas y ya ha funcionado en
-versiones publicadas. En las aplicaciones que instalas hoy está bloqueado;
-una suscripción lo desbloquea — no queda nada por desarrollar.
+**\* Desarrollado y probado, todavía no incluido en la suscripción.** No son
+planes: el código está escrito, tiene sus propias pruebas y ya ha funcionado en
+versiones publicadas. Pero la suscripción de hoy elimina los límites de
+cantidad de arriba y nada más — estas funciones llegarán con una actualización
+posterior de Hecate Pro. Hasta entonces la suscripción no las desbloquea, y la
+app tampoco afirma lo contrario.
 
-**El control de versiones de perfiles sí se ve** aunque esté bloqueado: en
-Hecate Admin aparece en los ajustes y en la configuración del broker, en gris
-y con un pequeño candado. Al tocarlo se explica qué hace y que pertenece a
-la suscripción — no desaparece, muestra su límite. La impresión de etiquetas
-y la ruta en Hecate Capture, en cambio, hoy no se muestran en absoluto.
+**\*\* La impresión de etiquetas en equipos Zebra** también está terminada,
+pero llegará en 2027 como novedad propia, no como parte de la suscripción.
+
+**El control de versiones de perfiles sí se ve** mientras espera: en Hecate
+Admin aparece en los ajustes y en la configuración del broker, en gris y con
+un pequeño candado. Al tocarlo se explica qué hace y que llegará con una
+actualización posterior — no desaparece, muestra su límite. La impresión de
+etiquetas y la ruta en Hecate Capture, en cambio, hoy no se muestran en
+absoluto.
 
 Y la promesa sigue igual: **nada de lo que puedas usar hoy se te quitará
 jamás.** Lo que hay detrás del candado nunca fue gratuito.
