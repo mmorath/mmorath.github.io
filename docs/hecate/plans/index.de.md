@@ -1,6 +1,6 @@
 # Free & Pro
 
-*Was die kostenlose Stufe enthält — und was ein Abo später freischaltet.*
+*Was die kostenlose Stufe enthält — und was ein Abo freischaltet.*
 
 Die kostenlose Stufe von Hecate ist **ein echtes Produkt, kein Test**: Sie
 läuft nie ab, und nichts von dem, was du erfasst, wird dir vorenthalten.
@@ -9,15 +9,25 @@ aktiv hältst, mit wie vielen Brokern du sprichst. Alles, was das Werkzeug
 ausmacht — Scannen, GPS, der Offline-Ausgang, alle vier Sprachen, dein
 eigener Broker — ist kostenlos und bleibt es.
 
-!!! info "Pro ist noch nicht käuflich"
+## Preise
 
-    Die Apps, die heute ausgeliefert werden, enthalten **ausschließlich die
-    kostenlose Stufe**. Es gibt keinen Kauf in ihnen und keinen Preis zu
-    zahlen. Die Pro-Spalte unten zeigt, was ein Abo in einer späteren
-    Version freischalten wird — und wenn es so weit ist, steht sein Preis
-    **genau hier**, offen und vollständig, damit du ihn mit jedem anderen
-    Angebot vergleichen kannst. Das ist Teil dessen, was wir
-    [versprechen](../vision/index.de.md).
+- **Hecate Capture Pro** — **5,99 € im Monat** · oder 49,99 € im Jahr
+- **Hecate Admin Pro** — **14,99 € im Monat** · oder 149,99 € im Jahr
+- **Hecate Viewer** — kostenlos, auf jedem Bildschirm, nichts zu kaufen
+
+Die Preise gelten für Deutschland und enthalten die Mehrwertsteuer; in
+anderen Ländern zeigt der App Store seinen dortigen Preis. Das Monatsabo ist
+das Hauptprodukt, weil dich nichts länger als einen Monat bindet — das
+Jahresabo ist eine freiwillige Ersparnis, nicht mehr. Was ein Abo
+freischaltet, zeigt die Pro-Spalte der Tabellen unten, und sein Preis steht
+**genau hier**, offen und vollständig, damit du ihn mit jedem anderen
+Angebot vergleichen kannst. Das ist Teil dessen, was wir
+[versprechen](../vision/index.de.md).
+
+Abschließen und kündigen kannst du das Abo in der App unter
+**Einstellungen → Plan** — kündigen geht auch in der Abo-Verwaltung deines
+Apple-Accounts. Es verlängert sich automatisch, bis du es kündigst; die
+kostenlose Stufe läuft nie ab und braucht keinen Kauf.
 
 ## Hecate Capture
 

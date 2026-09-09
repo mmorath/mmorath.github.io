@@ -44,21 +44,14 @@ the same statement cannot drift apart in two places.
 
 ## The subscription
 
-!!! info "The subscription is not on sale yet"
-
-    The apps shipping today are the **free tier only**. There is no purchase
-    inside them and no price to pay. What follows applies as soon as a
-    subscription is offered.
-
-The subscription will be offered **monthly or yearly**, billed through your
-Apple account, and it **renews automatically** until you cancel it. Cancelling
+The subscription is offered **monthly or yearly**, billed through your Apple
+account, and it **renews automatically** until you cancel it. Cancelling
 happens in Apple's subscription settings; you are never committed for longer
 than one billing period.
 
-**We are not naming a price here yet.** The products are not created, and a
-price that still changes before release would have stood on the web as a false
-statement. When the time comes it will be on [Free & Pro](../plans/index.md),
-openly and in full — exactly where we said it would be.
+The current prices are stated on [Free & Pro](../plans/index.md), openly and
+in full — there and only there, so the same figure cannot drift apart in two
+places.
 
 When a subscription lapses you lose nothing. Everything you have captured lives
 on your broker and on your device and stays there. The app falls back to the

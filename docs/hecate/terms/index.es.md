@@ -46,21 +46,14 @@ para que el mismo dato no se separe en dos sitios.
 
 ## La suscripción
 
-!!! info "La suscripción todavía no está a la venta"
-
-    Las aplicaciones que se publican hoy contienen **únicamente el nivel
-    gratuito**. No hay ninguna compra dentro de ellas ni precio que pagar. Lo
-    que sigue se aplicará en cuanto se ofrezca una suscripción.
-
-La suscripción se ofrecerá **mensual o anual**, se facturará a través de su
-cuenta de Apple y **se renueva automáticamente** hasta que usted la cancele. La
+La suscripción se ofrece **mensual o anual**, se factura a través de su cuenta
+de Apple y **se renueva automáticamente** hasta que usted la cancele. La
 cancelación se hace en la gestión de suscripciones de Apple; nunca queda
 vinculado más de un período de facturación.
 
-**Todavía no indicamos aquí ningún precio.** Los productos no están creados, y
-un precio que aún cambie antes de la puesta a la venta habría estado mal en la
-red. Cuando llegue el momento estará en [Free & Pro](../plans/index.es.md),
-abiertamente y por completo — exactamente donde lo prometimos.
+Los precios vigentes están indicados en [Free & Pro](../plans/index.es.md),
+abiertamente y por completo — ahí y solo ahí, para que la misma cifra no se
+separe en dos sitios.
 
 Si la suscripción expira, no pierde nada. Lo ya capturado está en su broker y
 en su dispositivo, y ahí se queda. La app vuelve al nivel gratuito — no borra

@@ -18,6 +18,36 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-09-09 (Preise)
+
+### Changed — Pro ist käuflich, die Preise stehen auf der Seite
+
+Free & Pro und die Nutzungsbedingungen sagten in vier Sprachen, das Abo sei
+„noch nicht käuflich", es gebe „keinen Kauf in den Apps", und einen Preis
+„nennen wir hier noch nicht". Das stimmt nicht mehr: Hecate Capture und
+Hecate Admin tragen den In-App-Kauf, die vier Abo-Produkte sind in App Store
+Connect angelegt und gehen mit dem Review vom 2026-09-08 in den Verkauf.
+Apples Prüfer folgt den Links aus der App auf genau diese Seiten — eine
+Website, die dem Store widerspricht, ist ein Ablehnungsgrund.
+
+Die Hinweiskästen sind raus. Free & Pro trägt jetzt oberhalb der Tabellen
+einen Abschnitt **Preise**: Capture Pro 5,99 € im Monat oder 49,99 € im
+Jahr, Admin Pro 14,99 € im Monat oder 149,99 € im Jahr — Preise für
+Deutschland inkl. MwSt., das Monatsabo als Hauptprodukt, das Jahresabo als
+freiwillige Ersparnis; Abschluss und Kündigung in der App unter
+Einstellungen → Plan (die französische App sagt „Réglages → Formule", die
+Seite auch) und im Apple-Account. Der Viewer bleibt kostenlos, und die
+Zusage „sein Preis steht genau hier" steht jetzt im Präsens. In den
+Nutzungsbedingungen ist der Abo-Abschnitt vom Futur ins Präsens gesetzt;
+statt der Begründung, warum noch kein Preis genannt wird, verweist ein Satz
+für die aktuellen Preise auf Free & Pro.
+
+Unverändert: die Free/Pro-Tabellen und ihre Fußnoten, Apples Standard-EULA
+als geltende Lizenz (die Store-Beschreibungen verlinken genau sie),
+Kündigen, Rückerstattung, Projektende, Kontakt — und alle Datenschutzseiten.
+
+---
+
 ## 2026-08-30 (Baustein-Grenze)
 
 ### Changed — die Fünf-Bausteine-Grenze gilt jetzt auch beim Bauen

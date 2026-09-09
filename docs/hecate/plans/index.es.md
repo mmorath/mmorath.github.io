@@ -1,6 +1,6 @@
 # Free & Pro
 
-*Qué incluye el nivel gratuito — y qué desbloqueará una suscripción.*
+*Qué incluye el nivel gratuito — y qué desbloquea una suscripción.*
 
 El nivel gratuito de Hecate es **un producto de verdad, no una prueba**: no
 caduca nunca, y nada de lo que capturas se te retiene. Lo que se limita es
@@ -9,15 +9,24 @@ con cuántos brokers hablas. Todo lo que hace que la herramienta sea lo que
 es — el escaneo, el GPS, la bandeja de salida sin conexión, los cuatro
 idiomas, tu propio broker — es gratis y lo seguirá siendo.
 
-!!! info "Pro todavía no está a la venta"
+## Precios
 
-    Las aplicaciones que se publican hoy contienen **únicamente el nivel
-    gratuito**. No hay ninguna compra dentro de ellas ni precio que pagar.
-    La columna Pro de abajo muestra lo que una suscripción desbloqueará en
-    una versión posterior — y cuando llegue, su precio estará indicado
-    **aquí mismo**, abiertamente y por completo, para que puedas compararlo
-    con cualquier otra oferta. Eso forma parte de
-    [lo que prometemos](../vision/index.es.md).
+- **Hecate Capture Pro** — **5,99 € al mes** · o 49,99 € al año
+- **Hecate Admin Pro** — **14,99 € al mes** · o 149,99 € al año
+- **Hecate Viewer** — gratuito, en todas las pantallas, nada que comprar
+
+Los precios son para Alemania e incluyen el IVA; en otros países la App
+Store muestra su precio local. La suscripción mensual es el producto
+principal, porque nada te vincula más de un mes — la anual es un ahorro
+voluntario, nada más. Lo que desbloquea una suscripción es la columna Pro
+de las tablas de abajo, y su precio está indicado **aquí mismo**,
+abiertamente y por completo, para que puedas compararlo con cualquier otra
+oferta. Eso forma parte de [lo que prometemos](../vision/index.es.md).
+
+La suscripción se contrata y se cancela en la app, en **Ajustes → Plan** —
+cancelar también es posible en la gestión de suscripciones de tu cuenta de
+Apple. Se renueva automáticamente hasta que la canceles; el nivel gratuito
+no caduca nunca y no requiere ninguna compra.
 
 ## Hecate Capture
 

@@ -1,6 +1,6 @@
 # Free & Pro
 
-*What the free tier includes, and what a subscription will unlock.*
+*What the free tier includes, and what a subscription unlocks.*
 
 Hecate's free tier is **a real product, not a trial**: it never expires, and
 nothing you capture is held back from you. What it limits is *quantity* —
@@ -9,14 +9,24 @@ brokers you talk to. Everything that makes the tool what it is — scanning,
 GPS, the offline outbox, all four languages, your own broker — is free and
 stays free.
 
-!!! info "Pro is not on sale yet"
+## Prices
 
-    The apps shipping today are the **free tier only**. There is no purchase
-    inside them, and no price to pay. The Pro column below is what a
-    subscription will unlock in a later version — and when it arrives, its
-    price will be stated **right here**, openly and in full, so you can
-    compare it with anything else. That is part of
-    [what we promise](../vision/index.md).
+- **Hecate Capture Pro** — **5,99 € per month** · or 49,99 € per year
+- **Hecate Admin Pro** — **14,99 € per month** · or 149,99 € per year
+- **Hecate Viewer** — free, on every screen, nothing to buy
+
+Prices are for Germany and include VAT; in other countries the App Store
+shows its local price. The monthly plan is the main product, because you
+are never committed for longer than one month — the yearly plan is a
+voluntary saving, nothing more. What each subscription unlocks is the Pro
+column of the tables below, and its price is stated **right here**, openly
+and in full, so you can compare it with anything else. That is part of
+[what we promise](../vision/index.md).
+
+You subscribe and cancel in the app under **Settings → Plan** — cancelling
+also works in your Apple account's subscription settings. The subscription
+renews automatically until you cancel it; the free tier never expires and
+never needs a purchase.
 
 ## Hecate Capture
 

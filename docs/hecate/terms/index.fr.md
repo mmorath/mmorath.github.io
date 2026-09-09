@@ -45,21 +45,14 @@ là et seulement là, pour que la même indication ne diverge pas à deux endroi
 
 ## L'abonnement
 
-!!! info "L'abonnement n'est pas encore en vente"
-
-    Les applications livrées aujourd'hui contiennent **uniquement l'offre
-    gratuite**. Aucun achat n'y figure et aucun prix n'est à payer. Ce qui suit
-    s'appliquera dès qu'un abonnement sera proposé.
-
-L'abonnement sera proposé **au mois ou à l'année**, facturé via votre compte
+L'abonnement est proposé **au mois ou à l'année**, facturé via votre compte
 Apple, et il **se renouvelle automatiquement** jusqu'à sa résiliation. La
 résiliation se fait dans la gestion des abonnements d'Apple ; vous n'êtes
 jamais engagé au-delà d'une période de facturation.
 
-**Nous n'annonçons pas encore de prix ici.** Les produits ne sont pas créés, et
-un prix qui change encore avant la mise en vente aurait figuré à tort sur le
-web. Le moment venu, il sera indiqué sur [Free & Pro](../plans/index.fr.md),
-ouvertement et en entier — exactement là où nous l'avons promis.
+Les prix en vigueur sont indiqués sur [Free & Pro](../plans/index.fr.md),
+ouvertement et en entier — là et seulement là, pour que le même chiffre ne
+diverge pas à deux endroits.
 
 À l'expiration de l'abonnement, vous ne perdez rien. Ce que vous avez saisi se
 trouve sur votre broker et sur votre appareil, et y reste. L'app revient à

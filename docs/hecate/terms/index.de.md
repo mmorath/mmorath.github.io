@@ -41,21 +41,14 @@ dort, damit dieselbe Angabe nicht an zwei Stellen auseinanderläuft.
 
 ## Das Abo
 
-!!! info "Das Abo ist noch nicht käuflich"
-
-    Die Apps, die heute ausgeliefert werden, enthalten **ausschließlich die
-    kostenlose Stufe**. Es gibt in ihnen keinen Kauf und keinen Preis zu
-    zahlen. Was hier steht, gilt, sobald ein Abo angeboten wird.
-
 Das Abo wird **monatlich oder jährlich** angeboten, über Ihren Apple-Account
 abgerechnet und **verlängert sich automatisch**, bis Sie es kündigen. Die
 Kündigung erfolgt in der Apple-Abo-Verwaltung; die Bindung beträgt nie mehr als
 eine Abrechnungsperiode.
 
-**Einen Preis nennen wir hier noch nicht.** Die Produkte sind nicht angelegt,
-und ein Preis, der sich bis zur Freigabe noch ändert, stünde falsch im Netz.
-Sobald es so weit ist, steht er auf [Free & Pro](../plans/index.de.md), offen
-und vollständig — genau dort, wo wir es zugesagt haben.
+Die aktuellen Preise stehen auf [Free & Pro](../plans/index.de.md), offen und
+vollständig — dort und nur dort, damit dieselbe Angabe nicht an zwei Stellen
+auseinanderläuft.
 
 Läuft ein Abo aus, verlieren Sie nichts. Bereits erfasste Daten liegen auf
 Ihrem Broker und auf Ihrem Gerät und bleiben dort. Die App fällt auf den

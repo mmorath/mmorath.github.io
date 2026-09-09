@@ -1,6 +1,6 @@
 # Free & Pro
 
-*Ce que contient l'offre gratuite — et ce qu'un abonnement débloquera.*
+*Ce que contient l'offre gratuite — et ce qu'un abonnement débloque.*
 
 L'offre gratuite de Hecate est **un vrai produit, pas un essai** : elle
 n'expire jamais, et rien de ce que vous saisissez ne vous est retenu. Ce
@@ -10,15 +10,26 @@ combien de profils vous gardez actifs, avec combien de brokers vous
 hors ligne, les quatre langues, votre propre broker — est gratuit et le
 reste.
 
-!!! info "Pro n'est pas encore en vente"
+## Tarifs
 
-    Les applications livrées aujourd'hui contiennent **uniquement l'offre
-    gratuite**. Aucun achat n'y figure et aucun prix n'est à payer. La
-    colonne Pro ci-dessous montre ce qu'un abonnement débloquera dans une
-    version ultérieure — et le moment venu, son prix sera indiqué **ici
-    même**, ouvertement et en entier, pour que vous puissiez le comparer à
-    n'importe quelle autre offre. Cela fait partie de
-    [ce que nous promettons](../vision/index.fr.md).
+- **Hecate Capture Pro** — **5,99 € par mois** · ou 49,99 € par an
+- **Hecate Admin Pro** — **14,99 € par mois** · ou 149,99 € par an
+- **Hecate Viewer** — gratuit, sur tous les écrans, rien à acheter
+
+Les prix s'entendent pour l'Allemagne, TVA comprise ; dans les autres pays,
+l'App Store affiche son prix local. L'abonnement mensuel est le produit
+principal, parce que rien ne vous engage au-delà d'un mois — l'abonnement
+annuel est une économie volontaire, rien de plus. Ce qu'un abonnement
+débloque, c'est la colonne Pro des tableaux ci-dessous, et son prix est
+indiqué **ici même**, ouvertement et en entier, pour que vous puissiez le
+comparer à n'importe quelle autre offre. Cela fait partie de
+[ce que nous promettons](../vision/index.fr.md).
+
+Vous souscrivez et résiliez l'abonnement dans l'app, sous
+**Réglages → Formule** — la résiliation est aussi possible dans la gestion
+des abonnements de votre compte Apple. L'abonnement se renouvelle
+automatiquement jusqu'à ce que vous le résiliiez ; l'offre gratuite n'expire
+jamais et ne demande aucun achat.
 
 ## Hecate Capture
 
