@@ -99,7 +99,7 @@ broker que usted ya controla.
 La aplicación de captura también está **terminada para Android** — llegará a la
 **Google Play Store a finales de 2026**. Funciona en dispositivos Android
 corrientes y en escáneres industriales como el
-[Honeywell CT47](https://automation.honeywell.com/us/en/products/productivity-solutions/mobile-computers/handheld-computers/ct47), cuyo motor de escaneo integrado Hecate controla
+**Honeywell CT47**, cuyo motor de escaneo integrado Hecate controla
 directamente.
 
 ## Capturas de pantalla
