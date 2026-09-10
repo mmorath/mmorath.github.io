@@ -150,6 +150,10 @@ nav:
   # Direkt hinter Vision & Mission: dort steht das Fairness-Versprechen
   # ("ein vergleichbares Angebot"), hier steht das Vergleichbare selbst.
   - Free & Pro: hecate/plans/index.md
+  # The four use-case films — the whole Admin → Capture → Viewer flow over one
+  # MQTT broker, no backend. Sits right after the pricing: the visitor who just
+  # weighed Free vs Pro gets to watch the product actually work.
+  - Demos: hecate/demos/index.md
   # One collapsed group instead of five always-open ones. The three viewers
   # are one product on three screens, so they read as one entry with three
   # children rather than three separate top-level groups.
