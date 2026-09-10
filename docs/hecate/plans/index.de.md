@@ -1,5 +1,16 @@
 # Free & Pro
 
+<style>
+/* Free/Pro comparison tables: fixed column widths so the Free and Pro columns
+   line up identically across the Capture, Admin and Viewer tables. */
+.md-typeset table:not([class]) { table-layout: fixed; width: 100%; }
+.md-typeset table:not([class]) th:nth-child(2),
+.md-typeset table:not([class]) td:nth-child(2),
+.md-typeset table:not([class]) th:nth-child(3),
+.md-typeset table:not([class]) td:nth-child(3) { width: 21%; }
+</style>
+
+
 *Was die kostenlose Stufe enthält — und was ein Abo freischaltet.*
 
 Die kostenlose Stufe von Hecate ist **ein echtes Produkt, kein Test**: Sie

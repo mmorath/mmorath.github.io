@@ -1,5 +1,16 @@
 # Free & Pro
 
+<style>
+/* Free/Pro comparison tables: fixed column widths so the Free and Pro columns
+   line up identically across the Capture, Admin and Viewer tables. */
+.md-typeset table:not([class]) { table-layout: fixed; width: 100%; }
+.md-typeset table:not([class]) th:nth-child(2),
+.md-typeset table:not([class]) td:nth-child(2),
+.md-typeset table:not([class]) th:nth-child(3),
+.md-typeset table:not([class]) td:nth-child(3) { width: 21%; }
+</style>
+
+
 *Qué incluye el nivel gratuito — y qué desbloquea una suscripción.*
 
 El nivel gratuito de Hecate es **un producto de verdad, no una prueba**: no
