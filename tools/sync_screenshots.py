@@ -67,10 +67,16 @@ REPOS = {
                     "docs/screenshots/{lang}", "{screen}.png"),
     "admin":       ("HECATE_ADMIN_REPO",       "iOS-Hecate-Admin",
                     "docs/screenshots/generated/{lang}", "{screen}.png"),
+    # Since ADR 021 the viewer is ONE universal app: iOS-Hecate-Viewer captures
+    # both iPhone and iPad in a single fastlane run (`docs/screenshots/appstore/
+    # {locale}/iPhone …-01_Karte.png` and `iPad …-01_Karte.png`). The iPadOS repo
+    # is archived. So both source from the iOS repo and the glob picks the device
+    # by its prefix — `iPhone*` vs `iPad*` — so each matches exactly one file
+    # (the ambiguous `*-…` matched both).
     "viewer-ios":  ("HECATE_VIEWER_IOS_REPO",  "iOS-Hecate-Viewer",
-                    "docs/screenshots/appstore/{locale}", "*-{screen}.png"),
-    "viewer-ipad": ("HECATE_VIEWER_IPAD_REPO", "iPadOS-Hecate-Viewer",
-                    "docs/screenshots/appstore/{locale}", "*-{screen}.png"),
+                    "docs/screenshots/appstore/{locale}", "iPhone*-{screen}.png"),
+    "viewer-ipad": ("HECATE_VIEWER_IPAD_REPO", "iOS-Hecate-Viewer",
+                    "docs/screenshots/appstore/{locale}", "iPad*-{screen}.png"),
 }
 
 # site image name → (app, screen id in that app's doc set)
