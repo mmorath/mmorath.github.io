@@ -60,6 +60,22 @@ screens: ## Sync the app screenshots into docs/assets/screens/<lang> (all langua
 screens-check: ## Report which site screenshots are older than the app repos' (writes nothing)
 	@python3 tools/sync_screenshots.py --check $(if $(SCREEN_LANG),--lang $(SCREEN_LANG),)
 
+# Apple's App Store badge is a licensed mark: downloaded, never redrawn. The
+# endpoint below is the one Apple's own Marketing Tools page uses; it answers
+# with the SVG directly (no ZIP). Two colours per language because the site has
+# a light/dark toggle and Apple's rule is black-on-light, white-on-dark.
+BADGE_URL := https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store
+BADGE_DIR := docs/assets/appstore
+
+badges: ## Re-download the App Store badges (4 languages x black/white) into docs/assets/appstore/
+	@mkdir -p $(BADGE_DIR)
+	@for loc in en-us de-de es-es fr-fr; do \
+	  for col in black white; do \
+	    curl -fsS "$(BADGE_URL)/$$col/$$loc" -o "$(BADGE_DIR)/$$loc-$$col.svg" || exit 1; \
+	    printf "  $(DIM)ok$(RESET)   $(BADGE_DIR)/$$loc-$$col.svg\n"; \
+	  done; \
+	done
+
 # =============================================================================
 ##@ Site
 # =============================================================================
@@ -80,4 +96,4 @@ clean: ## Remove the local build output (./site)
 	@rm -rf $(SITE_DIR)
 	@printf "$(DIM)removed $(SITE_DIR)/$(RESET)\n"
 
-.PHONY: help install screens screens-check serve build deploy clean
+.PHONY: help install screens screens-check badges serve build deploy clean

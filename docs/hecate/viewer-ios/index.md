@@ -7,6 +7,13 @@ hide:
 
 *Watch your assets arrive — live, on the map, in your pocket.*
 
+<p class="appstore">
+  <a href="https://apps.apple.com/app/id6787720750?itscg=30200&amp;itsct=apps_box_link_badge&amp;mttnsubad=6787720750">
+    <img class="on-light" src="/assets/appstore/en-us-black.svg" alt="Download on the App Store">
+    <img class="on-dark" src="/assets/appstore/en-us-white.svg" alt="Download on the App Store">
+  </a>
+</p>
+
 Hecate Viewer is the **read-only companion** to the capture app. It connects to
 the same MQTT broker, **subscribes** to the asset stream, and places every
 incoming object on a live map the moment it is published — with a

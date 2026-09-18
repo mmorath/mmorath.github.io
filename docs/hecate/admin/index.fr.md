@@ -7,6 +7,13 @@ hide:
 
 *L'autorité d'édition des profils Hecate — iPhone & iPad.*
 
+<p class="appstore">
+  <a href="https://apps.apple.com/app/id6791602678?itscg=30200&amp;itsct=apps_box_link_badge&amp;mttnsubad=6791602678">
+    <img class="on-light" src="/assets/appstore/fr-fr-black.svg" alt="Télécharger dans l'App Store">
+    <img class="on-dark" src="/assets/appstore/fr-fr-white.svg" alt="Télécharger dans l'App Store">
+  </a>
+</p>
+
 Hecate Admin est le compagnon de [l'application de saisie](../capture/index.md).
 Là où l'application de saisie *suit* un profil, l'application admin est
 l'**autorité** qui **crée, valide, versionne, publie et retire** ces profils —

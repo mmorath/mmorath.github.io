@@ -7,6 +7,13 @@ hide:
 
 *Sehen Sie Ihre Assets eintreffen — live, auf der Karte, in Ihrer Tasche.*
 
+<p class="appstore">
+  <a href="https://apps.apple.com/app/id6787720750?itscg=30200&amp;itsct=apps_box_link_badge&amp;mttnsubad=6787720750">
+    <img class="on-light" src="/assets/appstore/de-de-black.svg" alt="Laden im App Store">
+    <img class="on-dark" src="/assets/appstore/de-de-white.svg" alt="Laden im App Store">
+  </a>
+</p>
+
 Hecate Viewer ist der **rein lesende Begleiter** der Erfassungs-App. Er
 verbindet sich mit demselben MQTT-Broker, **abonniert** den Asset-Strom und
 setzt jedes eintreffende Objekt im Moment seiner Veröffentlichung auf eine

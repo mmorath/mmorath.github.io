@@ -7,6 +7,13 @@ hide:
 
 *La autoridad de creación de los perfiles de Hecate — iPhone y iPad.*
 
+<p class="appstore">
+  <a href="https://apps.apple.com/app/id6791602678?itscg=30200&amp;itsct=apps_box_link_badge&amp;mttnsubad=6791602678">
+    <img class="on-light" src="/assets/appstore/es-es-black.svg" alt="Consíguelo en el App Store">
+    <img class="on-dark" src="/assets/appstore/es-es-white.svg" alt="Consíguelo en el App Store">
+  </a>
+</p>
+
 Hecate Admin es el complemento de la
 [aplicación de captura](../capture/index.md). Donde la aplicación de captura
 *sigue* un perfil, la aplicación de administración es la **autoridad** que

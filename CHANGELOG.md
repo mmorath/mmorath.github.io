@@ -18,6 +18,50 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-09-18 (App Store)
+
+### Added — der „Laden im App Store"-Knopf auf den drei App-Seiten
+
+Capture, Admin und Viewer (iPhone & iPad) tragen jetzt direkt unter der
+Unterzeile Apples Store-Abzeichen, in allen vier Sprachen. Bis hierher
+beschrieben die Seiten drei Apps, ohne zu sagen, wo man sie bekommt — der
+einzige Weg in den Store führte über die Suche.
+
+**Das Abzeichen ist heruntergeladen, nicht nachgezeichnet.** Es ist eine
+lizenzierte Marke; Apples Richtlinien legen Wortlaut, Proportionen und den
+Freiraum ringsum fest. Die acht SVGs in `docs/assets/appstore/` kommen vom
+Badge-Endpunkt der Apple Marketing Tools und lassen sich mit `make badges`
+erneuern. Nebenbei: die Fassung, die Bildersuchen liefern, sagt „Available on
+the App Store" — das ist die Version von vor 2013.
+
+**Zwei Bilder je Verweis, nicht eines.** Die Site hat einen Hell/Dunkel-Umschalter,
+und Apples Regel lautet Schwarz auf Hell, Weiß auf Dunkel. Ein einzelnes
+Abzeichen würde also je nach Schema entweder blenden oder verschwinden. Material
+schreibt das aktive Schema auf `<body data-md-color-scheme>`, deshalb genügt CSS
+— kein Skript und kein kurzes Aufblitzen des falschen Bildes.
+
+**Der Link nennt absichtlich kein Land.** `apps.apple.com/app/id<ID>` statt
+`…/de/app/hecate-capture/id<ID>`: **ohne Länderteil wählt Apple die Storefront
+nach dem Konto des Besuchers.** Auf einer Seite, die in vier Sprachen
+ausgeliefert wird, wäre ein fest verdrahtetes `/de/` genau der Fehler, den man
+nicht bemerkt — der spanische Besucher landete auf einer Seite, auf der er nicht
+laden kann.
+
+**Die Links tragen eine Herkunftsmarkierung** (`itscg=30200`,
+`itsct=apps_box_link_badge`) — dieselbe, die Apples eigener Einbettungscode
+setzt. Damit steht in App Store Connect, wie viele Besucher über diese Seiten
+kamen, getrennt von der Store-Suche.
+
+**Keinen Knopf bekommt die Apple-TV-Seite.** Die Viewer-App ist im Store für
+iPhone und iPad gelistet; Apple TV steht nicht unter ihren unterstützten
+Geräten (nachgeschlagen über die Lookup-API). Ein Abzeichen dort würde ein
+Angebot behaupten, das es nicht gibt.
+
+Geändert: `docs/hecate/{capture,admin,viewer-ios}/index{,.de,.es,.fr}.md`,
+`docs/assets/extra.css`, `docs/assets/appstore/` (neu), `Makefile`.
+
+---
+
 ## 2026-09-16 (Domain)
 
 ### Added — die Site liegt jetzt auch unter `hecateapps.com`
