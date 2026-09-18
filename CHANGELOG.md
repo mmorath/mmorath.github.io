@@ -18,6 +18,57 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-09-16 (Domain)
+
+### Added — die Site liegt jetzt auch unter `hecateapps.com`
+
+`docs/CNAME` beansprucht die Markendomain für dieses Repository. Die Site
+ist damit unter `https://hecateapps.com` erreichbar, mit einem
+Let's-Encrypt-Zertifikat von GitHub, das sich alle 90 Tage selbst erneuert.
+`https://www.hecateapps.com` leitet per `301` auf die Apex. HTTPS ist
+erzwungen.
+
+**Warum überhaupt.** Die Markendomain lag bei IONOS als Weiterleitung und
+war über HTTPS vollständig tot: Der Weiterleitungsserver hatte kein
+Zertifikat, der TLS-Handshake brach ab, bevor die Weiterleitung in Schritt 5
+überhaupt zum Zug kam. Über `http://` funktionierte sie, über `https://`
+nicht — zwei verschiedene Schichten, ein irreführendes Symptom. Jeder
+`https://hecateapps.com`-Link führte damit ins Leere.
+
+**Warum die Datei in `docs/` liegt und nicht in den GitHub-Einstellungen.**
+`make deploy` ruft `mkdocs gh-deploy --clean` auf und ersetzt den gesamten
+`gh-pages`-Branch. Eine über die Weboberfläche gesetzte Custom Domain
+schreibt `CNAME` in genau diesen Branch — der nächste Deploy hätte sie still
+gelöscht und die Domain aufgehoben. MkDocs kopiert Nicht-Markdown-Dateien
+aus `docs/` in die Ausgabe, damit überlebt sie jeden Build.
+
+### Unchanged — die in App Store Connect eingetragenen Adressen
+
+**Kein Inhalt und keine Adresse dieser Site hat sich geändert.** Das ist für
+dieses Repo der entscheidende Punkt, weil es die Datenschutzseiten
+ausliefert, die in App Store Connect hinterlegt sind und die der
+ausgelieferte iPhone-Viewer aus der App heraus öffnet.
+
+Gemessen unmittelbar nach der Umstellung: GitHub Pages leitet
+`mmorath.github.io` **nicht** auf die Custom Domain um, sondern liefert
+beide Adressen direkt aus.
+
+```text
+https://mmorath.github.io/hecate/privacy/viewer/   HTTP/2 200, kein Location
+```
+
+Alle zehn nach `website.md` WS2-1 eingefrorenen Adressen antworteten vor,
+während und nach der Umstellung mit `200`. Vorher war das Gegenteil
+angenommen und als Reject-Risiko formuliert worden — die Annahme ließ sich
+weder in GitHubs Dokumentation noch durch Messung belegen und war falsch.
+Festgehalten als WS2-4 in `hecate-meta`, Hergang dort in `docs/domains.md`.
+
+`hecateapps.de` bleibt vorerst eine reine HTTP-Weiterleitung ohne
+Zertifikat und darf nicht verlinkt werden. GitHub Pages akzeptiert eine
+Custom Domain je Repository.
+
+---
+
 ## 2026-09-09 (Preise)
 
 ### Changed — Pro ist käuflich, die Preise stehen auf der Seite
