@@ -7,6 +7,13 @@ hide:
 
 *Die Autoritäts-App für Hecate-Profile — iPhone & iPad.*
 
+<p class="appstore">
+  <a href="https://apps.apple.com/app/id6791602678?itscg=30200&amp;itsct=apps_box_link_badge&amp;mttnsubad=6791602678">
+    <img class="on-light" src="/assets/appstore/de-de-black.svg" alt="Laden im App Store">
+    <img class="on-dark" src="/assets/appstore/de-de-white.svg" alt="Laden im App Store">
+  </a>
+</p>
+
 Hecate Admin ist der Begleiter der [Erfassungs-App](../capture/index.md). Wo
 die Erfassungs-App einem Profil *folgt*, ist die Admin-App die **Autorität**,
 die diese Profile **erstellt, validiert, versioniert, veröffentlicht und

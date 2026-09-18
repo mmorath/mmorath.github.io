@@ -7,6 +7,13 @@ hide:
 
 *Regardez vos actifs arriver — en direct, sur la carte, dans votre poche.*
 
+<p class="appstore">
+  <a href="https://apps.apple.com/app/id6787720750?itscg=30200&amp;itsct=apps_box_link_badge&amp;mttnsubad=6787720750">
+    <img class="on-light" src="/assets/appstore/fr-fr-black.svg" alt="Télécharger dans l'App Store">
+    <img class="on-dark" src="/assets/appstore/fr-fr-white.svg" alt="Télécharger dans l'App Store">
+  </a>
+</p>
+
 Hecate Viewer est le **compagnon en lecture seule** de l'application de
 saisie. Il se connecte au même broker MQTT, **s'abonne** au flux d'actifs et
 place chaque objet entrant sur une carte en direct à l'instant de sa

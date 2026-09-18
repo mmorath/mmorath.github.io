@@ -7,6 +7,13 @@ hide:
 
 *Universal, profile-driven geo-referencing of objects*
 
+<p class="appstore">
+  <a href="https://apps.apple.com/app/id6787721510?itscg=30200&amp;itsct=apps_box_link_badge&amp;mttnsubad=6787721510">
+    <img class="on-light" src="/assets/appstore/en-us-black.svg" alt="Download on the App Store">
+    <img class="on-dark" src="/assets/appstore/en-us-white.svg" alt="Download on the App Store">
+  </a>
+</p>
+
 Hecate Capture is a field-first iOS app for **geo-referencing physical objects**. Each
 object is captured against a **profile** — a configurable workflow of scans,
 fields — then placed on the map with a GPS fix and streamed over

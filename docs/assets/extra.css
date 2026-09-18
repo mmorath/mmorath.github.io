@@ -107,3 +107,42 @@
 .md-typeset > table:not([class]) {
   width: 100%;
 }
+
+/* App Store badge — Apple's own artwork, one SVG per language.
+ *
+ * The files in assets/appstore/ are DOWNLOADED, not redrawn: the badge is a
+ * licensed mark, and Apple's marketing guidelines fix its wording, its
+ * proportions and the clear space around it. A badge rebuilt from memory is a
+ * trademark problem rather than a design choice — and the version image
+ * searches hand you says "Available on the App Store", which Apple retired in
+ * 2013. They come from the Marketing Tools badge endpoint, four locales in
+ * black and white.
+ *
+ * Two images per link, not one. The site carries a light/dark toggle, and
+ * Apple's rule is black-on-light, white-on-dark; a single badge would either
+ * glare or vanish depending on the scheme. Material writes the active scheme
+ * onto <body data-md-color-scheme>, so the swap is pure CSS with no script and
+ * no flash of the wrong one.
+ *
+ * 48 px of height: Apple's minimum for web is 40 px, and the badge is roughly
+ * three times as wide as it is tall, so this lands near the 144 x 48 that the
+ * guidelines use as their reference size.
+ */
+.appstore {
+  margin: 1.2rem 0 1.6rem;
+  line-height: 0;         /* no baseline gap under the inline SVG */
+}
+.appstore a {
+  display: inline-block;
+  /* Apple asks for clear space of at least 10 % of the badge height on every
+   * side. Reserving it here means neither the tagline above nor the first
+   * paragraph below can crowd the mark. */
+  padding: 0.3rem 0;
+}
+.appstore img {
+  height: 48px;
+  width: auto;
+}
+.appstore .on-dark { display: none; }
+[data-md-color-scheme="slate"] .appstore .on-light { display: none; }
+[data-md-color-scheme="slate"] .appstore .on-dark { display: inline; }
