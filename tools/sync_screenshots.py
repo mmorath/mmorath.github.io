@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # =============================================================================
 #  sync_screenshots.py — pull the app screenshots into the site, per language
-#  Contact: mmorath <maroon_pavers.6t@icloud.com>
+#  Contact: mmorath <info@hecateapps.com>
 #
 #  The app repos own their screenshots: each has a UI-test suite that captures
 #  the whole set once per language (`make screenshots` there). This site used to
