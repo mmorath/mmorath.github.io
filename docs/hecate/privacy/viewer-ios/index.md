@@ -57,6 +57,27 @@ never writes, and never transmits data to the developer or any third party.
   the app's Settings. The asset data shown is governed by *your* broker's
   retention and access rules.
 
+## Diagnostic reports you send us
+
+There is exactly one exception to everything above, and it is your decision
+every time: under **Settings → Event log** you can **send** us a report if you
+would like help. It never happens by itself.
+
+- You see the **whole** report before it leaves the device — nothing is added
+  after that screen.
+- You decide **each single time**.
+- You send it from **your own mail app**. The app sends nothing in the
+  background; there is no server of ours it could send anything to.
+- It contains: device and system version, app and core version, your plan
+  (free/pro) and log lines. **Never** photos, location fixes, passwords, tokens
+  or broker credentials — matching patterns are replaced before sending.
+- A **comment** and a **reply address** are optional. We use the address solely
+  to answer that one report.
+
+If you would rather keep the report or hand it to your own IT: "Share …" on the
+same screen gives you the same information as a text file, without us seeing
+any of it.
+
 ## Children
 
 Hecate is a professional/field utility and is not directed at children.

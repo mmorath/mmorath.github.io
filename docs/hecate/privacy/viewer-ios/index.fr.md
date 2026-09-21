@@ -62,6 +62,30 @@ tiers.
   tout moment dans les réglages de l'application. Les données affichées
   relèvent des règles de rétention et d'accès de *votre* broker.
 
+## Rapports de diagnostic que vous nous envoyez
+
+Il y a exactement une exception à tout ce qui précède, et la décision vous
+revient à chaque fois : dans **Réglages → Journal d'événements**, vous pouvez
+nous **envoyer** un rapport si vous souhaitez de l'aide. Cela n'arrive jamais
+tout seul.
+
+- Vous voyez le rapport **complet** avant qu'il ne quitte l'appareil — rien
+  n'est ajouté après cet écran.
+- Vous décidez **à chaque fois**.
+- Vous l'envoyez depuis **votre propre application de messagerie**. L'app
+  n'envoie rien en arrière-plan ; il n'existe aucun serveur à nous auquel elle
+  pourrait envoyer quoi que ce soit.
+- Il contient : appareil et version du système, version de l'app et du noyau,
+  votre formule (free/pro) et des lignes de journal. **Jamais** de photos, de
+  positions, de mots de passe, de jetons ni d'identifiants du broker — les
+  motifs correspondants sont remplacés avant l'envoi.
+- Un **commentaire** et une **adresse de réponse** sont facultatifs. Nous
+  utilisons l'adresse uniquement pour répondre à ce rapport.
+
+Si vous préférez garder le rapport ou le donner à votre propre service
+informatique : « Partager … » sur le même écran vous le remet sous forme de
+fichier texte, sans que nous en voyions quoi que ce soit.
+
 ## Enfants
 
 Hecate est un utilitaire professionnel et ne s'adresse pas aux enfants.

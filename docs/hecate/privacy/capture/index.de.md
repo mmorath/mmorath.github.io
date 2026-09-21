@@ -58,6 +58,29 @@ die in Ihrem Auftrag und auf Ihre Veranlassung erfolgt.
 - **Löschung:** Sie können jedes Asset jederzeit auf dem Gerät löschen. Bereits
   an Ihren Broker gesendete Daten unterliegen der Aufbewahrung *Ihres* Brokers.
 
+## Diagnoseberichte, die Sie uns schicken
+
+Eine einzige Ausnahme zu allem oben, und sie liegt jedes Mal bei Ihnen: Unter
+**Einstellungen → Ereignisprotokoll** können Sie uns einen Bericht **schicken**,
+wenn Sie Hilfe möchten. Das passiert nie von selbst.
+
+- Sie sehen den **vollständigen** Bericht, bevor er das Gerät verlässt — nichts
+  wird nach diesem Bildschirm noch hinzugefügt.
+- Sie entscheiden bei **jedem einzelnen Mal** neu.
+- Sie senden ihn aus **Ihrem eigenen E-Mail-Programm**. Die App schickt nichts
+  im Hintergrund; es gibt keinen Server von uns, an den sie etwas schicken
+  könnte.
+- Darin stehen: Gerät und Systemversion, App- und Kernversion, Ihr Plan
+  (Free/Pro) und Protokollzeilen. **Niemals** Fotos, Standortangaben,
+  Passwörter, Tokens oder Broker-Zugangsdaten — entsprechende Muster werden vor
+  dem Verschicken ersetzt.
+- Ein **Kommentar** und eine **Rückmeldeadresse** sind freiwillig. Die Adresse
+  benutzen wir ausschließlich, um auf diesen einen Bericht zu antworten.
+
+Wenn Sie den Bericht lieber für sich behalten oder an Ihre eigene IT geben:
+„Teilen …" auf demselben Bildschirm gibt Ihnen dieselben Angaben als Textdatei,
+ohne dass wir etwas davon sehen.
+
 ## Kinder
 
 Hecate ist ein professionelles Feld-Werkzeug und richtet sich nicht an Kinder.

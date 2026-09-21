@@ -51,6 +51,28 @@ aplicaciones.
 - **Perfiles:** usted los redacta, los publica y los retira; retirar un perfil
   borra su mensaje retenido en su broker.
 
+## Informes de diagnóstico que usted nos envía
+
+Hay una única excepción a todo lo anterior, y la decisión es suya cada vez: en
+**Ajustes → Registro de eventos** puede **enviarnos** un informe si desea ayuda.
+Nunca ocurre por sí solo.
+
+- Usted ve el informe **completo** antes de que salga del dispositivo: nada se
+  añade después de esa pantalla.
+- Usted decide **en cada ocasión**.
+- Lo envía desde **su propia aplicación de correo**. La app no envía nada en
+  segundo plano; no existe ningún servidor nuestro al que pudiera enviarlo.
+- Contiene: dispositivo y versión del sistema, versión de la app y del núcleo,
+  su plan (free/pro) y líneas de registro. **Nunca** fotos, ubicaciones,
+  contraseñas, tokens ni credenciales del broker: los patrones correspondientes
+  se sustituyen antes del envío.
+- Un **comentario** y una **dirección de respuesta** son opcionales. Usamos la
+  dirección únicamente para responder a ese informe.
+
+Si prefiere quedarse el informe o dárselo a su propio departamento de TI:
+«Compartir …» en la misma pantalla se lo entrega como archivo de texto, sin que
+nosotros veamos nada.
+
 ## Menores
 
 Hecate es una utilidad profesional y no está dirigida a menores.
