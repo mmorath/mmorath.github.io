@@ -18,6 +18,38 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-09-28 (Support)
+
+### Added — die Support-Seiten erklären das Ereignisprotokoll
+
+Bediener- und Admin-Support (je en/de/fr/es) haben einen neuen Abschnitt
+„Das Ereignisprotokoll schicken“. Seit Version 2.0.0 führen Capture, Viewer und
+Admin unter **Einstellungen → Diagnose → Ereignisprotokoll** ein Protokoll, das
+Gerät, iOS-, App- und Kernversion schon enthält. Die Seiten baten bisher darum,
+genau diese Angaben von Hand abzuschreiben. Jetzt steht dort, wie man das
+Protokoll schickt: **An Hecate senden** (Mail-Entwurf aus dem eigenen Postfach,
+nur mit eingerichtetem Mail-Konto) oder **Teilen** (Textdatei ins Teilen-Blatt).
+Der Apple-TV-Viewer hat kein Protokoll, das steht ausdrücklich dabei.
+
+**Der Mail-Entwurf wird absichtlich nicht gezeigt.** Er trägt immer die
+Absenderadresse des Geräts. Die Bildfolge endet deshalb beim Dialog
+„Protokoll an Hecate senden?“, vor dem „Ja“.
+
+**Wie die Bilder entstanden sind — und warum mit einem Patch.** 24 neue Bilder
+unter `docs/assets/screens/<lang>/support-*.png`, alle aus dem Simulator
+(iPhone 16 Pro Max, 9:41, 720 px hoch wie der Rest). Der Simulator hat kein
+Mail-Konto, also blendet der Kit den Papierflieger aus
+(`MFMailComposeViewController.canSendMail()`). Für die Aufnahmen lief darum ein
+Build gegen eine Scratch-Kopie von HecateKit 0.52.0, in der diese Abfrage `true`
+liefert. Der Patch und die temporären UI-Tests sind in keinem Repo gelandet;
+Capture, Admin und HecateKit sind unverändert. Diese Bilder stehen deshalb
+**nicht** in `tools/sync_screenshots.py` — kein Lauf der App-Repos erzeugt sie.
+
+- Capture: Einstellungszeile, Protokoll, Teilen-Blatt → Bediener-Seite.
+- Admin: Einstellungszeile, Protokoll, Senden-Dialog → Admin-Seite; der Dialog
+  auch auf der Bediener-Seite (der Bildschirm kommt aus dem Kit und ist in
+  allen Apps gleich).
+
 ## 2026-09-18 (App Store)
 
 ### Added — der „Laden im App Store"-Knopf auf den drei App-Seiten

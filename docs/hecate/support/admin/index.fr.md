@@ -17,6 +17,35 @@ Lorsque vous signalez un problème, il est utile d'indiquer :
   passe),
 - ce que vous avez fait et ce que vous attendiez.
 
+## Nous envoyer le journal des événements
+
+Depuis la **version 2.0.0**, Hecate Admin tient un **journal des événements** —
+connexions au broker, résultats de publication, erreurs de validation — sous
+**Réglages → Diagnostics → Journal des événements**. Il contient déjà
+l'appareil, la version d'iOS et celle de l'app, et remplace ainsi l'essentiel
+de la liste ci-dessus.
+
+<div class="shots">
+  <figure><img src="/assets/screens/fr/support-admin-settings-row.png" alt="Les réglages de Hecate Admin avec la ligne Journal des événements dans le groupe Diagnostics"><figcaption>Réglages → Journal des événements</figcaption></figure>
+  <figure><img src="/assets/screens/fr/support-admin-event-log.png" alt="Le journal des événements dans Hecate Admin : entrées horodatées, avec en haut Actualiser, Partager et Envoyer à Hecate"><figcaption>Le journal des événements</figcaption></figure>
+  <figure><img src="/assets/screens/fr/support-send-dialog.png" alt="La boîte de dialogue Envoyer le journal à Hecate ? avec Oui et Annuler"><figcaption>Envoyer à Hecate → Oui</figcaption></figure>
+  <figure><img src="/assets/screens/fr/support-share-sheet.png" alt="La feuille de partage du système avec le journal joint en fichier texte"><figcaption>Partager … en fichier texte</figcaption></figure>
+</div>
+
+- :material-send-outline: **Envoyer à Hecate** ouvre un brouillon d'e-mail pour
+  [info@hecateapps.com](mailto:info@hecateapps.com) — vous voyez tout ce qu'il
+  contient et l'envoyez vous-même (visible seulement si un compte de messagerie
+  est configuré).
+- :material-export-variant: **Partager le journal** transmet le rapport à la
+  feuille de partage en fichier texte — pour AirDrop, Fichiers ou votre service
+  informatique.
+
+Les mots de passe et identifiants sont remplacés avant la création du rapport.
+Les trois premiers écrans viennent de Hecate Admin, la feuille de partage de
+l'app de capture. Le
+guide complet se trouve dans le
+[support opérateurs](../operator/index.md#nous-envoyer-le-journal-des-evenements).
+
 ## Sujets fréquents
 
 ### Connexion au broker
