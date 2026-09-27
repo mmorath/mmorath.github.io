@@ -17,6 +17,32 @@ Bei einer Problemmeldung hilft es, Folgendes anzugeben:
   Passwort),
 - was Sie getan haben und was Sie erwartet hätten.
 
+## Das Ereignisprotokoll schicken
+
+Seit **Version 2.0.0** führt Hecate Admin ein **Ereignisprotokoll** —
+Broker-Verbindungen, Ergebnisse beim Veröffentlichen, Prüffehler — unter
+**Einstellungen → Diagnose → Ereignisprotokoll**. Gerät, iOS- und App-Version
+stehen schon darin; damit erübrigt sich der Großteil der Liste oben.
+
+<div class="shots">
+  <figure><img src="/assets/screens/de/support-admin-settings-row.png" alt="Die Einstellungen von Hecate Admin mit der Zeile Ereignisprotokoll in der Gruppe Diagnose"><figcaption>Einstellungen → Ereignisprotokoll</figcaption></figure>
+  <figure><img src="/assets/screens/de/support-admin-event-log.png" alt="Das Ereignisprotokoll in Hecate Admin: Einträge mit Uhrzeit, oben die Knöpfe Aktualisieren, Teilen und An Hecate senden"><figcaption>Das Ereignisprotokoll</figcaption></figure>
+  <figure><img src="/assets/screens/de/support-send-dialog.png" alt="Der Dialog Protokoll an Hecate senden? mit den Knöpfen Ja und Abbrechen"><figcaption>An Hecate senden → Ja</figcaption></figure>
+  <figure><img src="/assets/screens/de/support-share-sheet.png" alt="Das Teilen-Blatt des Systems mit dem Ereignisprotokoll als Textdatei"><figcaption>Teilen … als Textdatei</figcaption></figure>
+</div>
+
+- :material-send-outline: **An Hecate senden** öffnet einen E-Mail-Entwurf an
+  [info@hecateapps.com](mailto:info@hecateapps.com) — Sie sehen alles, was
+  darin steht, und schicken ihn selbst ab (nur sichtbar, wenn ein E-Mail-Konto
+  eingerichtet ist).
+- :material-export-variant: **Ereignisprotokoll teilen** gibt den Bericht als
+  Textdatei an das Teilen-Blatt — für AirDrop, Dateien oder Ihre eigene IT.
+
+Passwörter und Zugangsdaten werden ersetzt, bevor der Bericht entsteht. Die
+ersten drei Bilder stammen aus Hecate Admin, das Teilen-Blatt
+aus der Erfassungs-App. Die ausführliche Anleitung steht im
+[Bediener-Support](../operator/index.md#das-ereignisprotokoll-schicken).
+
 ## Häufige Themen
 
 ### Verbindung zum Broker

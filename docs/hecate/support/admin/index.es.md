@@ -16,6 +16,35 @@ Al informar de un problema, ayuda incluir:
 - el broker en el que publica (host / TLS, **nunca** la contraseña),
 - qué hizo y qué esperaba que ocurriera.
 
+## Enviarnos el registro de eventos
+
+Desde la **versión 2.0.0**, Hecate Admin lleva un **registro de eventos**
+—conexiones al broker, resultados de publicación, errores de validación— en
+**Ajustes → Diagnósticos → Registro de eventos**. Ya incluye el dispositivo y
+las versiones de iOS y de la aplicación, así que sustituye casi toda la lista
+de arriba.
+
+<div class="shots">
+  <figure><img src="/assets/screens/es/support-admin-settings-row.png" alt="Los ajustes de Hecate Admin con la fila Registro de eventos en el grupo Diagnósticos"><figcaption>Ajustes → Registro de eventos</figcaption></figure>
+  <figure><img src="/assets/screens/es/support-admin-event-log.png" alt="El registro de eventos en Hecate Admin: entradas con hora, con Actualizar, Compartir y Enviar a Hecate arriba"><figcaption>El registro de eventos</figcaption></figure>
+  <figure><img src="/assets/screens/es/support-send-dialog.png" alt="El diálogo ¿Enviar el registro a Hecate? con Sí y Cancelar"><figcaption>Enviar a Hecate → Sí</figcaption></figure>
+  <figure><img src="/assets/screens/es/support-share-sheet.png" alt="La hoja de compartir del sistema con el registro adjunto como archivo de texto"><figcaption>Compartir … como archivo de texto</figcaption></figure>
+</div>
+
+- :material-send-outline: **Enviar a Hecate** abre un borrador de correo para
+  [info@hecateapps.com](mailto:info@hecateapps.com): verá todo lo que contiene
+  y lo envía usted mismo (solo aparece si hay una cuenta de correo
+  configurada).
+- :material-export-variant: **Compartir el registro** pasa el informe a la hoja
+  de compartir como archivo de texto, para AirDrop, Archivos o su propio
+  departamento de TI.
+
+Las contraseñas y credenciales se sustituyen antes de crear el informe. Las
+tres primeras pantallas son de Hecate Admin; la hoja de compartir, de la
+aplicación de captura. La guía
+completa está en el
+[soporte para operadores](../operator/index.md#enviarnos-el-registro-de-eventos).
+
 ## Temas frecuentes
 
 ### Conexión con el broker

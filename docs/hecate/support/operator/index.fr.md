@@ -10,11 +10,41 @@ trouvé ou une demande ? Voici comment nous joindre.
 !!! note "Adresse de contact"
     **E-mail :** [info@hecateapps.com](mailto:info@hecateapps.com)
 
-Pour signaler un problème, il est utile d'indiquer :
+Le plus simple pour signaler un problème est de **nous envoyer le journal des
+événements** (voir ci-dessous) : il contient déjà votre appareil, votre version
+d'iOS et la version de l'app. Une phrase sur ce que vous avez fait et ce que
+vous attendiez le rend complet.
 
-- votre **version d'iOS** et votre **appareil** (par ex. iPhone 15 Pro, iOS 18.5),
-- la **version de l'app** (Réglages → À propos),
-- ce que vous avez fait et ce que vous attendiez.
+## Nous envoyer le journal des événements
+
+Depuis la **version 2.0.0**, l'app de capture et Hecate Viewer sur iPhone et
+iPad tiennent un **journal des événements** : tentatives de connexion, réponses
+du broker, mises à jour de profils, livraisons, erreurs. C'est en général tout
+ce qu'il nous faut pour comprendre un problème. Ouvrez-le sous **Réglages →
+Diagnostics → Journal des événements**.
+
+<div class="shots">
+  <figure><img src="/assets/screens/fr/support-settings-row.png" alt="La liste des réglages avec la ligne Journal des événements dans le groupe Diagnostics"><figcaption>Réglages → Journal des événements</figcaption></figure>
+  <figure><img src="/assets/screens/fr/support-event-log.png" alt="Le journal des événements : entrées horodatées, les plus récentes en premier, avec en haut Actualiser, Partager et Envoyer à Hecate"><figcaption>Le journal des événements</figcaption></figure>
+  <figure><img src="/assets/screens/fr/support-send-dialog.png" alt="La boîte de dialogue Envoyer le journal à Hecate ? avec Oui et Annuler"><figcaption>Envoyer à Hecate → Oui</figcaption></figure>
+  <figure><img src="/assets/screens/fr/support-share-sheet.png" alt="La feuille de partage du système avec le journal joint en fichier texte"><figcaption>Partager … en fichier texte</figcaption></figure>
+</div>
+
+À côté d'*Actualiser*, en haut à droite, deux boutons l'envoient :
+
+- :material-send-outline: **Envoyer à Hecate** ouvre un **brouillon d'e-mail**
+  prêt à l'emploi pour [info@hecateapps.com](mailto:info@hecateapps.com). Vous
+  voyez tout ce qu'il contient, ajoutez une ligne si vous le souhaitez et
+  l'envoyez vous-même depuis votre propre app de messagerie. (Le bouton
+  n'apparaît que si un compte de messagerie est configuré sur l'appareil.)
+- :material-export-variant: **Partager le journal** ouvre la feuille de partage
+  du système avec le rapport en fichier texte — pour AirDrop, Messages,
+  Fichiers ou votre propre service informatique.
+
+Rien ne quitte l'appareil de lui-même. Les mots de passe et identifiants sont
+remplacés avant la création du rapport ; photos et positions n'en font jamais
+partie. Les écrans ci-dessus viennent de l'app de capture, la boîte de dialogue
+d'envoi de Hecate Admin — l'écran est le même dans toutes les apps Hecate. Le Viewer pour Apple TV n'a pas de journal des événements.
 
 ## Sujets fréquents
 

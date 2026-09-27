@@ -10,11 +10,39 @@ get in touch.
 !!! note "Contact address"
     **Email:** [info@hecateapps.com](mailto:info@hecateapps.com)
 
-When reporting a problem, it helps to include:
+When reporting a problem, the quickest way is to **send us the event log**
+(see below): it already carries your device, iOS version and app version. A
+line on what you did and what you expected to happen makes it complete.
 
-- your **iOS version** and **device** (e.g. iPhone 15 Pro, iOS 18.5),
-- the **app version** (Settings → About),
-- what you did and what you expected to happen.
+## Send us the event log
+
+Since **version 2.0.0**, the capture app and Hecate Viewer on iPhone and iPad
+keep an **event log**: connection attempts, broker responses, profile updates,
+deliveries, errors. That is usually everything we need to understand a
+problem. Open it under **Settings → Diagnostics → Event log**.
+
+<div class="shots">
+  <figure><img src="/assets/screens/en/support-settings-row.png" alt="The settings list with the event log row in the Diagnostics group"><figcaption>Settings → Event log</figcaption></figure>
+  <figure><img src="/assets/screens/en/support-event-log.png" alt="The event log: time-stamped entries, newest first, with refresh, share and Send to Hecate at the top"><figcaption>The event log</figcaption></figure>
+  <figure><img src="/assets/screens/en/support-send-dialog.png" alt="The dialog Send log to Hecate? with Yes and Cancel"><figcaption>Send to Hecate → Yes</figcaption></figure>
+  <figure><img src="/assets/screens/en/support-share-sheet.png" alt="The system share sheet with the event log attached as a text file"><figcaption>Share … as a text file</figcaption></figure>
+</div>
+
+Next to *Refresh* at the top right, two buttons send it on its way:
+
+- :material-send-outline: **Send to Hecate** opens a ready-made **email draft**
+  to [info@hecateapps.com](mailto:info@hecateapps.com). You see everything it
+  contains, add a line if you like, and send it yourself from your own mail
+  app. (The button only appears when a mail account is set up on the device.)
+- :material-export-variant: **Share event log** opens the system share sheet
+  with the report as a text file — for AirDrop, Messages, Files, or your own
+  IT department.
+
+Nothing leaves the device by itself. Passwords and credentials are replaced
+before the report is built; photos and location fixes are never part of it.
+The screens above come from the capture app, the send dialog from Hecate
+Admin — the screen is the same in every Hecate app. The
+Apple TV viewer has no event log.
 
 ## Common topics
 

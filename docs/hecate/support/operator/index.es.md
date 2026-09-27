@@ -10,11 +10,42 @@ encontrado un error o tiene una petición? Así puede ponerse en contacto.
 !!! note "Dirección de contacto"
     **Correo electrónico:** [info@hecateapps.com](mailto:info@hecateapps.com)
 
-Al informar de un problema, ayuda incluir:
+La forma más rápida de informar de un problema es **enviarnos el registro de
+eventos** (véase abajo): ya incluye su dispositivo, la versión de iOS y la
+versión de la aplicación. Una frase sobre qué hizo y qué esperaba que ocurriera
+lo completa.
 
-- su **versión de iOS** y su **dispositivo** (p. ej., iPhone 15 Pro, iOS 18.5),
-- la **versión de la aplicación** (Ajustes → Información),
-- qué hizo y qué esperaba que ocurriera.
+## Enviarnos el registro de eventos
+
+Desde la **versión 2.0.0**, la aplicación de captura y Hecate Viewer en iPhone
+y iPad llevan un **registro de eventos**: intentos de conexión, respuestas del
+broker, actualizaciones de perfiles, entregas, errores. Normalmente es todo lo
+que necesitamos para entender un problema. Ábralo en **Ajustes → Diagnósticos →
+Registro de eventos**.
+
+<div class="shots">
+  <figure><img src="/assets/screens/es/support-settings-row.png" alt="La lista de ajustes con la fila Registro de eventos en el grupo Diagnósticos"><figcaption>Ajustes → Registro de eventos</figcaption></figure>
+  <figure><img src="/assets/screens/es/support-event-log.png" alt="El registro de eventos: entradas con hora, las más recientes primero, con Actualizar, Compartir y Enviar a Hecate arriba"><figcaption>El registro de eventos</figcaption></figure>
+  <figure><img src="/assets/screens/es/support-send-dialog.png" alt="El diálogo ¿Enviar el registro a Hecate? con Sí y Cancelar"><figcaption>Enviar a Hecate → Sí</figcaption></figure>
+  <figure><img src="/assets/screens/es/support-share-sheet.png" alt="La hoja de compartir del sistema con el registro adjunto como archivo de texto"><figcaption>Compartir … como archivo de texto</figcaption></figure>
+</div>
+
+Junto a *Actualizar*, arriba a la derecha, dos botones lo envían:
+
+- :material-send-outline: **Enviar a Hecate** abre un **borrador de correo**
+  listo para [info@hecateapps.com](mailto:info@hecateapps.com). Verá todo lo
+  que contiene, puede añadir una línea y lo envía usted mismo desde su propia
+  aplicación de correo. (El botón solo aparece si hay una cuenta de correo
+  configurada en el dispositivo.)
+- :material-export-variant: **Compartir el registro** abre la hoja de compartir
+  del sistema con el informe como archivo de texto — para AirDrop, Mensajes,
+  Archivos o su propio departamento de TI.
+
+Nada sale del dispositivo por sí solo. Las contraseñas y credenciales se
+sustituyen antes de crear el informe; las fotos y ubicaciones nunca forman
+parte de él. Las pantallas de arriba son de la aplicación de captura y el diálogo de
+envío, de Hecate Admin: la pantalla es la misma en todas las aplicaciones
+Hecate. El Viewer para Apple TV no tiene registro de eventos.
 
 ## Temas frecuentes
 
