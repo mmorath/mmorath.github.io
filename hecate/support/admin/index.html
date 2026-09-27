@@ -719,6 +719,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#send-us-the-event-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      Send us the event log
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#common-topics" class="md-nav__link">
     <span class="md-ellipsis">
       Common topics
@@ -1034,6 +1043,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#send-us-the-event-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      Send us the event log
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#common-topics" class="md-nav__link">
     <span class="md-ellipsis">
       Common topics
@@ -1125,6 +1143,28 @@ capture app or the Apple TV viewer instead? See
 <li>the broker you're publishing to (host / TLS, <strong>never</strong> the password),</li>
 <li>what you did and what you expected to happen.</li>
 </ul>
+<h2 id="send-us-the-event-log">Send us the event log</h2>
+<p>Since <strong>version 2.0.0</strong>, Hecate Admin keeps an <strong>event log</strong> — broker
+connections, publish results, validation errors — under <strong>Settings →
+Diagnostics → Event log</strong>. It already carries device, iOS and app version, so
+it replaces most of the list above.</p>
+<div class="shots">
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/support-admin-settings-row.png" data-desc-position="bottom"><img src="/assets/screens/en/support-admin-settings-row.png" alt="The Hecate Admin settings with the event log row in the Diagnostics group"></a><figcaption>Settings → Event log</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/support-admin-event-log.png" data-desc-position="bottom"><img src="/assets/screens/en/support-admin-event-log.png" alt="The event log in Hecate Admin: time-stamped entries, with refresh, share and Send to Hecate at the top"></a><figcaption>The event log</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/support-send-dialog.png" data-desc-position="bottom"><img src="/assets/screens/en/support-send-dialog.png" alt="The dialog Send log to Hecate? with Yes and Cancel"></a><figcaption>Send to Hecate → Yes</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/support-share-sheet.png" data-desc-position="bottom"><img src="/assets/screens/en/support-share-sheet.png" alt="The system share sheet with the event log attached as a text file"></a><figcaption>Share … as a text file</figcaption></figure>
+</div>
+
+<ul>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m4 6.03 7.5 3.22-7.5-1zm7.5 8.72L4 17.97v-2.22zM2 3v7l15 2-15 2v7l21-9z"></path></svg></span> <strong>Send to Hecate</strong> opens an email draft to
+  <a href="mailto:info@hecateapps.com">info@hecateapps.com</a> — you see everything in it
+  and send it yourself (only shown when a mail account is set up).</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 8 5h3v9h2V5h3m2 18H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h3v2H6v12h12V9h-3V7h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2"></path></svg></span> <strong>Share event log</strong> hands the report to the share
+  sheet as a text file — for AirDrop, Files, or your own IT.</li>
+</ul>
+<p>Passwords and credentials are replaced before the report is built. The first three
+screens are from Hecate Admin, the share sheet from the capture app. Full walkthrough:
+<a href="../operator/#send-us-the-event-log">Operator support</a>.</p>
 <h2 id="common-topics">Common topics</h2>
 <h3 id="connecting-to-the-broker">Connecting to the broker</h3>
 <p>The admin app connects to the <strong>MQTT broker you configure</strong>, over <strong>TLS</strong>

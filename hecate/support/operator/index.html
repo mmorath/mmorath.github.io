@@ -696,6 +696,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#send-us-the-event-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      Send us the event log
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#common-topics" class="md-nav__link">
     <span class="md-ellipsis">
       Common topics
@@ -1025,6 +1034,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#send-us-the-event-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      Send us the event log
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#common-topics" class="md-nav__link">
     <span class="md-ellipsis">
       Common topics
@@ -1101,12 +1119,36 @@ get in touch.</p>
 <p class="admonition-title">Contact address</p>
 <p><strong>Email:</strong> <a href="mailto:info@hecateapps.com">info@hecateapps.com</a></p>
 </div>
-<p>When reporting a problem, it helps to include:</p>
+<p>When reporting a problem, the quickest way is to <strong>send us the event log</strong>
+(see below): it already carries your device, iOS version and app version. A
+line on what you did and what you expected to happen makes it complete.</p>
+<h2 id="send-us-the-event-log">Send us the event log</h2>
+<p>Since <strong>version 2.0.0</strong>, the capture app and Hecate Viewer on iPhone and iPad
+keep an <strong>event log</strong>: connection attempts, broker responses, profile updates,
+deliveries, errors. That is usually everything we need to understand a
+problem. Open it under <strong>Settings → Diagnostics → Event log</strong>.</p>
+<div class="shots">
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/support-settings-row.png" data-desc-position="bottom"><img src="/assets/screens/en/support-settings-row.png" alt="The settings list with the event log row in the Diagnostics group"></a><figcaption>Settings → Event log</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/support-event-log.png" data-desc-position="bottom"><img src="/assets/screens/en/support-event-log.png" alt="The event log: time-stamped entries, newest first, with refresh, share and Send to Hecate at the top"></a><figcaption>The event log</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/support-send-dialog.png" data-desc-position="bottom"><img src="/assets/screens/en/support-send-dialog.png" alt="The dialog Send log to Hecate? with Yes and Cancel"></a><figcaption>Send to Hecate → Yes</figcaption></figure>
+  <figure><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/assets/screens/en/support-share-sheet.png" data-desc-position="bottom"><img src="/assets/screens/en/support-share-sheet.png" alt="The system share sheet with the event log attached as a text file"></a><figcaption>Share … as a text file</figcaption></figure>
+</div>
+
+<p>Next to <em>Refresh</em> at the top right, two buttons send it on its way:</p>
 <ul>
-<li>your <strong>iOS version</strong> and <strong>device</strong> (e.g. iPhone 15 Pro, iOS 18.5),</li>
-<li>the <strong>app version</strong> (Settings → About),</li>
-<li>what you did and what you expected to happen.</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m4 6.03 7.5 3.22-7.5-1zm7.5 8.72L4 17.97v-2.22zM2 3v7l15 2-15 2v7l21-9z"></path></svg></span> <strong>Send to Hecate</strong> opens a ready-made <strong>email draft</strong>
+  to <a href="mailto:info@hecateapps.com">info@hecateapps.com</a>. You see everything it
+  contains, add a line if you like, and send it yourself from your own mail
+  app. (The button only appears when a mail account is set up on the device.)</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 8 5h3v9h2V5h3m2 18H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h3v2H6v12h12V9h-3V7h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2"></path></svg></span> <strong>Share event log</strong> opens the system share sheet
+  with the report as a text file — for AirDrop, Messages, Files, or your own
+  IT department.</li>
 </ul>
+<p>Nothing leaves the device by itself. Passwords and credentials are replaced
+before the report is built; photos and location fixes are never part of it.
+The screens above come from the capture app, the send dialog from Hecate
+Admin — the screen is the same in every Hecate app. The
+Apple TV viewer has no event log.</p>
 <h2 id="common-topics">Common topics</h2>
 <h3 id="connecting-to-a-broker">Connecting to a broker</h3>
 <p>Hecate publishes to the <strong>MQTT broker you configure</strong> under
