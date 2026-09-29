@@ -100,7 +100,9 @@ eintragen — verschlüsselt über TLS, solange Sie TLS nicht für einen Broker 
 Verschlüsselung selbst abschalten. Es gibt kein Hecate-Backend und keine
 Analyse-, Werbe- oder Tracking-Dienste Dritter. Die Lizenz wird ohne Netz
 geprüft. Was mit den Daten geschieht, nachdem sie Ihren Broker erreicht haben,
-bestimmt dessen Betreiber, nicht Hecate.
+bestimmt dessen Betreiber, nicht Hecate. Ein Ereignisprotokoll erreicht
+Hecate nur, wenn Sie es selbst aus Ihrem E-Mail-Programm senden, nachdem Sie
+es vollständig gesehen haben (siehe „Bedingungen und Datenschutz“).
 
 ### Speicherung & Sicherheit
 
