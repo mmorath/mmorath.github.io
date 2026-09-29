@@ -109,6 +109,15 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/hecate/privacy/viewer-desktop/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-desktop/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/hecate/privacy/viewer-ios/</loc>
         <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
@@ -332,6 +341,15 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/privacy/viewer/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/de/hecate/privacy/viewer-desktop/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-desktop/"/>
     </url>
     <url>
         <loc>https://mmorath.github.io/de/hecate/privacy/viewer-ios/</loc>
@@ -559,6 +577,15 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/privacy/viewer/"/>
     </url>
     <url>
+        <loc>https://mmorath.github.io/fr/hecate/privacy/viewer-desktop/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/privacy/viewer-desktop/"/>
+    </url>
+    <url>
         <loc>https://mmorath.github.io/fr/hecate/privacy/viewer-ios/</loc>
         <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
@@ -782,6 +809,15 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer/"/>
+    </url>
+    <url>
+        <loc>https://mmorath.github.io/es/hecate/privacy/viewer-desktop/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://mmorath.github.io/es/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://mmorath.github.io/de/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mmorath.github.io/hecate/privacy/viewer-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mmorath.github.io/fr/hecate/privacy/viewer-desktop/"/>
     </url>
     <url>
         <loc>https://mmorath.github.io/es/hecate/privacy/viewer-ios/</loc>
