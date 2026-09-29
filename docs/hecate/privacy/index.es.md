@@ -37,6 +37,15 @@ cada una trata los datos de forma distinta. Elija la aplicación que utiliza:
 
     [:octicons-arrow-right-24: Privacidad del visor](viewer/index.md)
 
+-   :material-monitor: __Hecate Viewer__ · Windows, macOS, Linux
+
+    ---
+
+    Solo lee del broker, **no captura ni publica nada**. El mapa carga
+    teselas de OpenFreeMap.
+
+    [:octicons-arrow-right-24: Privacidad del Viewer de escritorio](viewer-desktop/index.md)
+
 -   :material-tune-variant: __Aplicación Admin__
 
     ---

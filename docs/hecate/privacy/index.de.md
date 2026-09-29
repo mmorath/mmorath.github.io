@@ -37,6 +37,15 @@ Daten umgeht. Wählen Sie die App, die Sie verwenden:
 
     [:octicons-arrow-right-24: Datenschutz Viewer](viewer/index.md)
 
+-   :material-monitor: __Hecate Viewer__ · Windows, macOS, Linux
+
+    ---
+
+    Liest nur vom Broker, **erfasst und veröffentlicht nichts**. Die Karte
+    lädt Kacheln von OpenFreeMap.
+
+    [:octicons-arrow-right-24: Datenschutz Desktop-Viewer](viewer-desktop/index.md)
+
 -   :material-tune-variant: __Admin-App__
 
     ---

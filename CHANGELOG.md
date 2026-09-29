@@ -18,6 +18,30 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-09-29 (Datenschutz Desktop-Viewer)
+
+### Added — eine Datenschutzseite für Hecate Viewer auf Windows, macOS und Linux
+
+Der Desktop-Viewer (desktop-Hecate-Viewer 0.3.0) hat eine Karte und lädt dafür
+Kacheln von **OpenFreeMap**, einem Dritten. Das ist das erste Netzwerkziel einer
+Desktop-App neben dem Broker, und keine Seite sagte es. Der Viewer erfasst und
+veröffentlicht zudem nichts; der gemeinsame Desktop-Text von Capture und Admin
+(„Erfassungen und Profile gehen an den Broker“) wäre für ihn falsch gewesen.
+
+- **`/hecate/privacy/viewer-desktop/`**, en, de, fr, es: eine kurze Einleitung
+  von Hand, dann der generierte Block mit Viewer-Wortlaut — nichts erfasst,
+  Ausblenden und Markieren nur lokal, keine Berechtigungen, liest nur vom Broker,
+  **„Die Karte“** (Kartenausschnitt und IP-Adresse gehen an OpenFreeMap,
+  Hyperknot Software Kft., Ungarn/EU, ggf. über Cloudflare; keine Kennung der
+  Installation; ohne Standort kein Abruf; „Im Browser öffnen“ nur auf Wunsch),
+  Kachel-Cache im Cache-Verzeichnis des Betriebssystems. Dieselben Angaben wie
+  ADR 029 §5 für Android.
+- **`tools/desktop_privacy.py`** kennt die Rolle *Viewer*: Ein `(Viewer)`-Block
+  in hecate-meta ersetzt für diese Seite den allgemeinen Block mit demselben
+  Schlüssel. Die Seiten von Capture und Admin ändern sich dadurch nicht.
+- Übersicht (vier Sprachen) mit einer Karte für den Desktop-Viewer, Menüeintrag
+  „Hecate Viewer (Desktop)“.
+
 ## 2026-09-29 (Datenschutz Desktop)
 
 ### Added — die Datenschutzseiten von Capture und Admin haben einen Desktop-Teil

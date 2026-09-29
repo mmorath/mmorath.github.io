@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
-"""desktop_privacy.py — the desktop part of the Capture and Admin privacy pages.
+"""desktop_privacy.py — the desktop part of the Capture, Admin and Viewer privacy pages.
 
 The desktop applications (Windows, macOS, Linux) show their own privacy text:
 no camera, no location permission, no iOS Keychain. Its wording lives ONCE in
 hecate-meta, `docs/specs/legal/<lang>.md`, section "Datenschutz — Desktop"
 (licensing.md LG5, owner's decision 2026-09-29). This tool copies that section
-verbatim into the two privacy pages, between two markers, so the site cannot
-say something about the desktop that the applications do not.
+verbatim into the privacy pages, between two markers, so the site cannot say
+something about the desktop that the applications do not.
+
+A block tagged with a role — `(Capture)`, `(Admin)`, `(Viewer)` — goes to that
+role's page only. For the Viewer, a `(Viewer)` block also REPLACES the untagged
+block with the same key: the Viewer reads and publishes nothing, so the shared
+"where data goes" is not its text (ADR 032 §5). The desktop Viewer's page has
+no mobile part; the whole page around the block is written by hand.
 
     python3 tools/desktop_privacy.py            # rewrite the marked blocks
     python3 tools/desktop_privacy.py --check    # report staleness, write nothing
@@ -27,7 +33,7 @@ META = Path(os.environ.get("HECATE_META", ROOT.parent / "hecate-meta"))
 PAGES = ROOT / "docs" / "hecate" / "privacy"
 # site suffix, spec file
 LANGS = [("", "en"), (".de", "de"), (".fr", "fr"), (".es", "es")]
-ROLES = {"capture": "Capture", "admin": "Admin"}
+ROLES = {"capture": "Capture", "admin": "Admin", "viewer-desktop": "Viewer"}
 TITLE = {
     "en": "Desktop application (Windows, macOS, Linux)",
     "de": "Desktop-Anwendung (Windows, macOS, Linux)",
@@ -65,9 +71,13 @@ def desktop_blocks(lang: str) -> list[tuple[str, str | None, str | None, str]]:
 
 def render(lang: str, role: str) -> str:
     lines = [START.format(lang=lang), "", f"## {TITLE[lang]}", ""]
-    for _key, block_role, heading, body in desktop_blocks(lang):
+    blocks = desktop_blocks(lang)
+    own = {key for key, block_role, _, _ in blocks if block_role == ROLES[role]}
+    for key, block_role, heading, body in blocks:
         if block_role is not None and block_role != ROLES[role]:
             continue
+        if block_role is None and key in own:
+            continue  # this role has its own wording
         if heading:
             lines += [f"### {heading}", ""]
         lines += [body, ""]
