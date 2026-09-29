@@ -100,7 +100,9 @@ Las capturas y los perfiles van únicamente al broker MQTT que usted introduce �
 cifrados con TLS, salvo que usted mismo desactive TLS para un broker sin
 cifrado. No hay backend de Hecate ni servicios de terceros de análisis,
 publicidad o rastreo. La licencia se comprueba sin red. Lo que ocurra con los
-datos una vez en su broker lo decide su operador, no Hecate.
+datos una vez en su broker lo decide su operador, no Hecate. Un registro de eventos solo llega a
+Hecate si usted mismo lo envía desde su programa de correo, después de verlo
+completo (véase «Condiciones y privacidad»).
 
 ### Almacenamiento y seguridad
 

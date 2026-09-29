@@ -96,7 +96,9 @@ Captures and profiles go only to the MQTT broker you enter — encrypted with
 TLS, unless you switch TLS off yourself for a broker without encryption. There
 is no Hecate backend and no third-party analytics, advertising or tracking
 service. The licence is checked without a network. What happens to the data
-after it reaches your broker is up to its operator, not Hecate.
+after it reaches your broker is up to its operator, not Hecate. An event log reaches Hecate only
+when you send it yourself from your e-mail program, after seeing it in full
+(see "Terms and privacy").
 
 ### Storage & security
 

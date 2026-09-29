@@ -18,6 +18,17 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-09-29 (Datenschutz Desktop, Bericht an Hecate)
+
+### Changed — der Desktop-Teil von Capture und Admin nennt den Bericht an Hecate
+
+Seit Kern 0.30.0 (Capture 0.10.0, Admin 0.11.0) können die Desktop-Anwendungen
+ein Ereignisprotokoll an Hecate schicken — als Mail-Entwurf, den der Nutzer
+selbst abschickt, oder als gespeicherte Datei. „Wohin die Daten gehen“ sagte
+bisher nur „an Ihren Broker“; `diagnose-berichte.md` verlangt, dass der Text
+stimmt, bevor der Weg existiert. Ein Satz in allen vier Sprachen, wörtlich aus
+hecate-meta `docs/specs/legal/<sprache>.md` (c4fbf3d).
+
 ## 2026-09-29 (Datenschutz Desktop-Viewer)
 
 ### Added — eine Datenschutzseite für Hecate Viewer auf Windows, macOS und Linux

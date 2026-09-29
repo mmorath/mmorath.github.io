@@ -114,7 +114,9 @@ Les saisies et les profils vont uniquement au broker MQTT que vous saisissez —
 chiffrés par TLS, sauf si vous désactivez vous-même TLS pour un broker sans
 chiffrement. Il n'y a pas de backend Hecate ni de service tiers d'analyse, de
 publicité ou de pistage. La licence est vérifiée sans réseau. Ce qu'il advient
-des données une fois sur votre broker relève de son exploitant, pas de Hecate.
+des données une fois sur votre broker relève de son exploitant, pas de Hecate. Un journal des événements
+n'atteint Hecate que si vous l'envoyez vous-même depuis votre messagerie, après
+l'avoir vu en entier (voir « Conditions et confidentialité »).
 
 ### Stockage et sécurité
 
