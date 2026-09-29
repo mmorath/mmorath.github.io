@@ -186,6 +186,7 @@ nav:
       - Hecate Admin: hecate/privacy/admin/index.md
       - Hecate Viewer (iPhone & iPad): hecate/privacy/viewer-ios/index.md
       - Hecate Viewer (Apple TV): hecate/privacy/viewer-tvos/index.md
+      - Hecate Viewer (Desktop): hecate/privacy/viewer-desktop/index.md
   # Direkt vor dem Impressum: Was fuer die Nutzung gilt, gehoert neben die
   # Anbieterangabe — beide sind Rechtstexte, beide muessen von jeder Seite aus
   # erreichbar sein. Die Seite schreibt KEINE eigene Lizenz; sie verlinkt

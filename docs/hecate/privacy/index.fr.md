@@ -38,6 +38,15 @@ utilisez :
 
     [:octicons-arrow-right-24: Confidentialité viewer](viewer/index.md)
 
+-   :material-monitor: __Hecate Viewer__ · Windows, macOS, Linux
+
+    ---
+
+    Lit seulement le broker, **ne saisit et ne publie rien**. La carte
+    charge des tuiles d'OpenFreeMap.
+
+    [:octicons-arrow-right-24: Confidentialité Viewer desktop](viewer-desktop/index.md)
+
 -   :material-tune-variant: __Application admin__
 
     ---

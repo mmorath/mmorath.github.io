@@ -36,6 +36,15 @@ differently. Pick the app you're using:
 
     [:octicons-arrow-right-24: Apple TV viewer privacy](viewer-tvos/index.md)
 
+-   :material-monitor: __Hecate Viewer__ · Windows, macOS, Linux
+
+    ---
+
+    Reads from the broker only, **captures and publishes nothing**. The map
+    loads tiles from OpenFreeMap.
+
+    [:octicons-arrow-right-24: Desktop Viewer privacy](viewer-desktop/index.md)
+
 -   :material-tune-variant: __Admin app__
 
     ---
