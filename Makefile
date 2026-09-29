@@ -80,6 +80,12 @@ badges: ## Re-download the App Store badges (4 languages x black/white) into doc
 ##@ Site
 # =============================================================================
 
+desktop-privacy: ## Copy "Datenschutz — Desktop" from hecate-meta into the Capture/Admin privacy pages
+	python3 tools/desktop_privacy.py
+
+desktop-privacy-check: ## Are the desktop blocks of the privacy pages up to date with hecate-meta? (writes nothing)
+	python3 tools/desktop_privacy.py --check
+
 serve: ## Live-preview the site with reload (http://127.0.0.1:8000)
 	@$(MKDOCS) serve -a $(SERVE_ADDR)
 
@@ -96,4 +102,4 @@ clean: ## Remove the local build output (./site)
 	@rm -rf $(SITE_DIR)
 	@printf "$(DIM)removed $(SITE_DIR)/$(RESET)\n"
 
-.PHONY: help install screens screens-check badges serve build deploy clean
+.PHONY: desktop-privacy desktop-privacy-check help install screens screens-check badges serve build deploy clean
