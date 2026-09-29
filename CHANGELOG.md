@@ -18,6 +18,37 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-09-29 (Datenschutz Desktop)
+
+### Added — die Datenschutzseiten von Capture und Admin haben einen Desktop-Teil
+
+Seit Kern 0.23.0 zeigen die Desktop-Anwendungen (Windows, macOS, Linux) ihren
+eigenen Datenschutztext und verlinken diese beiden Seiten. Die Seiten sprachen
+bis heute nur über iOS: Standortberechtigung, iOS-Schlüsselbund, Fotos. Für den
+Desktop war davon nichts wahr, und nichts davon schlug fehl — genau der stille
+Fall, für den diese Datei da ist.
+
+- **`/hecate/privacy/capture/` und `/hecate/privacy/admin/`**, je en, de, fr, es,
+  haben vor „Kinder“ einen Abschnitt **„Desktop-Anwendung (Windows, macOS,
+  Linux)“** / *Desktop application* / *Application de bureau* /
+  *Aplicación de escritorio*: Einleitung, was erfasst wird (je Rolle
+  verschieden: Capture die Asset-Daten und den von Hand gesetzten
+  Stationsstandort, Admin Profile und Broker-Konfigurationen), keine
+  Berechtigungen, wohin die Daten gehen, Speicherung (Schlüsselbund des
+  Betriebssystems), Aufbewahrung, Drittanbieter, Rechte, Kontakt.
+- **Der Wortlaut ist nicht hier geschrieben**, sondern kommt wörtlich aus
+  hecate-meta `docs/specs/legal/<sprache>.md`, Abschnitt „Datenschutz —
+  Desktop“ (Besitzer-Entscheid 2026-09-29: Quelle dort, wie Rechtliches, LG5).
+  `tools/desktop_privacy.py` setzt ihn zwischen zwei Marker; `make
+  desktop-privacy` erneuert ihn, `make desktop-privacy-check` sagt, ob die
+  Seiten hinter hecate-meta liegen. Erwogen: den Text von Hand einzusetzen;
+  verworfen, weil dann dieselbe Erklärung an zwei Orten gepflegt würde und
+  die Site beim nächsten Nachzug wieder still zurückfiele.
+- Die Adressen bleiben (WS2-1); der iOS-Teil der Seiten ist unverändert.
+
+Anlass: N4 des Desktop-Nachzugs (hecate-meta
+`docs/features/planned/desktop/nachzug-2.0.0.md`).
+
 ## 2026-09-28 (Support)
 
 ### Added — die Support-Seiten erklären das Ereignisprotokoll
