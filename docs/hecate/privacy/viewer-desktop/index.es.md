@@ -36,7 +36,9 @@ El Viewer lee del broker MQTT que usted introduce — cifrado con TLS, salvo que
 usted mismo desactive TLS para un broker sin cifrado — y no publica nada allí.
 No hay backend de Hecate, ni comprobación de licencia, ni servicios de terceros
 de análisis, publicidad o rastreo. El segundo destino de red es el servicio de
-mapas, véase «El mapa».
+mapas, véase «El mapa». Un registro de eventos solo llega a Hecate si usted
+mismo lo envía desde su programa de correo, después de verlo completo (véase
+«Condiciones y privacidad»).
 
 ### El mapa
 
