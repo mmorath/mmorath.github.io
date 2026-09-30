@@ -36,7 +36,9 @@ Le Viewer lit le broker MQTT que vous saisissez — chiffré par TLS, sauf si vo
 désactivez vous-même TLS pour un broker sans chiffrement — et n'y publie rien.
 Il n'y a pas de backend Hecate, pas de vérification de licence ni de service
 tiers d'analyse, de publicité ou de pistage. La deuxième destination réseau est
-le service de cartes, voir « La carte ».
+le service de cartes, voir « La carte ». Un journal des événements n'atteint
+Hecate que si vous l'envoyez vous-même depuis votre messagerie, après l'avoir
+vu en entier (voir « Conditions et confidentialité »).
 
 ### La carte
 

@@ -18,6 +18,18 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## 2026-09-30 (Datenschutz Desktop-Viewer, Bericht an Hecate)
+
+### Changed — die Seite des Desktop-Viewers nennt den Bericht an Hecate
+
+Seit Viewer 0.4.0 (Kern 0.31.0) kann auch der Desktop-Viewer ein
+Ereignisprotokoll an Hecate schicken, als Mail-Entwurf, den der Nutzer selbst
+abschickt, oder als gespeicherte Datei. „Wohin die Daten gehen“ nannte nur den
+Broker und den Kartendienst. Ein Satz in allen vier Sprachen
+(`/hecate/privacy/viewer-desktop/`), wörtlich aus hecate-meta
+`docs/specs/legal/<sprache>.md`, `privacy.sharing (Viewer)` — dort am
+2026-09-30 vom Besitzer freigegeben, bevor der Knopf in die App kam.
+
 ## 2026-09-29 (Datenschutz Desktop, Bericht an Hecate)
 
 ### Changed — der Desktop-Teil von Capture und Admin nennt den Bericht an Hecate

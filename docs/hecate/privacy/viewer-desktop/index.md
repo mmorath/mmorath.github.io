@@ -35,7 +35,9 @@ The Viewer reads from the MQTT broker you enter — encrypted with TLS, unless
 you switch TLS off yourself for a broker without encryption — and publishes
 nothing there. There is no Hecate backend, no licence check and no third-party
 analytics, advertising or tracking service. The second network destination is
-the map service, see "The map".
+the map service, see "The map". An event log reaches Hecate only when you send
+it yourself from your e-mail program, after seeing it in full (see "Terms and
+privacy").
 
 ### The map
 

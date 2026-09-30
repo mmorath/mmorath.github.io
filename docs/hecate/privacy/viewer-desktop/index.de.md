@@ -36,7 +36,10 @@ Der Viewer liest vom MQTT-Broker, den Sie eintragen — verschlüsselt über TLS
 solange Sie TLS nicht für einen Broker ohne Verschlüsselung selbst abschalten
 —, und veröffentlicht dort nichts. Es gibt kein Hecate-Backend, keine
 Lizenzprüfung und keine Analyse-, Werbe- oder Tracking-Dienste Dritter. Das
-zweite Netzwerkziel ist der Kartendienst, siehe „Die Karte“.
+zweite Netzwerkziel ist der Kartendienst, siehe „Die Karte“. Ein
+Ereignisprotokoll erreicht Hecate nur, wenn Sie es selbst aus Ihrem
+E-Mail-Programm senden, nachdem Sie es vollständig gesehen haben (siehe
+„Bedingungen und Datenschutz“).
 
 ### Die Karte
 
