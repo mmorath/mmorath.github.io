@@ -102,4 +102,8 @@ clean: ## Remove the local build output (./site)
 	@rm -rf $(SITE_DIR)
 	@printf "$(DIM)removed $(SITE_DIR)/$(RESET)\n"
 
-.PHONY: desktop-privacy desktop-privacy-check help install screens screens-check badges serve build deploy clean
+.PHONY: hooks desktop-privacy desktop-privacy-check help install screens screens-check badges serve build deploy clean
+
+hooks: ## Activate the repo's git hooks (authorship gate, CONTRIBUTING.md)
+	git config core.hooksPath .githooks
+	@echo "core.hooksPath = $$(git config core.hooksPath)"
