@@ -1,0 +1,3 @@
+#!/bin/sh
+# pre-push — hecate family authorship gate (hecate-meta RS12).
+exec sh "$(git rev-parse --show-toplevel)/.githooks/pre-push-authorship" "$@"

@@ -18,6 +18,12 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ---
 
+## [Unreleased]
+
+### Added — authorship gate from hecate-meta (RS12)
+
+`.githooks/commit-msg` and `.githooks/pre-push-authorship` are the canonical copies from hecate-meta `tools/hooks/`; `make hooks` switches them on. The hook refuses a commit with a co-author trailer, a generator line or a tool identity, and the push scan refuses any such commit in the push range. Measured on 2026-10-03 the gate was missing here; `make hooks-check` in hecate-meta now reports that.
+
 ## 2026-09-30 (Datenschutz Desktop-Viewer, Bericht an Hecate)
 
 ### Changed — die Seite des Desktop-Viewers nennt den Bericht an Hecate
