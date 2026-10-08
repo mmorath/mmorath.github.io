@@ -45,6 +45,12 @@ theme:
     # very list we are trying to shorten. The table of contents now lives on
     # the right, where it belongs to the page rather than to the site.
 
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/hecate-app-family/
+      name: LinkedIn
+
 extra_css:
   - assets/extra.css
 
