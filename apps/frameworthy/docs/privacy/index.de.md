@@ -6,6 +6,12 @@
 Frameworthy ist eine Mac-App, die die Videos verarbeitet, die du in ihr öffnest —
 **vollständig auf deinem Mac**.
 
+!!! note "Kurz gesagt"
+    Kein Konto, kein Server, keine Analyse, keine Werbung, keine Nachverfolgung.
+    Deine Videos, dein Ton und dein Text verlassen deinen Mac nicht. Die einzige
+    eigene Netzwerkverbindung der App ist das einmalige Laden der Sprechermodelle
+    von Hugging Face, und sie enthält keine Nutzerdaten.
+
 ## Was wir erheben
 
 **Nichts.** Die App hat **kein Backend**, sendet Daten an **keinen Server** und enthält
@@ -52,4 +58,4 @@ Die App erhebt von niemandem Daten, auch nicht von Kindern.
 
 ## Kontakt
 
-Siehe [Support](../support/index.md).
+Siehe [Support](../support/index.de.md).

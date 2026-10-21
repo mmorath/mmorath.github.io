@@ -21,7 +21,8 @@ A `Makefile` wraps the MkDocs commands (run `make` for the full list):
 ```bash
 make install   # install the toolchain (mkdocs-material) via pip
 make serve     # live preview at http://127.0.0.1:8000
-make build     # build the static site into ./site
+make build     # build Hecate + the app sites (apps/leafrelief, apps/frameworthy) into ./site
+make serve-leafrelief   # live preview of one app site (also serve-frameworthy)
 make deploy    # build + publish to the gh-pages branch (republishes the live site)
 make clean     # remove ./site
 ```

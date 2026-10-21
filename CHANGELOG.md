@@ -20,6 +20,10 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## [Unreleased]
 
+### Added — own sites for Leaf Relief and Frameworthy (2026-10-21)
+
+Each Mac app gets its own site in this repo, with its own `apps/<name>/mkdocs.yml` (name, logo, favicon, menu) and the Hecate theme, palette and CSS: `apps/leafrelief/` → https://hecateapps.com/leafrelief/, `apps/frameworthy/` → https://hecateapps.com/frameworthy/ — the URLs App Store Connect links to (privacy, support, marketing). Overview, privacy and support pages in **en, de, fr, es** (the apps' interface languages); the privacy pages keep every statement of the earlier drafts and add only a summary box and translations. Legal notice and terms link to the provider's Impressum (shared with Hecate) and Apple's standard EULA. The apps are not in Hecate's menu. `make build` builds all three sites (the app sites with `--strict`), `make deploy` publishes them together to `gh-pages`; `make serve-leafrelief` / `make serve-frameworthy` preview one app. Screenshots: Leaf Relief from its demo archive; Frameworthy shows only a generated test frame until clean app screenshots exist.
+
 ### Added — authorship gate from hecate-meta (RS12)
 
 `.githooks/commit-msg` and `.githooks/pre-push-authorship` are the canonical copies from hecate-meta `tools/hooks/`; `make hooks` switches them on. The hook refuses a commit with a co-author trailer, a generator line or a tool identity, and the push scan refuses any such commit in the push range. Measured on 2026-10-03 the gate was missing here; `make hooks-check` in hecate-meta now reports that.

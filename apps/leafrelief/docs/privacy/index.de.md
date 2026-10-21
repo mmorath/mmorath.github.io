@@ -9,20 +9,22 @@ Leaf Relief ist eine Mac-App für ein papierloses Archiv. Sie verarbeitet deine 
 ## Was wir erheben
 
 **Nichts.** Die App hat kein Backend, kein Konto, keine Analyse, keine Werbung und kein
-Tracking. Der Entwickler erhält keine Daten aus der App.
+Tracking. Der Entwickler erhält keine Daten aus der App. Die Datenschutzangaben der App
+im App Store lauten deshalb **„Keine Daten erfasst“**.
 
 ## Was die App auf deinem Mac verarbeitet
 
 - **Dokumente** in dem Archivordner und dem Eingangsordner, die du wählst. Die App läuft
   in der macOS-Sandbox: Sie kann nur die Ordner öffnen, die du ausgewählt hast, und merkt
-  sich diese Erlaubnis.
+  sich diese Erlaubnis (als Lesezeichen).
 - **Scans** von einem Scanner, den du auswählst (USB oder im lokalen Netz über AirScan).
   Die Seitenbilder bleiben 14 Tage im Cache der App, damit ein Fehler nachgebessert
   werden kann.
 - **Texterkennung** mit Apples Vision, auf dem Mac.
 - **Vorschläge** (Art, Absender, Datum, Betrag, Frist …) mit Apple Intelligence, auf dem
   Mac. Kein Text geht an ein Cloud-Modell.
-- **Suche** mit einem Index im Container der App.
+- **Suche** mit einem Index im Container der App (SQLite, mit Apples Satz-Embedding für
+  die Suche nach Bedeutung).
 - **Spotlight:** Titel, Absender, Arten, Schlagwörter und Text stehen im Spotlight-Index
   dieses Macs.
 - **Erinnerungen** für Fristen legt die App nur an, wenn du „Erinnerung anlegen“ klickst;
@@ -55,3 +57,7 @@ Dokumente im Archivordner bleiben, wo sie sind.
 ## Kontakt
 
 Fragen: `kubisch-gemacht3p@icloud.com`
+
+---
+
+[Leaf Relief](../index.md) · [Support](../support/index.md)

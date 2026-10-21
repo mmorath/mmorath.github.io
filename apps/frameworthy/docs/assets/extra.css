@@ -1,0 +1,148 @@
+/* Black primary (header/links) in both schemes. */
+:root {
+  --md-primary-fg-color: #000000;
+  --md-primary-fg-color--light: #1a1a1a;
+  --md-primary-fg-color--dark: #000000;
+}
+
+/* Pure-black dark theme: header, page and footer all #000, matching the
+   Hecate app's OLED black. The header logo is a transparent white mark, so the
+   black header lets it sit cleanly with no tile edge and no grey step between
+   header and page. */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #000000;
+  --md-default-bg-color--light: #000000;
+  --md-default-bg-color--lighter: #0a0a0a;
+  --md-default-bg-color--lightest: #141414;
+  --md-footer-bg-color: #000000;
+  --md-footer-bg-color--dark: #000000;
+}
+
+.md-header,
+.md-tabs,
+.md-footer,
+.md-footer-meta {
+  background-color: #000;
+}
+
+
+/* Centered hero used on app landing pages (wrap with <div class="hero" markdown>). */
+.hero {
+  text-align: center;
+  padding: 1.5rem 0 0.5rem;
+}
+.hero img {
+  width: 96px;
+  height: 96px;
+}
+.hero h1 {
+  margin: 0.6rem 0 0.2rem;
+  font-weight: 700;
+}
+.hero .tagline {
+  color: var(--md-default-fg-color--light);
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+/* Screenshot gallery — phone shots in a responsive row. */
+.shots {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin: 1.6rem 0;
+}
+.shots figure {
+  margin: 0;
+  flex: 1 1 0;
+  max-width: 150px;
+}
+/* Landscape tablet shots get room; on narrow screens the row may wrap. */
+.shots figure.wide {
+  flex: 2 1 0;
+  max-width: 420px;
+}
+.shots img {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid #222;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55);
+}
+.shots figcaption {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* Tables span the text column, like every other block.
+ *
+ * Material sizes a table to its content: `.md-typeset__table` is an
+ * `inline-block`, so a table with short cells ends up narrower than the
+ * paragraph above it — and narrower than the next table on the same page.
+ * On the Free & Pro page that read as three different measures stacked on
+ * top of each other, which is the worst possible look for tables the eye is
+ * meant to compare.
+ *
+ * Scrolling is NOT affected: Material puts `overflow-x: auto` on the
+ * separate `.md-typeset__scrollwrap` around this element, so a genuinely
+ * wide table still scrolls inside itself on a phone. Only the resting width
+ * changes here, and the horizontal padding Material sets is left alone so
+ * the table keeps aligning with the text column.
+ *
+ * The bare-`table` rule below covers the moment before Material's script
+ * has wrapped the table (the wrappers are added at runtime, not by the
+ * Markdown build), so the page does not reflow visibly on load.
+ */
+.md-typeset__table {
+  display: block;
+  width: 100%;
+}
+
+.md-typeset__table > table {
+  width: 100%;
+}
+
+.md-typeset > table:not([class]) {
+  width: 100%;
+}
+
+/* App Store badge — Apple's own artwork, one SVG per language.
+ *
+ * The files in assets/appstore/ are DOWNLOADED, not redrawn: the badge is a
+ * licensed mark, and Apple's marketing guidelines fix its wording, its
+ * proportions and the clear space around it. A badge rebuilt from memory is a
+ * trademark problem rather than a design choice — and the version image
+ * searches hand you says "Available on the App Store", which Apple retired in
+ * 2013. They come from the Marketing Tools badge endpoint, four locales in
+ * black and white.
+ *
+ * Two images per link, not one. The site carries a light/dark toggle, and
+ * Apple's rule is black-on-light, white-on-dark; a single badge would either
+ * glare or vanish depending on the scheme. Material writes the active scheme
+ * onto <body data-md-color-scheme>, so the swap is pure CSS with no script and
+ * no flash of the wrong one.
+ *
+ * 48 px of height: Apple's minimum for web is 40 px, and the badge is roughly
+ * three times as wide as it is tall, so this lands near the 144 x 48 that the
+ * guidelines use as their reference size.
+ */
+.appstore {
+  margin: 1.2rem 0 1.6rem;
+  line-height: 0;         /* no baseline gap under the inline SVG */
+}
+.appstore a {
+  display: inline-block;
+  /* Apple asks for clear space of at least 10 % of the badge height on every
+   * side. Reserving it here means neither the tagline above nor the first
+   * paragraph below can crowd the mark. */
+  padding: 0.3rem 0;
+}
+.appstore img {
+  height: 48px;
+  width: auto;
+}
+.appstore .on-dark { display: none; }
+[data-md-color-scheme="slate"] .appstore .on-light { display: none; }
+[data-md-color-scheme="slate"] .appstore .on-dark { display: inline; }

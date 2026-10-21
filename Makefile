@@ -89,14 +89,22 @@ desktop-privacy-check: ## Are the desktop blocks of the privacy pages up to date
 serve: ## Live-preview the site with reload (http://127.0.0.1:8000)
 	@$(MKDOCS) serve -a $(SERVE_ADDR)
 
-build: ## Build the static site into ./site (clean)
-	@$(MKDOCS) build --clean
-	@printf "$(DIM)built → $(SITE_DIR)/$(RESET)\n"
+# Own sites of the Mac apps, each with its own mkdocs.yml under apps/<name>/,
+# served at hecateapps.com/<name>/ next to Hecate (same repo, same gh-pages).
+APPS := leafrelief frameworthy
 
-deploy: ## Build + publish to the gh-pages branch (republishes the live site)
+build: ## Build Hecate + the app sites into ./site (clean, strict)
+	@$(MKDOCS) build --clean
+	@for a in $(APPS); do $(MKDOCS) build --strict -f apps/$$a/mkdocs.yml -d $(CURDIR)/$(SITE_DIR)/$$a || exit 1; done
+	@printf "$(DIM)built → $(SITE_DIR)/ (hecate + $(APPS))$(RESET)\n"
+
+serve-%: ## Live-preview one app site, e.g. make serve-leafrelief
+	@$(MKDOCS) serve -f apps/$*/mkdocs.yml -a $(SERVE_ADDR)
+
+deploy: build ## Build all + publish to the gh-pages branch (republishes the live site)
 	@printf "$(BOLD)Publishing to GitHub Pages (gh-pages)…$(RESET)\n"
-	@$(MKDOCS) gh-deploy --clean
-	@printf "$(DIM)live → https://mmorath.github.io/$(RESET)\n"
+	@ghp-import --no-jekyll --push --force --branch gh-pages --message "Deploy $$(git rev-parse --short HEAD)" $(SITE_DIR)
+	@printf "$(DIM)live → https://hecateapps.com/ (+ $(APPS))$(RESET)\n"
 
 clean: ## Remove the local build output (./site)
 	@rm -rf $(SITE_DIR)

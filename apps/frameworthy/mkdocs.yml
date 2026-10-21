@@ -1,0 +1,97 @@
+# =============================================================================
+# Frameworthy — own site in the same Pages repo as Hecate, served at
+# https://hecateapps.com/frameworthy/ (the URLs App Store Connect links to).
+# Same theme, palette and CSS as the Hecate site (../../mkdocs.yml); own name,
+# logo and menu. Built by `make build` into site/frameworthy/, published with
+# `make deploy` together with Hecate.
+# =============================================================================
+site_name: Frameworthy
+site_description: "Frameworthy — share-ready videos from screen and meeting recordings, made on your Mac."
+site_url: https://hecateapps.com/frameworthy/
+site_author: Matthias Morath
+copyright: © 2026 Matthias Morath · All rights reserved
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.top
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search
+  - glightbox
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+          nav_translations:
+            Overview: Überblick
+            Privacy: Datenschutz
+            Support: Support
+            Terms (Apple EULA): Nutzungsbedingungen (Apple-EULA)
+            Legal notice: Impressum
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            Overview: Présentation
+            Privacy: Confidentialité
+            Support: Assistance
+            Terms (Apple EULA): Conditions d'utilisation (CLUF d'Apple)
+            Legal notice: Mentions légales
+        - locale: es
+          name: Español
+          build: true
+          nav_translations:
+            Overview: Resumen
+            Privacy: Privacidad
+            Support: Soporte
+            Terms (Apple EULA): Condiciones de uso (EULA de Apple)
+            Legal notice: Aviso legal
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - toc:
+      permalink: false
+
+# Legal notice and terms are the provider's, shared with Hecate (same
+# operator, § 5 DDG); one click from every page.
+nav:
+  - Overview: index.md
+  - Privacy: privacy/index.md
+  - Support: support/index.md
+  - Terms (Apple EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+  - Legal notice: https://hecateapps.com/hecate/impressum/
