@@ -1,0 +1,1125 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Leaf Relief — a paperless archive for your Mac: scan, recognise, file, find. Entirely on your Mac.">
+      
+      
+        <meta name="author" content="Matthias Morath">
+      
+      
+        <link rel="canonical" href="https://hecateapps.com/leafrelief/">
+      
+      
+      
+        <link rel="next" href="privacy/">
+      
+      
+      <link rel="icon" href="assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Leaf Relief</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="assets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="grey">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#leaf-relief" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Leaf Relief" class="md-header__button md-logo" aria-label="Leaf Relief" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Leaf Relief
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Overview
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="grey" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="grey" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/leafrelief/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/leafrelief/de/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/leafrelief/fr/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/leafrelief/es/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Leaf Relief" class="md-nav__button md-logo" aria-label="Leaf Relief" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    Leaf Relief
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#in-one-minute" class="md-nav__link">
+    <span class="md-ellipsis">
+      In one minute
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#screenshots" class="md-nav__link">
+    <span class="md-ellipsis">
+      Screenshots
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      The problem
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paper-piles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paper piles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scattered-pdfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scattered PDFs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      No search
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cloud-services-that-read-your-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cloud services that read your documents
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-short" class="md-nav__link">
+    <span class="md-ellipsis">
+      In short
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-leaf-relief-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Leaf Relief does
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Leaf Relief does">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scan-or-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scan or import
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-it-your-way" class="md-nav__link">
+    <span class="md-ellipsis">
+      File it your way
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suggestions-on-the-device" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suggestions on the device
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-it-again" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find it again
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evidence-a-signed-change-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evidence: a signed change log
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing pages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deadlines-and-sharing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deadlines and sharing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-solves-each-pain-point" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it solves each pain point
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="privacy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Privacy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Terms (Apple EULA)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://hecateapps.com/hecate/impressum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Legal notice
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden="">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#in-one-minute" class="md-nav__link">
+    <span class="md-ellipsis">
+      In one minute
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#screenshots" class="md-nav__link">
+    <span class="md-ellipsis">
+      Screenshots
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      The problem
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paper-piles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paper piles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scattered-pdfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scattered PDFs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      No search
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cloud-services-that-read-your-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cloud services that read your documents
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-short" class="md-nav__link">
+    <span class="md-ellipsis">
+      In short
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-leaf-relief-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Leaf Relief does
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Leaf Relief does">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scan-or-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scan or import
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-it-your-way" class="md-nav__link">
+    <span class="md-ellipsis">
+      File it your way
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suggestions-on-the-device" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suggestions on the device
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-it-again" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find it again
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evidence-a-signed-change-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evidence: a signed change log
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing pages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deadlines-and-sharing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deadlines and sharing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-solves-each-pain-point" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it solves each pain point
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="leaf-relief">Leaf Relief</h1>
+<p><em>A paperless archive for your Mac</em></p>
+<p><strong>Coming soon to the Mac App Store.</strong></p>
+<p>Leaf Relief turns paper into an archive you can search – no account, no cloud,
+<strong>entirely on your Mac</strong>. Scan paper or drop files into an inbox folder: the app
+recognises the text, files each document under a name you choose, suggests title,
+type, sender, date, amount and tags, and finds everything again by full text,
+natural language or meaning.</p>
+<h2 id="in-one-minute">In one minute</h2>
+<ul>
+<li><strong>Scan or import.</strong> AirScan scanners on your network and USB scanners with a
+  macOS driver scan straight into the app; any other scanner, downloads or photos
+  go through the inbox folder.</li>
+<li><strong>Searchable PDFs.</strong> Pages are turned upright, the text is recognised and
+  written into the PDF as a searchable layer.</li>
+<li><strong>Filed your way.</strong> Ordinary PDF files in your own folder, sorted into the
+  subfolders and file names you set up; tags and types as Finder tags.</li>
+<li><strong>Suggestions on the device.</strong> Apple Intelligence suggests type, sender, title,
+  date, amount, deadline, IBAN and tags – on your Mac. Nothing is applied until
+  you click.</li>
+<li><strong>Found again.</strong> Full text, natural language (“invoices last year over $100”),
+  search by meaning, Spotlight and Shortcuts.</li>
+<li><strong>Evidence.</strong> Every filing and every page change is logged and signed with a key
+  in the Secure Enclave.</li>
+<li><strong>No account, no cloud, no tracking.</strong> The developer receives no data from the
+  app.</li>
+</ul>
+<h2 id="screenshots">Screenshots</h2>
+<div class="shots">
+  <figure class="wide"><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/leafrelief/assets/screens/en/light.png" data-desc-position="bottom"><img src="/leafrelief/assets/screens/en/light.png" alt="Leaf Relief in light mode: sidebar with inbox, types and tags, the list of demo documents, the preview of an invoice with highlighted fields, and suggestions for type, sender and tags"></a><figcaption>Light</figcaption></figure>
+  <figure class="wide"><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="/leafrelief/assets/screens/en/dark.png" data-desc-position="bottom"><img src="/leafrelief/assets/screens/en/dark.png" alt="Leaf Relief in dark mode: the archive with demo documents, the preview, and suggestions for type, sender and tags"></a><figcaption>Dark</figcaption></figure>
+</div>
+
+<p><em>The screenshots show a demo archive with invented documents.</em></p>
+<h2 id="the-problem">The problem</h2>
+<p>Paper arrives every week – invoices, contracts, payslips, letters from the tax
+office – and most of it has to be kept for years.</p>
+<h3 id="paper-piles">Paper piles</h3>
+<p>Folders and boxes fill up. Finding last year's insurance letter means leafing
+through all of them.</p>
+<h3 id="scattered-pdfs">Scattered PDFs</h3>
+<p>What already is digital lies in Downloads, on the desktop and in mail
+attachments, under names like <code>scan0042.pdf</code>.</p>
+<h3 id="no-search">No search</h3>
+<p>A scanned page is just a picture. Without a text layer, neither the Finder nor
+Spotlight can find a single word in it.</p>
+<h3 id="cloud-services-that-read-your-documents">Cloud services that read your documents</h3>
+<p>Many archive services solve this by uploading your documents and analysing them
+on their servers – your bank statements, medical letters and contracts included.</p>
+<hr>
+<h3 id="in-short">In short</h3>
+<table>
+<thead>
+<tr>
+<th>Pain</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Paper piles</td>
+<td>finding one letter means searching every folder</td>
+</tr>
+<tr>
+<td>Scattered PDFs</td>
+<td>files everywhere, under meaningless names</td>
+</tr>
+<tr>
+<td>No search</td>
+<td>scanned pages are pictures without text</td>
+</tr>
+<tr>
+<td>Manual filing</td>
+<td>every document needs a name, a folder and tags by hand</td>
+</tr>
+<tr>
+<td>Cloud services</td>
+<td>your most private documents end up on someone else's server</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#what-leaf-relief-does"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> How Leaf Relief solves each of these</a></p>
+<h2 id="what-leaf-relief-does">What Leaf Relief does</h2>
+<p>Leaf Relief does the whole path from paper to a searchable archive in one Mac
+app – and keeps every step on your Mac.</p>
+<h3 id="scan-or-import">Scan or import</h3>
+<ul>
+<li><strong>Scan</strong> with AirScan scanners on your network and USB scanners with a macOS
+  driver – the ones macOS itself knows. Feeder before flatbed, double-sided when
+  the feeder can, 300 dpi, colour mode <em>Automatic</em>: pages without noticeable
+  colour are saved in greyscale.</li>
+<li><strong>Follow every step</strong>: Scan → Text → File → Index, with the page count. You can
+  cancel at any time.</li>
+<li><strong>Import</strong> from the inbox folder: any other scanner, downloads or photos – drop
+  them in and Leaf Relief files them. PDF, JPEG, PNG, HEIC and TIFF are accepted;
+  PDFs that already contain text are taken over unchanged, images and image-only
+  PDFs get a text layer.</li>
+<li><strong>Text recognition</strong> runs with Apple's Vision framework in German, English,
+  French and Spanish. Pages are turned upright first; the invisible text layer sits
+  exactly over the image, so selecting and copying in Preview hits the word.</li>
+</ul>
+<h3 id="file-it-your-way">File it your way</h3>
+<ul>
+<li><strong>Subfolders</strong> by year, year and month, type, or year and type – or none.</li>
+<li><strong>File names</strong> from date, type, a name suffix and the page count; a name that
+  already exists gets <code>-2</code>, <code>-3</code> …</li>
+<li><strong>Ordinary PDF files</strong> in your own folder. Tags and types are Finder tags, the
+  fields travel with the file. The app's index is only an index – the PDF is the
+  source.</li>
+<li><strong>Your own types</strong> with name, colour and symbol, next to the built-in ones.</li>
+</ul>
+<h3 id="suggestions-on-the-device">Suggestions on the device</h3>
+<ul>
+<li><strong>Apple Intelligence</strong> reads the document and suggests type, sender, title,
+  date, amount, deadline, file reference, IBAN, a summary and tags – on your Mac,
+  in the language of the document. No text is sent to a cloud model.</li>
+<li><strong>Without Apple Intelligence</strong>, simple rules suggest what they can: dates,
+  amounts, IBANs with checksum, customer, invoice and contract numbers, and
+  legal forms such as GmbH, Ltd or Inc. The rules understand German and English documents.</li>
+<li><strong>You decide.</strong> Suggestions are stored, never applied by themselves. Recognised
+  fields are highlighted in the preview; one click applies them.</li>
+</ul>
+<h3 id="find-it-again">Find it again</h3>
+<ul>
+<li><strong>Full text</strong> across the whole archive.</li>
+<li><strong>Natural language</strong> – “invoices last year over $100” becomes filters for type,
+  sender, period and amount.</li>
+<li><strong>Search by meaning</strong>, for when you remember what a document was about but not
+  its words. Natural-language search and search by meaning understand German and
+  English.</li>
+<li><strong>Spotlight</strong> finds your documents too; a hit opens the document in the app.</li>
+<li><strong>Shortcuts and Siri:</strong> “Scan Document”, “Find Document”, “Open Last Scan”.</li>
+<li><strong>Files only in iCloud</strong> are not downloaded; they are indexed from their name,
+  fields and tags.</li>
+</ul>
+<h3 id="evidence-a-signed-change-log">Evidence: a signed change log</h3>
+<ul>
+<li><strong>Every filing, import and page change</strong> – and changes made outside the app,
+  for example in Preview – is recorded as an entry of a hash chain, signed with a
+  key in this Mac's Secure Enclave.</li>
+<li><strong>A seal</strong> on each document says what is known: <em>Unchanged since scan</em>,
+  <em>Edited (n×), chain valid</em>, or <em>Verification failed</em> with the reason.</li>
+<li><strong>Export</strong> a verification report and the public key.</li>
+<li><strong>Time stamps (optional, off by default):</strong> switched on, only a checksum
+  (SHA-256) of each entry goes to a time stamping service – never the document.</li>
+</ul>
+<h3 id="editing-pages">Editing pages</h3>
+<ul>
+<li><strong>Rotate, move and delete pages</strong> – with undo.</li>
+<li><strong>The original is kept.</strong> Every edit is built from the original, so deleted
+  pages can come back.</li>
+<li><strong>Fix Orientation Automatically</strong> turns crooked pages upright with the same
+  recognition used during scanning.</li>
+</ul>
+<h3 id="deadlines-and-sharing">Deadlines and sharing</h3>
+<ul>
+<li><strong>Deadlines as reminders</strong> – created only when you click “Create Reminder”.</li>
+<li><strong>Share and send by email</strong> as a copy named after the title, without your
+  private tags and types.</li>
+<li><strong>A menu bar icon</strong> shows scanning, progress and the inbox count.</li>
+</ul>
+<hr>
+<h3 id="how-it-solves-each-pain-point">How it solves each pain point</h3>
+<table>
+<thead>
+<tr>
+<th>Pain</th>
+<th>How Leaf Relief solves it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Paper piles</td>
+<td>Scan with the scanner macOS already knows, straight into the archive</td>
+</tr>
+<tr>
+<td>Scattered PDFs</td>
+<td>One inbox folder for everything else; filed automatically</td>
+</tr>
+<tr>
+<td>No search</td>
+<td>A text layer in every PDF; full text, natural language and meaning</td>
+</tr>
+<tr>
+<td>Manual filing</td>
+<td>Folders and names from your own pattern; suggestions for type, sender and tags</td>
+</tr>
+<tr>
+<td>Cloud services</td>
+<td>Recognition, suggestions and search run on your Mac; no account, no server</td>
+</tr>
+</tbody>
+</table>
+<h2 id="privacy">Privacy</h2>
+<p>Leaf Relief has <strong>no backend, no account, no analytics, no advertising and no
+tracking</strong>. Your documents stay in the folders you choose; they leave your Mac
+only when you share them yourself. Details in the
+<a href="privacy/">privacy policy</a>.</p>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>macOS 26 or newer on a Mac with Apple silicon.</li>
+<li>For suggestions with Apple Intelligence: Apple Intelligence turned on. Without
+  it, simple rules suggest.</li>
+<li>A scanner is optional: AirScan on your network or USB with a macOS driver; any
+  other scanner works through the inbox folder.</li>
+<li>In English, German, French and Spanish. Simple rules and natural-language search
+  understand German and English documents.</li>
+<li>Leaf Relief writes standard PDFs with a searchable text layer – no PDF/A.</li>
+<li>One-time purchase, no in-app purchases. Coming soon to the Mac App Store.</li>
+</ul>
+<hr>
+<p><a href="privacy/">Privacy policy</a> · <a href="support/">Support</a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2026 Matthias Morath · All rights reserved
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.top"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
