@@ -20,6 +20,10 @@ Convention: for privacy-relevant edits, record **all three language variants** a
 
 ## [Unreleased]
 
+### Changed — app sites follow the apps (2026-10-21)
+
+Leaf Relief: search by meaning now works in all four languages, the product page says so (only natural-language search stays German/English). Frameworthy: the product page shows the same four screenshots per language as the App Store (expert view and guided mode, light and dark, from a generated test video), replacing "screenshots will follow".
+
 ### Added — own sites for Leaf Relief and Frameworthy (2026-10-21)
 
 Each Mac app gets its own site in this repo, with its own `apps/<name>/mkdocs.yml` (name, logo, favicon, menu) and the Hecate theme, palette and CSS: `apps/leafrelief/` → https://hecateapps.com/leafrelief/, `apps/frameworthy/` → https://hecateapps.com/frameworthy/ — the URLs App Store Connect links to (privacy, support, marketing). Overview, privacy and support pages in **en, de, fr, es** (the apps' interface languages); the privacy pages keep every statement of the earlier drafts and add only a summary box and translations. Legal notice and terms link to the provider's Impressum (shared with Hecate) and Apple's standard EULA. The apps are not in Hecate's menu. `make build` builds all three sites (the app sites with `--strict`), `make deploy` publishes them together to `gh-pages`; `make serve-leafrelief` / `make serve-frameworthy` preview one app. Screenshots: Leaf Relief from its demo archive; Frameworthy shows only a generated test frame until clean app screenshots exist.
