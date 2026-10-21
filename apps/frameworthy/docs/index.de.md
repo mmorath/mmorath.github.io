@@ -37,10 +37,13 @@ Text verlassen das Gerät nicht.
 ## Beispiel
 
 <div class="shots">
+  <figure class="wide"><img src="/frameworthy/assets/screens/de/expert-light.png" alt="Expertenansicht: Video, Text mit Klassifizierung, Design, Ausgabe, Live-Vorschau und Warteschlange"><figcaption>Expertenansicht</figcaption></figure>
+  <figure class="wide"><img src="/frameworthy/assets/screens/de/expert-dark.png" alt="Expertenansicht (dunkel)"><figcaption>Expertenansicht, dunkel</figcaption></figure>
+  <figure class="wide"><img src="/frameworthy/assets/screens/de/wizard-light.png" alt="Assistent: Schritt für Schritt vom Video bis zur Zusammenfassung"><figcaption>Assistent</figcaption></figure>
   <figure class="wide"><img src="/frameworthy/assets/bars-example.png" alt="Ein erzeugtes Testbild mit dem Titelbalken „Generated test“ oben sowie der Klassifizierung INTERNAL USE ONLY und der Teilnummer 2/2 im unteren Balken"><figcaption>Titelbalken, Klassifizierung und Teilnummer an einem erzeugten Testvideo</figcaption></figure>
 </div>
 
-*Bildschirmfotos der App folgen mit der Veröffentlichung.*
+*Bildschirmfotos der App (hier mit einem erzeugten Testvideo); die Vorschau zeigt Balken und Texte, nicht das Bild.*
 
 ## Das Problem
 

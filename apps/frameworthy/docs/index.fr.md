@@ -37,10 +37,13 @@ votre son et vos textes ne quittent jamais l’appareil.
 ## Exemple
 
 <div class="shots">
+  <figure class="wide"><img src="/frameworthy/assets/screens/fr/expert-light.png" alt="Vue experte : vidéo, texte d’incrustation avec classification, apparence, sortie, aperçu en direct et file d’attente"><figcaption>Vue experte</figcaption></figure>
+  <figure class="wide"><img src="/frameworthy/assets/screens/fr/expert-dark.png" alt="Vue experte (sombre)"><figcaption>Vue experte, sombre</figcaption></figure>
+  <figure class="wide"><img src="/frameworthy/assets/screens/fr/wizard-light.png" alt="Mode guidé : étape par étape, de la vidéo au résumé"><figcaption>Mode guidé</figcaption></figure>
   <figure class="wide"><img src="/frameworthy/assets/bars-example.png" alt="Une image de test générée avec le bandeau de titre « Generated test » en haut, ainsi que la classification INTERNAL USE ONLY et le numéro de partie 2/2 dans le bandeau du bas"><figcaption>Bandeau de titre, classification et numéro de partie sur une vidéo de test générée</figcaption></figure>
 </div>
 
-*Des captures d’écran de l’app suivront avec sa sortie.*
+*Captures d’écran de l’app (ici avec une vidéo de test générée) ; l’aperçu montre les bandeaux et les textes, pas l’image.*
 
 ## Le problème
 
