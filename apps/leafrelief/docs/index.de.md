@@ -134,8 +134,8 @@ Mac-App – und behält jeden Schritt auf deinem Mac.
 - **Natürliche Sprache** – aus „Rechnungen letztes Jahr über 100 €“ werden Filter
   für Art, Absender, Zeitraum und Betrag.
 - **Suche nach Bedeutung**, wenn du noch weißt, worum es ging, aber nicht mehr die
-  Worte. Suche in natürlicher Sprache und nach Bedeutung verstehen Deutsch und
-  Englisch.
+  Worte. Die Suche nach Bedeutung versteht Deutsch, Englisch, Französisch und
+  Spanisch, die Suche in natürlicher Sprache Deutsch und Englisch.
 - **Spotlight** findet deine Dokumente auch; ein Treffer öffnet das Dokument in
   der App.
 - **Kurzbefehle und Siri:** „Dokument scannen“, „Dokument suchen“, „Letzten Scan

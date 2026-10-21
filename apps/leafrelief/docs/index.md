@@ -130,8 +130,8 @@ app – and keeps every step on your Mac.
 - **Natural language** – “invoices last year over $100” becomes filters for type,
   sender, period and amount.
 - **Search by meaning**, for when you remember what a document was about but not
-  its words. Natural-language search and search by meaning understand German and
-  English.
+  its words. Search by meaning works in German, English, French and Spanish;
+  natural-language search understands German and English.
 - **Spotlight** finds your documents too; a hit opens the document in the app.
 - **Shortcuts and Siri:** “Scan Document”, “Find Document”, “Open Last Scan”.
 - **Files only in iCloud** are not downloaded; they are indexed from their name,

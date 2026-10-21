@@ -134,8 +134,8 @@ en una sola app para Mac, y mantiene cada paso en tu Mac.
 - **Lenguaje natural**: «facturas del año pasado de más de 100 €» se convierte en
   filtros de tipo, remitente, periodo e importe.
 - **Búsqueda por significado**, para cuando recuerdas de qué trataba un documento
-  pero no sus palabras. La búsqueda en lenguaje natural y por significado entiende
-  alemán e inglés.
+  pero no sus palabras. La búsqueda por significado entiende español, francés,
+  alemán e inglés; la búsqueda en lenguaje natural, alemán e inglés.
 - **Spotlight** también encuentra tus documentos; un resultado abre el documento
   en la app.
 - **Atajos y Siri**: «Escanear documento», «Buscar documento», «Abrir último

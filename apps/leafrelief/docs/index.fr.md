@@ -138,8 +138,8 @@ app Mac – et garde chaque étape sur votre Mac.
 - **Langage naturel** – une phrase comme « factures de l’an dernier de plus de
   100 € » devient des filtres de type, d’expéditeur, de période et de montant.
 - **Recherche par le sens**, quand vous savez de quoi parlait un document mais plus
-  ses mots. La recherche en langage naturel et par le sens comprend l’allemand et
-  l’anglais.
+  ses mots. La recherche par le sens comprend le français, l’espagnol,
+  l’allemand et l’anglais ; la recherche en langage naturel, l’allemand et l’anglais.
 - **Spotlight** trouve aussi vos documents ; un résultat ouvre le document dans
   l’app.
 - **Raccourcis et Siri** : « Numériser un document », « Rechercher un document »,
