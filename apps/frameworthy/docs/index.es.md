@@ -39,6 +39,7 @@ tus textos nunca salen del dispositivo.
   <figure class="wide"><img src="/frameworthy/assets/screens/es/expert-light.png" alt="Vista experta: vídeo, texto superpuesto con clasificación, diseño, salida, vista previa en directo y cola"><figcaption>Vista experta</figcaption></figure>
   <figure class="wide"><img src="/frameworthy/assets/screens/es/expert-dark.png" alt="Vista experta (oscura)"><figcaption>Vista experta, oscura</figcaption></figure>
   <figure class="wide"><img src="/frameworthy/assets/screens/es/wizard-light.png" alt="Modo guiado: paso a paso, del vídeo al resumen"><figcaption>Modo guiado</figcaption></figure>
+  <figure class="wide"><img src="/frameworthy/assets/screens/es/wizard-dark.png" alt="Modo guiado (oscuro)"><figcaption>Modo guiado, oscuro</figcaption></figure>
   <figure class="wide"><img src="/frameworthy/assets/bars-example.png" alt="Un fotograma de prueba generado con la barra de título «Generated test» arriba y la clasificación INTERNAL USE ONLY y el número de parte 2/2 en la barra inferior"><figcaption>Barra de título, clasificación y número de parte en un vídeo de prueba generado</figcaption></figure>
 </div>
 

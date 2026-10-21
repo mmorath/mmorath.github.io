@@ -37,6 +37,7 @@ happens **on your Mac** — your videos, audio and text never leave the device.
   <figure class="wide"><img src="/frameworthy/assets/screens/en/expert-light.png" alt="Expert view: video, overlay text with classification, design, output, live preview and queue"><figcaption>Expert view</figcaption></figure>
   <figure class="wide"><img src="/frameworthy/assets/screens/en/expert-dark.png" alt="Expert view (dark)"><figcaption>Expert view, dark</figcaption></figure>
   <figure class="wide"><img src="/frameworthy/assets/screens/en/wizard-light.png" alt="Guided mode: one step at a time, from the video to the summary"><figcaption>Guided mode</figcaption></figure>
+  <figure class="wide"><img src="/frameworthy/assets/screens/en/wizard-dark.png" alt="Guided mode (dark)"><figcaption>Guided mode, dark</figcaption></figure>
   <figure class="wide"><img src="/frameworthy/assets/bars-example.png" alt="A generated test frame with the title bar “Generated test” at the top, and the classification INTERNAL USE ONLY and part number 2/2 in the bottom bar"><figcaption>Title bar, classification and part number on a generated test video</figcaption></figure>
 </div>
 
